@@ -17,20 +17,21 @@ Help the human choose **one optional thing** that fits *right now* (or the day t
 
 ## Language (intro / setup)
 
-**Get the human to pick once** before (or as the first step of) setup — do not guess family language.
+Resolve `language` in this order (do not invent a family default):
+
+1. Profile / prior turn already set → **reuse**  
+2. Else chips if still unknown — user **picks once**:
 
 | Chip | Locale |
 |------|--------|
 | **繁體中文** | `zh-Hant` |
 | **English** | `en` |
 
-Store as `language` in the context packet / profile (this session at minimum; profile if product has one).  
+3. Change later under settings only  
+
 **User-facing copy** (menu lead-in, wins, soft lines) follows that pick.  
 **Place names** may stay in the venue’s local language.  
 **Web search** uses the **place’s** language (see [references/web-search.md](references/web-search.md)) — not only UI language.
-
-If already set → reuse; change under settings only.  
-Standalone, language unknown: first message = the three chips only.
 
 ## #1 rule — grounded by data
 
@@ -71,17 +72,35 @@ For **each** mode below, spawn **two independent** subagents (**A** and **B**) w
 | **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Same-day outing, real + open that day |
 | **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Doable getaway sketch, or SKIP |
 
-Default launch set: **6 subagents** (starter A/B · half-day A/B · weekend A/B), all in parallel when possible.
+### Which modes to launch (gate on free_window)
+
+| `free_window` / ask | Launch A/B for |
+|---------------------|----------------|
+| soft morning / evening only | **starter** (+ **half-day** only if daylight remains) |
+| half-day / free day | **starter** + **half-day** |
+| overnight / full-weekend | **starter** + **half-day** + **weekend** |
+| unknown | full set: starter + half-day + weekend |
+| user explicitly asked getaway / overnight | force **weekend** A/B on |
+
+For each launched mode, spawn **two independent** subagents (**A** and **B**). Paths: absolute if available, else skill-root-relative.
+
+**A/B exploration seeds** (same packet; different bias so A/B is not a duplicate race):
+
+| Label | Bias |
+|-------|------|
+| **A** | Query-set order as in web-search.md; prefer rank **1→2** when verified. Starter: prefer coffee/tea or meal families. |
+| **B** | Shift query order (markets / 直売 earlier; events later); prefer a **different venue class or nearby ward/town** when honest. Starter: prefer air / tidy / water (not brew). |
 
 **Each A/B subagent prompt:**
 
 ```
 You are proposing ONE side-quest option for mode: <mode>. Run label: <A|B> (independent — do not assume another run’s answer).
+Exploration seed: <paste A or B bias from SKILL table>
 #1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
 Context packet: <paste full packet including language>
 Write win/why in packet.language. Search queries in the place’s language (see web-search.md).
-Follow the mode file (absolute path): <mode path>
-If half-day or weekend: ALSO follow web-search (absolute path): <…/references/web-search.md>
+Follow the mode file: <path>
+If half-day or weekend: ALSO follow web-search: <path to references/web-search.md>
   — query set for this mode; after verify use “Among verified candidates” rank when you have multiple ideas — emit only ONE best OPTION (or SKIP).
 Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
 OPTION must cite a real source URL when claiming a place/hours.
@@ -89,13 +108,13 @@ Return STATUS: OPTION | SKIP using the Output section of the mode file only.
 Do not invent venues/hours. Not confident after lookup → SKIP or check-before-go with URL — never fabricate.
 ```
 
-Wait for all A/B pairs.  
+Wait for all A/B pairs of **launched** modes.
 
-If **no** subagent tool: for each mode, run the mode file **twice yourself** as labeled passes A/B (different query order / candidates if possible); still use web-search for half-day/weekend.
+If **no** subagent tool: for each launched mode, run the mode file **twice yourself** as A/B with the same exploration seeds; still use web-search for half-day/weekend.
 
 ### Date range (vacation day-slice)
 
-If the user gives a **range of days**: for **each day**, run half-day **A/B** (and starter A/B once for the trip is enough; weekend only if overnight fits). Still **not** a multi-city itinerary. Apply web-search **no-repeat** across days when another grounded rank ≥2 option exists.
+If the user gives a **range of days**: for each day (cap: **≤3 days** default, or ask which days if range is longer), run half-day **A/B** (starter A/B once for the trip is enough; weekend only if overnight fits that day). Still **not** a multi-city itinerary. Apply web-search **no-repeat** across days when another grounded rank ≥2 option exists.
 
 ## 3. Judge A/B → one winner per mode (main agent)
 
@@ -118,14 +137,19 @@ Use [references/web-search.md](references/web-search.md) **Among verified candid
 
 1. Higher rank wins: **dated event → weekday market → 直売 → park/landmark**  
 2. Same rank: shorter one-way → clearer binary win → better official URL  
-3. If A and B are **the same place** (or near-duplicate): keep the stronger hours/URL write-up  
+3. If A and B are **the same place** (or near-duplicate): keep the stronger hours/URL write-up (single candidate)  
 4. Prefer dessert energy (easy win) over logistics-heavy when ranks equal  
 
 Main agent **judges**; do not invent a third option. Do not average two places into a mashup.
 
 ### Menu
 
-From the (up to 3) mode winners, build a **short friend-text menu**. Do not auto-pick for the human.
+From the mode winners, build a **short friend-text menu**. Do not auto-pick for the human.
+
+**Example compression (half-day OPTION → menu line):**  
+OPTION: title=San Carlos Sunday market · win=buy 1 fruit · hours=Sun 9–1 · url=https://uvfm.org/… · travel=~15 min  
+→ en: `1. Sunday San Carlos market — grab one fruit (~15 min) · 9–1 · https://uvfm.org/…`  
+→ zh-Hant: `1. 週日聖卡洛斯市集 — 買一顆水果回家（約15分）· 9–1 · https://…`
 
 - Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome, **not** “A/B” labels  
 - Omit modes with no winner  

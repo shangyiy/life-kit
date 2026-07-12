@@ -33,8 +33,10 @@ reason: …
 |--------|-------------|
 | Coffee/tea | Brew; sit **5 min before any app** |
 | Meal | Any veg + any protein on one plate |
-| Air | Open one window 3 min; name one outdoor sound |
+| Air | Open one window; just listen outside (no phone) |
 | Tidy | Clear exactly 5 things from one surface |
 | Water | One full glass before coffee or first scroll |
+
+**A/B seed:** A prefer coffee/tea or meal · B prefer air, tidy, or water (not the same family as a typical brew if avoidable).
 
 Pleasure, not wellness lecture. “The win is the sit, not the caffeine optimize.”

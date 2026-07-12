@@ -3,6 +3,19 @@
 Shared lookup for **half-day** and **weekend** options.  
 Goal: every place/hours claim is **grounded** — real URL opened, day matches, doable.
 
+## Contents
+
+- Pipeline  
+- Search language ≠ UI language  
+- What to open  
+- Verify  
+- Among verified candidates (rank)  
+- Multi-day / vacation  
+- Query sets  
+- Anti-patterns  
+- A/B note  
+- Done when  
+
 ## Pipeline (do this order)
 
 ```
@@ -20,7 +33,7 @@ If tools fail or nothing verifies → **`STATUS: SKIP`** (list queries). Never �
 
 ## Search language ≠ UI language
 
-- **User-facing** `win` / `why` / menu lines → packet `language` (`zh-Hant` / `zh-Hans` / `en`).  
+- **User-facing** `win` / `why` / menu lines → packet `language` (`zh-Hant` / `en`).  
 - **Search queries** → language of the **place** (JP for Osaka/Tokyo, 繁中 for 台灣, etc.), plus local event words.  
 Do not search Japanese venues only in Chinese/English if that misses 朝市・イベント・区民行事.
 
