@@ -13,7 +13,7 @@ Fri–Sun free window, user said getaway/overnight/out of town, or a full free w
 |--------|------------------|
 | Home | Required |
 | Range | Upcoming weekend or named dates |
-| Max one-way | ~2.5 h unless they said farther |
+| Max one-way | From packet `max_one_way_getaway` (2.5 h default) |
 | Nights | 1 unless they said 2 |
 
 ## Pipeline
@@ -22,7 +22,7 @@ Fri–Sun free window, user said getaway/overnight/out of town, or a full free w
 2. No invent lodge inventory. Stay = type + “book yourself” or omit.
 3. Daytime hook should be honest (season/event/open park) when claimed.
 
-If nothing honest → `STATUS: SKIP` + reason.
+If nothing honest → SKIP.
 
 ## Output
 
@@ -31,8 +31,13 @@ STATUS: OPTION
 title: … (region or trip name)
 win: leave home, sleep away once, back by <day>  (or similar binary)
 where/when: region · date range · ~one-way drive
-hours: n/a or key site hours + URL
+hours: n/a or key site hours + check-before-go + URL
 travel: ~Xh one-way
 why: fits this free window + location
-stay: optional one line — check-before-book · no fake availability
+stay: optional one line — check-before-go · book yourself · no fake availability
+```
+
+```
+STATUS: SKIP
+reason: …
 ```

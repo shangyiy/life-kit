@@ -3,85 +3,91 @@ name: side-quest-recommend
 description: >
   Builds a short menu of optional side quests by running starter, half-day, and
   weekend modes as parallel subagents, then listing options for the user to pick.
-  Use for /side-quest-recommend, weekend board, things to do, or what should I do.
-  Not multi-day itineraries or restaurant booking.
+  Use for /side-quest-recommend, weekend board, things to do, what should I do,
+  bored, local outing, day trip, getaway ideas, or side quest. Not multi-day
+  itineraries or restaurant booking.
 ---
 
 # Side quest recommend
 
-**You orchestrate. Subagents invent the options. User picks.**
+**You orchestrate. Subagents propose options. User picks.**
 
 Dessert, not homework. Skip free. Never invent open hours or venues.
 
 ## 1. Context (main agent only)
 
-Resolve once — ask only if missing:
+Resolve a **context packet** before spawning — ask only if missing:
 
-| Input | Default |
-|--------|---------|
-| Datetime | **now** (or the date/range they named) |
-| Location | Ask once (neighborhood / city) |
-| Transport | Walk + drive OK |
-| Max one-way | **60 min** local · **2.5 h** for weekend mode |
+| Field | Rule |
+|--------|------|
+| `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
+| `location` | Neighborhood or city (ask once if missing) |
+| `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
+| `transport` | Default walk + drive OK |
+| `max_one_way_local` | **60 min** (half-day may stretch ≤75 if clearly worth it) |
+| `max_one_way_getaway` | **2.5 h** unless they said farther |
 
-Note weekday, time of day, free half-day vs overnight intent.
+Pass this packet **unchanged** into every mode subagent.
 
 ## 2. Run modes as subagents (parallel)
 
-Spawn **one read-only (or normal) subagent per mode** below. Pass the same context packet to each. Do **not** write the mode options yourself.
+Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 
-| Mode | File | Job |
-|------|------|-----|
-| **starter** | [modes/starter.md](modes/starter.md) | One tiny at-home option that fits the time of day |
-| **half-day** | [modes/half-day.md](modes/half-day.md) | One same-day local outing (honest hours) |
-| **weekend** | [modes/weekend.md](modes/weekend.md) | One overnight / getaway sketch if the datetime allows; else return SKIP |
+| Mode | File | Tools | Job |
+|------|------|--------|-----|
+| **starter** | [modes/starter.md](modes/starter.md) | No web required | One tiny at-home option |
+| **half-day** | [modes/half-day.md](modes/half-day.md) | **Web search/browse OK** for place + hours | One same-day local outing |
+| **weekend** | [modes/weekend.md](modes/weekend.md) | **Web search/browse OK** | One getaway sketch, or SKIP if unfit |
 
-**Each subagent prompt must include:**
+**Capabilities:** starter = catalog only. half-day/weekend = may fetch official pages. If web tools unavailable → known real place + `check-before-go`, or **SKIP**. Never invent a venue name or schedule.
+
+**Each subagent prompt:**
 
 ```
 You are proposing ONE side-quest option for mode: <mode>.
-Context: datetime=… location=… max one-way=…
-Follow: <absolute path to mode file>
-Also honor honesty: never invent venues/hours; check-before-go + URL if fragile.
-
-Return exactly:
-- STATUS: OPTION | SKIP
-- If OPTION: title, win, where/when, hours, travel, why this fits context
-- If SKIP: one-line reason (e.g. midweek morning — no getaway)
+Context packet: <paste full packet>
+Follow the mode file (absolute path): <path>
+Tools: <from SKILL mode table — no web | web for place+hours | web OK>.
+Return STATUS: OPTION | SKIP using the Output section of that mode file only.
+Do not add fields the mode does not define. Do not drop fields it does.
+Honesty: never invent venues/hours. No live source and not confident → SKIP or check-before-go. Never fabricate a venue name or schedule.
 ```
 
 Prefer parallel spawn. Wait for all three.
 
-If a harness has **no** subagent tool: run each mode file yourself as a separate pass and still label options by mode — last resort only.
+If **no** subagent tool: run each mode file yourself as a separate labeled pass (same contracts).
 
-## 3. Present overall options (main agent)
+## 3. Collect → validate → menu (main agent)
 
-Collect every `STATUS: OPTION`. Drop SKIPs (optional one-line “not offered: …” if useful).
-
-Show a **menu** for the user to pick. Number the options. Do not auto-pick for them.
+1. Drop any OPTION that invents a named venue/hours without source or check-before-go.
+2. If **zero** OPTIONs → either run starter yourself from `modes/starter.md` once, or say what’s missing (location / free window). Do **not** invent half-day/weekend fillers.
+3. Show remaining options as a **numbered menu**. Do not auto-pick.
 
 ```
 Side quests — pick 0–1 (or more if you want). Skip free.
 
-1 · STARTER · …
+1 · STARTER · <title>
    Win: …
    …
 
-2 · HALF-DAY · …
+2 · HALF-DAY · <title>
    Win: …
    Hours: … · url
 
-3 · WEEKEND · …     # omit if all SKIP
+3 · WEEKEND · <title>     # omit if SKIP
    …
 
-Why these: one line from context (datetime + place).
+Why these: one line from context packet.
 ```
 
-Then **stop and wait** for the user to choose a number (or skip). After they pick, expand only that card if needed — no residual nag if they ignore.
+**Stop and wait** for a number (or skip).
 
-## Shared honesty (all modes)
+**After pick:** at most **+3 bullets** (how to start, one check-before-go, one backup). No multi-stop itinerary, no booking.
+
+## Shared honesty
 
 - Never invent open hours, seasons, closures, or venues.
+- Fragile hours/places → **`check-before-go`** + URL (stay booking → same idea, still say check-before-go).
 - Prefer free/cheap; mention drive cost when far.
 - Binary win only.
-- If nothing honest for a mode → that subagent SKIPs; thinner menu is fine.
+- Mode has nothing honest → that subagent SKIPs; thinner menu is fine.

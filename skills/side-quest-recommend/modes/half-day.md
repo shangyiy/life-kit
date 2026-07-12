@@ -12,15 +12,15 @@ Daylight free time, weekend afternoon, “things to do near me.” SKIP if user 
 |--------|------------------|
 | Home / area | Required |
 | Date | Target day from context |
-| Max one-way | ~60 min (up to ~75 if stretch-y) |
+| Max one-way | From packet `max_one_way_local` (60 min default; ≤75 only if clearly worth it) |
 
 ## Pipeline
 
 1. Prefer **real places** you can ground (known local, official page, or user-known spots). Do not invent venues.
-2. Check hours for that **weekday** when possible. Fragile → `check before you go` + URL.
+2. Check hours for that **weekday** when possible. Fragile → `check-before-go` + URL.
 3. One clear stop preferred (market fruit, park loop, free event that day).
 
-If nothing honest survives → `STATUS: SKIP` + reason.
+If nothing honest survives → SKIP.
 
 ## Output
 
@@ -32,4 +32,9 @@ where/when: place · date · ~door-to-door time
 hours: sourced or check-before-go + URL
 travel: one-way estimate
 why: fits this datetime + location
+```
+
+```
+STATUS: SKIP
+reason: …
 ```

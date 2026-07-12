@@ -8,7 +8,7 @@ Best when morning / soft start / low energy. Still valid any time as a gentle op
 
 ## Output
 
-Exactly **one** OPTION (almost never SKIP unless user forbade home ideas).
+Usually one OPTION. SKIP only if user forbade home ideas / impossible.
 
 ```
 STATUS: OPTION
@@ -18,6 +18,11 @@ where/when: home · now-ish
 hours: n/a
 travel: none
 why: fits this time of day
+```
+
+```
+STATUS: SKIP
+reason: …
 ```
 
 ## Ideas (pick one; rotate)
