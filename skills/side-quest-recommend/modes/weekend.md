@@ -2,6 +2,8 @@
 
 One **overnight / getaway** sketch — not a booking agent.
 
+**Grounded:** real region within drive · real open/season status from web when claimed · **doable in this free window** (not a midnight fantasy). No invent lodge inventory.
+
 ## Fit
 
 Fri–Sun free window, user said getaway/overnight/out of town, or a full free weekend.  

@@ -2,17 +2,31 @@
 name: side-quest-recommend
 description: >
   Suggests a few optional things to do near you — a tiny at-home start, a local
-  outing, or a simple getaway idea — based on time and place. You pick one or
-  skip. Use for /side-quest-recommend, weekend plans, things to do, what should
-  I do, bored, local outing, day trip, getaway ideas, or side quest. Not (yet)
-  multi-day travel itineraries or restaurant booking.
+  outing, or a simple getaway idea — based on real time and place. Everything
+  suggested must be real and doable. You pick one or skip. Use for
+  /side-quest-recommend, weekend plans, things to do, what should I do, bored,
+  local outing, day trip, getaway ideas, or side quest. Not (yet) multi-day
+  travel itineraries or restaurant booking.
 ---
 
 # Side quest recommend
 
-Help the human choose **one optional thing** that fits *right now* (or the day they named). Dessert, not homework. Skip free. Never invent open hours or venues.
+Help the human choose **one optional thing** that fits *right now* (or the day they named). Dessert, not homework. Skip free.
 
 **How it feels for them:** a short menu of real options → they pick a number (or none). No mode quiz.
+
+## #1 rule — grounded by data
+
+**Everything must be real and doable.** No vibes-only inventing.
+
+| Must be grounded | How |
+|------------------|-----|
+| **Time** | Real clock or user-stated datetime → weekday + free window (not a guessed “sometime”) |
+| **Location** | User-stated place, else **network/IP geolocation** — not a made-up city |
+| **Each outing/getaway** | Real place/event · open (or checkable) for that time · within travel budget · win is binary and actually completable |
+| **Each home starter** | Doable at home in minutes with no fake props or invented “local” claim |
+
+If any of those fail → **SKIP that option** (or thinner menu). Never invent open hours, seasons, closures, venues, or “rooms available tonight.” Prefer a short honest menu over a pretty false one.
 
 ## 1. Context (main agent only)
 
@@ -21,13 +35,13 @@ Resolve a **context packet** before spawning. Prefer tools over questions.
 | Field | Rule |
 |--------|------|
 | `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
-| `location` | User-stated place if any; else **network / IP geolocation** (city/metro is enough). **Do not ask** if network location works. Optional soft note: “Using ~City from this network.” Ask **only** if lookup fails or result is useless (e.g. bare country). User correction always wins. |
+| `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note: “Using ~City from this network.” Ask **only** if lookup fails or is useless. User correction always wins. |
 | `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
 | `transport` | Default walk + drive OK |
 | `max_one_way_local` | **60 min** (half-day may stretch ≤75 if clearly worth it) |
 | `max_one_way_getaway` | **2.5 h** unless they said farther |
 
-Pass this packet **unchanged** into every mode subagent.
+Pass this packet **unchanged** into every mode subagent. Options must **fit this packet** (wrong day, wrong city, or not doable now → invalid).
 
 ## 2. Run modes as subagents (parallel)
 
@@ -35,23 +49,23 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 
 | Mode | File | Tools | Job |
 |------|------|--------|-----|
-| **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option |
-| **half-day** | [modes/half-day.md](modes/half-day.md) | **Must web search + fetch pages** for place & hours | One same-day local outing |
-| **weekend** | [modes/weekend.md](modes/weekend.md) | **Must web search + fetch pages** for region & status | One getaway sketch, or SKIP |
+| **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option, doable at packet time |
+| **half-day** | [modes/half-day.md](modes/half-day.md) | **Must web search + fetch** place & hours | One same-day outing, real + open that day |
+| **weekend** | [modes/weekend.md](modes/weekend.md) | **Must web search + fetch** region & status | One doable getaway sketch, or SKIP |
 
-**Capabilities:** starter = catalog only. **half-day and weekend subagents must look things up** (search + open official pages) per their mode file — not memory alone. If web tools are unavailable → `check-before-go` on a known real place, or **SKIP**. Never invent a venue name or schedule.
+**half-day / weekend:** look up with real queries + open official pages — not memory alone. Put a **source URL** on claimed places/hours. If tools fail or nothing checks out → **SKIP**.
 
 **Each subagent prompt:**
 
 ```
 You are proposing ONE side-quest option for mode: <mode>.
+#1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
 Context packet: <paste full packet>
 Follow the mode file (absolute path): <path>
-Tools: <starter: no web | half-day/weekend: you MUST use web_search and open/fetch official pages before OPTION>
-If mode is half-day or weekend: run the "Web lookup" section in the mode file first (real queries + open URLs). Put a real source URL on OPTION.hours when you claim a place.
+Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
+If half-day/weekend: run "Web lookup" in the mode file first. OPTION must cite a real source URL when claiming a place/hours.
 Return STATUS: OPTION | SKIP using the Output section of that mode file only.
-Do not add fields the mode does not define. Do not drop fields it does.
-Honesty: never invent venues/hours. No live source and not confident → SKIP or check-before-go. Never fabricate a venue name or schedule.
+Do not invent venues/hours. Not confident after lookup → SKIP or check-before-go with URL — never fabricate.
 ```
 
 Prefer parallel spawn. Wait for all three.
@@ -60,12 +74,20 @@ If **no** subagent tool: run each mode file yourself as a separate labeled pass 
 
 ## 3. Collect → validate → menu (main agent)
 
-1. Drop any OPTION that invents a named venue/hours without source or check-before-go.
-2. If **zero** OPTIONs → either run starter yourself from `modes/starter.md` once, or say what’s missing (free window only — re-try network location before asking where they are). Do **not** invent half-day/weekend fillers.
-3. Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.  
-   - Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
-   - Omit SKIP modes silently (no “not offered: …” footnotes in the user text).  
-   - Soft lead-in; “pick one or none.”
+Before showing anything, drop OPTIONs that fail grounding:
+
+1. Named place/hours without a source URL (outing/getaway) or clear home-only doability (starter).  
+2. Wrong **weekday/date** for the claimed market/event/hours.  
+3. Not doable in the free window (e.g. leave-tonight overnight with no booked stay at 11pm).  
+4. Travel clearly over packet max one-way.
+
+If **zero** OPTIONs remain → one honest starter from `modes/starter.md` if still grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
+
+Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.
+
+- Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
+- Omit SKIP modes silently (no “not offered: …” footnotes).  
+- Soft lead-in; “pick one or none.”
 
 ```
 hey — pick one or none:
@@ -80,8 +102,8 @@ hey — pick one or none:
 
 ## Shared honesty
 
-- Never invent open hours, seasons, closures, or venues.
-- Fragile hours/places → **`check-before-go`** + URL (stay booking → same idea, still say check-before-go).
-- Prefer free/cheap; mention drive cost when far.
-- Binary win only.
-- Mode has nothing honest → that subagent SKIPs; thinner menu is fine.
+- **#1 rule wins** over filling the menu.  
+- Fragile hours/places → **`check-before-go`** + URL.  
+- Prefer free/cheap; mention drive cost when far.  
+- Binary win only — something they can actually finish.  
+- Thinner menu > false dessert.

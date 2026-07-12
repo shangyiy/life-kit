@@ -2,6 +2,8 @@
 
 One **same-day** local outing. Home → out → back. Roughly 2–6 h door-to-door.
 
+**Grounded:** real place · real hours for the **packet weekday/date** · within travel budget · win actually completable. Memory alone is not enough — web lookup required.
+
 ## Fit
 
 Daylight free time, weekend afternoon, “things to do near me.” SKIP if user is clearly mid-flight / only wants home / only wants overnight.

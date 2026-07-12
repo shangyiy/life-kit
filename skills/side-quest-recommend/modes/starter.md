@@ -2,6 +2,8 @@
 
 One tiny **at-home** ritual. Zero travel. No web required.
 
+**Grounded:** doable **now** (or at packet time) at home with nothing fake — no invented neighborhood claims.
+
 ## Fit
 
 Best when morning / soft start / low energy. Still valid any time as a gentle option.
