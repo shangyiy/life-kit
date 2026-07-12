@@ -54,15 +54,13 @@ Up to **3 cards**. Human picks **0–2**. One active at a time.
 |------|------|--------|
 | **① Easy · home** | Day-start, zero travel | 5–25 min · free · binary win · pleasure, not diet lecture |
 | **② Easy · near** | Short leave | Cheap/free · one clear stop · hours from a real source |
-| **③ Stretch** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours |
+| **③ Stretch** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours. **Omit** if nothing honest survives filters. |
 
-Always include **≥1 zero-drive Easy**. Prefer in-season / dated local when real; else home Easy only is fine.
+Always include **≥1 zero-drive Easy**. Prefer in-season / dated local when real; else home Easy only is fine. No account, install, or prior state required.
 
 ### Soft exits (always print)
 
-`skip all` · `later` · `can't today`  
-
-(If the user is building a bot later they may add `mute` — not required for this skill.)
+`skip all` · `later` · `can't today`
 
 After they complete one card with room for another: at most **one** residual suggestion; if they ignore it, stop.
 
