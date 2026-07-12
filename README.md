@@ -9,7 +9,7 @@ Portable [Agent Skills](https://agentskills.io) pack. Umbrella name on purpose �
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | One subagent audits a skill against a best-practices URL (default: [Anthropic Agent Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) |
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter**, **half-day**, **weekend**. Web + honest hours on trip modes |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Default: home starter + local outs from curated slate. Or name starter / half-day / weekend. No mode quiz on bare slash. |
 
 ## Install
 
@@ -44,12 +44,13 @@ Spawn a subagent; it audits against the link. You don’t self-audit.
 ## side-quest-recommend (quick)
 
 ```text
-/side-quest-recommend starter
+/side-quest-recommend              # default product board (starter + half-day outs)
+/side-quest-recommend starter      # home only
 /side-quest-recommend half-day
-/side-quest-recommend weekend
+/side-quest-recommend weekend      # getaway sketch — not the Sat product board
 ```
 
-Standalone — no app setup, no bot persona. Never invent open hours. Trip modes use a separate hard-filter audit pass (subagent preferred).
+Bare slash does **not** ask which mode. Never invent open hours. Outs from curated slate; audit pass on KEEP/DROP.
 
 ## Layout
 
@@ -64,7 +65,6 @@ life-kit/
     side-quest-recommend/
       SKILL.md
       modes/
-      evals/
 ```
 
 ## License

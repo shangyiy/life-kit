@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Portable agent skills pack: side-quest-recommend + review-skill. Reorg-friendly umbrella; skills live under skills/.",
   "author": {
     "name": "shangyiy"
