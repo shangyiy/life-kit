@@ -1,10 +1,10 @@
 ---
 name: side-quest-recommend
 description: >
-  Standalone skill: build a small 1–3 card "side quest" board for today/this weekend
-  (easy day-start at home + optional local outing) using real web sources, honest hours,
-  and soft skips. Use when the user wants things to do, a weekend board, local suggestions,
-  /side-quest-recommend, "recommend quests", or dry-run a side-quest board.
+  Standalone skill: build a small 1–3 card weekend/things-to-do board (easy day-start at
+  home + optional local outing) using real web sources, honest hours, and soft skips.
+  Use when the user wants things to do, a weekend board, local suggestions,
+  /side-quest-recommend, "recommend quests", or a preview board.
 ---
 
 # Side quest recommend
