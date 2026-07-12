@@ -1,8 +1,6 @@
 # life-kit
 
-Portable [Agent Skills](https://agentskills.io) pack for personal life tooling (starters, half-day and weekend side quests, etc.).
-
-Umbrella name on purpose — reorganize or split skills later without renaming every consumer on day one.
+Portable [Agent Skills](https://agentskills.io) pack. Umbrella name on purpose — reorganize or split skills later without renaming every consumer on day one.
 
 `plugin.json` is Grok-installer metadata. Skills themselves work in any harness that loads `skills/<name>/SKILL.md`.
 
@@ -10,7 +8,8 @@ Umbrella name on purpose — reorganize or split skills later without renaming e
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter** (at-home ritual), **half-day** (local outing), **weekend** (overnight sketch). Web + honest hours on trip modes; subagent hard-filter audit |
+| [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | One subagent audits a skill against a best-practices URL (default: [Anthropic Agent Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter**, **half-day**, **weekend**. Web + honest hours on trip modes |
 
 ## Install
 
@@ -33,26 +32,24 @@ grok plugin install shangyiy/life-kit --trust
 grok plugin enable life-kit
 ```
 
-## side-quest-recommend (quick)
+## review-skill (quick)
 
-Standalone — no app setup, no bot persona required.
+```text
+/review-skill path/to/skills/my-skill
+/review-skill path/to/skills/my-skill <rubric-url>
+```
+
+Spawn a subagent; it audits against the link. You don’t self-audit.
+
+## side-quest-recommend (quick)
 
 ```text
 /side-quest-recommend starter
 /side-quest-recommend half-day
 /side-quest-recommend weekend
-# or natural language: "brew tea starter", "half-day near Mission", "weekend getaway under 2.5h"
 ```
 
-| Mode | Output |
-|------|--------|
-| **starter** | 1 tiny home card (e.g. brew + sit 5 min) |
-| **half-day** | Up to 2 local outing cards; subagent audit |
-| **weekend** | Overnight trip sketch (anchor + day + optional stay type); subagent audit |
-
-Never invent open hours. Trip modes require a separate auditor subagent for hard filters.
-
-Evals (manual rubric): [`skills/side-quest-recommend/evals/`](./skills/side-quest-recommend/evals/).
+Standalone — no app setup, no bot persona. Never invent open hours. Trip modes use a separate hard-filter audit pass (subagent preferred).
 
 ## Layout
 
@@ -62,15 +59,12 @@ life-kit/
   install.sh
   README.md
   skills/
+    review-skill/
+      SKILL.md
     side-quest-recommend/
       SKILL.md
       modes/
-        starter.md
-        half-day.md
-        weekend.md
       evals/
-        cases.json
-        README.md
 ```
 
 ## License

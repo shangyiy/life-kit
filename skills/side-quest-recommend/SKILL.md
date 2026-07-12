@@ -38,22 +38,25 @@ After picking a mode, **load that mode file and follow it**. Do not mix mode out
 
 ## Shared rules (all modes)
 
-1. **Resolve a real calendar date** (or date range for weekend) before composing.
+1. **Trip modes:** resolve a real calendar date (or weekend range) before pull. **Starter:** today/tomorrow is enough; no formal dating required.
 2. **Never invent open hours, seasons, road closures, or ticket prices.** Prefer official sources; else drop or mark **check before you go** + URL.
-3. **Trip modes (half-day, weekend):** hard filters via **subagent auditor** — see below. Do not self-audit.
+3. **Trip modes (half-day, weekend):** hard filters via a **separate audit pass** — see below. Prefer a subagent; do not casually self-grade.
 4. **Starter:** catalog only; no web required. Light tone check only (optional self-check OK; subagent optional).
 5. Recent boards: use **this thread only** if present; else skip novelty scoring.
 6. No account, install, or guide persona required.
 
 ---
 
-## Hard filters — subagent audit (half-day + weekend)
+## Hard filters — audit pass (half-day + weekend)
 
-**Do not self-audit trip candidates.** Main agent packages; a **separate auditor** applies the reject table. Honor every **DROP**.
+Main agent packages candidates; a **separate audit pass** applies the reject table. Honor every **DROP**.
+
+**Preferred:** spawn a read-only auditor via the harness subagent/task tool.  
+**If no subagent tool:** run the same reject table as a strict second pass under an auditor role (KEEP/DROP table only), label `audit_pass: self-second-look`, then compose. Never invent replacements after DROP.
 
 ### Main agent before audit
 1. Package each candidate: mode · slot · title · win · claimed hours/season · source URL · notes (day, cost, drive, overnight).
-2. Spawn auditor via harness subagent/task tool. Prefer **read-only**. Pass packet + target date(s) + home/area + reject table.
+2. Run the audit pass (subagent preferred). Pass packet + target date(s) + home/area + reject table.
 
 ### Reject if
 
@@ -63,7 +66,7 @@ After picking a mode, **load that mode file and follow it**. Do not mix mode out
 | Wrong day for market/event | Dishonest |
 | Crop / season closed | Dishonest |
 | Venue, trail, or road closed | Safety / honesty |
-| Expensive tickets as the default “easy” pick | Prefer free/cheap when slot is Easy |
+| Expensive tickets as the default primary outing | Prefer free/cheap for HALF primary / WEEKEND day when free/cheap options exist |
 | Moral homework (“hydrate for wellness”) | Tiny pleasure or drop |
 | Overnight claims without a real place/region | Dishonest (weekend) |
 
