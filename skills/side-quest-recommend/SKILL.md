@@ -1,40 +1,87 @@
 ---
 name: side-quest-recommend
 description: >
-  Picks one optional side quest that fits the user’s date/time and location.
-  Use for /side-quest-recommend, weekend board, things to do, what should I do
-  today, or a small outing idea. Not multi-day itineraries or restaurant booking.
+  Builds a short menu of optional side quests by running starter, half-day, and
+  weekend modes as parallel subagents, then listing options for the user to pick.
+  Use for /side-quest-recommend, weekend board, things to do, or what should I do.
+  Not multi-day itineraries or restaurant booking.
 ---
 
 # Side quest recommend
 
-Pick **one** optional thing to do. Dessert, not homework. Skip is free.
+**You orchestrate. Subagents invent the options. User picks.**
 
-## Do this
+Dessert, not homework. Skip free. Never invent open hours or venues.
 
-1. **Datetime** — use now (or the date they named). Note weekday, time of day, and whether it’s a free half-day / weekend.
-2. **Location** — home or where they are. Ask **once** if missing (city or neighborhood is enough).
-3. **Pick one** that fits that slot:
-   - Morning / soft start → tiny home ritual is fine (brew + sit 5 min before apps, simple plate, window open).
-   - Daylight free time near home → one real local stop (market fruit, short park loop, free event that day) if you can be honest about hours.
-   - They want overnight / out of town → one real region within a sensible drive, not a booking flow.
-4. **Honesty** — never invent open hours, seasons, or venues. Prefer a real place you can source; if unsure, home-only or say **check before you go** + URL. No invent-to-fill.
-5. **Emit one card**, then stop. No mode quiz. No 3-card board unless they ask for options.
+## 1. Context (main agent only)
 
-## Card shape
+Resolve once — ask only if missing:
+
+| Input | Default |
+|--------|---------|
+| Datetime | **now** (or the date/range they named) |
+| Location | Ask once (neighborhood / city) |
+| Transport | Walk + drive OK |
+| Max one-way | **60 min** local · **2.5 h** for weekend mode |
+
+Note weekday, time of day, free half-day vs overnight intent.
+
+## 2. Run modes as subagents (parallel)
+
+Spawn **one read-only (or normal) subagent per mode** below. Pass the same context packet to each. Do **not** write the mode options yourself.
+
+| Mode | File | Job |
+|------|------|-----|
+| **starter** | [modes/starter.md](modes/starter.md) | One tiny at-home option that fits the time of day |
+| **half-day** | [modes/half-day.md](modes/half-day.md) | One same-day local outing (honest hours) |
+| **weekend** | [modes/weekend.md](modes/weekend.md) | One overnight / getaway sketch if the datetime allows; else return SKIP |
+
+**Each subagent prompt must include:**
 
 ```
-<title>
-Win: <binary, doable>
-Where / when: <home or place · time · travel if any>
-Hours: n/a  or  sourced hours + URL
-Why this: <one line: fits this datetime + place>
+You are proposing ONE side-quest option for mode: <mode>.
+Context: datetime=… location=… max one-way=…
+Follow: <absolute path to mode file>
+Also honor honesty: never invent venues/hours; check-before-go + URL if fragile.
+
+Return exactly:
+- STATUS: OPTION | SKIP
+- If OPTION: title, win, where/when, hours, travel, why this fits context
+- If SKIP: one-line reason (e.g. midweek morning — no getaway)
 ```
 
-Optional: one soft line (“skip free”). No residual nags.
+Prefer parallel spawn. Wait for all three.
 
-## Defaults if they said almost nothing
+If a harness has **no** subagent tool: run each mode file yourself as a separate pass and still label options by mode — last resort only.
 
-- When → **now** (or this weekend if they only said “weekend”)
-- Transport → walk + short drive OK
-- One-way max → ~60 min local; ~2.5 h only if they said getaway
+## 3. Present overall options (main agent)
+
+Collect every `STATUS: OPTION`. Drop SKIPs (optional one-line “not offered: …” if useful).
+
+Show a **menu** for the user to pick. Number the options. Do not auto-pick for them.
+
+```
+Side quests — pick 0–1 (or more if you want). Skip free.
+
+1 · STARTER · …
+   Win: …
+   …
+
+2 · HALF-DAY · …
+   Win: …
+   Hours: … · url
+
+3 · WEEKEND · …     # omit if all SKIP
+   …
+
+Why these: one line from context (datetime + place).
+```
+
+Then **stop and wait** for the user to choose a number (or skip). After they pick, expand only that card if needed — no residual nag if they ignore.
+
+## Shared honesty (all modes)
+
+- Never invent open hours, seasons, closures, or venues.
+- Prefer free/cheap; mention drive cost when far.
+- Binary win only.
+- If nothing honest for a mode → that subagent SKIPs; thinner menu is fine.

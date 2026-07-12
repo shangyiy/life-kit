@@ -1,32 +1,33 @@
 # life-kit
 
-Portable [Agent Skills](https://agentskills.io) pack. Umbrella name on purpose.
-
-`plugin.json` is Grok-installer metadata. Skills load from `skills/<name>/SKILL.md`.
+Portable [Agent Skills](https://agentskills.io) pack.
 
 ## Skills
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | One side quest that fits **datetime + location** |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Parallel mode subagents → menu of options to pick |
 
 ## Install
 
 ```bash
 ./install.sh grok
 # or
-grok plugin install shangyiy/life-kit --trust
+grok plugin install /path/to/life-kit --trust
 ```
 
 ## side-quest-recommend
 
 ```text
 /side-quest-recommend
-# or: things to do this Saturday near Mission
 ```
 
-Resolves when + where, picks **one** honest option. No mode quiz. No multi-card board unless asked.
+1. Resolve datetime + location  
+2. Run **starter / half-day / weekend** as **subagents**  
+3. Show overall **numbered options** — user picks  
+
+No mode quiz. Skip free. Never invent hours/venues.
 
 ## License
 
