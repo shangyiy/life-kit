@@ -35,10 +35,10 @@ grok plugin enable life-kit
 
 ```text
 /review-skill path/to/skills/my-skill
-/review-skill path/to/skills/my-skill https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+/review-skill path/to/skills/my-skill <rubric-url>
 ```
 
-Fetch the link → spawn **one** read-only subagent auditor → show its report. No auto-edit unless you ask.
+Spawn a subagent; it audits against the link. You don’t self-audit.
 
 ## Layout
 
