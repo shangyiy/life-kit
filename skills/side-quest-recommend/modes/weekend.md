@@ -2,67 +2,36 @@
 
 One **overnight / getaway** sketch — not a booking agent.
 
-**Grounded:** real region within drive · real open/season status from web when claimed · **doable in this free window** (not a midnight fantasy). No invent lodge inventory.
+**Grounded:** real region within drive · web-backed open/season status when claimed · doable in this free window.  
+**Lookup:** required — follow [../references/web-search.md](../references/web-search.md) (**weekend** query set).
 
 ## Fit
 
-Fri–Sun free window, user said getaway/overnight/out of town, or a full free weekend.  
-**SKIP** if midweek workday, only a free evening, or they only asked for a quick local thing.  
-**SKIP** if it’s already late night with **no booked stay** and the only path is “leave tonight / find a bed now” — that is pressure, not dessert. Re-offer overnight only for a real upcoming free Fri–Sat (or when they say a stay is already booked).
+Fri–Sun free window, getaway/overnight/out of town, or full free weekend.  
+**SKIP** midweek workday, free evening only, or quick-local-only request.  
+**SKIP** late night + **no booked stay** if the only path is “leave tonight / find a bed now.” Re-offer for next free Fri–Sat or when stay is already booked.
 
 ## Defaults
 
-| Input | Use from context |
-|--------|------------------|
-| Home | Required (from packet) |
-| Range | Upcoming weekend or named dates from packet |
-| Max one-way | From packet `max_one_way_getaway` (2.5 h default) |
+| Input | From packet |
+|--------|-------------|
+| Home | Required |
+| Range | Upcoming weekend or named dates |
+| Max one-way | `max_one_way_getaway` (2.5 h default) |
 | Nights | 1 unless they said 2 |
-
-## Web lookup (required)
-
-You **must use web search and page fetch**. Do not invent a town, trail, or “rooms available” from memory.
-
-### What to search (try 1–3 queries)
-
-Use home city + drive radius + weekend dates:
-
-1. `weekend getaway from {city} under 2.5 hours` or `day trip overnight near {city}`
-2. `{region} state park camping` or `{region} open trails` for the season  
-3. `{town} events {weekend date range}` if you have a candidate town  
-4. Optional: `scenic drive from {city}` + open a tourism or parks page  
-
-### What to open
-
-- Official **tourism / visitor bureau**, **state/national park**, or town pages  
-- Seasonal status (snow, fire closure, park hours) on official pages when relevant  
-- Public campground or lodge **info** pages only — never claim a reservation  
-
-Reference-style targets (adapt by country):
-
-- US: `nps.gov`, state parks (`*.gov` parks), town `visit*` sites  
-- Always prefer the domain you actually opened over a generic “everyone goes to X”
-
-### Rules after fetch
-
-1. Region/place must be real and roughly within max one-way of packet home.  
-2. If you claim a dated event or open trail, hours/status should match what you fetched.  
-3. Stay line: type only (`campground` / `small motel` / `book yourself`) + optional info URL — **no** fake availability. Use `check-before-go`.  
-4. Nothing honest → SKIP with reason (what you searched).  
-5. Never invent lodge inventory or “secret town.”
 
 ## Pipeline
 
-1. Web search + open official pages for a real region within drive.  
-2. One clear hook for those dates (view, short walk, free/cheap event).  
-3. Emit OPTION or SKIP.
+1. Web lookup (shared ref, weekend queries).  
+2. One region + one doable hook.  
+3. OPTION or SKIP.
 
 ## Output
 
 ```
 STATUS: OPTION
 title: … (region or trip name)
-win: leave home, sleep away once, back by <day>  (or similar binary)
+win: leave home, sleep away once, back by <day>
 where/when: region · date range · ~one-way drive
 hours: n/a or key site hours · check-before-go · https://…
 travel: ~Xh one-way

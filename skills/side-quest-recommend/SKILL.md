@@ -50,10 +50,10 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 | Mode | File | Tools | Job |
 |------|------|--------|-----|
 | **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option, doable at packet time |
-| **half-day** | [modes/half-day.md](modes/half-day.md) | **Must web search + fetch** place & hours | One same-day outing, real + open that day |
-| **weekend** | [modes/weekend.md](modes/weekend.md) | **Must web search + fetch** region & status | One doable getaway sketch, or SKIP |
+| **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One same-day outing, real + open that day |
+| **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One doable getaway sketch, or SKIP |
 
-**half-day / weekend:** look up with real queries + open official pages — not memory alone. Put a **source URL** on claimed places/hours. If tools fail or nothing checks out → **SKIP**.
+**half-day / weekend:** use shared **web-search** rules (queries, official pages, after-fetch). Put a **source URL** on claimed places/hours. Fail → **SKIP**.
 
 **Each subagent prompt:**
 
@@ -61,16 +61,17 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 You are proposing ONE side-quest option for mode: <mode>.
 #1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
 Context packet: <paste full packet>
-Follow the mode file (absolute path): <path>
+Follow the mode file (absolute path): <mode path>
+If half-day or weekend: ALSO follow web-search rules (absolute path): <…/references/web-search.md> — use that mode's query set.
 Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
-If half-day/weekend: run "Web lookup" in the mode file first. OPTION must cite a real source URL when claiming a place/hours.
-Return STATUS: OPTION | SKIP using the Output section of that mode file only.
+OPTION must cite a real source URL when claiming a place/hours.
+Return STATUS: OPTION | SKIP using the Output section of the mode file only.
 Do not invent venues/hours. Not confident after lookup → SKIP or check-before-go with URL — never fabricate.
 ```
 
 Prefer parallel spawn. Wait for all three.
 
-If **no** subagent tool: run each mode file yourself as a separate labeled pass (same contracts; still web-fetch for half-day/weekend).
+If **no** subagent tool: run each mode yourself as a labeled pass (same contracts; still use `references/web-search.md` for half-day/weekend).
 
 ## 3. Collect → validate → menu (main agent)
 
