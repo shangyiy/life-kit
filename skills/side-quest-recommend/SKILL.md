@@ -55,16 +55,26 @@ Resolve a **context packet** before spawning. Prefer tools over questions.
 | `language` | From intro/setup pick: `zh-Hant` · `en`. **Ask with chips if missing.** |
 | `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
 | `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note in their language. Ask **only** if lookup fails or is useless. User correction always wins. |
-| `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
+| `free_window` | One of: `short` · `half-day` · `overnight` · `full-weekend` · `unknown` (infer from datetime + message — see table below) |
 | `transport` | Default walk + drive OK |
 | `max_one_way_local` | **60 min** (half-day may stretch ≤75 if clearly worth it) |
 | `max_one_way_getaway` | **2.5 h** unless they said farther |
+
+**Infer `free_window` (aliases → enum):**
+
+| User / clock signal | Set `free_window` |
+|---------------------|-------------------|
+| Soft morning, free evening, “a bit of time”, ≤~1–2h free | `short` |
+| Free afternoon, “half day”, free day, “this morning then free” with ≥ half-day left | `half-day` |
+| Overnight, getaway, “out of town tonight/this weekend” | `overnight` |
+| Whole Sat–Sun free / full weekend | `full-weekend` |
+| Unclear | `unknown` |
 
 Pass this packet **unchanged** into every mode subagent. Options must **fit this packet** (wrong day, wrong city, or not doable now → invalid).
 
 ## 2. Per mode: launch A/B subagents (parallel)
 
-For **each** mode below, spawn **two independent** subagents (**A** and **B**) with the **same** context packet and mode files. Do **not** write mode options yourself. Do **not** share A’s answer with B (independent runs).
+For **each launched** mode below, spawn **two independent** subagents (**A** and **B**) with the **same** context packet and mode files. Do **not** write mode options yourself. Do **not** share A’s answer with B (independent runs).
 
 | Mode | File | Tools | Job |
 |------|------|--------|-----|
@@ -72,15 +82,18 @@ For **each** mode below, spawn **two independent** subagents (**A** and **B**) w
 | **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Same-day outing, real + open that day |
 | **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Doable getaway sketch, or SKIP |
 
-### Which modes to launch (gate on free_window)
+### Which modes to launch (gate on `free_window`)
 
-| `free_window` / ask | Launch A/B for |
-|---------------------|----------------|
-| soft morning / evening only | **starter** (+ **half-day** only if daylight remains) |
-| half-day / free day | **starter** + **half-day** |
-| overnight / full-weekend | **starter** + **half-day** + **weekend** |
-| unknown | full set: starter + half-day + weekend |
-| user explicitly asked getaway / overnight | force **weekend** A/B on |
+| `free_window` | Launch A/B for |
+|---------------|----------------|
+| `short` | **starter**; add **half-day** only if **usable outdoor window** (below) |
+| `half-day` | **starter** + **half-day** |
+| `overnight` | **starter** + **half-day** + **weekend** |
+| `full-weekend` | **starter** + **half-day** + **weekend** |
+| `unknown` | full set: starter + half-day + weekend |
+| user explicitly asked getaway / overnight | force **weekend** A/B on (in addition to gate) |
+
+**Usable outdoor window (for `short` → half-day):** launch half-day only if remaining time to **18:00 local** (or user-stated end) is **≥ ~2 hours**. If sunset/tools unknown: launch half-day only when local hour **≤ 15**. Else starter only — prefer SKIP half-day over a rushed dark outing.
 
 For each launched mode, spawn **two independent** subagents (**A** and **B**). Paths: absolute if available, else skill-root-relative.
 
@@ -146,14 +159,20 @@ Main agent **judges**; do not invent a third option. Do not average two places i
 
 From the mode winners, build a **short friend-text menu**. Do not auto-pick for the human.
 
-**Example compression (half-day OPTION → menu line):**  
-OPTION: title=San Carlos Sunday market · win=buy 1 fruit · hours=Sun 9–1 · url=https://uvfm.org/… · travel=~15 min  
-→ en: `1. Sunday San Carlos market — grab one fruit (~15 min) · 9–1 · https://uvfm.org/…`  
+**Example compression:**
+
+half-day OPTION →  
+→ en: `1. Sunday San Carlos market — grab one fruit (~15 min) · 9–1 · https://…`  
 → zh-Hant: `1. 週日聖卡洛斯市集 — 買一顆水果回家（約15分）· 9–1 · https://…`
+
+weekend OPTION →  
+→ en: `2. Coast overnight — leave Sat, one sleep, back Sun (~2h) · check stay · https://…`  
+→ zh-Hant: `2. 海岸過夜 — 週六出門、住一晚、週日回（約2小時）· 住宿請自查 · https://…`
 
 - Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome, **not** “A/B” labels  
 - Omit modes with no winner  
-- Soft lead-in in `packet.language`; “pick one or none”
+- Soft lead-in in `packet.language`; “pick one or none”  
+- If user **asked getaway/overnight** and weekend has no winner → one soft honest line (in `packet.language`) that overnight isn’t honest for this window / needs a booked stay or freer Fri–Sat — then still show remaining winners
 
 ```
 # en
