@@ -67,7 +67,20 @@ Default pulls (1–3 first; add 4–6 if gaps):
 
 Never invent venues to fill a slot.
 
-### 3. Hard filters (reject if)
+### 3. Hard filters — subagent audit (required)
+
+**Do not self-audit.** The main agent only assembles a candidate packet; a **separate auditor agent** applies the reject table. Main agent must **honor every DROP** (no filling slots by overturning the auditor).
+
+**Main agent before audit**
+1. Package each candidate with: proposed slot · title · win · claimed hours · source URL · notes (day, season, cost, drive).
+2. Home EASY from the catalog still goes through audit (tone / moral-homework only; hours n/a).
+3. Spawn an auditor via the harness subagent/task tool. Prefer **read-only**. Pass the packet + target date + home/area + the reject table below.
+
+**Auditor job**
+- Independently re-check near/Stretch claims against sources when possible (open URLs; do not invent hours).
+- Apply reject table. Output only structured results — no board prose.
+
+**Reject if**
 
 | Reject | Why |
 |--------|-----|
@@ -78,18 +91,33 @@ Never invent venues to fill a slot.
 | Expensive tickets as default Easy | Prefer free/cheap |
 | Moral homework (“hydrate for wellness”) | Tiny pleasure or drop |
 
+**Auditor output (required shape)**
+
+```
+For each candidate:
+- KEEP | DROP
+- reason (one line; cite source/day/season if DROP)
+- hours_ok: yes | no | n/a | check-before-go
+- source_url (if any)
+
+Summary: kept N / dropped M
+```
+
+**Main agent after audit**
+- Compose only from **KEEP** (and `check-before-go` only if hours fragile but real — still mark on card).
+- If audit drops a slot empty: leave it empty or omit Stretch; never invent a replacement without re-pull + re-audit.
+- Honesty footer uses the auditor’s DROP list.
+
 ### 4. Score & compose
 Prefer free > cheap > paid · closer within slot · verified hours · novelty vs recent boards (if any) · worth the drive. **Free ≠ free if far** — mention gas/parking when relevant.
 
 ### 5. Write each card
-For each **near/Stretch** card: open an official source → extract hours → if missing/unclear, drop or mark **check before you go** + URL → only then print.
-
-Emit each card in the **Presentation** format. Wins should be binary and specific.
+Emit each card in the **Presentation** format. Wins should be binary and specific. Near/Stretch hours must match auditor `hours_ok` / source.
 
 **Win patterns:** sit with cup **5 min before any app** · any veg + any protein on a plate · buy **1 fruit** · concert/set or hilltop turnaround + leave.
 
 ### 6. Honesty footer
-When filters fired, list **dropped** ideas briefly (season over, wrong day, closed trail).
+List **dropped** ideas from the auditor briefly (season over, wrong day, closed trail).
 
 ---
 
@@ -141,8 +169,9 @@ The near/Stretch lines above are **illustrative format only** — re-fetch live 
 
 - [ ] Real date resolved  
 - [ ] ≥1 zero-drive EASY  
-- [ ] No invented hours (source opened for near/Stretch)  
-- [ ] Wrong-day / out-of-season / closed dropped  
+- [ ] Hard filters run by **subagent auditor** (not main-agent self-check)  
+- [ ] Every DROP honored; no invented hours  
+- [ ] Wrong-day / out-of-season / closed only appear in Not today  
 - [ ] Pick 0–2 · soft exits printed  
 - [ ] Wins binary and doable  
 - [ ] STRETCH linked or omitted  
