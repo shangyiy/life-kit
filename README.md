@@ -8,7 +8,7 @@ Portable [Agent Skills](https://agentskills.io) pack. Umbrella name on purpose �
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
-| [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Spawn subagent critics against a best-practices URL (default: [Anthropic Agent Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) |
+| [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | One subagent audits a skill against a best-practices URL (default: [Anthropic Agent Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) |
 
 ## Install
 
@@ -36,10 +36,9 @@ grok plugin enable life-kit
 ```text
 /review-skill path/to/skills/my-skill
 /review-skill path/to/skills/my-skill https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
-/review-skill --pr 1 critics=3
 ```
 
-Orchestrator fetches the rubric link, spawns parallel read-only critic subagents (discovery / structure / concision by default), synthesizes verdict. Does not auto-edit the target unless you ask.
+Fetch the link → spawn **one** read-only subagent auditor → show its report. No auto-edit unless you ask.
 
 ## Layout
 
