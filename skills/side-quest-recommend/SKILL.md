@@ -62,60 +62,75 @@ Resolve a **context packet** before spawning. Prefer tools over questions.
 
 Pass this packet **unchanged** into every mode subagent. Options must **fit this packet** (wrong day, wrong city, or not doable now → invalid).
 
-## 2. Run modes as subagents (parallel)
+## 2. Per mode: launch A/B subagents (parallel)
 
-Spawn **one subagent per mode**. Do **not** write the mode options yourself.
+For **each** mode below, spawn **two independent** subagents (**A** and **B**) with the **same** context packet and mode files. Do **not** write mode options yourself. Do **not** share A’s answer with B (independent runs).
 
 | Mode | File | Tools | Job |
 |------|------|--------|-----|
-| **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option, doable at packet time |
-| **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One same-day outing, real + open that day |
-| **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One doable getaway sketch, or SKIP |
+| **starter** | [modes/starter.md](modes/starter.md) | No web | Tiny at-home option, doable at packet time |
+| **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Same-day outing, real + open that day |
+| **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | Doable getaway sketch, or SKIP |
 
-**half-day / weekend:** use shared **web-search** rules (queries, official pages, after-fetch). Put a **source URL** on claimed places/hours. Fail → **SKIP**.
+Default launch set: **6 subagents** (starter A/B · half-day A/B · weekend A/B), all in parallel when possible.
 
-**Each subagent prompt:**
+**Each A/B subagent prompt:**
 
 ```
-You are proposing ONE side-quest option for mode: <mode>.
+You are proposing ONE side-quest option for mode: <mode>. Run label: <A|B> (independent — do not assume another run’s answer).
 #1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
 Context packet: <paste full packet including language>
 Write win/why in packet.language. Search queries in the place’s language (see web-search.md).
 Follow the mode file (absolute path): <mode path>
 If half-day or weekend: ALSO follow web-search (absolute path): <…/references/web-search.md>
-  — query set for this mode; after verify use “Among verified candidates” rank.
+  — query set for this mode; after verify use “Among verified candidates” rank when you have multiple ideas — emit only ONE best OPTION (or SKIP).
 Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
 OPTION must cite a real source URL when claiming a place/hours.
 Return STATUS: OPTION | SKIP using the Output section of the mode file only.
 Do not invent venues/hours. Not confident after lookup → SKIP or check-before-go with URL — never fabricate.
 ```
 
-Prefer parallel spawn. Wait for all three.
+Wait for all A/B pairs.  
 
-If **no** subagent tool: run each mode yourself as a labeled pass (same contracts; still use `references/web-search.md` for half-day/weekend).
+If **no** subagent tool: for each mode, run the mode file **twice yourself** as labeled passes A/B (different query order / candidates if possible); still use web-search for half-day/weekend.
 
 ### Date range (vacation day-slice)
 
-If the user gives a **range of days** (vacation): you may run **one half-day packet per day** (or only days they care about). Still **not** a multi-city booked itinerary. Each day is independent OPTION/SKIP; apply web-search **no-repeat** across days when another grounded rank ≥2 option exists.
+If the user gives a **range of days**: for **each day**, run half-day **A/B** (and starter A/B once for the trip is enough; weekend only if overnight fits). Still **not** a multi-city itinerary. Apply web-search **no-repeat** across days when another grounded rank ≥2 option exists.
 
-## 3. Collect → validate → menu (main agent)
+## 3. Judge A/B → one winner per mode (main agent)
 
-Before showing anything, drop OPTIONs that fail grounding:
+For each mode, take the A and B results and **pick one winner** (or none).
 
-1. Named place/hours without a source URL (outing/getaway) or clear home-only doability (starter).  
-2. Wrong **weekday/date** for the claimed market/event/hours.  
-3. Not doable in the free window (e.g. leave-tonight overnight with no booked stay at 11pm).  
-4. Travel clearly over packet max one-way.
+### Drop (never show)
 
-If several outing candidates remain, prefer the one that would win **Among verified candidates** in [references/web-search.md](references/web-search.md) (dated event → weekday market → 直売 → park).
+Either A or B if it fails grounding:
 
-If **zero** OPTIONs remain → one honest starter from `modes/starter.md` if still grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
+1. Named place/hours without a source URL (outing/getaway) or clear home-only doability (starter)  
+2. Wrong **weekday/date** for market/event/hours  
+3. Not doable in the free window (e.g. leave-tonight overnight, no booked stay)  
+4. Travel clearly over packet max one-way  
 
-Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.
+If both fail → that mode contributes **nothing** (silent SKIP).
 
-- Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
-- Omit SKIP modes silently (no “not offered: …” footnotes).  
-- Soft lead-in in `packet.language`; “pick one or none.”
+### Choose winner when both are OPTION
+
+Use [references/web-search.md](references/web-search.md) **Among verified candidates**:
+
+1. Higher rank wins: **dated event → weekday market → 直売 → park/landmark**  
+2. Same rank: shorter one-way → clearer binary win → better official URL  
+3. If A and B are **the same place** (or near-duplicate): keep the stronger hours/URL write-up  
+4. Prefer dessert energy (easy win) over logistics-heavy when ranks equal  
+
+Main agent **judges**; do not invent a third option. Do not average two places into a mashup.
+
+### Menu
+
+From the (up to 3) mode winners, build a **short friend-text menu**. Do not auto-pick for the human.
+
+- Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome, **not** “A/B” labels  
+- Omit modes with no winner  
+- Soft lead-in in `packet.language`; “pick one or none”
 
 ```
 # en
@@ -133,6 +148,8 @@ hey — pick one or none:
 1. …
 2. …（时间 · 车程 · 链接）
 ```
+
+If **zero** winners → one honest starter yourself from `modes/starter.md` if grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
 
 **Stop and wait** for a number (or skip).
 

@@ -112,6 +112,11 @@ Stay: **type only** + info URL · check-before-go · book yourself — no invent
 - Inflated half-day that is a full expedition  
 - Overnight fantasy with no booked bed late at night  
 - Random A/B when a rank-1 or rank-2 candidate already verified  
+- Showing both A and B to the user (main agent **judges** to one winner per mode)
+
+## A/B note (for main agent)
+
+Each mode launches **two independent** proposers. After both return, apply **Among verified candidates** (and drop ungrounded). Emit **one** winner per mode into the user menu — never “here are six raw A/B lines.”
 
 ## Done when
 
