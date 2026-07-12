@@ -19,7 +19,7 @@ Goal: every place/hours claim is **grounded** — real URL opened, day matches, 
 ## Pipeline (do this order)
 
 ```
-1. SEARCH   1–4 targeted queries (query sets below)
+1. SEARCH   1–4 targeted queries (pick from query-set tiers; stop early once one candidate verifies)
 2. OPEN     official page(s) for the best 1–3 candidates
 3. VERIFY   weekday/date, open/closed, within drive of packet home
 4. RANK     among survivors (see “Among verified candidates”)

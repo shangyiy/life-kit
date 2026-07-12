@@ -3,7 +3,7 @@ name: side-quest-recommend
 description: >
   Suggests a few optional things to do near you — a tiny at-home start, a local
   outing, or a simple getaway idea — based on real time and place. Everything
-  suggested must be real and doable. You pick one or skip. Use for
+  suggested must be real and doable. User picks one option or skips. Use for
   /side-quest-recommend, weekend plans, things to do, what should I do, bored,
   local outing, day trip, getaway ideas, or side quest. Not (yet) multi-day
   travel itineraries or restaurant booking.
@@ -27,7 +27,7 @@ Resolve `language` in this order (do not invent a family default):
 | **繁體中文** | `zh-Hant` |
 | **English** | `en` |
 
-3. Change later under settings only  
+3. Change later via settings if the host has one; else accept an explicit user language switch  
 
 **User-facing copy** (menu lead-in, wins, soft lines) follows that pick.  
 **Place names** may stay in the venue’s local language.  
