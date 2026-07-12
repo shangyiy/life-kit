@@ -4,7 +4,7 @@ description: >
   Suggests a few optional things to do near you — a tiny at-home start, a local
   outing, or a simple getaway idea — based on time and place. You pick one or
   skip. Use for /side-quest-recommend, weekend plans, things to do, what should
-  I do, bored, local outing, day trip, getaway ideas, or side quest. Not for
+  I do, bored, local outing, day trip, getaway ideas, or side quest. Not (yet)
   multi-day travel itineraries or restaurant booking.
 ---
 
