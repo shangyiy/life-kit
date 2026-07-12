@@ -1,51 +1,40 @@
 # Mode: starter
 
-Tiny at-home ritual. Zero travel. No web research required.
+One tiny **at-home** ritual. Zero travel. No web required.
 
-## Defaults
+**Grounded:** doable **now** (or at packet time) at home with nothing fake — no invented neighborhood claims.
 
-| Input | Default if unknown |
-|--------|-------------------|
-| When | **Today** or **tomorrow morning** |
-| Home / area | Not required |
+## Fit
+
+Best when morning / soft start / low energy. Still valid any time as a gentle option.
 
 ## Output
 
-**Exactly 1 card** (not a multi-card board).
+Usually one OPTION. SKIP only if user forbade home ideas / impossible.
 
 ```
-Starter — optional. Skip free.
-
-STARTER · home · free · ~5–25 min
-<title>
-Win: <binary, specific>
-Hours: n/a
+STATUS: OPTION
+title: …
+win: binary, doable in 5–25 min
+where/when: home · now-ish
+hours: n/a
+travel: none
+why: fits this time of day
 ```
 
-## Pipeline
+```
+STATUS: SKIP
+reason: …
+```
 
-1. **Context** — morning vs evening if they said; else generic soft start.
-2. **Pick one** from the catalog below (rotate if thread has a recent starter).
-3. **Tone check** — pleasure, not diet/wellness lecture. Reframe or re-pick if preachy.
-4. **Emit** one card. Stop. No residual nudge.
+## Ideas (pick one; rotate)
 
-Subagent audit is **optional** for starter (catalog-only). If used, only moral-homework / tone rejects apply.
+| Family | Example win |
+|--------|-------------|
+| Coffee/tea | Brew; sit **5 min before any app** |
+| Meal | Any veg + any protein on one plate |
+| Air | Open one window 3 min; name one outdoor sound |
+| Tidy | Clear exactly 5 things from one surface |
+| Water | One full glass before coffee or first scroll |
 
-## Catalog (rotate)
-
-| Family | Title example | Win |
-|--------|---------------|-----|
-| Coffee/tea | Slow first pour | Brew coffee or tea; sit **5 min before any app** |
-| Meal | Two-color plate | Any veg + any protein on one plate |
-| Air | One window open | Open one window 3 min; name one outdoor sound/smell |
-| Tiny tidy | Five-thing surface | Clear exactly 5 things from one surface |
-| Hydrate | First glass | One full glass of water before coffee *or* first scroll |
-
-“The win is the sit, not the caffeine optimize.”
-
-## Checklist
-
-- [ ] Exactly one STARTER card  
-- [ ] Zero travel · free · binary win  
-- [ ] Not preachy  
-- [ ] Hours: n/a  
+Pleasure, not wellness lecture. “The win is the sit, not the caffeine optimize.”

@@ -1,107 +1,110 @@
 ---
 name: side-quest-recommend
 description: >
-  Recommends optional side quests in one of three modes: starter (tiny at-home
-  ritual), half-day trip (local outing), or weekend trip (overnight / multi-day
-  away). Uses real web sources and honest hours for trip modes. Use for side
-  quests, weekend plans, half-day ideas, morning starters, things to do,
-  /side-quest-recommend, or a preview board. Not a restaurant-booking or full
-  travel-agent flow.
+  Suggests a few optional things to do near you — a tiny at-home start, a local
+  outing, or a simple getaway idea — based on real time and place. Everything
+  suggested must be real and doable. You pick one or skip. Use for
+  /side-quest-recommend, weekend plans, things to do, what should I do, bored,
+  local outing, day trip, getaway ideas, or side quest. Not (yet) multi-day
+  travel itineraries or restaurant booking.
 ---
 
 # Side quest recommend
 
-Standalone recommend skill — no app, bot persona, or setup wizard.
+Help the human choose **one optional thing** that fits *right now* (or the day they named). Dessert, not homework. Skip free.
 
-**Tone (all modes):** Dessert, not homework. Optional always. No guilt or streaks.
+**How it feels for them:** a short menu of real options → they pick a number (or none). No mode quiz.
 
-## Modes
+## #1 rule — grounded by data
 
-Pick **exactly one** mode per run. If the user names a mode or slash flag, honor it.
-If unclear, ask once:
+**Everything must be real and doable.** No vibes-only inventing.
 
-| Mode | When | Read |
-|------|------|------|
-| **starter** | Tiny at-home ritual (brew coffee/tea, 5–25 min) | [modes/starter.md](modes/starter.md) |
-| **half-day** | Local outing, same-day return (~2–6 h door-to-door) | [modes/half-day.md](modes/half-day.md) |
-| **weekend** | Overnight or multi-day away (Sat–Sun style), return home | [modes/weekend.md](modes/weekend.md) |
+| Must be grounded | How |
+|------------------|-----|
+| **Time** | Real clock or user-stated datetime → weekday + free window (not a guessed “sometime”) |
+| **Location** | User-stated place, else **network/IP geolocation** — not a made-up city |
+| **Each outing/getaway** | Real place/event · open (or checkable) for that time · within travel budget · win is binary and actually completable |
+| **Each home starter** | Doable at home in minutes with no fake props or invented “local” claim |
 
-**Inference hints (only if mode not stated):**
-- brew / tea / coffee / “slow morning” / “tiny habit” → **starter**
-- “this afternoon” / market / park / “half day” / nearby → **half-day**
-- “weekend getaway” / overnight / road trip / “out of town” → **weekend**
-- bare “weekend board” / “things to do” → ask **half-day vs weekend** (not starter)
+If any of those fail → **SKIP that option** (or thinner menu). Never invent open hours, seasons, closures, venues, or “rooms available tonight.” Prefer a short honest menu over a pretty false one.
 
-After picking a mode, **load that mode file and follow it**. Do not mix mode outputs in one board unless the user asks for multiple modes explicitly (then run separately).
+## 1. Context (main agent only)
 
----
+Resolve a **context packet** before spawning. Prefer tools over questions.
 
-## Shared rules (all modes)
+| Field | Rule |
+|--------|------|
+| `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
+| `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note: “Using ~City from this network.” Ask **only** if lookup fails or is useless. User correction always wins. |
+| `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
+| `transport` | Default walk + drive OK |
+| `max_one_way_local` | **60 min** (half-day may stretch ≤75 if clearly worth it) |
+| `max_one_way_getaway` | **2.5 h** unless they said farther |
 
-1. **Trip modes:** resolve a real calendar date (or weekend range) before pull. **Starter:** today/tomorrow is enough; no formal dating required.
-2. **Never invent open hours, seasons, road closures, or ticket prices.** Prefer official sources; else drop or mark **check before you go** + URL.
-3. **Trip modes (half-day, weekend):** hard filters via a **separate audit pass** — see below. Prefer a subagent; do not casually self-grade.
-4. **Starter:** catalog only; no web required. Light tone check only (optional self-check OK; subagent optional).
-5. Recent boards: use **this thread only** if present; else skip novelty scoring.
-6. No account, install, or guide persona required.
+Pass this packet **unchanged** into every mode subagent. Options must **fit this packet** (wrong day, wrong city, or not doable now → invalid).
 
----
+## 2. Run modes as subagents (parallel)
 
-## Hard filters — audit pass (half-day + weekend)
+Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 
-Main agent packages candidates; a **separate audit pass** applies the reject table. Honor every **DROP**.
+| Mode | File | Tools | Job |
+|------|------|--------|-----|
+| **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option, doable at packet time |
+| **half-day** | [modes/half-day.md](modes/half-day.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One same-day outing, real + open that day |
+| **weekend** | [modes/weekend.md](modes/weekend.md) + [references/web-search.md](references/web-search.md) | **Must** search + fetch | One doable getaway sketch, or SKIP |
 
-**Preferred:** spawn a read-only auditor via the harness subagent/task tool.  
-**If no subagent tool:** run the same reject table as a strict second pass under an auditor role (KEEP/DROP table only), label `audit_pass: self-second-look`, then compose. Never invent replacements after DROP.
+**half-day / weekend:** use shared **web-search** rules (queries, official pages, after-fetch). Put a **source URL** on claimed places/hours. Fail → **SKIP**.
 
-### Main agent before audit
-1. Package each candidate: mode · slot · title · win · claimed hours/season · source URL · notes (day, cost, drive, overnight).
-2. Run the audit pass (subagent preferred). Pass packet + target date(s) + home/area + reject table.
-
-### Reject if
-
-| Reject | Why |
-|--------|-----|
-| Hours / season / closure made up | Dishonest |
-| Wrong day for market/event | Dishonest |
-| Crop / season closed | Dishonest |
-| Venue, trail, or road closed | Safety / honesty |
-| Expensive tickets as the default primary outing | Prefer free/cheap for HALF primary / WEEKEND day when free/cheap options exist |
-| Moral homework (“hydrate for wellness”) | Tiny pleasure or drop |
-| Overnight claims without a real place/region | Dishonest (weekend) |
-
-### Auditor output
+**Each subagent prompt:**
 
 ```
-For each candidate:
-- KEEP | DROP
-- reason (one line; cite source/day/season if DROP)
-- hours_ok: yes | no | n/a | check-before-go
-- source_url (if any)
-
-Summary: kept N / dropped M
+You are proposing ONE side-quest option for mode: <mode>.
+#1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
+Context packet: <paste full packet>
+Follow the mode file (absolute path): <mode path>
+If half-day or weekend: ALSO follow web-search rules (absolute path): <…/references/web-search.md> — use that mode's query set.
+Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
+OPTION must cite a real source URL when claiming a place/hours.
+Return STATUS: OPTION | SKIP using the Output section of the mode file only.
+Do not invent venues/hours. Not confident after lookup → SKIP or check-before-go with URL — never fabricate.
 ```
 
-### Main agent after audit
-- Compose only from **KEEP** (`check-before-go` allowed if hours real but fragile — mark on card).
-- Empty after DROP → leave empty / fewer cards; never invent a replacement without re-pull + re-audit.
-- Honesty footer = auditor DROP list.
+Prefer parallel spawn. Wait for all three.
 
----
+If **no** subagent tool: run each mode yourself as a labeled pass (same contracts; still use `references/web-search.md` for half-day/weekend).
 
-## Shared presentation bits
+## 3. Collect → validate → menu (main agent)
 
-- Binary **Win:** specific, doable, optional.
-- Hours line: `n/a` (starter) or sourced hours + URL (trips).
-- **Not today:** short list of auditor drops when any fired.
-- Optional one-line “why this board.”
+Before showing anything, drop OPTIONs that fail grounding:
 
-Mode files own card count, slots, and full templates.
+1. Named place/hours without a source URL (outing/getaway) or clear home-only doability (starter).  
+2. Wrong **weekday/date** for the claimed market/event/hours.  
+3. Not doable in the free window (e.g. leave-tonight overnight with no booked stay at 11pm).  
+4. Travel clearly over packet max one-way.
 
----
+If **zero** OPTIONs remain → one honest starter from `modes/starter.md` if still grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
 
-## Evals
+Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.
 
-Manual / harness eval cases: [evals/cases.json](evals/cases.json). How to run: [evals/README.md](evals/README.md).
+- Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
+- Omit SKIP modes silently (no “not offered: …” footnotes).  
+- Soft lead-in; “pick one or none.”
 
-When changing mode behavior, keep cases green in spirit (expected_behavior), especially honesty and mode routing.
+```
+hey — pick one or none:
+
+1. …
+2. … (hours · short travel · link if useful)
+```
+
+**Stop and wait** for a number (or skip).
+
+**After pick:** at most **+3 bullets** (how to start, one check-before-go, one backup). No multi-stop itinerary, no booking.
+
+## Shared honesty
+
+- **#1 rule wins** over filling the menu.  
+- Fragile hours/places → **`check-before-go`** + URL.  
+- Prefer free/cheap; mention drive cost when far.  
+- Binary win only — something they can actually finish.  
+- Thinner menu > false dessert.
