@@ -1,34 +1,19 @@
 ---
 name: side-quest-recommend
 description: >
-  Standalone skill: build a small 1–3 card weekend/things-to-do board (easy day-start at
-  home + optional local outing) using real web sources, honest hours, and soft skips.
-  Use when the user wants things to do, a weekend board, local suggestions,
-  /side-quest-recommend, "recommend quests", or a preview board.
+  Builds a 1–3 card weekend/things-to-do board (easy day-start at home + optional
+  local outing) from real web sources with honest hours and soft skips. Use for
+  weekend plans, local suggestions, things to do tomorrow, recommend quests,
+  /side-quest-recommend, or a preview board.
 ---
 
 # Side quest recommend
 
-Standalone recommend skill. It only builds a short board of optional things to do.
-It does **not** depend on any app, bot persona, setup wizard, or product plan.
+Builds a short board of optional things to do. Standalone: no app, bot persona, or setup wizard.
 
-**Job:** Give the human a board they can actually follow — including easy wins like “sit with the cup 5 min before any app.”
+**Job:** A board the human can follow — e.g. “sit with the cup 5 min before any app.”
 
-**Tone:** Dessert, not homework. Optional always. No guilt, streaks, or productivity coach voice.
-
----
-
-## When to use
-
-- “What should I do this weekend / tomorrow?”
-- “Suggest side quests” / “weekend board” / “things to do near me”
-- `/side-quest-recommend`
-
-## When not to use
-
-- Full product / app architecture design
-- Hiring, resume, or unrelated tasks
-- Long multi-day itineraries (use a travel planner mindset instead — this skill is 1–3 short cards)
+**Tone:** Dessert, not homework. Optional always. No guilt or streaks.
 
 ---
 
