@@ -11,6 +11,7 @@ Umbrella name on purpose — reorganize or split skills later without renaming e
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter** (at-home ritual), **half-day** (local outing), **weekend** (overnight sketch). Web + honest hours on trip modes; subagent hard-filter audit |
+| [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Spawn subagent critics against a best-practices URL (default: Anthropic Agent Skills best practices) |
 
 ## Install
 
@@ -64,13 +65,10 @@ life-kit/
   skills/
     side-quest-recommend/
       SKILL.md
-      modes/
-        starter.md
-        half-day.md
-        weekend.md
-      evals/
-        cases.json
-        README.md
+      modes/ …
+      evals/ …
+    review-skill/
+      SKILL.md
 ```
 
 ## License

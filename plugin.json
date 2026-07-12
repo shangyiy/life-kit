@@ -1,11 +1,12 @@
 {
   "name": "life-kit",
-  "version": "0.2.0",
-  "description": "Portable personal life skills pack (starter / half-day / weekend side quests). Reorg-friendly umbrella; skills live under skills/.",
+  "version": "0.3.0",
+  "description": "Portable personal life + skill-authoring helpers (side quests; review-skill). Reorg-friendly umbrella; skills live under skills/.",
   "author": {
     "name": "shangyiy"
   },
   "skills": [
-    "./skills/side-quest-recommend"
+    "./skills/side-quest-recommend",
+    "./skills/review-skill"
   ]
 }
