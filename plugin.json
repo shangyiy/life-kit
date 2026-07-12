@@ -1,7 +1,7 @@
 {
   "name": "life-kit",
-  "version": "0.1.0",
-  "description": "Portable personal life / weekend agent skills pack. Reorg-friendly umbrella; skills live under skills/.",
+  "version": "0.2.0",
+  "description": "Portable personal life skills pack (starter / half-day / weekend side quests). Reorg-friendly umbrella; skills live under skills/.",
   "author": {
     "name": "shangyiy"
   },

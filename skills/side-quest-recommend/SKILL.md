@@ -1,97 +1,73 @@
 ---
 name: side-quest-recommend
 description: >
-  Builds a 1–3 card weekend/things-to-do board (easy day-start at home + optional
-  local outing) from real web sources with honest hours and soft exits. Use for
-  weekend plans, side quests, local outing ideas, things to do tomorrow,
-  /side-quest-recommend, or a preview board. Not for multi-day travel itineraries
-  or restaurant booking flows.
+  Recommends optional side quests in one of three modes: starter (tiny at-home
+  ritual), half-day trip (local outing), or weekend trip (overnight / multi-day
+  away). Uses real web sources and honest hours for trip modes. Use for side
+  quests, weekend plans, half-day ideas, morning starters, things to do,
+  /side-quest-recommend, or a preview board. Not a restaurant-booking or full
+  travel-agent flow.
 ---
 
 # Side quest recommend
 
-Builds a short board of optional things to do. Standalone: no app, bot persona, or setup wizard.
+Standalone recommend skill — no app, bot persona, or setup wizard.
 
-**Job:** A board the human can follow — e.g. “sit with the cup 5 min before any app.”
+**Tone (all modes):** Dessert, not homework. Optional always. No guilt or streaks.
 
-**Tone:** Dessert, not homework. Optional always. No guilt or streaks.
+## Modes
 
-Always emit cards in the **Presentation** format below (use `EASY` / `STRETCH` casing).
+Pick **exactly one** mode per run. If the user names a mode or slash flag, honor it.
+If unclear, ask once:
 
----
+| Mode | When | Read |
+|------|------|------|
+| **starter** | Tiny at-home ritual (brew coffee/tea, 5–25 min) | [modes/starter.md](modes/starter.md) |
+| **half-day** | Local outing, same-day return (~2–6 h door-to-door) | [modes/half-day.md](modes/half-day.md) |
+| **weekend** | Overnight or multi-day away (Sat–Sun style), return home | [modes/weekend.md](modes/weekend.md) |
 
-## Defaults (ask only if missing)
+**Inference hints (only if mode not stated):**
+- brew / tea / coffee / “slow morning” / “tiny habit” → **starter**
+- “this afternoon” / market / park / “half day” / nearby → **half-day**
+- “weekend getaway” / overnight / road trip / “out of town” → **weekend**
+- bare “weekend board” / “things to do” → ask **half-day vs weekend** (not starter)
 
-| Input | Default if unknown |
-|--------|-------------------|
-| Home / area | Ask once (neighborhood or city is enough) |
-| When | **This weekend** or **tomorrow** if they said “tmr” — resolve a real calendar date |
-| Transport | Walk + drive OK |
-| Max one-way | **60 minutes** (up to ~75 for one Stretch) |
-| Interests | nature, food if unknown |
-
----
-
-## Output shape
-
-Up to **3 cards**. Human picks **0–2**. One active at a time.
-
-| Slot | Role | Rules |
-|------|------|--------|
-| **EASY · home** | Day-start, zero travel | 5–25 min · free · binary win · pleasure, not diet lecture |
-| **EASY · near** | Short leave | Cheap/free · one stop · hours from a real source |
-| **STRETCH** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours. **Omit** if nothing honest survives filters. |
-
-Always **≥1 zero-drive EASY**. Prefer in-season / dated local when real; else home only. No account or prior state required.
-
-Always print soft exits (`skip all` · `later` · `can't today`). After one done with room left: at most **one** residual line; silence if ignored.
+After picking a mode, **load that mode file and follow it**. Do not mix mode outputs in one board unless the user asks for multiple modes explicitly (then run separately).
 
 ---
 
-## Pipeline
+## Shared rules (all modes)
 
-### 1. Context
-Date(s), home/area, max travel, interests. Recent boards: use this thread only if present; else skip novelty scoring.
+1. **Resolve a real calendar date** (or date range for weekend) before composing.
+2. **Never invent open hours, seasons, road closures, or ticket prices.** Prefer official sources; else drop or mark **check before you go** + URL.
+3. **Trip modes (half-day, weekend):** hard filters via **subagent auditor** — see below. Do not self-audit.
+4. **Starter:** catalog only; no web required. Light tone check only (optional self-check OK; subagent optional).
+5. Recent boards: use **this thread only** if present; else skip novelty scoring.
+6. No account, install, or guide persona required.
 
-### 2. Pull candidates
-- **Home EASY:** catalog below (no web).
-- **Near / Stretch:** search the web and open **official** pages (markets, events, parks, U-pick, free culture). Use whatever search/fetch tools the harness provides.
+---
 
-Default pulls (1–3 first; add 4–6 if gaps):
-1. Easy home catalog  
-2. Markets / produce for that day near home  
-3. Free/cheap events that date  
-4. Parks / short overlooks  
-5. Seasonal harvest only if open  
-6. Free culture (bands, free tours, festivals)  
+## Hard filters — subagent audit (half-day + weekend)
 
-Never invent venues to fill a slot.
+**Do not self-audit trip candidates.** Main agent packages; a **separate auditor** applies the reject table. Honor every **DROP**.
 
-### 3. Hard filters — subagent audit (required)
+### Main agent before audit
+1. Package each candidate: mode · slot · title · win · claimed hours/season · source URL · notes (day, cost, drive, overnight).
+2. Spawn auditor via harness subagent/task tool. Prefer **read-only**. Pass packet + target date(s) + home/area + reject table.
 
-**Do not self-audit.** The main agent only assembles a candidate packet; a **separate auditor agent** applies the reject table. Main agent must **honor every DROP** (no filling slots by overturning the auditor).
-
-**Main agent before audit**
-1. Package each candidate with: proposed slot · title · win · claimed hours · source URL · notes (day, season, cost, drive).
-2. Home EASY from the catalog still goes through audit (tone / moral-homework only; hours n/a).
-3. Spawn an auditor via the harness subagent/task tool. Prefer **read-only**. Pass the packet + target date + home/area + the reject table below.
-
-**Auditor job**
-- Independently re-check near/Stretch claims against sources when possible (open URLs; do not invent hours).
-- Apply reject table. Output only structured results — no board prose.
-
-**Reject if**
+### Reject if
 
 | Reject | Why |
 |--------|-----|
-| Hours made up (“usually 9–5”) | **Never invent open hours** |
+| Hours / season / closure made up | Dishonest |
 | Wrong day for market/event | Dishonest |
 | Crop / season closed | Dishonest |
-| Venue or trail closed | Safety / honesty |
-| Expensive tickets as default Easy | Prefer free/cheap |
+| Venue, trail, or road closed | Safety / honesty |
+| Expensive tickets as the default “easy” pick | Prefer free/cheap when slot is Easy |
 | Moral homework (“hydrate for wellness”) | Tiny pleasure or drop |
+| Overnight claims without a real place/region | Dishonest (weekend) |
 
-**Auditor output (required shape)**
+### Auditor output
 
 ```
 For each candidate:
@@ -103,78 +79,26 @@ For each candidate:
 Summary: kept N / dropped M
 ```
 
-**Main agent after audit**
-- Compose only from **KEEP** (and `check-before-go` only if hours fragile but real — still mark on card).
-- If audit drops a slot empty: leave it empty or omit Stretch; never invent a replacement without re-pull + re-audit.
-- Honesty footer uses the auditor’s DROP list.
-
-### 4. Score & compose
-Prefer free > cheap > paid · closer within slot · verified hours · novelty vs recent boards (if any) · worth the drive. **Free ≠ free if far** — mention gas/parking when relevant.
-
-### 5. Write each card
-Emit each card in the **Presentation** format. Wins should be binary and specific. Near/Stretch hours must match auditor `hours_ok` / source.
-
-**Win patterns:** sit with cup **5 min before any app** · any veg + any protein on a plate · buy **1 fruit** · concert/set or hilltop turnaround + leave.
-
-### 6. Honesty footer
-List **dropped** ideas from the auditor briefly (season over, wrong day, closed trail).
+### Main agent after audit
+- Compose only from **KEEP** (`check-before-go` allowed if hours real but fragile — mark on card).
+- Empty after DROP → leave empty / fewer cards; never invent a replacement without re-pull + re-audit.
+- Honesty footer = auditor DROP list.
 
 ---
 
-## Easy home catalog (rotate)
+## Shared presentation bits
 
-Pick **one** for the home slot.
+- Binary **Win:** specific, doable, optional.
+- Hours line: `n/a` (starter) or sourced hours + URL (trips).
+- **Not today:** short list of auditor drops when any fired.
+- Optional one-line “why this board.”
 
-| Family | Title example | Win |
-|--------|---------------|-----|
-| Coffee/tea | Slow first pour | Brew; sit **5 min before any app** |
-| Meal | Two-color plate | Any veg + any protein on one plate |
-| Air | One window open | Open one window 3 min; name one outdoor sound/smell |
-| Tiny tidy | Five-thing surface | Clear exactly 5 things from one surface |
-| Hydrate | First glass | One full glass of water before coffee *or* first scroll |
-
-“The win is the sit, not the caffeine optimize.”
+Mode files own card count, slots, and full templates.
 
 ---
 
-## Presentation
+## Evals
 
-```
-Sunday board — pick 0–2. One at a time. Skip free.
+Manual / harness eval cases: [evals/cases.json](evals/cases.json). How to run: [evals/README.md](evals/README.md).
 
-EASY · home · free · ~10 min
-Slow first pour
-Win: brew coffee or tea; sit 5 min before any app
-Hours: n/a
-
-EASY · near · free–cheap · ~30–45 min
-One fruit at [Market name]
-Win: buy 1 fruit and bring it home
-Hours: Sun 9am–2pm (check) · https://example.org/market
-
-STRETCH · free · ~20–40 min one-way
-[Event or park]
-Win: <binary>
-Hours: … · https://…
-
-Not today: [wrong-day market] · [out-of-season crop] · [closed trail]
-Soft exits: skip all · later · can't today
-```
-
-The near/Stretch lines above are **illustrative format only** — re-fetch live hours and real URLs. Optional one-line “why this board.” Don’t dump raw research unless asked.
-
----
-
-## Checklist before you send
-
-- [ ] Real date resolved  
-- [ ] ≥1 zero-drive EASY  
-- [ ] Hard filters run by **subagent auditor** (not main-agent self-check)  
-- [ ] Every DROP honored; no invented hours  
-- [ ] Wrong-day / out-of-season / closed only appear in Not today  
-- [ ] Pick 0–2 · soft exits printed  
-- [ ] Wins binary and doable  
-- [ ] STRETCH linked or omitted  
-- [ ] No app setup or guide persona required  
-
-If any item fails, fix the board and re-run the checklist. Do not send until all pass.
+When changing mode behavior, keep cases green in spirit (expected_behavior), especially honesty and mode routing.

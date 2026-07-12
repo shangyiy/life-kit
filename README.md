@@ -1,6 +1,6 @@
 # life-kit
 
-Portable [Agent Skills](https://agentskills.io) pack for personal life tooling (weekend boards, local recommend loops, etc.).
+Portable [Agent Skills](https://agentskills.io) pack for personal life tooling (starters, half-day and weekend side quests, etc.).
 
 Umbrella name on purpose — reorganize or split skills later without renaming every consumer on day one.
 
@@ -10,7 +10,7 @@ Umbrella name on purpose — reorganize or split skills later without renaming e
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Standalone 1–3 card side-quest board (Easy day-start + local/seasonal outing); web sources; honest hours; soft skips |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter** (at-home ritual), **half-day** (local outing), **weekend** (overnight sketch). Web + honest hours on trip modes; subagent hard-filter audit |
 
 ## Install
 
@@ -38,11 +38,21 @@ grok plugin enable life-kit
 Standalone — no app setup, no bot persona required.
 
 ```text
-/side-quest-recommend
-# or: weekend board / things to do tomorrow (home area, drive ≤60m, …)
+/side-quest-recommend starter
+/side-quest-recommend half-day
+/side-quest-recommend weekend
+# or natural language: "brew tea starter", "half-day near Mission", "weekend getaway under 2.5h"
 ```
 
-Outputs up to three cards: Easy home · Easy near · Stretch. Pick 0–2. Skip free. Never invent open hours.
+| Mode | Output |
+|------|--------|
+| **starter** | 1 tiny home card (e.g. brew + sit 5 min) |
+| **half-day** | Up to 2 local outing cards; subagent audit |
+| **weekend** | Overnight trip sketch (anchor + day + optional stay type); subagent audit |
+
+Never invent open hours. Trip modes require a separate auditor subagent for hard filters.
+
+Evals (manual rubric): [`skills/side-quest-recommend/evals/`](./skills/side-quest-recommend/evals/).
 
 ## Layout
 
@@ -54,6 +64,13 @@ life-kit/
   skills/
     side-quest-recommend/
       SKILL.md
+      modes/
+        starter.md
+        half-day.md
+        weekend.md
+      evals/
+        cases.json
+        README.md
 ```
 
 ## License
