@@ -9,6 +9,11 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`review-resume`](./skills/review-resume/SKILL.md) | `/review-resume` | Honest resume ↔ JD fit review (hiring-manager lens) |
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
 | [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
+| [`unit-tests`](./skills/unit-tests/SKILL.md) | `/unit-tests` | CMU 18-652 unit testing meta-skill (SWE suite) |
+| [`black-box`](./skills/black-box/SKILL.md) | `/black-box` | Spec-based input selection (child of `/unit-tests`) |
+| [`test-oracle`](./skills/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
+| [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
+| [`mutation-testing`](./skills/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
 
 ## Install
 
@@ -45,6 +50,26 @@ Formerly the standalone **hire-signal** pack; now lives here under `skills/revie
 3. Show overall **numbered options** — user picks  
 
 No mode quiz. Skip free. Never invent hours/venues.
+
+## swe (unit testing)
+
+CMU 18-652–grounded unit testing suite. Entry point:
+
+```text
+/unit-tests
+```
+
+Orchestrates:
+
+1. **Contract** — pre/post-conditions, invariants  
+2. **`/black-box`** — partition inputs, pick representatives  
+3. **`/test-oracle`** — pass/fail procedure per case  
+4. **Fixture** — Arrange EUT + doubles  
+5. **Write tests** — Act + Assert  
+6. **`/white-box`** — CFG coverage gaps  
+7. **`/mutation-testing`** — suite adequacy when requested  
+
+Principles live in [`skills/unit-tests/references/principles.md`](./skills/unit-tests/references/principles.md).
 
 ## License
 
