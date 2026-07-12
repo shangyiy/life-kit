@@ -38,9 +38,9 @@ Up to **3 cards**. Human picks **0–2**. One active at a time.
 
 | Slot | Role | Rules |
 |------|------|--------|
-| **① EASY · home** | Day-start, zero travel | 5–25 min · free · binary win · pleasure, not diet lecture |
-| **② EASY · near** | Short leave | Cheap/free · one stop · hours from a real source |
-| **③ STRETCH** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours. **Omit** if nothing honest survives filters. |
+| **EASY · home** | Day-start, zero travel | 5–25 min · free · binary win · pleasure, not diet lecture |
+| **EASY · near** | Short leave | Cheap/free · one stop · hours from a real source |
+| **STRETCH** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours. **Omit** if nothing honest survives filters. |
 
 Always **≥1 zero-drive EASY**. Prefer in-season / dated local when real; else home only. No account or prior state required.
 
@@ -95,7 +95,7 @@ When filters fired, list **dropped** ideas briefly (season over, wrong day, clos
 
 ## Easy home catalog (rotate)
 
-Pick **one** for slot ①.
+Pick **one** for the home slot.
 
 | Family | Title example | Win |
 |--------|---------------|-----|
@@ -114,17 +114,17 @@ Pick **one** for slot ①.
 ```
 Sunday board — pick 0–2. One at a time. Skip free.
 
-① EASY · home · free · ~10 min
+EASY · home · free · ~10 min
 Slow first pour
 Win: brew coffee or tea; sit 5 min before any app
 Hours: n/a
 
-② EASY · near · free–cheap · ~30–45 min
+EASY · near · free–cheap · ~30–45 min
 One fruit at [Market name]
 Win: buy 1 fruit and bring it home
 Hours: Sun 9am–2pm (check) · https://example.org/market
 
-③ STRETCH · free · ~20–40 min one-way
+STRETCH · free · ~20–40 min one-way
 [Event or park]
 Win: <binary>
 Hours: … · https://…
