@@ -5,5 +5,7 @@
   "author": {
     "name": "shangyiy"
   },
-  "skills": []
+  "skills": [
+    "./skills/side-quest-recommend"
+  ]
 }
