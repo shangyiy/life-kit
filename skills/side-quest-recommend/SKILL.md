@@ -1,18 +1,18 @@
 ---
 name: side-quest-recommend
 description: >
-  Builds a short menu of optional side quests by running starter, half-day, and
-  weekend modes as parallel subagents, then listing options for the user to pick.
-  Use for /side-quest-recommend, weekend board, things to do, what should I do,
-  bored, local outing, day trip, getaway ideas, or side quest. Not multi-day
-  itineraries or restaurant booking.
+  Suggests a few optional things to do near you — a tiny at-home start, a local
+  outing, or a simple getaway idea — based on time and place. You pick one or
+  skip. Use for /side-quest-recommend, weekend plans, things to do, what should
+  I do, bored, local outing, day trip, getaway ideas, or side quest. Not for
+  multi-day travel itineraries or restaurant booking.
 ---
 
 # Side quest recommend
 
-**You orchestrate. Subagents propose options. User picks.**
+Help the human choose **one optional thing** that fits *right now* (or the day they named). Dessert, not homework. Skip free. Never invent open hours or venues.
 
-Dessert, not homework. Skip free. Never invent open hours or venues.
+**How it feels for them:** a short menu of real options → they pick a number (or none). No mode quiz.
 
 ## 1. Context (main agent only)
 

@@ -7,7 +7,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Parallel mode subagents → menu of options to pick |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
 
 ## Install
 
