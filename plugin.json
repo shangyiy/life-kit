@@ -1,12 +1,13 @@
 {
   "name": "life-kit",
-  "version": "0.5.0",
-  "description": "Portable agent skills pack: side-quest-recommend, review-skill, review-resume, swe unit-testing. Reorg-friendly umbrella; skills live under skills/.",
+  "version": "0.6.0",
+  "description": "Portable agent skills pack: side-quest-recommend, review-skill, review-resume, swe unit-testing, carry-plan. Reorg-friendly umbrella; skills live under skills/.",
   "author": {
     "name": "shangyiy"
   },
   "skills": [
     "./skills/black-box",
+    "./skills/carry-plan",
     "./skills/mutation-testing",
     "./skills/review-resume",
     "./skills/review-skill",
