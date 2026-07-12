@@ -9,6 +9,7 @@ Portable [Agent Skills](https://agentskills.io) pack. Umbrella name on purpose �
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | One subagent audits a skill against a best-practices URL (default: [Anthropic Agent Skills best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)) |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Three modes: **starter**, **half-day**, **weekend**. Web + honest hours on trip modes |
 
 ## Install
 
@@ -40,6 +41,16 @@ grok plugin enable life-kit
 
 Spawn a subagent; it audits against the link. You don’t self-audit.
 
+## side-quest-recommend (quick)
+
+```text
+/side-quest-recommend starter
+/side-quest-recommend half-day
+/side-quest-recommend weekend
+```
+
+Standalone — no app setup, no bot persona. Never invent open hours. Trip modes use a separate hard-filter audit pass (subagent preferred).
+
 ## Layout
 
 ```text
@@ -50,6 +61,10 @@ life-kit/
   skills/
     review-skill/
       SKILL.md
+    side-quest-recommend/
+      SKILL.md
+      modes/
+      evals/
 ```
 
 ## License

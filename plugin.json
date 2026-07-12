@@ -1,11 +1,12 @@
 {
   "name": "life-kit",
-  "version": "0.1.1",
-  "description": "Portable agent skills pack (skill-authoring helpers + personal life tools). Reorg-friendly umbrella; skills live under skills/.",
+  "version": "0.2.0",
+  "description": "Portable agent skills pack: side-quest-recommend + review-skill. Reorg-friendly umbrella; skills live under skills/.",
   "author": {
     "name": "shangyiy"
   },
   "skills": [
-    "./skills/review-skill"
+    "./skills/review-skill",
+    "./skills/side-quest-recommend"
   ]
 }
