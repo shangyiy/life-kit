@@ -21,14 +21,17 @@ Help the human choose **one optional thing** that fits *right now* (or the day t
 
 | Chip | Locale |
 |------|--------|
-| **繁體中文** | `zh-Hant` — default recommend for this household if they pick it |
+| **繁體中文** | `zh-Hant` |
 | **简体中文** | `zh-Hans` |
 | **English** | `en` |
 
-Store as `language` in the context packet / profile. **All user-facing copy** (menu, wins, soft lines, soft exits when printed) follows that pick. Place names may stay in the local language of the venue; keep win/why in the chosen language.
+Store as `language` in the context packet / profile (this session at minimum; profile if product has one).  
+**User-facing copy** (menu lead-in, wins, soft lines) follows that pick.  
+**Place names** may stay in the venue’s local language.  
+**Web search** uses the **place’s** language (see [references/web-search.md](references/web-search.md)) — not only UI language.
 
-If already set (profile / prior turn) → reuse; offer change under settings only.  
-Standalone skill with no product setup: first message can be just the three chips if language unknown.
+If already set → reuse; change under settings only.  
+Standalone, language unknown: first message = the three chips only.
 
 ## #1 rule — grounded by data
 
@@ -76,9 +79,11 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 ```
 You are proposing ONE side-quest option for mode: <mode>.
 #1 rule: grounded by data — time, location, and the quest must be REAL and DOABLE for the context packet. If not, STATUS: SKIP.
-Context packet: <paste full packet>
+Context packet: <paste full packet including language>
+Write win/why in packet.language. Search queries in the place’s language (see web-search.md).
 Follow the mode file (absolute path): <mode path>
-If half-day or weekend: ALSO follow web-search rules (absolute path): <…/references/web-search.md> — use that mode's query set.
+If half-day or weekend: ALSO follow web-search (absolute path): <…/references/web-search.md>
+  — query set for this mode; after verify use “Among verified candidates” rank.
 Tools: <starter: no web | half-day/weekend: MUST web_search + open/fetch pages before OPTION>
 OPTION must cite a real source URL when claiming a place/hours.
 Return STATUS: OPTION | SKIP using the Output section of the mode file only.
@@ -89,6 +94,10 @@ Prefer parallel spawn. Wait for all three.
 
 If **no** subagent tool: run each mode yourself as a labeled pass (same contracts; still use `references/web-search.md` for half-day/weekend).
 
+### Date range (vacation day-slice)
+
+If the user gives a **range of days** (vacation): you may run **one half-day packet per day** (or only days they care about). Still **not** a multi-city booked itinerary. Each day is independent OPTION/SKIP; apply web-search **no-repeat** across days when another grounded rank ≥2 option exists.
+
 ## 3. Collect → validate → menu (main agent)
 
 Before showing anything, drop OPTIONs that fail grounding:
@@ -98,13 +107,15 @@ Before showing anything, drop OPTIONs that fail grounding:
 3. Not doable in the free window (e.g. leave-tonight overnight with no booked stay at 11pm).  
 4. Travel clearly over packet max one-way.
 
+If several outing candidates remain, prefer the one that would win **Among verified candidates** in [references/web-search.md](references/web-search.md) (dated event → weekday market → 直売 → park).
+
 If **zero** OPTIONs remain → one honest starter from `modes/starter.md` if still grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
 
 Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.
 
 - Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
 - Omit SKIP modes silently (no “not offered: …” footnotes).  
-- Soft lead-in; “pick one or none.”
+- Soft lead-in in `packet.language`; “pick one or none.”
 
 ```
 # en
@@ -116,6 +127,11 @@ hey — pick one or none:
 嗨 — 選一個或不選：
 1. …
 2. …（時間 · 車程 · 連結）
+
+# zh-Hans
+嗨 — 选一个或不选：
+1. …
+2. …（时间 · 车程 · 链接）
 ```
 
 **Stop and wait** for a number (or skip).
