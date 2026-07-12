@@ -14,6 +14,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`test-oracle`](./skills/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
 | [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
 | [`mutation-testing`](./skills/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
+| [`carry-plan`](./skills/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to PR: unit-tests family + goal + split editor/validator |
 
 ## Install
 
@@ -71,6 +72,20 @@ Orchestrates:
 
 Principles live in [`skills/unit-tests/references/principles.md`](./skills/unit-tests/references/principles.md).
 
+## carry-plan
+
+```text
+/carry-plan
+[paste plan]
+```
+
+One line: **implement the plan using `/unit-tests` and its family.**
+
+- Sets a **goal**: all tests pass **and** PR description is up to date and honors the plan  
+- **Editor** subagent implements + writes tests  
+- **Validator** subagent is always a **different** agent (never the editor self-certifying)  
+
 ## License
 
 MIT
+
