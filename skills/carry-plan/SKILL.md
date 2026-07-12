@@ -21,9 +21,9 @@ Orchestrate only. Do not self-certify. Primary term for the GitHub text: **PR bo
 
 | Role | Who | Job |
 |------|-----|-----|
-| **Orchestrator** | Main agent | Read plan, set goal, spawn subagents, open/update PR |
+| **Orchestrator** | Main agent | Read plan, set goal, **draft PR body**, spawn subagents, open/update PR |
 | **Editor** | Subagent | Implement plan + write tests (when required) |
-| **Validator** | **Different** subagent | Run tests / stated checks; audit PR body vs plan |
+| **Validator** | **Different** subagent | Run tests / stated checks; audit **draft PR body** vs plan |
 
 **Rule of thumb: editor and validator must not be the same agent.**  
 Never validate by resuming the editor. Always spawn a fresh validator (or a prior validator id — never the editor’s id).
@@ -37,13 +37,22 @@ As soon as acceptance criteria exist, set an autonomous goal (`/goal` or `update
 
 If goal tooling is missing: state both criteria in chat and track them explicitly each round (do not skip the gate).
 
-Report progress after each editor/validator round. Mark completed only when the validator confirms all active criteria. After **3** FAIL rounds, stop and surface `blocked_reason` (what failed, last validator report, next human decision) — never fake green.
+Report progress after each editor/validator round. Mark completed only when the validator confirms all active criteria. After **3** validator FAIL rounds, stop and surface `blocked_reason` using the template below — never fake green.
 
 ### Goal text example
 
 ```text
 Carry plan: <title>. Success: (1) <test command or "docs-only checks"> green;
 (2) PR body honors plan acceptance criteria: <bullets>.
+```
+
+### blocked_reason template
+
+```text
+blocked_reason: <what failed>
+last_validator: <VERDICT summary / key gaps>
+fail_rounds: n/3
+ask_human: <decision needed>
 ```
 
 ## Workflow
@@ -53,24 +62,26 @@ Copy and tick:
 - [ ] 1 Plan restated with acceptance criteria  
 - [ ] 2 Goal active  
 - [ ] 3 Editor implemented (+ tests if required)  
-- [ ] 4 Validator PASS  
-- [ ] 5 Goal completed  
-- [ ] 6 PR opened/updated with validated PR body  
+- [ ] 4 Orchestrator drafted PR body from plan + editor summary  
+- [ ] 5 Validator PASS (tests + draft PR body)  
+- [ ] 6 Goal completed  
+- [ ] 7 PR opened/updated with validated PR body  
 
 1. **Plan** — take the plan (paste, design doc, RFC, issue, or PR plan section). Restate acceptance criteria in one short block.  
    **If no plan, or criteria cannot be restated:** ask once for the plan/source; **do not** spawn the editor until criteria are written.
 2. **Goal** — set the goal above; do not start editing until the goal is active (or explicitly tracked in chat).
 3. **Editor subagent** — spawn with write access; instruct it to:
    - implement only what the plan requires
-   - **If the plan changes behavior or API:** design and write tests with **`/unit-tests`** (and children as needed: `/black-box`, `/test-oracle`, `/white-box`, `/mutation-testing`)
+   - **If the plan changes behavior or API:** design and write tests with **`/unit-tests`** (and children as needed: `/black-box`, `/test-oracle`, `/white-box`, `/mutation-testing`). **If `/unit-tests` is unavailable:** still require black-box tests for changed behavior/API using project test conventions; do **not** skip the test criterion.
    - **If docs/chore only:** skip unit-test design; implement only stated deliverables
    - leave a short summary of files + how checks map to the plan
-4. **Validator subagent** — **new agent** (not the editor). Instruct it to return the report skeleton below — **no code edits**:
+4. **Draft PR body (orchestrator)** — after the editor returns, **you** write the draft **PR body** from the plan + editor summary (scope, what changed, acceptance criteria, test plan). Do not open the PR yet. Pass this draft into the validator spawn payload.
+5. **Validator subagent** — **new agent** (not the editor). Give it the draft PR body + plan. Instruct it to return the report skeleton below — **no code edits**:
    - run the repo’s test command(s) (or plan-stated checks for docs/chore)
-   - read the open or draft **PR body** against the plan; list gaps if stale, missing plan items, or overclaims
+   - audit the **draft PR body** against the plan; list gaps if stale, missing plan items, or overclaims
    - verdict **PASS** or **FAIL**
-5. **Loop** — on FAIL: resume or re-spawn the **editor** only; then spawn a **new validator**. Cap **3** FAIL rounds → `blocked_reason`. On PASS: complete goal; PR body must be the validated text.
-6. **PR** — open or update the PR with that body. If PR tooling is missing: leave a ready-to-paste PR body for the user (still require validator PASS on that draft).
+6. **Loop** — on FAIL: resume or re-spawn the **editor** only (if code/tests); revise draft PR body if body-only gaps; then spawn a **new validator**. Cap **3** validator FAIL rounds → `blocked_reason`. On PASS: complete goal; open/update PR only with the **validated** PR body.
+7. **PR** — open or update the PR with that body. If PR tooling is missing: leave the validated body ready to paste for the user (still require validator PASS on that draft).
 
 ## Validator report skeleton
 
@@ -97,15 +108,40 @@ PR body vs plan:
 Gaps: tests red; PR body omits jti rotation
 ```
 
+### Example PASS (behavior)
+
+```text
+VERDICT: PASS
+Tests: npm test · exit 0 · pass
+PR body vs plan:
+  - [x] scope matches
+  - [x] acceptance criteria covered
+  - [x] no overclaim
+Gaps: none
+```
+
+### Example PASS (docs-only)
+
+```text
+VERDICT: PASS
+Tests: N/A docs-only: links resolve; README section present
+PR body vs plan:
+  - [x] scope matches
+  - [x] acceptance criteria covered
+  - [x] no overclaim
+Gaps: none
+```
+
 ## Subagent placement
 
 | Step | Subagent? | Notes |
 |------|-----------|--------|
 | Parse plan / set goal | Main | Keep plan + goal ownership here |
-| Implement (+ tests) | **Editor** | One implementer; may run unit-tests workflow when required |
-| Test run + PR body audit | **Validator** | Read-only preferred; never the editor |
-| Fix after FAIL | **Editor** | Same editor resume is fine; validator stays separate |
-| Goal complete / PR push | Main | Orchestrator owns git/PR surface if policy requires |
+| Implement (+ tests) | **Editor** | One implementer; unit-tests workflow when required |
+| Draft PR body | Main | From plan + editor summary; before validator |
+| Test run + PR body audit | **Validator** | Read-only preferred; never the editor; receives draft |
+| Fix after FAIL | **Editor** (+ Main if body-only) | Validator stays separate |
+| Goal complete / PR push | Main | Only after validator PASS |
 
 If subagents are unavailable: still separate “editor pass” and “validator pass” in two turns — never claim validation in the same turn that edited.
 
@@ -113,14 +149,16 @@ If subagents are unavailable: still separate “editor pass” and “validator 
 
 - Editor self-validates (“tests look fine”) without a separate agent run  
 - Goal completed before tests/checks were actually run  
+- Opening a PR before a draft PR body was written and validated  
 - PR body left as default/fill while the plan listed concrete acceptance criteria  
 - Expanding scope beyond the plan without updating the goal and PR body  
 - Forcing full `/unit-tests` ceremony on pure docs/chore plans  
+- Skipping tests on behavior/API changes because `/unit-tests` skill is missing  
 
 ## Output
 
-Each round, one status line:
+Each round, one status line (`fail_rounds` = validator FAIL count only):
 
 ```text
-goal: in_progress|completed|blocked · editor: <1-line summary> · validator: PASS|FAIL · rounds: n/3 · PR: <url|draft>
+goal: in_progress|completed|blocked · editor: <1-line> · validator: PASS|FAIL · fail_rounds: n/3 · PR: <url|draft>
 ```

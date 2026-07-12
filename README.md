@@ -82,8 +82,8 @@ Principles live in [`skills/unit-tests/references/principles.md`](./skills/unit-
 One line: **implement the plan using `/unit-tests` and its family when behavior/API changes.**
 
 - Sets a **goal**: tests/checks green **and** **PR body** honors the plan  
-- **Editor** subagent implements (+ tests when required); docs/chore can skip unit-test design  
-- **Validator** is always a **different** agent (never the editor self-certifying); max 3 FAIL rounds  
+- **Editor** implements (+ tests when required); orchestrator **drafts PR body**; **Validator** is a different agent  
+- Max 3 validator FAIL rounds; open PR only after validated body  
 
 ## License
 
