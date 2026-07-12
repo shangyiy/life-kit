@@ -15,6 +15,21 @@ Help the human choose **one optional thing** that fits *right now* (or the day t
 
 **How it feels for them:** a short menu of real options → they pick a number (or none). No mode quiz.
 
+## Language (intro / setup)
+
+**Get the human to pick once** before (or as the first step of) setup — do not guess family language.
+
+| Chip | Locale |
+|------|--------|
+| **繁體中文** | `zh-Hant` — default recommend for this household if they pick it |
+| **简体中文** | `zh-Hans` |
+| **English** | `en` |
+
+Store as `language` in the context packet / profile. **All user-facing copy** (menu, wins, soft lines, soft exits when printed) follows that pick. Place names may stay in the local language of the venue; keep win/why in the chosen language.
+
+If already set (profile / prior turn) → reuse; offer change under settings only.  
+Standalone skill with no product setup: first message can be just the three chips if language unknown.
+
 ## #1 rule — grounded by data
 
 **Everything must be real and doable.** No vibes-only inventing.
@@ -34,8 +49,9 @@ Resolve a **context packet** before spawning. Prefer tools over questions.
 
 | Field | Rule |
 |--------|------|
+| `language` | From intro/setup pick: `zh-Hant` · `zh-Hans` · `en`. **Ask with chips if missing.** |
 | `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
-| `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note: “Using ~City from this network.” Ask **only** if lookup fails or is useless. User correction always wins. |
+| `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note in their language. Ask **only** if lookup fails or is useless. User correction always wins. |
 | `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
 | `transport` | Default walk + drive OK |
 | `max_one_way_local` | **60 min** (half-day may stretch ≤75 if clearly worth it) |
@@ -91,10 +107,15 @@ Show remaining options as a **short friend-text menu** (numbered). Do not auto-p
 - Soft lead-in; “pick one or none.”
 
 ```
+# en
 hey — pick one or none:
-
 1. …
 2. … (hours · short travel · link if useful)
+
+# zh-Hant
+嗨 — 選一個或不選：
+1. …
+2. …（時間 · 車程 · 連結）
 ```
 
 **Stop and wait** for a number (or skip).
