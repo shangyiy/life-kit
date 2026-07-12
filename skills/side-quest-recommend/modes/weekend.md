@@ -5,7 +5,8 @@ One **overnight / getaway** sketch — not a booking agent.
 ## Fit
 
 Fri–Sun free window, user said getaway/overnight/out of town, or a full free weekend.  
-**SKIP** if midweek workday, only a free evening, or they only asked for a quick local thing.
+**SKIP** if midweek workday, only a free evening, or they only asked for a quick local thing.  
+**SKIP** if it’s already late night with **no booked stay** and the only path is “leave tonight / find a bed now” — that is pressure, not dessert. Re-offer overnight only for a real upcoming free Fri–Sat (or when they say a stay is already booked).
 
 ## Defaults
 

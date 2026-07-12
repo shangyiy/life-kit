@@ -62,23 +62,16 @@ If **no** subagent tool: run each mode file yourself as a separate labeled pass 
 
 1. Drop any OPTION that invents a named venue/hours without source or check-before-go.
 2. If **zero** OPTIONs → either run starter yourself from `modes/starter.md` once, or say what’s missing (free window only — re-try network location before asking where they are). Do **not** invent half-day/weekend fillers.
-3. Show remaining options as a **numbered menu**. Do not auto-pick.
+3. Show remaining options as a **short friend-text menu** (numbered). Do not auto-pick.  
+   - Human labels only — **not** STARTER / HALF-DAY / WEEKEND chrome.  
+   - Omit SKIP modes silently (no “not offered: …” footnotes in the user text).  
+   - Soft lead-in; “pick one or none.”
 
 ```
-Side quests — pick 0–1 (or more if you want). Skip free.
+hey — pick one or none:
 
-1 · STARTER · <title>
-   Win: …
-   …
-
-2 · HALF-DAY · <title>
-   Win: …
-   Hours: … · url
-
-3 · WEEKEND · <title>     # omit if SKIP
-   …
-
-Why these: one line from context packet.
+1. …
+2. … (hours · short travel · link if useful)
 ```
 
 **Stop and wait** for a number (or skip).
