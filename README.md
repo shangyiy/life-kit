@@ -10,7 +10,7 @@ Umbrella name on purpose — reorganize or split skills later without renaming e
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Build a 1–3 card Side Quest board (Easy day-start + local/seasonal outing) with real web sources, honest hours, soft exits |
+| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | Standalone 1–3 card side-quest board (Easy day-start + local/seasonal outing); web sources; honest hours; soft skips |
 
 ## Install
 
@@ -33,14 +33,16 @@ grok plugin install shangyiy/life-kit --trust
 grok plugin enable life-kit
 ```
 
-## Side Quest recommend (quick)
+## side-quest-recommend (quick)
+
+Standalone — no app setup, no bot persona required.
 
 ```text
 /side-quest-recommend
-# or: weekend board / things to do tomorrow (Mission home, drive ≤60m, …)
+# or: weekend board / things to do tomorrow (home area, drive ≤60m, …)
 ```
 
-Outputs up to three cards: Easy home · Easy near · Stretch. Pick 0–2. Skip free. Never invent open hours. Guide-agnostic (no required bot persona).
+Outputs up to three cards: Easy home · Easy near · Stretch. Pick 0–2. Skip free. Never invent open hours.
 
 ## Layout
 

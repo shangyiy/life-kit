@@ -1,35 +1,34 @@
 ---
 name: side-quest-recommend
 description: >
-  Run the Side Quest recommend pipeline: build a 1–3 card board (Easy day-start +
-  local/seasonal outing) with real web-sourced options, honest hours, and soft exits.
-  Use when the user asks for side quests, weekend board, things to do, /side-quest-recommend,
-  "recommend quests", dry-run board, or tomorrow/this weekend plans in the Side Quest product sense.
+  Standalone skill: build a small 1–3 card "side quest" board for today/this weekend
+  (easy day-start at home + optional local outing) using real web sources, honest hours,
+  and soft skips. Use when the user wants things to do, a weekend board, local suggestions,
+  /side-quest-recommend, "recommend quests", or dry-run a side-quest board.
 ---
 
-# Side Quest — Recommend
+# Side quest recommend
 
-**What this is:** The *recommend* step only. Not full app setup, not memory badges, not weekday boards. **Guide-agnostic** — no named character required; output is a plain board anyone can paste into chat or a bot.
+Standalone recommend skill. It only builds a short board of optional things to do.
+It does **not** depend on any app, bot persona, setup wizard, or product plan.
 
-**Product one-liner:** Weekend side quests · Easy day-start + local explore · soft exits · dessert not homework.
+**Job:** Give the human a board they can actually follow — including easy wins like “sit with the cup 5 min before any app.”
 
-**Job:** Produce a small board the human can actually follow today/tomorrow — including Easy wins like “sit with the cup 5 min before any app.”
+**Tone:** Dessert, not homework. Optional always. No guilt, streaks, or productivity coach voice.
 
 ---
 
 ## When to use
 
 - “What should I do this weekend / tomorrow?”
-- “Dry-run the board” / “suggest side quests”
+- “Suggest side quests” / “weekend board” / “things to do near me”
 - `/side-quest-recommend`
-- Building or testing the Side Quest **suggest** step
 
 ## When not to use
 
-- Full product architecture or plan rewrites
-- Weekday commute boards (deferred)
-- Journal / Apple Notes / memory-badge generation (later)
-- Designing or locking a guide persona (out of scope for this skill)
+- Full product / app architecture design
+- Hiring, resume, or unrelated tasks
+- Long multi-day itineraries (use a travel planner mindset instead — this skill is 1–3 short cards)
 
 ---
 
@@ -37,79 +36,76 @@ description: >
 
 | Input | Default if unknown |
 |--------|-------------------|
-| Home | Ask once, or use last known |
-| When | **This weekend** or **tomorrow** if “tmr” — resolve real calendar date |
-| Transport | Drive + walk OK |
-| Max one-way | **60 min** (75 OK for one Stretch) |
-| Tastes | nature, food if unknown |
-| Phase | **Weekend only** — no weekday digests |
+| Home / area | Ask once (neighborhood or city is enough) |
+| When | **This weekend** or **tomorrow** if they said “tmr” — resolve a real calendar date |
+| Transport | Walk + drive OK |
+| Max one-way | **60 minutes** (up to ~75 for one Stretch) |
+| Interests | nature, food if unknown |
 
-Example locations in this skill are **illustrations**, not product defaults.
+Location examples in this file are **illustrations only**, not fixed defaults.
 
 ---
 
 ## Output shape (always)
 
-Show a **board of up to 3 cards**. Human picks **0–2**. One active at a time.
+Up to **3 cards**. Human picks **0–2**. One active at a time.
 
 | Slot | Role | Rules |
 |------|------|--------|
-| **① Easy · home** | Day-start, zero drive | 5–25 min · free · binary win · **dessert tone** (pleasure, not diet lecture) |
+| **① Easy · home** | Day-start, zero travel | 5–25 min · free · binary win · pleasure, not diet lecture |
 | **② Easy · near** | Short leave | Cheap/free · one clear stop · hours from a real source |
-| **③ Stretch** | Optional outing | Within max drive · free/cheap preferred · real event/place · hours honest |
+| **③ Stretch** | Optional outing | Within max drive · free/cheap preferred · real place/event · honest hours |
 
-Always include **≥1 zero-drive Easy**. Prefer in-season / dated local when real; else Easy-only is fine.
+Always include **≥1 zero-drive Easy**. Prefer in-season / dated local when real; else home Easy only is fine.
 
 ### Soft exits (always print)
 
-`skip all` · `later` · `mute 3d` · `can't today`  
-After a `done` with budget left: **one** residual line only; silence if ignored.
+`skip all` · `later` · `can't today`  
+
+(If the user is building a bot later they may add `mute` — not required for this skill.)
+
+After they complete one card with room for another: at most **one** residual suggestion; if they ignore it, stop.
 
 ---
 
-## How to recommend (pipeline)
+## Pipeline
 
 ### 1. Context
-Date(s), home, max drive, tastes, anything they already did this week (for rotation).
 
-### 2. Pull candidates (parallel is good)
+Date(s), home/area, max travel, interests, anything they already did recently (for rotation).
 
-Use **web_search / open_page** for outings. Use **templates** for home Easy (no fake “research”).
+### 2. Pull candidates
 
-Suggested query split:
+- **Home Easy:** templates below (no web needed).
+- **Near / Stretch:** `web_search` / `open_page` for markets, events, parks, seasonal U-pick, free culture.
 
-1. **Easy home catalog** — coffee/tea sit, veg+protein plate, window/air, tiny tidy, first glass of water  
-2. **Markets / produce** near home for that day of week  
-3. **Events** that date · free/cheap · half-day  
-4. **Parks / overlooks** · short loops  
-5. **Seasonal U-pick / harvest** · only if actually open  
-6. **Free culture** · bands, free tours, free festivals  
+Useful parallel pulls:
 
-You can run fewer if time is tight; never invent venues to fill slots.
+1. Easy home catalog  
+2. Markets / produce for that day of week near home  
+3. Events on that date (free/cheap, half-day)  
+4. Parks / short overlooks  
+5. Seasonal harvest only if actually open  
+6. Free culture (bands, free tours, free festivals)  
+
+Never invent venues to fill a slot.
 
 ### 3. Hard filters (reject if)
 
 | Reject | Why |
 |--------|-----|
-| Weekday-only event when product is weekend board | Phase 1 is weekend boards |
 | Hours made up (“usually 9–5”) | **Never invent open hours** |
-| Market wrong day | Wrong day |
-| Crop out of season | Dishonest |
-| Trail/venue closed | Safety / honesty |
-| Expensive tickets as default Easy | Prefer free/cheap |
-| “Hydrate / get sunlight” as moral homework | Preachy — reframe as tiny pleasure or skip |
+| Wrong day for a market/event | Dishonest |
+| Crop / season closed | Dishonest |
+| Venue or trail closed | Safety / honesty |
+| Expensive tickets as the Easy default | Prefer free/cheap |
+| Moral homework (“hydrate for wellness”) | Reframe as tiny pleasure or drop |
 
-If hours are real but fragile: keep card and mark **check before you go** + link.
+If hours are real but fragile: keep the card, mark **check before you go** + link.
 
 ### 4. Score & compose
 
-Prefer:
-
-- Free > cheap > paid  
-- Closer within slot  
-- Verified hours > verify-before-go  
-- Novelty vs last 2–4 boards (don’t spam the same Easy every week)  
-- Worth the drive for Stretch; **free ≠ free if far** — say gas/parking vibe  
+Prefer free > cheap > paid · closer within slot · verified hours · novelty vs recent suggestions · worth the drive for Stretch. **Free ≠ free if far** — mention gas/parking when relevant.
 
 ### 5. Write each card
 
@@ -117,7 +113,7 @@ Prefer:
 ① EASY · home · free · ~10 min
 Title
 Win: <binary, specific>
-Hours: n/a or sourced hours + URL
+Hours: n/a  or  sourced hours + URL
 
 ② EASY · near · …
 ③ STRETCH · …
@@ -132,7 +128,7 @@ Hours: n/a or sourced hours + URL
 
 ### 6. Honesty footer
 
-List **dropped** candidates in one short table when useful (season over, wrong-day market, closed trails) so the human trusts the board.
+When you filtered hard, list **dropped** ideas briefly (season over, wrong day, closed trail) so the board is trustworthy.
 
 ---
 
@@ -148,13 +144,13 @@ Pick **one** for slot ①; don’t always use coffee.
 | Tiny tidy | Five-thing surface | Clear exactly 5 things from one surface |
 | Hydrate | First glass | One full glass of water before coffee *or* first scroll |
 
-Tone: soft start, not self-improvement. “The win is the sit, not the caffeine optimize.”
+Tone: soft start. “The win is the sit, not the caffeine optimize.”
 
 ---
 
-## Presentation (neutral, human-readable)
+## Presentation
 
-Speak as a short **board drop**, not a research paper and not in-character roleplay unless the user asks for a specific guide voice:
+Short board drop — scannable, not a research dump. No required character voice.
 
 ```
 Sunday board — pick 0–2. One at a time. Skip free.
@@ -163,55 +159,52 @@ Sunday board — pick 0–2. One at a time. Skip free.
 ② EASY · near · …
 ③ STRETCH · …
 
-Not tomorrow: …
-Soft exits: skip all · later · mute 3d · can't today
+Not today: …
+Soft exits: skip all · later · can't today
 ```
 
-Optional: one line **why this board** (season, weather, soft Sunday start).
+Optional one line: why this board (weather, season, soft morning).
 
-Do **not** dump all raw research unless asked. Keep the board scannable; put sources as links on cards.
+Put sources as links on cards. Don’t dump raw research unless asked.
 
 ---
 
 ## Quality bar
 
-Good board:
+**Good**
 
-- At least one home Easy that feels nice, not preachy  
-- At least one real near option with a real hours source  
-- Stretch is optional and worth it (or omit if nothing honest)  
-- Explicit “not recommended” list when you filtered hard  
+- Home Easy feels nice, not preachy  
+- Near option has a real hours source  
+- Stretch optional and worth it (or omitted)  
+- Dropped list when filters fired  
 
-Bad board:
+**Bad**
 
-- Invented hours or “probably open”  
+- Invented hours  
 - Three drive quests, no home Easy  
 - Diet/wellness lectures  
-- Tourist sludge every week with no new reason  
-- Locked to a named bot persona or product mascot  
+- Same tourist loop every time with no new reason  
+- Depends on an app, bot name, or external product doc  
 
 ---
 
-## Quick checklist before you send
+## Checklist before you send
 
 - [ ] Real date resolved  
 - [ ] ≥1 zero-drive Easy  
 - [ ] No invented hours  
 - [ ] Wrong-day / out-of-season / closed dropped  
-- [ ] Pick 0–2 · one active · soft exits printed  
-- [ ] Wins are binary and doable  
-- [ ] Stretch has link or official place page  
-- [ ] No required guide name / persona voice  
+- [ ] Pick 0–2 · soft exits printed  
+- [ ] Wins binary and doable  
+- [ ] Stretch has a link or official page (if present)  
+- [ ] Works without any app setup or guide persona  
 
 ---
 
-## Example (pattern only — re-fetch live)
-
-Illustrative pattern (any city; re-fetch for real date/home):
+## Example pattern (not live truth)
 
 1. **Slow first pour** — sit 5 min before any app  
-2. **Local Sunday market or free produce stand** — one fruit (hours from official page)  
+2. **Local market / free produce stand that day** — one fruit (hours from official page)  
 3. **Free concert / short hill / dated free festival** — Stretch  
-Dropped: out-of-season U-pick, wrong-day neighborhood market, closed trails  
 
-Always re-web for the user’s real date and home — do not paste examples as live truth.
+Always re-fetch for the user’s real date and home.
