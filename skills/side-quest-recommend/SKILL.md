@@ -4,16 +4,16 @@ description: >
   Run the Side Quest recommend pipeline: build a 1–3 card board (Easy day-start +
   local/seasonal outing) with real web-sourced options, honest hours, and soft exits.
   Use when the user asks for side quests, weekend board, things to do, /side-quest-recommend,
-  "recommend quests", dry-run Mira board, or tomorrow/this weekend plans in the Side Quest product sense.
+  "recommend quests", dry-run board, or tomorrow/this weekend plans in the Side Quest product sense.
 ---
 
 # Side Quest — Recommend
 
-**What this is:** The *recommend* step only. Not full app setup, not memory badges, not weekday boards.
+**What this is:** The *recommend* step only. Not full app setup, not memory badges, not weekday boards. **Guide-agnostic** — no named character required; output is a plain board anyone can paste into chat or a bot.
 
-**Product one-liner:** Weekend chat side quests · Easy day-start + local explore · soft exits · dessert not homework.
+**Product one-liner:** Weekend side quests · Easy day-start + local explore · soft exits · dessert not homework.
 
-**Job:** Produce a small board the human can actually follow today/tomorrow — like the dry-run that felt good (“sit with the cup 5 min before any app”).
+**Job:** Produce a small board the human can actually follow today/tomorrow — including Easy wins like “sit with the cup 5 min before any app.”
 
 ---
 
@@ -22,13 +22,14 @@ description: >
 - “What should I do this weekend / tomorrow?”
 - “Dry-run the board” / “suggest side quests”
 - `/side-quest-recommend`
-- Building or testing the Side Quest agent’s **suggest** step
+- Building or testing the Side Quest **suggest** step
 
 ## When not to use
 
-- Full product architecture or plan rewrites → use the product plan HTML
+- Full product architecture or plan rewrites
 - Weekday commute boards (deferred)
 - Journal / Apple Notes / memory-badge generation (later)
+- Designing or locking a guide persona (out of scope for this skill)
 
 ---
 
@@ -36,12 +37,14 @@ description: >
 
 | Input | Default if unknown |
 |--------|-------------------|
-| Home | Ask once, or use last known; example dry-run used **Mission / 16th, SF** |
+| Home | Ask once, or use last known |
 | When | **This weekend** or **tomorrow** if “tmr” — resolve real calendar date |
 | Transport | Drive + walk OK |
 | Max one-way | **60 min** (75 OK for one Stretch) |
 | Tastes | nature, food if unknown |
 | Phase | **Weekend only** — no weekday digests |
+
+Example locations in this skill are **illustrations**, not product defaults.
 
 ---
 
@@ -73,10 +76,10 @@ Date(s), home, max drive, tastes, anything they already did this week (for rotat
 
 Use **web_search / open_page** for outings. Use **templates** for home Easy (no fake “research”).
 
-Suggested agent/query split (mirror the dry-run):
+Suggested query split:
 
 1. **Easy home catalog** — coffee/tea sit, veg+protein plate, window/air, tiny tidy, first glass of water  
-2. **Markets / produce** near home for that weekday (e.g. Sunday markets)  
+2. **Markets / produce** near home for that day of week  
 3. **Events** that date · free/cheap · half-day  
 4. **Parks / overlooks** · short loops  
 5. **Seasonal U-pick / harvest** · only if actually open  
@@ -88,11 +91,11 @@ You can run fewer if time is tight; never invent venues to fill slots.
 
 | Reject | Why |
 |--------|-----|
-| Weekday-only event on a weekday product surface | Phase 1 is weekend boards |
+| Weekday-only event when product is weekend board | Phase 1 is weekend boards |
 | Hours made up (“usually 9–5”) | **Never invent open hours** |
-| Market wrong day (e.g. Mission Community Market = Thu only) | Wrong day |
-| Crop out of season (e.g. Brentwood cherries mid-July 2026 = closed) | Dishonest |
-| Trail/venue closed (storm damage, etc.) | Safety / honesty |
+| Market wrong day | Wrong day |
+| Crop out of season | Dishonest |
+| Trail/venue closed | Safety / honesty |
 | Expensive tickets as default Easy | Prefer free/cheap |
 | “Hydrate / get sunlight” as moral homework | Preachy — reframe as tiny pleasure or skip |
 
@@ -105,7 +108,7 @@ Prefer:
 - Free > cheap > paid  
 - Closer within slot  
 - Verified hours > verify-before-go  
-- Novelty vs last 2–4 boards (don’t spam “Morning cup” every week)  
+- Novelty vs last 2–4 boards (don’t spam the same Easy every week)  
 - Worth the drive for Stretch; **free ≠ free if far** — say gas/parking vibe  
 
 ### 5. Write each card
@@ -120,7 +123,7 @@ Hours: n/a or sourced hours + URL
 ③ STRETCH · …
 ```
 
-**Win conditions people liked in dry-run:**
+**Win patterns that work:**
 
 - Sit with the cup **5 min before any app**  
 - One plate with **any veg + any protein** (leftovers count)  
@@ -129,7 +132,7 @@ Hours: n/a or sourced hours + URL
 
 ### 6. Honesty footer
 
-List **dropped** candidates in one short table when useful (cherries closed, wrong-day market, closed trails) so the human trusts the board.
+List **dropped** candidates in one short table when useful (season over, wrong-day market, closed trails) so the human trusts the board.
 
 ---
 
@@ -149,9 +152,9 @@ Tone: soft start, not self-improvement. “The win is the sit, not the caffeine 
 
 ---
 
-## Presentation (Mira-style, human-readable)
+## Presentation (neutral, human-readable)
 
-Speak as a short board drop, not a research paper:
+Speak as a short **board drop**, not a research paper and not in-character roleplay unless the user asks for a specific guide voice:
 
 ```
 Sunday board — pick 0–2. One at a time. Skip free.
@@ -164,13 +167,13 @@ Not tomorrow: …
 Soft exits: skip all · later · mute 3d · can't today
 ```
 
-Optional: one line **why this board** (season, weather, Sunday soft start).
+Optional: one line **why this board** (season, weather, soft Sunday start).
 
-Do **not** dump all raw subagent research unless asked. Keep the board scannable; put sources as links on cards.
+Do **not** dump all raw research unless asked. Keep the board scannable; put sources as links on cards.
 
 ---
 
-## Quality bar (from dry-run)
+## Quality bar
 
 Good board:
 
@@ -185,6 +188,7 @@ Bad board:
 - Three drive quests, no home Easy  
 - Diet/wellness lectures  
 - Tourist sludge every week with no new reason  
+- Locked to a named bot persona or product mascot  
 
 ---
 
@@ -197,16 +201,17 @@ Bad board:
 - [ ] Pick 0–2 · one active · soft exits printed  
 - [ ] Wins are binary and doable  
 - [ ] Stretch has link or official place page  
+- [ ] No required guide name / persona voice  
 
 ---
 
 ## Example (pattern only — re-fetch live)
 
-Dry-run pattern that worked (Mission home, Sun Jul 12 2026):
+Illustrative pattern (any city; re-fetch for real date/home):
 
 1. **Slow first pour** — sit 5 min before any app  
-2. **Free Farm Stand** (Mission, Sun 11:30–12:30) *or* **Heart of the City** (Sun 7–4) — one fruit  
-3. **Ferry Fest / GG Park Band / Bernal hill** — free Stretch  
-Dropped: cherries (season over), Mission market (Thu only), Corona Heights peak (closed)
+2. **Local Sunday market or free produce stand** — one fruit (hours from official page)  
+3. **Free concert / short hill / dated free festival** — Stretch  
+Dropped: out-of-season U-pick, wrong-day neighborhood market, closed trails  
 
-Always re-web for the user’s real date and home — do not paste this example as live truth.
+Always re-web for the user’s real date and home — do not paste examples as live truth.

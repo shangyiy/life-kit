@@ -40,7 +40,7 @@ grok plugin enable life-kit
 # or: weekend board / things to do tomorrow (Mission home, drive ≤60m, …)
 ```
 
-Outputs up to three cards: Easy home · Easy near · Stretch. Pick 0–2. Skip free. Never invent open hours.
+Outputs up to three cards: Easy home · Easy near · Stretch. Pick 0–2. Skip free. Never invent open hours. Guide-agnostic (no required bot persona).
 
 ## Layout
 
