@@ -22,7 +22,6 @@ Help the human choose **one optional thing** that fits *right now* (or the day t
 | Chip | Locale |
 |------|--------|
 | **繁體中文** | `zh-Hant` |
-| **简体中文** | `zh-Hans` |
 | **English** | `en` |
 
 Store as `language` in the context packet / profile (this session at minimum; profile if product has one).  
@@ -52,7 +51,7 @@ Resolve a **context packet** before spawning. Prefer tools over questions.
 
 | Field | Rule |
 |--------|------|
-| `language` | From intro/setup pick: `zh-Hant` · `zh-Hans` · `en`. **Ask with chips if missing.** |
+| `language` | From intro/setup pick: `zh-Hant` · `en`. **Ask with chips if missing.** |
 | `datetime` | ISO local + **weekday** (user-stated, else system clock; if unknown, ask once) |
 | `location` | User-stated if any; else **network / IP geolocation** (city/metro OK). **Do not ask** if network works. Optional soft note in their language. Ask **only** if lookup fails or is useless. User correction always wins. |
 | `free_window` | half-day · evening · overnight · full-weekend · unknown (infer from datetime + message) |
@@ -142,11 +141,6 @@ hey — pick one or none:
 嗨 — 選一個或不選：
 1. …
 2. …（時間 · 車程 · 連結）
-
-# zh-Hans
-嗨 — 选一个或不选：
-1. …
-2. …（时间 · 车程 · 链接）
 ```
 
 If **zero** winners → one honest starter yourself from `modes/starter.md` if grounded, or say you couldn’t verify an outing. **Do not invent fillers.**
