@@ -35,11 +35,11 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 
 | Mode | File | Tools | Job |
 |------|------|--------|-----|
-| **starter** | [modes/starter.md](modes/starter.md) | No web required | One tiny at-home option |
-| **half-day** | [modes/half-day.md](modes/half-day.md) | **Web search/browse OK** for place + hours | One same-day local outing |
-| **weekend** | [modes/weekend.md](modes/weekend.md) | **Web search/browse OK** | One getaway sketch, or SKIP if unfit |
+| **starter** | [modes/starter.md](modes/starter.md) | No web | One tiny at-home option |
+| **half-day** | [modes/half-day.md](modes/half-day.md) | **Must web search + fetch pages** for place & hours | One same-day local outing |
+| **weekend** | [modes/weekend.md](modes/weekend.md) | **Must web search + fetch pages** for region & status | One getaway sketch, or SKIP |
 
-**Capabilities:** starter = catalog only. half-day/weekend = may fetch official pages. If web tools unavailable → known real place + `check-before-go`, or **SKIP**. Never invent a venue name or schedule.
+**Capabilities:** starter = catalog only. **half-day and weekend subagents must look things up** (search + open official pages) per their mode file — not memory alone. If web tools are unavailable → `check-before-go` on a known real place, or **SKIP**. Never invent a venue name or schedule.
 
 **Each subagent prompt:**
 
@@ -47,7 +47,8 @@ Spawn **one subagent per mode**. Do **not** write the mode options yourself.
 You are proposing ONE side-quest option for mode: <mode>.
 Context packet: <paste full packet>
 Follow the mode file (absolute path): <path>
-Tools: <from SKILL mode table — no web | web for place+hours | web OK>.
+Tools: <starter: no web | half-day/weekend: you MUST use web_search and open/fetch official pages before OPTION>
+If mode is half-day or weekend: run the "Web lookup" section in the mode file first (real queries + open URLs). Put a real source URL on OPTION.hours when you claim a place.
 Return STATUS: OPTION | SKIP using the Output section of that mode file only.
 Do not add fields the mode does not define. Do not drop fields it does.
 Honesty: never invent venues/hours. No live source and not confident → SKIP or check-before-go. Never fabricate a venue name or schedule.
@@ -55,7 +56,7 @@ Honesty: never invent venues/hours. No live source and not confident → SKIP or
 
 Prefer parallel spawn. Wait for all three.
 
-If **no** subagent tool: run each mode file yourself as a separate labeled pass (same contracts).
+If **no** subagent tool: run each mode file yourself as a separate labeled pass (same contracts; still web-fetch for half-day/weekend).
 
 ## 3. Collect → validate → menu (main agent)
 
