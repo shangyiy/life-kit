@@ -96,7 +96,7 @@ One line: **implement the plan using `/unit-tests` and its family when behavior/
 
 - Sets a **goal**: tests/checks green **and** **PR body** honors the plan  
 - **Editor** implements (+ tests when required); orchestrator **drafts PR body**; **Validator** is a different agent  
-- Max 3 validator FAIL rounds; open PR only after validated body  
+- Max 3 validator FAIL rounds; after PASS **must** `gh pr create` / **`gh pr edit --body`** with the validated description (re-read to confirm)  
 
 ## License
 
