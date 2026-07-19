@@ -100,5 +100,5 @@ One line: **implement the plan using `/unit-tests` and its family when behavior/
 
 ## License
 
-MIT
+[MIT](./LICENSE) — Copyright (c) 2026 Shang-Yi Yu
 
