@@ -65,8 +65,6 @@ Self-service hiring coach for strong candidates. Paste a JD and resume:
 
 Honest fit calls (Strong / Stretch / Weak / Not the right fit). No ATS hacks, no invented experience.
 
-Formerly the standalone **hire-signal** pack; now lives here under `skills/review-resume`.
-
 ## resume-deep-dive
 
 Mock interviewer for foundation and problem-solving behind resume bullets—not a fit review. Agent-agnostic `SKILL.md` (any harness that loads Agent Skills).

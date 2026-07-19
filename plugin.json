@@ -1,7 +1,7 @@
 {
   "name": "life-kit",
   "version": "0.7.1",
-  "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan. Reorg-friendly umbrella; skills live under skills/.",
+  "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan.",
   "author": {
     "name": "shangyiy"
   },
