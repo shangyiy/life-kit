@@ -19,7 +19,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 
 ## Install
 
-**Grok**
+### Grok
 
 ```bash
 grok plugin install shangyiy/life-kit --trust
@@ -27,9 +27,24 @@ grok plugin install shangyiy/life-kit --trust
 grok plugin install /path/to/life-kit --trust
 ```
 
-**Claude**
+### Claude Code
 
-Copy or symlink skill dirs under `skills/` into your Claude skills location (e.g. `~/.claude/skills/<name>`), or install via your usual Claude skill/plugin flow if you have one.
+**From GitHub (plugin marketplace):**
+
+```text
+/plugin marketplace add shangyiy/life-kit
+/plugin install life-kit@life-kit
+```
+
+Then `/reload-plugins` if skills don’t show yet. Plugin skills are namespaced, e.g. `/life-kit:review-resume`, `/life-kit:unit-tests`.
+
+**Local checkout (dev / private):**
+
+```bash
+claude --plugin-dir /path/to/life-kit
+```
+
+**Personal skills (no plugin namespace):** copy or symlink individual dirs from `skills/<name>/` into `~/.claude/skills/<name>/` (all projects) or `.claude/skills/<name>/` (this repo only).
 
 ## review-resume
 

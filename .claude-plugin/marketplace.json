@@ -1,0 +1,24 @@
+{
+  "name": "life-kit",
+  "owner": {
+    "name": "shangyiy"
+  },
+  "metadata": {
+    "description": "Portable Agent Skills pack (resume, side-quest, unit-testing, carry-plan)."
+  },
+  "plugins": [
+    {
+      "name": "life-kit",
+      "source": "./",
+      "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan.",
+      "version": "0.7.1",
+      "author": {
+        "name": "shangyiy"
+      },
+      "homepage": "https://github.com/shangyiy/life-kit",
+      "repository": "https://github.com/shangyiy/life-kit",
+      "license": "MIT",
+      "keywords": ["skills", "resume", "unit-tests", "agent-skills"]
+    }
+  ]
+}
