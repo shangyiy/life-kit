@@ -19,12 +19,12 @@ Portable [Agent Skills](https://agentskills.io) pack.
 
 ## Install
 
+### Grok
+
 ```bash
-./install.sh grok
-# or
-grok plugin install /path/to/life-kit --trust
-# or (GitHub)
 grok plugin install shangyiy/life-kit --trust
+# or local checkout
+grok plugin install /path/to/life-kit --trust
 ```
 
 ## review-resume
