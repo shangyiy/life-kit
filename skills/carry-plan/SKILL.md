@@ -65,7 +65,7 @@ Copy and tick:
 - [ ] 4 Orchestrator drafted PR body from plan + editor summary  
 - [ ] 5 Validator PASS (tests + draft PR body)  
 - [ ] 6 Goal completed  
-- [ ] 7 PR opened/updated with validated PR body  
+- [ ] 7 PR description written/updated to validated PR body (verify with `gh pr view`)  
 
 1. **Plan** — take the plan (paste, design doc, RFC, issue, or PR plan section). Restate acceptance criteria in one short block.  
    **If no plan, or criteria cannot be restated:** ask once for the plan/source; **do not** spawn the editor until criteria are written.
@@ -80,8 +80,12 @@ Copy and tick:
    - run the repo’s test command(s) (or plan-stated checks for docs/chore)
    - audit the **draft PR body** against the plan; list gaps if stale, missing plan items, or overclaims
    - verdict **PASS** or **FAIL**
-6. **Loop** — on FAIL: resume or re-spawn the **editor** only (if code/tests); revise draft PR body if body-only gaps; then spawn a **new validator**. Cap **3** validator FAIL rounds → `blocked_reason`. On PASS: complete goal; open/update PR only with the **validated** PR body.
-7. **PR** — open or update the PR with that body. If PR tooling is missing: leave the validated body ready to paste for the user (still require validator PASS on that draft).
+6. **Loop** — on FAIL: resume or re-spawn the **editor** only (if code/tests); revise draft PR body if body-only gaps; then spawn a **new validator**. Cap **3** validator FAIL rounds → `blocked_reason`. On PASS: complete goal; then **must** land the validated PR body on GitHub (step 7).
+7. **PR — must write the validated PR body** (required; goal criterion 2 is not met until this lands):
+   - **Create** with body: `gh pr create ... --body "<validated body>"` (or equivalent).
+   - **If a PR already exists:** **always update the description** — `gh pr edit <n> --body "<validated body>"` (or equivalent). Never leave the default/empty/`--fill` body when a plan-validated draft exists.
+   - After create/edit, **re-read** the remote PR body (`gh pr view --json body`) and confirm it matches the validated text (scope, acceptance criteria, test plan). If it does not match, edit again before claiming done.
+   - If PR tooling is missing: leave the validated body ready to paste for the user (still require validator PASS on that draft) and state that the remote PR body is **not** updated yet.
 
 ## Validator report skeleton
 
@@ -141,7 +145,7 @@ Gaps: none
 | Draft PR body | Main | From plan + editor summary; before validator |
 | Test run + PR body audit | **Validator** | Read-only preferred; never the editor; receives draft |
 | Fix after FAIL | **Editor** (+ Main if body-only) | Validator stays separate |
-| Goal complete / PR push | Main | Only after validator PASS |
+| Goal complete / PR body write | Main | After validator PASS: `gh pr create` or **`gh pr edit --body`**; re-read body |
 
 If subagents are unavailable: still separate “editor pass” and “validator pass” in two turns — never claim validation in the same turn that edited.
 
@@ -150,6 +154,7 @@ If subagents are unavailable: still separate “editor pass” and “validator 
 - Editor self-validates (“tests look fine”) without a separate agent run  
 - Goal completed before tests/checks were actually run  
 - Opening a PR before a draft PR body was written and validated  
+- **PR exists but description never updated** (`gh pr create --fill` / empty body left as-is)  
 - PR body left as default/fill while the plan listed concrete acceptance criteria  
 - Expanding scope beyond the plan without updating the goal and PR body  
 - Forcing full `/unit-tests` ceremony on pure docs/chore plans  
