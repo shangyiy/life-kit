@@ -29,22 +29,29 @@ grok plugin install /path/to/life-kit --trust
 
 ### Claude Code
 
-**From GitHub (plugin marketplace):**
+Install as a native [Claude Code plugin](https://code.claude.com/docs/en/plugins) (managed bundle; updates with the repo rather than a hand-maintained fork).
+
+Inside Claude Code:
 
 ```text
 /plugin marketplace add shangyiy/life-kit
-/plugin install life-kit@life-kit
+/plugin install life-kit@shangyiy
 ```
 
-Then `/reload-plugins` if skills don’t show yet. Plugin skills are namespaced, e.g. `/life-kit:review-resume`, `/life-kit:unit-tests`.
+Or from your shell:
 
-**Local checkout (dev / private):**
+```bash
+claude plugin marketplace add shangyiy/life-kit
+claude plugin install life-kit@shangyiy
+```
+
+Plugin skills are namespaced (e.g. `/life-kit:review-resume`, `/life-kit:unit-tests`). Run `/reload-plugins` if they don’t show yet.
+
+**Local checkout (dev):**
 
 ```bash
 claude --plugin-dir /path/to/life-kit
 ```
-
-**Personal skills (no plugin namespace):** copy or symlink individual dirs from `skills/<name>/` into `~/.claude/skills/<name>/` (all projects) or `.claude/skills/<name>/` (this repo only).
 
 ## review-resume
 
