@@ -30,16 +30,16 @@ Adjacent slips a competent programmer might make:
 
 ## Reject (meaningless / equivalent)
 
-- **Magnet mutants** — detectable only by inspection, not behavior (CMU marble analogy)
+- **Magnet mutants** — detectable only by inspection, not by observable behavior
 - **Non-context constants** — `x < 5` → `x < 99999`
 - **Logically equivalent** — `i >= 0` → `!(i < 0)`
-- **Non-adjacent relational swaps** (e.g. `>` → `<`) — illustrative only; course teaches adjacent boundary ops
+- **Non-adjacent relational swaps** (e.g. `>` → `<`) — illustrative only; prefer adjacent boundary operators
 
 ## Surviving Mutant Actions
 
 | Situation | Action |
 |-----------|--------|
-| Path not exercised | Better input (`/black-box`); perturb representatives (CMU `f(x,y)`: y=1→y=2) |
+| Path not exercised | Better input (`/black-box`); perturb representatives (e.g. for `f(x,y)`, try y=1 then y=2) |
 | Path exercised, weak oracle | Strengthen oracle (`/test-oracle`) |
 | Equivalent | Exclude from score |
 | Meaningless operator | Exclude; fix tool config |

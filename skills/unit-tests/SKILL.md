@@ -1,25 +1,25 @@
 ---
 name: unit-tests
 description: >
-  Meta-skill for writing and reviewing unit tests using CMU 18-652 principles.
-  Orchestrates black-box input selection, white-box coverage gaps, test-oracle
-  design, and mutation-testing adequacy. Use when asked to write unit tests,
-  review a test suite, improve test quality, or when the user runs /unit-tests.
+  Meta-skill for writing and reviewing unit tests. Orchestrates black-box input
+  selection, white-box coverage gaps, test-oracle design, and mutation-testing
+  adequacy. Use when asked to write unit tests, review a test suite, improve
+  test quality, or when the user runs /unit-tests.
 metadata:
-  short-description: "CMU-grounded unit testing meta-skill"
+  short-description: "Unit testing meta-skill"
 ---
 
 # /unit-tests
 
-Write or review unit tests using CMU 18-652 FSE + SVT. Read
-`references/principles.md` for the eleven practices and workflow.
+Write or review unit tests. Read `references/principles.md` for the eleven
+practices and workflow.
 
 ## Workflow
 
 1. **Contract** — pre/post-conditions, invariants, spec.
 2. **Black-box inputs** — `/black-box`: partition input space, pick representatives.
 3. **Oracles** — `/test-oracle`: pass/fail procedure per case.
-4. **Fixture** — Arrange: EUT, test doubles, isolation (CMU step 4).
+4. **Fixture** — Arrange: EUT, test doubles, isolation.
 5. **Write tests** — Act + Assert; one reason to fail; self-documenting names.
 6. **White-box gaps** — `/white-box`: uncovered CFG branches/conditions.
 7. **Measure adequacy** — `/white-box` coverage + `/mutation-testing` when user wants suite-quality feedback.
