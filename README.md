@@ -10,7 +10,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`resume-deep-dive`](./skills/resume-deep-dive/SKILL.md) | `/resume-deep-dive` | Mock-interview grill of resume claims (one Q at a time) |
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
 | [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
-| [`unit-tests`](./skills/unit-tests/SKILL.md) | `/unit-tests` | CMU 18-652 unit testing meta-skill (SWE suite) |
+| [`unit-tests`](./skills/unit-tests/SKILL.md) | `/unit-tests` | Unit testing meta-skill (SWE suite) |
 | [`black-box`](./skills/black-box/SKILL.md) | `/black-box` | Spec-based input selection (child of `/unit-tests`) |
 | [`test-oracle`](./skills/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
 | [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
@@ -67,7 +67,7 @@ No mode quiz. Skip free. Never invent hours/venues.
 
 ## swe (unit testing)
 
-CMU 18-652–grounded unit testing suite. Entry point:
+Unit testing suite. Entry point:
 
 ```text
 /unit-tests
@@ -83,7 +83,8 @@ Orchestrates:
 6. **`/white-box`** — CFG coverage gaps  
 7. **`/mutation-testing`** — suite adequacy when requested  
 
-Principles live in [`skills/unit-tests/references/principles.md`](./skills/unit-tests/references/principles.md).
+Principles: [`skills/unit-tests/references/principles.md`](./skills/unit-tests/references/principles.md).  
+Credit / source: [`skills/unit-tests/README.md`](./skills/unit-tests/README.md).
 
 ## carry-plan
 

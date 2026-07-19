@@ -27,7 +27,7 @@ characteristic into blocks → pick **representatives** + oracle (`/test-oracle`
 - *Syntactic* — mechanical, type-driven (e.g., sign of integer, string length)
 - *Semantic* — domain-driven (e.g., triangle type, number of ZIP matches)
 
-## Partition Quality (CMU invariants)
+## Partition Quality
 
 - **Disjoint** — no input belongs to two blocks of the same characteristic
 - **Complete** — blocks cover the characteristic; add "undefined" for invalid combos
