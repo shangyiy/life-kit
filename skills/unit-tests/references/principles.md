@@ -1,10 +1,6 @@
-# Unit Testing Principles (CMU 18-652)
+# Unit Testing Principles
 
-Sources:
-- `FSE Unit Testing.pdf` — definition, AAA, eleven practices
-- `F22_UnitTestingPrinciples.pdf` — practices applied, Hamcrest oracles, contracts
-- `F22_UnitTestingBasics.pdf` — five-step test workflow (design → inputs → oracles → fixture → adequacy)
-- `F22_TestingBasics.pdf` — oracle definition, fault terminology, Arrange–Act–Assert
+Principles common to rigorous unit testing, aligned with CMU 18-652–style teaching.
 
 ## Definition
 

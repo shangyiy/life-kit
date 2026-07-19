@@ -16,7 +16,7 @@ Parent: [`unit-tests`](../unit-tests/SKILL.md) (`references/principles.md`).
 
 **Oracle** = procedure comparing actual vs expected to produce a verdict.
 
-## Oracle Types (18-652 core)
+## Core oracle types
 
 | Type | Example |
 |------|---------|
