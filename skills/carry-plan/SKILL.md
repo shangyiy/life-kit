@@ -1,169 +1,122 @@
 ---
 name: carry-plan
 description: >
-  Carry a code implementation plan (design doc, RFC, issue, or PR plan) through
-  code + tests to an open PR: implement with /unit-tests and its family when
-  behavior changes, set a /goal that tests pass and the PR body honors the plan,
-  and split editor vs validator across different subagents. Use when asked to
-  carry, execute, or implement a plan; ship a plan to PR; implement an RFC or
-  design doc; or when the user runs /carry-plan. Not for writing plans only.
+  Carry an approved plan (design doc, RFC, issue, or PR plan) to a draft PR ready
+  for human review. Use when asked to implement a plan, run /carry-plan, land
+  work via tests + PR, or when the user asks if anything is left on a plan/PR.
 metadata:
-  short-description: "Plan → tests → PR with split editor/validator"
+  short-description: "Plan → Dev/Validator → draft PR; done = remote body + PASS on HEAD"
 ---
 
 # /carry-plan
 
-**One line:** implement the plan using `/unit-tests` and its family when the plan changes behavior or API.
+**One line:** Carry an approved plan to a **draft PR ready for human review**.
 
-Orchestrate only. Do not self-certify. Primary term for the GitHub text: **PR body**.
+Orchestrate as **Tech Lead** (main agent). Spawn **Dev** and **Validator** as subagents. Do not merge unless the user explicitly asks.
 
 ## Roles
 
 | Role | Who | Job |
 |------|-----|-----|
-| **Orchestrator** | Main agent | Read plan, set goal, **draft PR body**, spawn subagents, open/update PR |
-| **Editor** | Subagent | Implement plan + write tests (when required) |
-| **Validator** | **Different** subagent | Run tests / stated checks; audit **draft PR body** vs plan |
+| **Tech Lead** | Main agent | Read plan, classify scope, open/update PR, spawn Dev/Validator, enforce done gate |
+| **Dev** | Subagent | Implement plan + write/run tests or stated checks |
+| **Validator** | **Different** subagent | Phase 1: plan fit + ponytail + Musk 5-step on the diff. Phase 5: plan + HEAD + remote body + evidence. PASS/FAIL only |
 
-**Rule of thumb: editor and validator must not be the same agent.**  
-Never validate by resuming the editor. Always spawn a fresh validator (or a prior validator id — never the editor’s id).
+**Hard rule:** Dev and Validator must not be the same agent. Never validate by resuming Dev. Always spawn a fresh Validator (or a prior Validator id — never Dev’s id).
 
-## Goal (set first)
+## Scope class (pick once, re-pick if scope grows)
 
-As soon as acceptance criteria exist, set an autonomous goal (`/goal` or `update_goal`) with **both** criteria required when tests apply:
+| Class | When | Implementation bar |
+|-------|------|--------------------|
+| **Behavior** | Code, API, or user-visible behavior changes | Full TDD via `/unit-tests` (and family) when applicable: red → green → refactor until tests pass |
+| **Docs/chore** | Docs, metadata, config, renames only — no behavior/API change | No full TDD. Still run **plan-stated checks** (or a minimal sanity check if the plan names none) and body/evidence audit |
 
-1. **All tests pass** (project test command green; no known failing suite). For docs/chore-only plans: skip this criterion; use the plan’s stated checks instead.
-2. **PR body is up to date and honors the plan** (scope, intent, checklist match — no silent scope drop, no invented scope).
-
-If goal tooling is missing: state both criteria in chat and track them explicitly each round (do not skip the gate).
-
-Report progress after each editor/validator round. Mark completed only when the validator confirms all active criteria. After **3** validator FAIL rounds, stop and surface `blocked_reason` using the template below — never fake green.
-
-### Goal text example
-
-```text
-Carry plan: <title>. Success: (1) <test command or "docs-only checks"> green;
-(2) PR body honors plan acceptance criteria: <bullets>.
-```
-
-### blocked_reason template
-
-```text
-blocked_reason: <what failed>
-last_validator: <VERDICT summary / key gaps>
-fail_rounds: n/3
-ask_human: <decision needed>
-```
+If work later touches behavior, reclassify to **Behavior** and re-validate.
 
 ## Workflow
 
-Copy and tick:
-
-- [ ] 1 Plan restated with acceptance criteria  
-- [ ] 2 Goal active  
-- [ ] 3 Editor implemented (+ tests if required)  
-- [ ] 4 Orchestrator drafted PR body from plan + editor summary  
-- [ ] 5 Validator PASS (tests + draft PR body)  
-- [ ] 6 Goal completed  
-- [ ] 7 PR description written/updated to validated PR body (verify with `gh pr view`)  
-
-1. **Plan** — take the plan (paste, design doc, RFC, issue, or PR plan section). Restate acceptance criteria in one short block.  
-   **If no plan, or criteria cannot be restated:** ask once for the plan/source; **do not** spawn the editor until criteria are written.
-2. **Goal** — set the goal above; do not start editing until the goal is active (or explicitly tracked in chat).
-3. **Editor subagent** — spawn with write access; instruct it to:
-   - implement only what the plan requires
-   - **If the plan changes behavior or API:** design and write tests with **`/unit-tests`** (and children as needed: `/black-box`, `/test-oracle`, `/white-box`, `/mutation-testing`). **If `/unit-tests` is unavailable:** still require black-box tests for changed behavior/API using project test conventions; do **not** skip the test criterion.
-   - **If docs/chore only:** skip unit-test design; implement only stated deliverables
-   - leave a short summary of files + how checks map to the plan
-4. **Draft PR body (orchestrator)** — after the editor returns, **you** write the draft **PR body** from the plan + editor summary (scope, what changed, acceptance criteria, test plan). Do not open the PR yet. Pass this draft into the validator spawn payload.
-5. **Validator subagent** — **new agent** (not the editor). Give it the draft PR body + plan. Instruct it to return the report skeleton below — **no code edits**:
-   - run the repo’s test command(s) (or plan-stated checks for docs/chore)
-   - audit the **draft PR body** against the plan; list gaps if stale, missing plan items, or overclaims
-   - verdict **PASS** or **FAIL**
-6. **Loop** — on FAIL: resume or re-spawn the **editor** only (if code/tests); revise draft PR body if body-only gaps; then spawn a **new validator**. Cap **3** validator FAIL rounds → `blocked_reason`. On PASS: complete goal; then **must** land the validated PR body on GitHub (step 7).
-7. **PR — must write the validated PR body** (required; goal criterion 2 is not met until this lands):
-   - **Create** with body: `gh pr create ... --body "<validated body>"` (or equivalent).
-   - **If a PR already exists:** **always update the description** — `gh pr edit <n> --body "<validated body>"` (or equivalent). Never leave the default/empty/`--fill` body when a plan-validated draft exists.
-   - After create/edit, **re-read** the remote PR body (`gh pr view --json body`) and confirm it matches the validated text (scope, acceptance criteria, test plan). If it does not match, edit again before claiming done.
-   - If PR tooling is missing: leave the validated body ready to paste for the user (still require validator PASS on that draft) and state that the remote PR body is **not** updated yet.
-
-## Validator report skeleton
+**Order is fixed.** Run Phase 1 → 2 → 3 → 4 → 5. Do not skip, reorder, or open a later phase until the earlier gate passes.
 
 ```text
-VERDICT: PASS | FAIL
-Tests: <command(s)> · exit <code> · pass|fail
-  (or N/A docs-only: <stated checks>)
-PR body vs plan:
-  - [ ] scope matches
-  - [ ] acceptance criteria covered
-  - [ ] no overclaim
-Gaps: <none | bullets>
+1 Implement (+ Validator on diff)
+  → 2 Draft PR (isDraft)
+    → 3 Checks / CI
+      → 4 Evidence on remote body
+        → 5 Validator on HEAD + body
 ```
 
-### Example FAIL
+### Phase 1 — Implement
 
-```text
-VERDICT: FAIL
-Tests: npm test · exit 1 · fail (auth.spec.ts: token expiry)
-PR body vs plan:
-  - [x] scope matches
-  - [ ] acceptance criteria covered — missing "refresh rotates jti"
-  - [x] no overclaim
-Gaps: tests red; PR body omits jti rotation
-```
+**Gate out:** Validator PASS on **diff vs plan**. No PR until then.
 
-### Example PASS (behavior)
+- **Dev:** implement the plan.
+  - Behavior: invoke `/unit-tests` → red/green/refactor until tests pass.
+  - Docs/chore: apply changes; run plan-stated checks only.
+- **Validator:** after Dev’s implementation pass, a **fresh** Validator (≠ Dev) reviews the **diff against the plan**, then applies **simplicity principles** (below). Prefer `/ponytail-review` if available; else apply the same principles as a subagent critic. FAIL → Dev fixes → **new** Validator again.
 
-```text
-VERDICT: PASS
-Tests: npm test · exit 0 · pass
-PR body vs plan:
-  - [x] scope matches
-  - [x] acceptance criteria covered
-  - [x] no overclaim
-Gaps: none
-```
+  **Review principles:**
 
-### Example PASS (docs-only)
+  1. **Plan fit** — does the diff implement the plan (no silent scope drop/expand)?
+  2. **Ponytail** — hunt over-engineering only: dead flexibility, YAGNI layers, reinventions of stdlib/native. Format: one line per finding (`L<n>: tag: what. replacement.`). Tags: `delete` · `stdlib` · `native` · `yagni` · `shrink`. Score: `net: -<N> lines` or `Lean already. Ship.` Do not apply fixes here — report only. Correctness/security/perf are out of scope for this pass (route elsewhere if seen).
+  3. **Musk 5-step** (in order; stop early if a step removes the need for the next):
+     1. Make the requirements less dumb (challenge extras the plan didn’t need)
+     2. Delete the part or process
+     3. Simplify or optimize
+     4. Accelerate cycle time
+     5. Automate (only after 1–4)
 
-```text
-VERDICT: PASS
-Tests: N/A docs-only: links resolve; README section present
-PR body vs plan:
-  - [x] scope matches
-  - [x] acceptance criteria covered
-  - [x] no overclaim
-Gaps: none
-```
+  PASS only if plan fit is good **and** no blocking ponytail/5-step findings (or Dev already addressed them). Report both plan-fit and simplicity results.
 
-## Subagent placement
+- **Tech Lead:** orchestrates; does not claim done.
 
-| Step | Subagent? | Notes |
-|------|-----------|--------|
-| Parse plan / set goal | Main | Keep plan + goal ownership here |
-| Implement (+ tests) | **Editor** | One implementer; unit-tests workflow when required |
-| Draft PR body | Main | From plan + editor summary; before validator |
-| Test run + PR body audit | **Validator** | Read-only preferred; never the editor; receives draft |
-| Fix after FAIL | **Editor** (+ Main if body-only) | Validator stays separate |
-| Goal complete / PR body write | Main | After validator PASS: `gh pr create` or **`gh pr edit --body`**; re-read body |
+### Phase 2 — Draft PR
 
-If subagents are unavailable: still separate “editor pass” and “validator pass” in two turns — never claim validation in the same turn that edited.
+**Gate in:** Phase 1 PASS. **Gate out:** remote PR exists with `isDraft: true` and a body (summary + test plan).
+
+- Open or ensure a PR that is **draft**: `isDraft: true` (`gh pr create --draft` or convert to draft).
+- **Tech Lead** owns the PR body (motivation, summary, test plan / checks). Dev may draft text; Tech Lead publishes.
+- Confirm with remote state: `gh pr view --json url,number,isDraft` → `isDraft` must be `true` until human review (do not mark ready-for-review unless the user asks).
+
+### Phase 3 — Checks / CI
+
+**Gate in:** Phase 2 draft PR live. **Gate out:** checks/CI recorded for **current** HEAD.
+
+- Run plan-stated checks and tests locally when they exist.
+- **If CI exists** on the repo/PR: wait for or trigger it; fix until green. Do not invent CI or claim CI passed when none is configured.
+- Record what actually ran (commands, pass/fail, CI conclusion if any).
+
+### Phase 4 — Evidence & update PR body
+
+**Gate in:** Phase 3 evidence recorded. **Gate out:** remote body re-read and matches **current** HEAD.
+
+- Update the **remote** PR body so it matches **current** HEAD and the tree:
+  - summary matches what shipped (no overclaims, no removed paths/features)
+  - test plan / checks reflect what was run; `[x]` only if that check was run and passed on current work
+  - no stale claims from earlier commits
+- Re-read after edit: `gh pr view <n> --json body,title,state,isDraft,mergeable`. Trust **remote body**, not memory, not local notes, not a grep of the tree for “is the PR done?”
+
+### Phase 5 — Validator PASS on current head
+
+**Gate in:** Phase 4 remote body current. **Gate out:** Validator PASS on **this** HEAD (done candidate).
+
+- Spawn **Validator** (≠ Dev) against: plan + diff at **current HEAD** + **remote** PR body + recorded evidence.
+- PASS only if: plan honored, body accurate, checks/evidence honest, no open plan items.
+- **Any commit or body-material change after PASS invalidates PASS.** Go back to Phase 3 (not jump to Done).
+
+## Done
+
+Say **done / nothing left / ready for human** only if all hold (re-check before answering):
+
+1. Remote body re-read just now — matches tree/commits.
+2. Test-plan boxes honest; unchecked = not done until run/recorded.
+3. Validator PASS on **this** HEAD.
+4. Checks green; CI green if CI exists.
+5. Still draft (or user-requested ready); human owns merge.
+
+**Not done:** mergeable / open / CI green alone, or “validated earlier.”
 
 ## Anti-patterns
 
-- Editor self-validates (“tests look fine”) without a separate agent run  
-- Goal completed before tests/checks were actually run  
-- Opening a PR before a draft PR body was written and validated  
-- **PR exists but description never updated** (`gh pr create --fill` / empty body left as-is)  
-- PR body left as default/fill while the plan listed concrete acceptance criteria  
-- Expanding scope beyond the plan without updating the goal and PR body  
-- Forcing full `/unit-tests` ceremony on pure docs/chore plans  
-- Skipping tests on behavior/API changes because `/unit-tests` skill is missing  
-
-## Output
-
-Each round, one status line (`fail_rounds` = validator FAIL count only):
-
-```text
-goal: in_progress|completed|blocked · editor: <1-line> · validator: PASS|FAIL · fail_rounds: n/3 · PR: <url|draft>
-```
+- Done because mergeable/open without remote body + Validator on HEAD  
+- Grep tree instead of `gh pr view` body; same agent as Dev and Validator  
+- Docs/chore with no verification; inventing CI; merge without user ask  

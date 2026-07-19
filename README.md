@@ -15,7 +15,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`test-oracle`](./skills/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
 | [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
 | [`mutation-testing`](./skills/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
-| [`carry-plan`](./skills/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to PR: unit-tests family + goal + split editor/validator |
+| [`carry-plan`](./skills/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
 
 ## Install
 
@@ -119,11 +119,11 @@ Credit / source: [`skills/unit-tests/README.md`](./skills/unit-tests/README.md).
 [paste plan]
 ```
 
-One line: **implement the plan using `/unit-tests` and its family when behavior/API changes.**
+Tech Lead orchestrates **Dev** ≠ **Validator** through fixed phases: implement → draft PR → checks/CI → remote body evidence → Validator PASS on HEAD.
 
-- Sets a **goal**: tests/checks green **and** **PR body** honors the plan  
-- **Editor** implements (+ tests when required); orchestrator **drafts PR body**; **Validator** is a different agent  
-- Max 3 validator FAIL rounds; after PASS **must** `gh pr create` / **`gh pr edit --body`** with the validated description (re-read to confirm)  
+- Behavior: `/unit-tests` TDD; docs/chore: plan-stated checks  
+- Phase 1 Validator: plan fit + ponytail + Musk 5-step  
+- **Done** only if remote body matches tree, test plan honest, Validator PASS on **this** HEAD (mergeable alone is not enough)  
 
 ## License
 
