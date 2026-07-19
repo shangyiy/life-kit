@@ -35,14 +35,14 @@ Inside Claude Code:
 
 ```text
 /plugin marketplace add shangyiy/life-kit
-/plugin install life-kit@shangyiy
+/plugin install life-kit@life-kit
 ```
 
 Or from your shell:
 
 ```bash
 claude plugin marketplace add shangyiy/life-kit
-claude plugin install life-kit@shangyiy
+claude plugin install life-kit@life-kit
 ```
 
 Plugin skills are namespaced (e.g. `/life-kit:review-resume`, `/life-kit:unit-tests`). Run `/reload-plugins` if they don’t show yet.

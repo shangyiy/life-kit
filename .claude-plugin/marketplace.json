@@ -1,10 +1,10 @@
 {
-  "name": "shangyiy",
+  "name": "life-kit",
   "owner": {
     "name": "shangyiy",
     "url": "https://github.com/shangyiy"
   },
-  "description": "Shang-Yi Yu's Agent Skills packs, as installable Claude Code plugins.",
+  "description": "Portable Agent Skills pack (resume, side-quest, unit-testing, carry-plan).",
   "plugins": [
     {
       "name": "life-kit",
@@ -18,7 +18,6 @@
       "homepage": "https://github.com/shangyiy/life-kit",
       "repository": "https://github.com/shangyiy/life-kit",
       "license": "MIT",
-      "category": "productivity",
       "keywords": [
         "skills",
         "resume",
