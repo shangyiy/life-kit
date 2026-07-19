@@ -3,3 +3,12 @@
 *.swp
 .idea/
 .vscode/
+
+# Local secrets / env (keep out of a public tree)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
