@@ -27,6 +27,32 @@ grok plugin install shangyiy/life-kit --trust
 grok plugin install /path/to/life-kit --trust
 ```
 
+### Claude Code
+
+Install as a native [Claude Code plugin](https://code.claude.com/docs/en/plugins) (managed bundle; updates with the repo rather than a hand-maintained fork).
+
+Inside Claude Code:
+
+```text
+/plugin marketplace add shangyiy/life-kit
+/plugin install life-kit@life-kit
+```
+
+Or from your shell:
+
+```bash
+claude plugin marketplace add shangyiy/life-kit
+claude plugin install life-kit@life-kit
+```
+
+Plugin skills are namespaced (e.g. `/life-kit:review-resume`, `/life-kit:unit-tests`). Run `/reload-plugins` if they don’t show yet.
+
+**Local checkout (dev):**
+
+```bash
+claude --plugin-dir /path/to/life-kit
+```
+
 ## review-resume
 
 Self-service hiring coach for strong candidates. Paste a JD and resume:
