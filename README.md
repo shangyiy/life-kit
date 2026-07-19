@@ -7,6 +7,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | Skill | Slash | What it does |
 |-------|--------|----------------|
 | [`review-resume`](./skills/review-resume/SKILL.md) | `/review-resume` | Honest resume ↔ JD fit review (hiring-manager lens) |
+| [`resume-deep-dive`](./skills/resume-deep-dive/SKILL.md) | `/resume-deep-dive` | Mock-interview grill of resume claims (one Q at a time) |
 | [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
 | [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
 | [`unit-tests`](./skills/unit-tests/SKILL.md) | `/unit-tests` | CMU 18-652 unit testing meta-skill (SWE suite) |
@@ -39,6 +40,18 @@ Self-service hiring coach for strong candidates. Paste a JD and resume:
 Honest fit calls (Strong / Stretch / Weak / Not the right fit). No ATS hacks, no invented experience.
 
 Formerly the standalone **hire-signal** pack; now lives here under `skills/review-resume`.
+
+## resume-deep-dive
+
+Mock interviewer for foundation and problem-solving behind resume bullets—not a fit review. Agent-agnostic `SKILL.md` (any harness that loads Agent Skills).
+
+```text
+/resume-deep-dive
+[paste resume]
+optional focus: e.g. merge queue
+```
+
+One question at a time (why / tradeoff / alternative / gotcha). Depth-first after answers. No verdicts, no rewrite coaching. For JD fit, use `/review-resume` instead.
 
 ## side-quest-recommend
 
