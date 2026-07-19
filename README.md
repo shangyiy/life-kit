@@ -19,13 +19,17 @@ Portable [Agent Skills](https://agentskills.io) pack.
 
 ## Install
 
+**Grok**
+
 ```bash
-./install.sh grok
-# or
-grok plugin install /path/to/life-kit --trust
-# or (GitHub)
 grok plugin install shangyiy/life-kit --trust
+# or local checkout
+grok plugin install /path/to/life-kit --trust
 ```
+
+**Claude**
+
+Copy or symlink skill dirs under `skills/` into your Claude skills location (e.g. `~/.claude/skills/<name>`), or install via your usual Claude skill/plugin flow if you have one.
 
 ## review-resume
 
