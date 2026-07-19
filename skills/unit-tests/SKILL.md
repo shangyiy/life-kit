@@ -1,19 +1,17 @@
 ---
 name: unit-tests
 description: >
-  Meta-skill for writing and reviewing unit tests grounded in standard
-  unit-testing practice and CMU 18-652–style principles. Orchestrates black-box
-  input selection, white-box coverage gaps, test-oracle design, and
-  mutation-testing adequacy. Use when asked to write unit tests, review a test
-  suite, improve test quality, or when the user runs /unit-tests.
+  Meta-skill for writing and reviewing unit tests. Orchestrates black-box input
+  selection, white-box coverage gaps, test-oracle design, and mutation-testing
+  adequacy. Use when asked to write unit tests, review a test suite, improve
+  test quality, or when the user runs /unit-tests.
 metadata:
   short-description: "Unit testing meta-skill"
 ---
 
 # /unit-tests
 
-Write or review unit tests using standard unit-testing practice
-(CMU 18-652–style principles). Read `references/principles.md` for the eleven
+Write or review unit tests. Read `references/principles.md` for the eleven
 practices and workflow.
 
 ## Workflow

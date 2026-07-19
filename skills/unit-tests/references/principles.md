@@ -1,7 +1,5 @@
 # Unit Testing Principles
 
-Principles common to rigorous unit testing, aligned with CMU 18-652–style teaching.
-
 ## Definition
 
 In-process testing of a small code unit (class/method), isolated from collaborators.
