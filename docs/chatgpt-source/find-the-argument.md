@@ -1,6 +1,6 @@
 ---
 name: find-the-argument
-description: Discover the single idea that explains why a collection of thoughts belongs together.
+description: Discover the single idea that explains why a collection of thoughts belongs together. Use when the user wants a thesis/outline from notes or runs /find-the-argument.
 argument-hint: "[notes, processed thoughts, draft, outline]"
 license: MIT
 ---

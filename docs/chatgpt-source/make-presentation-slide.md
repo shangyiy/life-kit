@@ -1,6 +1,6 @@
 ---
 name: make-presentation-slide
-description: Design a presentation that teaches one coherent argument, not a collection of facts.
+description: Design a presentation that teaches one coherent argument, not a collection of facts. Use when the user wants claim-title slides or runs /make-presentation-slide.
 argument-hint: "[topic or draft deck]"
 license: MIT
 ---
@@ -27,7 +27,7 @@ Prefer deleting over adding. Most slides improve when they contain less.
 
 Examples, stories, workflows, and demos are evidence—not the main message. Ask whether each one proves the slide's claim. Remove anything that does not.
 
-Images should make the claim understandable within a few seconds. Avoid decorative artwork. If a table or diagram already communicates the idea, another hero image is usually unnecessary. 
+Images should make the claim understandable within a few seconds. Avoid decorative artwork. If a table or diagram already communicates the idea, another hero image is usually unnecessary.
 
 Every section should answer the question naturally created by the previous section.
 

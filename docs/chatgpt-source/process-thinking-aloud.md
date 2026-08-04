@@ -1,6 +1,6 @@
 ---
 name: process-thinking-aloud
-description: Turn thinking-aloud voice notes into structured reasoning without preserving the original wording.
+description: Turn thinking-aloud voice notes into structured reasoning without preserving the original wording. Use when the user pastes a monologue/voice note or runs /process-thinking-aloud.
 license: MIT
 ---
 
