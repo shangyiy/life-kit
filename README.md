@@ -134,8 +134,6 @@ Tech Lead orchestrates **Dev** ≠ **Validator** through fixed phases: implement
 /make-presentation-slide  ← claim-title deck
 ```
 
-ChatGPT-sourced v1 skills. Provenance: [`docs/chatgpt-source/`](./docs/chatgpt-source/). Voice note archive: [`docs/session-voice-notes.md`](./docs/session-voice-notes.md).
-
 ## License
 
 [MIT](./LICENSE) — Copyright (c) 2026 Shang-Yi Yu
