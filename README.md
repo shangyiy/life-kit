@@ -16,6 +16,9 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
 | [`mutation-testing`](./skills/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
 | [`carry-plan`](./skills/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
+| [`process-thinking-aloud`](./skills/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
+| [`find-the-argument`](./skills/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
+| [`make-presentation-slide`](./skills/make-presentation-slide/SKILL.md) | `/make-presentation-slide` | One argument as claim titles + sparse evidence |
 
 ## Install
 
@@ -122,6 +125,16 @@ Tech Lead orchestrates **Dev** ≠ **Validator** through fixed phases: implement
 - Behavior: `/unit-tests` TDD; docs/chore: plan-stated checks  
 - Phase 1 Validator: plan fit + ponytail + Musk 5-step  
 - **Done** only if remote body matches tree, test plan honest, Validator PASS on **this** HEAD (mergeable alone is not enough)  
+
+## Presentation argument pipeline
+
+```text
+/process-thinking-aloud   ← voice / monologue
+/find-the-argument        ← one thesis
+/make-presentation-slide  ← claim-title deck
+```
+
+ChatGPT-sourced v1 skills. Provenance: [`docs/chatgpt-source/`](./docs/chatgpt-source/). Voice note archive: [`docs/session-voice-notes.md`](./docs/session-voice-notes.md).
 
 ## License
 
