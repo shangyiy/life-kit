@@ -4,6 +4,9 @@
 .idea/
 .vscode/
 
+# Local dogfood writeups (keep on disk; do not commit)
+.tmp/
+
 # Local secrets / env (keep out of a public tree)
 .env
 .env.*
