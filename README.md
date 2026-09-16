@@ -19,6 +19,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`process-thinking-aloud`](./skills/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
 | [`find-the-argument`](./skills/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
 | [`make-presentation-slide`](./skills/make-presentation-slide/SKILL.md) | `/make-presentation-slide` | One argument as claim titles + sparse evidence |
+| [`readable`](./skills/readable/SKILL.md) | `/readable` | Default simple-English writeup: idea, elaboration, example when it helps |
 
 ## Install
 
@@ -54,6 +55,12 @@ Plugin skills are namespaced (e.g. `/life-kit:review-resume`, `/life-kit:unit-te
 
 ```bash
 claude --plugin-dir /path/to/life-kit
+```
+
+To make `/readable` the default in another repo, add this line to that repo's `AGENTS.md` and `CLAUDE.md`:
+
+```text
+For user-facing prose, follow the readable skill (/readable).
 ```
 
 ## review-resume
