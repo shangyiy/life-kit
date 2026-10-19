@@ -14,7 +14,7 @@ parent-skill: testing
 
 Judge a suite's power to find real faults by measuring how well it finds seeded ones, or review a fault-injection analysis someone else ran against the same principles. It is the method behind [`testing`](../../domain/testing/SKILL.md) principle 9 and works on any entity under test (EUT) for which a fault model exists: small slips in a program, or modeled defects in a circuit such as a line stuck at a fixed value. To review an analysis, check for a baseline the EUT passes, operators that model realistic faults, one fault per mutant, equivalent mutants identified rather than counted as survivors, survivors given a cause before tests were added, and any estimate stated with its representativeness assumption; report each lapse with the principle broken and the fix.
 
-## Principles, most important first
+## Principles
 
 - **Estimate the unseen from the seen.** If faults you planted are found at some rate, assume native faults are found at the same rate. The suite's rate on seeded faults then measures its effectiveness and supports a rough estimate of how many native faults remain. The result is only an estimate.
 - **The estimate rests on representativeness.** It holds only as far as the seeded faults stand in for real ones: as likely to be detected, and occurring as often and in the same places. Seeded faults that are easier, or harder, to detect than real ones tell you nothing about real faults. This is the assumption to name when judging an estimate; the bridge below justifies using mutants as seeded faults, not the estimate itself.

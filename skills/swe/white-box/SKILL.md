@@ -14,7 +14,7 @@ parent-skill: testing
 
 Find what the existing tests miss in the structure of the entity under test (EUT), after spec-based tests exist, and design tests to close the gaps, or review whether a suite's structural adequacy claim holds. It is the structure-level adequacy of [`testing`](../../domain/testing/SKILL.md) principle 8, and it comes after spec-based selection (principle 3). The structure can be code, a circuit or a model of the implementation: the criteria below are stated on a graph of decisions and on the definitions and uses of values, and they apply wherever such a graph can be drawn. To review, re-measure the claim against the current structure and report a weaker criterion presented as a stronger one, covered elements no oracle checks, infeasible elements left unnamed, gaps decided without the rule below, and tests merged or split only to move the number, each with the principle broken and the fix.
 
-## Principles, most important first
+## Principles
 
 - **What it finds:** behavior the spec never asked for, and spec behavior that black-box testing skipped while optimizing. It cannot find missing functionality.
 - **Decide each gap by the spec.** For each element no test reaches: if the spec covers it, add a test; if it is extra logic added by mistake, fix the EUT; if it was added on purpose, update the spec, then test it; if a good reason exists (defensive or unreachable logic), leave it and say why. Before excusing an unreachable element, ask whether the spec intends the outcome it guards; if it does, the guard is a fault to fix, not dead logic.

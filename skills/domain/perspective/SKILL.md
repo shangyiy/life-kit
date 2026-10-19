@@ -18,7 +18,7 @@ the work, meet each principle. To review an attempt, check it against each
 principle in order and name each breach once, with the principle it breaks and
 the fix.
 
-## Principles, most important first
+## Principles
 
 1. **See the situation from the other person's side.** People act on how they
    see things: their goals, their worries, how they are measured and rewarded,

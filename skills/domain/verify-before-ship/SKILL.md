@@ -18,8 +18,6 @@ its fix, most important first. Any report you write follows principle 1 too.
 
 ## Principles
 
-Most important first.
-
 1. **Done means the owner can accept it after one read.** Reading the work
    once, the owner finds three things right:
    - **Core idea up front**: the most important, highest-level idea comes
