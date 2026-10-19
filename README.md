@@ -26,7 +26,6 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 | swe | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | Decide whether a business rule belongs in the domain or a use case |
 | swe | [`user-stories`](./skills/swe/user-stories/SKILL.md) | Turn an idea into user stories, acceptance checks and thin slices |
 | swe | [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | Carry an approved plan to a draft PR ready for review |
-| swe | [`review-skill`](./skills/swe/review-skill/SKILL.md) | Audit a skill against a best-practices link |
 | hiring | [`review-resume`](./skills/hiring/review-resume/SKILL.md) | Honest review of how a resume fits a job description |
 | hiring | [`resume-deep-dive`](./skills/hiring/resume-deep-dive/SKILL.md) | Mock interview on your resume claims, one question at a time |
 | presentation | [`process-thinking-aloud`](./skills/presentation/process-thinking-aloud/SKILL.md) | Turn voice notes into structured reasoning |
