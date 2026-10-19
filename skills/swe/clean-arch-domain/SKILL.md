@@ -12,23 +12,30 @@ metadata:
 # /clean-arch-domain
 
 Decide where each business rule lives: domain or use case. Breaking any core
-principle or definition below is a violation; mark a definition that does not
-apply as not applicable.
+principle or definition below is a violation. Name each violation with the
+move that fixes it: the rule moved to its one home, or the dependency turned to
+point inward. Mark a definition that does not apply as not applicable.
 
 ## Core principles
 
 1. **Two kinds of business rules.** Application-independent rules would hold
    in any application the business uses, even if it has only one, and live in
    entities (the domain). Application-specific rules exist only for this
-   application's process and live in use cases, which are never shared between
-   applications. Each rule has one home; a rule stated in more than one place
-   is a violation.
+   application's process and live in use cases. Each application has its own
+   use cases, even when two applications do similar things; only entities are
+   shared between applications. Each rule has one home; a rule stated in more
+   than one place is a violation. In any field, the domain is that field's own
+   application-independent rules; these principles are how to sort them, not
+   the domain itself.
 2. **Dependencies point inward.** Source-code dependencies point from the
    outer side toward the business rules. The outer side is the delivery
    mechanism (whatever talks to users or other systems), storage, frameworks
    and tools. Nothing inside (domain and use cases) depends on it, and no
-   business rule sits in it. Business rules reach storage through an entity
-   gateway: an interface the business rules own and storage implements.
+   business rule sits in it. A rule that a tool carries out today is still a
+   business rule and stays inside; only how the tool carries it out is outer
+   detail. For every outer service the business rules need, they own an
+   interface and the outer side implements it; for storage this is the entity
+   gateway.
 3. **Architecture reveals intent.** The structure shows the use cases, not the
    tools.
 4. **Business rules are testable on their own.** Each use case can be tested
@@ -45,8 +52,8 @@ when something goes wrong). Each step says what the system does, never how:
 validation criteria are decided later. It names no delivery mechanism or
 storage. The actor's action that starts it is not a system step. A user story
 and a use case are the same thing. Keep use cases light: plain text with the
-input data, primary course and exception courses, not buried in elaborate
-forms.
+input data, primary course and exception courses. A use case is not heavy by
+nature; the heaviness came from elaborate forms laid on top of it.
 
 ### Entity
 
