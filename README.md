@@ -6,8 +6,8 @@ life-kit is a pack of portable [Agent Skills](https://agentskills.io). Each skil
 
 Inspired by Clean Architecture, skills have at most two layers:
 
-- **Domain** (`skills/core`): what good work is in a field, true whatever the tool, language or output format.
-- **Use case** (everything else): one kind of work that serves a core idea and cites the core instead of restating it.
+- **Domain** (`skills/domain`): what good work is in a field, true whatever the tool, language or output format.
+- **Use case** (everything else): one kind of work that serves a domain idea and cites the domain skill instead of restating it.
 
 Tool and framework detail is not written in the skills; it is worked out at run time from the project's environment. Dependencies point inward only, each rule has one home, and every skill supports both doing the work and reviewing existing work.
 
@@ -15,8 +15,8 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 
 | Folder | Skill | What it does |
 |--------|-------|--------------|
-| core | [`testing`](./skills/core/testing/SKILL.md) | What makes a good test, for anything under test |
-| core | [`verify-before-ship`](./skills/core/verify-before-ship/SKILL.md) | Hand over a change only when it is verified and the owner can accept it after one read |
+| domain | [`testing`](./skills/domain/testing/SKILL.md) | What makes a good test, for anything under test |
+| domain | [`verify-before-ship`](./skills/domain/verify-before-ship/SKILL.md) | Hand over a change only when it is verified and the owner can accept it after one read |
 | swe | [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | Write and review unit tests |
 | swe | [`black-box`](./skills/swe/black-box/SKILL.md) | Pick test inputs from the spec |
 | swe | [`combinatorial`](./skills/swe/combinatorial/SKILL.md) | Decide which input combinations to test |

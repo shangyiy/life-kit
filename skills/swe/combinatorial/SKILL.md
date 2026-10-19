@@ -17,7 +17,7 @@ parent-skill: testing
 
 # /combinatorial
 
-Choose which combinations of blocks to test once [`black-box`](../black-box/SKILL.md) has built the input space model, or judge which combinations an existing suite covers. It applies [`testing`](../../core/testing/SKILL.md) principles 7 and 8 to any entity under test: combinations of blocks are an input-space adequacy criterion. To review, rebuild the model and constraints, map each existing test to its block combination, and report the claimed criterion the suite fails, base choices without justification, infeasible combinations tested, unanswered combinations given a guessed result, and interactions left untested, each with the principle broken and the fix.
+Choose which combinations of blocks to test once [`black-box`](../black-box/SKILL.md) has built the input space model, or judge which combinations an existing suite covers. It applies [`testing`](../../domain/testing/SKILL.md) principles 7 and 8 to any entity under test: combinations of blocks are an input-space adequacy criterion. To review, rebuild the model and constraints, map each existing test to its block combination, and report the claimed criterion the suite fails, base choices without justification, infeasible combinations tested, unanswered combinations given a guessed result, and interactions left untested, each with the principle broken and the fix.
 
 ## Principles, most important first
 
