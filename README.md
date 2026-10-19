@@ -25,6 +25,7 @@ Dependencies point inward only, and each rule has one home. See [skills/core/REA
 | swe | [`white-box`](./skills/swe/white-box/SKILL.md) | Close structural coverage gaps |
 | swe | [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | Judge a suite by the injected faults it detects |
 | swe | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | Decide whether a business rule belongs in the domain or a use case |
+| swe | [`user-stories`](./skills/swe/user-stories/SKILL.md) | Turn an idea into user stories, acceptance checks and thin slices |
 | swe | [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | Carry an approved plan to a draft PR ready for review |
 | swe | [`review-skill`](./skills/swe/review-skill/SKILL.md) | Audit a skill against a best-practices link |
 | hiring | [`review-resume`](./skills/hiring/review-resume/SKILL.md) | Honest review of how a resume fits a job description |
