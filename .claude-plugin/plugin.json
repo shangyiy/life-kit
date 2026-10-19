@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing.",
   "author": {
     "name": "shangyiy",
@@ -29,6 +29,7 @@
     "./skills/swe/black-box",
     "./skills/swe/clean-arch-domain",
     "./skills/swe/mutation-testing",
+    "./skills/swe/structure-view",
     "./skills/swe/test-oracle",
     "./skills/swe/unit-tests",
     "./skills/swe/user-stories",
