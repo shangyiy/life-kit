@@ -35,7 +35,7 @@ or in `skill-evals`, never in a skill.
 8. **Merge:** open PRs as drafts and send Shang Yi the link. Merge only when
    every check passed on the final head sha. Any edit means running every check
    again. A check that could not run blocks the merge until Shang Yi decides.
-   `skill-evals` PRs merge automatically once validated as the `skill-evals`
-   README defines. Small life-kit fixes (wording or filler, no rule change) may
-   be self-merged. New skills and rule or principle changes wait for Shang Yi's
-   explicit OK.
+   `skill-evals` PRs may be merged once an independent review and the leak audit
+   pass on the final head sha. Small life-kit fixes (wording or filler, no rule
+   change) may be self-merged. New skills and rule or principle changes wait for
+   Shang Yi's explicit OK.
