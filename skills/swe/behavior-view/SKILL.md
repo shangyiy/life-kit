@@ -15,7 +15,7 @@ Design how a system's parts cooperate in a scenario, or recover it from code as 
 
 ## Principles
 
-1. **Before writing any view, list every branch, error return, early exit, and retry or repeat on the traced path; after writing, check that each appears exactly once** (path inventory). A retry drawn as a single call, or a view with only the primary course, is incomplete.
+1. **Before writing any view, list every branch, error return, early exit, and retry or repeat on the traced path; after writing, check that each appears exactly once in each view** (path inventory). A retry drawn as a single call, or a view with only the primary course, is incomplete.
 2. **Add no participant, message, course or step that the code or requirement lacks** (no invented flows). Cite where each shows and mark what you cannot tell, such as an implementation chosen at run time, as `design-principles` principle 7 requires.
 3. **Keep one level of detail per view.** Pick one level of participants (modules or objects) and fold every deeper call into the one message that leads to it; keep use case courses at the level of the actor's goal.
 4. **Start from one entry point that a system event reaches** (a public operation, handler, command or program start) and follow its calls in order down to the chosen level; name the entry point.
@@ -32,7 +32,8 @@ Design how a system's parts cooperate in a scenario, or recover it from code as 
 
 - Branching on a condition or a value: alt, or opt when one side does nothing.
 - Loops, iteration, retries and polling: loop, with its bound or stop condition.
-- Early return, raised error or error result: its own exception course, anchored at the step where the condition is found, and in the sequence an alt or break with the error return.
-- The path with no error branch taken: the primary course. The actor is whoever triggers the entry point: a user role, an outside system or a timer.
+- Early return on failure, raised error or error result: its own exception course, anchored at the step where the condition is found, and in the sequence an alt or break with the error return.
+- An early return on success: a branch (alt or break) of the course it belongs to.
+- The path the actor's goal normally takes: the primary course; other successful branches stay inside it as alt or opt. The actor is whoever triggers the entry point: a user role, an outside system or a timer.
 - Callbacks, events and spawned tasks: asynchronous messages; say when their order is not guaranteed.
 - A call through an interface: a message to the interface's role, with the candidate implementations listed as assumptions.
