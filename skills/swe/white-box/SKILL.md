@@ -1,13 +1,10 @@
 ---
 name: white-box
 description: >
-  Structural (white-box) testing and adequacy after black-box tests exist,
-  for designing tests that close coverage gaps or reviewing a suite's
-  structural adequacy claim:
-  control flow graphs; statement, branch, condition, MC/DC and compound
-  condition criteria and how they rank; basis paths and cyclomatic adequacy;
-  loop criteria; data-flow criteria. Method under /testing. Use for coverage
-  gap analysis, structural test design or review, or /white-box.
+  Structural (white-box) testing after black-box tests exist: close coverage
+  gaps (statement, branch, condition, MC/DC, cyclomatic basis paths, loops,
+  data flow) or review a coverage claim. Use for coverage gap analysis,
+  structural test design or review, or /white-box.
 metadata:
   short-description: "Structural coverage and adequacy"
 parent-skill: testing

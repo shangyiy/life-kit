@@ -1,16 +1,9 @@
 ---
 name: testing
 description: >
-  What makes a good test, whatever is under test: the limits of testing,
-  oracles that can fail and are themselves validated, behavior first, one
-  behavior per test, repeatability (including a nondeterministic entity under
-  test, reproducible random inputs, retest rules fixed in advance and
-  repeated trials) and speed, cases shown passable before failures count,
-  graded verdicts, partitioned inputs with representatives, measured
-  adequacy and its uncertainty, adequacy by injected faults, held-out test
-  sets, the six general principles of verification and testing, and the
-  definitions they rest on. Use to design,
-  write or plan any kind of test, to review tests or plans, or on /testing.
+  What makes a good test, whatever is under test, from choosing inputs and
+  oracles to judging how adequate a suite is. Use to design, write, plan, or
+  review any kind of test or test plan, including flaky tests, or on /testing.
 metadata:
   short-description: "What makes a good test"
 ---
