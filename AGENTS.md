@@ -2,7 +2,7 @@ For user-facing prose, follow the readable skill in skills/writing/readable/SKIL
 
 ## Shipping changes
 
-Follow skills/core/verify-before-ship/SKILL.md (the principles; cited below as
+Follow skills/domain/verify-before-ship/SKILL.md (the principles; cited below as
 P1-P6). For a skill change, also follow the skill-file section of
 skills/swe/agent-evals/SKILL.md (the eval method). This section names only this
 repo's files, tools, and order.

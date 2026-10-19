@@ -16,8 +16,8 @@
     "agent-skills"
   ],
   "skills": [
-    "./skills/core/testing",
-    "./skills/core/verify-before-ship",
+    "./skills/domain/testing",
+    "./skills/domain/verify-before-ship",
     "./skills/hiring/resume-deep-dive",
     "./skills/hiring/review-resume",
     "./skills/life/side-quest-recommend",
