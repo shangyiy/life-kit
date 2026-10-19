@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.7.1",
+  "version": "0.10.0",
   "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan.",
   "author": {
     "name": "shangyiy",
@@ -16,15 +16,19 @@
     "agent-skills"
   ],
   "skills": [
-    "./skills/black-box",
-    "./skills/carry-plan",
-    "./skills/mutation-testing",
-    "./skills/resume-deep-dive",
-    "./skills/review-resume",
-    "./skills/review-skill",
-    "./skills/side-quest-recommend",
-    "./skills/test-oracle",
-    "./skills/unit-tests",
-    "./skills/white-box"
+    "./skills/hiring/resume-deep-dive",
+    "./skills/hiring/review-resume",
+    "./skills/life/side-quest-recommend",
+    "./skills/presentation/find-the-argument",
+    "./skills/presentation/make-presentation-slide",
+    "./skills/presentation/process-thinking-aloud",
+    "./skills/swe/black-box",
+    "./skills/swe/carry-plan",
+    "./skills/swe/mutation-testing",
+    "./skills/swe/review-skill",
+    "./skills/swe/test-oracle",
+    "./skills/swe/unit-tests",
+    "./skills/swe/white-box",
+    "./skills/writing/readable"
   ]
 }

@@ -6,20 +6,20 @@ Portable [Agent Skills](https://agentskills.io) pack.
 
 | Skill | Slash | What it does |
 |-------|--------|----------------|
-| [`review-resume`](./skills/review-resume/SKILL.md) | `/review-resume` | Honest resume ↔ JD fit review (hiring-manager lens) |
-| [`resume-deep-dive`](./skills/resume-deep-dive/SKILL.md) | `/resume-deep-dive` | Mock-interview grill of resume claims (one Q at a time) |
-| [`review-skill`](./skills/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
-| [`side-quest-recommend`](./skills/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
-| [`unit-tests`](./skills/unit-tests/SKILL.md) | `/unit-tests` | Unit testing meta-skill (SWE suite) |
-| [`black-box`](./skills/black-box/SKILL.md) | `/black-box` | Spec-based input selection (child of `/unit-tests`) |
-| [`test-oracle`](./skills/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
-| [`white-box`](./skills/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
-| [`mutation-testing`](./skills/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
-| [`carry-plan`](./skills/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
-| [`process-thinking-aloud`](./skills/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
-| [`find-the-argument`](./skills/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
-| [`make-presentation-slide`](./skills/make-presentation-slide/SKILL.md) | `/make-presentation-slide` | One argument as claim titles + sparse evidence |
-| [`readable`](./skills/readable/SKILL.md) | `/readable` | Default simple-English writeup: idea, elaboration, example when it helps |
+| [`review-resume`](./skills/hiring/review-resume/SKILL.md) | `/review-resume` | Honest resume ↔ JD fit review (hiring-manager lens) |
+| [`resume-deep-dive`](./skills/hiring/resume-deep-dive/SKILL.md) | `/resume-deep-dive` | Mock-interview grill of resume claims (one Q at a time) |
+| [`review-skill`](./skills/swe/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
+| [`side-quest-recommend`](./skills/life/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
+| [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | `/unit-tests` | Unit testing meta-skill (SWE suite) |
+| [`black-box`](./skills/swe/black-box/SKILL.md) | `/black-box` | Spec-based input selection (child of `/unit-tests`) |
+| [`test-oracle`](./skills/swe/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
+| [`white-box`](./skills/swe/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
+| [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
+| [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
+| [`process-thinking-aloud`](./skills/presentation/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
+| [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
+| [`make-presentation-slide`](./skills/presentation/make-presentation-slide/SKILL.md) | `/make-presentation-slide` | One argument as claim titles + sparse evidence |
+| [`readable`](./skills/writing/readable/SKILL.md) | `/readable` | Default simple-English writeup: idea, elaboration, example when it helps |
 
 ## Install
 
@@ -117,8 +117,8 @@ Orchestrates:
 6. **`/white-box`** — CFG coverage gaps  
 7. **`/mutation-testing`** — suite adequacy when requested  
 
-Principles: [`skills/unit-tests/references/principles.md`](./skills/unit-tests/references/principles.md).  
-Credit / source: [`skills/unit-tests/README.md`](./skills/unit-tests/README.md).
+Principles: [`skills/swe/unit-tests/references/principles.md`](./skills/swe/unit-tests/references/principles.md).  
+Credit / source: [`skills/swe/unit-tests/README.md`](./skills/swe/unit-tests/README.md).
 
 ## carry-plan
 
