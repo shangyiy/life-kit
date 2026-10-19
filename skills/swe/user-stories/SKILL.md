@@ -28,20 +28,23 @@ name every breach with its fix, most important first.
 4. **Cut thin vertical slices; say why the first comes first.** Each slice
    runs from the start to the goal's result and passes or fails on its own;
    never split by layer, component, or step. The first takes the plain
-   primary course; give its reason for that slice: the value it delivers, the
-   risk it settles, or the effort it carries for the others.
+   primary course and relies on no later slice for its data; give its reason
+   for that slice: the value it delivers, the risk it settles, or the effort
+   it carries for the others.
 5. **Assume by default; ask what decides the result or is costly to guess.**
    Ask when the plausible answers change which stories, courses, or checks
    exist; when no sensible default picks what the system acts on; when the
    value is a fact only the owner knows; or when a wrong guess would cause
-   costly or hard-to-reverse harm. Assume openly each point whose wrong guess
-   is cheap to undo, and turn it into a check. Never ask what the idea
-   states, nor assume part of what you ask. Ask once, all together, each
-   with its plausible answers and stakes; name the slices that wait, and go
-   ahead with the rest: never stop all work.
+   costly or hard-to-reverse harm. Never ask about a point whose sensible
+   default still serves the goal and costs little to revise: assume it
+   openly and make it a check. Never ask what the idea states, nor assume
+   part of what you ask. Ask once, all together, each with its plausible
+   answers and stakes; name the slices that wait, and go ahead with the
+   rest: never stop all work.
 6. **See the whole, detail only what is next.** List every use case the idea
-   implies, to fix scope. The next slice to build has checks with concrete
-   values; each later slice stays at the observable result that decides it.
+   implies, to fix scope. The next slice to build carries concrete checks
+   of its own, each a situation with its expected result; each later slice
+   needs only an observable result that decides it.
 
 ## Definitions
 
