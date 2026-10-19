@@ -5,7 +5,7 @@ Core principles for judging and shaping any design (`/design-principles`).
 ## Credit
 
 - *On the Criteria To Be Used in Decomposing Systems into Modules*, D. L. Parnas
-- *Structured Design*, W. Stevens, G. Myers, L. Constantine
+- "Structured design" (IBM Systems Journal, 1974), W. Stevens, G. Myers, L. Constantine
 - *Applying "Design by Contract"*, Bertrand Meyer
 - *Object-Oriented Software Construction*, Bertrand Meyer
 - *A Behavioral Notion of Subtyping*, Barbara Liskov, Jeannette Wing
