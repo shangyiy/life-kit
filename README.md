@@ -2,7 +2,14 @@
 
 life-kit is a pack of portable [Agent Skills](https://agentskills.io). Each skill is a `SKILL.md` file you run as a slash command, such as `/readable` or `/unit-tests`. The skills cover testing, software design, hiring, presentations, writing and everyday life.
 
-How the skills are organized: [skills/core/README.md](./skills/core/README.md).
+## How skills are organized
+
+Inspired by Clean Architecture, skills have at most two layers:
+
+- **Domain** (`skills/core`): what good work is in a field, true whatever the tool, language or output format.
+- **Use case** (everything else): one kind of work that serves a core idea and cites the core instead of restating it.
+
+Tool and framework detail is not written in the skills; it is worked out at run time from the project's environment. Dependencies point inward only, each rule has one home, and every skill supports both doing the work and reviewing existing work.
 
 ## Skills
 
