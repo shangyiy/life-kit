@@ -25,12 +25,11 @@ or in `skill-evals`, never in a skill.
    needed (such as `/ponytail-review`) on the diff and the PR body. Apply the
    right findings. In the PR body, explain any flagged text you keep. Before a
    PR is opened or updated, run every check that can run on its head sha.
-6. **Leak audit:** before a PR is opened or pushed, and again before merge: no
-   private data, rubric or expected-answer wording in the diff. For a
-   `skill-evals` PR, check private data only (eval wording is its content). No
-   AI, programming-language, framework, tool or vendor terms (LLM, agent, git,
-   ponytail, CI…) in a domain skill's files, except names and titles in README
-   credits (case-insensitive, whole-word).
+6. **Leak audit:** no private data, rubric or expected-answer wording in the
+   diff. For a `skill-evals` PR, check private data only (eval wording is its
+   content). No AI, programming-language, framework, tool or vendor terms (LLM,
+   agent, git, ponytail, CI…) in a domain skill's files, except names and titles
+   in README credits (case-insensitive, whole-word).
 7. **PR body:** shorter than the diff: Motivation (the problem in one or two
    sentences), Summary, Test evidence (each check, such as the eval, reviews
    and leak audit, with its method, result and head sha, or "could not run"
@@ -40,7 +39,6 @@ or in `skill-evals`, never in a skill.
    again. A check that could not run blocks the merge until Shang Yi decides.
    `skill-evals` PRs may be merged once an independent review and the leak audit
    pass on the final head sha. Small life-kit fixes (wording or a bug, no rule
-   change) may be self-merged once someone other than the author reviews them.
-   New skills and rule or principle changes wait for Shang Yi's explicit OK.
-   Everything else, and anything you are unsure about, waits for Shang Yi's
-   explicit OK.
+   change) may be merged once a review by someone other than the author passes
+   on the final head sha. New skills, rule or principle changes, and anything
+   else or anything you are unsure about wait for Shang Yi's explicit OK.
