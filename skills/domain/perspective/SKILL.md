@@ -1,12 +1,11 @@
 ---
 name: perspective
 description: >
-  Influence people to reach goals such as getting promoted, getting hired or
-  landing an idea, by reasoning from their side of the situation. Use to plan
-  or review any attempt to win someone's support, with or without authority
-  over them, or on /perspective.
+  Win someone's support by seeing the situation from their side and acting on
+  what you find. Use to plan or review any attempt to gain support, with or
+  without authority, or on /perspective.
 metadata:
-  short-description: "Influence by seeing from their side"
+  short-description: "Win support by seeing from their side"
 ---
 
 # /perspective
