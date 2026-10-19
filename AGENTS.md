@@ -1,5 +1,3 @@
-Claude Code v2.1.277+ reads this file natively when there is no CLAUDE.md.
-
 Write prose by `readable`: one plain idea per point. Ship by
 `verify-before-ship`: someone who did not build the work checks the exact
 version that ships, then the owner approves. For skills, also follow
