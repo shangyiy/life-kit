@@ -10,11 +10,13 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`resume-deep-dive`](./skills/hiring/resume-deep-dive/SKILL.md) | `/resume-deep-dive` | Mock-interview grill of resume claims (one Q at a time) |
 | [`review-skill`](./skills/swe/review-skill/SKILL.md) | `/review-skill` | Subagent audits a skill against a best-practices URL |
 | [`side-quest-recommend`](./skills/life/side-quest-recommend/SKILL.md) | `/side-quest-recommend` | A few optional things to do near you — pick one or skip |
-| [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | `/unit-tests` | Unit testing meta-skill (SWE suite) |
-| [`black-box`](./skills/swe/black-box/SKILL.md) | `/black-box` | Spec-based input selection (child of `/unit-tests`) |
-| [`test-oracle`](./skills/swe/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (child of `/unit-tests`) |
-| [`white-box`](./skills/swe/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (child of `/unit-tests`) |
-| [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
+| [`testing`](./skills/core/testing/SKILL.md) | `/testing` | What makes a good test, for anything under test (core of the testing skills) |
+| [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | `/unit-tests` | Write and review unit tests (use case on `/testing`) |
+| [`black-box`](./skills/swe/black-box/SKILL.md) | `/black-box` | Spec-based input selection (method under `/testing`) |
+| [`combinatorial`](./skills/swe/combinatorial/SKILL.md) | `/combinatorial` | Which input combinations to test; decision tables (method under `/testing`) |
+| [`test-oracle`](./skills/swe/test-oracle/SKILL.md) | `/test-oracle` | Pass/fail oracle design (method under `/testing`) |
+| [`white-box`](./skills/swe/white-box/SKILL.md) | `/white-box` | Structural coverage gaps (method under `/testing`) |
+| [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | `/mutation-testing` | Mutation adequacy (method under `/testing`) |
 | [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
 | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | `/clean-arch-domain` | Domain (entities) vs use case (interactor) split for business rules |
 | [`verify-before-ship`](./skills/core/verify-before-ship/SKILL.md) | `/verify-before-ship` | Ship only what the owner can accept after one read, verified on the exact version |
@@ -101,26 +103,12 @@ One question at a time (why / tradeoff / alternative / gotcha). Depth-first afte
 
 No mode quiz. Skip free. Never invent hours/venues.
 
-## swe (unit testing)
+## testing
 
-Unit testing suite. Entry point:
-
-```text
-/unit-tests
-```
-
-Orchestrates:
-
-1. **Contract** — pre/post-conditions, invariants  
-2. **`/black-box`** — partition inputs, pick representatives  
-3. **`/test-oracle`** — pass/fail procedure per case  
-4. **Fixture** — Arrange EUT + doubles  
-5. **Write tests** — Act + Assert  
-6. **`/white-box`** — CFG coverage gaps  
-7. **`/mutation-testing`** — suite adequacy when requested  
-
-Principles: [`skills/swe/unit-tests/references/principles.md`](./skills/swe/unit-tests/references/principles.md).  
-Credit / source: [`skills/swe/unit-tests/README.md`](./skills/swe/unit-tests/README.md).
+Core skill `/testing`: what makes a good test, for anything under test. The
+methods `/black-box`, `/combinatorial`, `/test-oracle`, `/white-box` and
+`/mutation-testing` apply it; `/unit-tests` is the code-level use case.
+Credits: [`skills/core/testing/README.md`](./skills/core/testing/README.md).
 
 ## carry-plan
 
