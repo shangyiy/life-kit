@@ -1,9 +1,9 @@
 # grouping
 
 Principles for putting observations into kinds, naming the kinds, and checking
-that the groups hold (`/grouping`). `SKILL.md` holds the principles, most
-important first, then the terms. It keeps only what the methods below share;
-steps and thresholds that belong to one method are left out.
+that the groups hold (`/grouping`). `SKILL.md` keeps what the methods below
+agree on, where they speak to it; steps and thresholds that belong to one
+method are left out.
 
 ## Credit
 
@@ -12,10 +12,10 @@ steps and thresholds that belong to one method are left out.
 - Juliet Corbin and Anselm Strauss, "Grounded theory research: procedures,
   canons, and evaluative criteria", *Qualitative Sociology* 13(1), 1990
 - Barney Glaser and Anselm Strauss, *The Discovery of Grounded Theory*, 1967
-- Jiro Kawakita, *KJ法*, 1986, as presented in Yoshitaka Tanaka, "KJ法入門",
-  2010
+- Jiro Kawakita, *発想法*, 1967, and *KJ法*, 1986, as presented in Yoshitaka
+  Tanaka, "KJ法入門", 2010
 - Donna Spencer and Todd Warfel, "Card sorting: a definitive guide", 2004
-- Barbara Minto, *The Pyramid Principle*
+- Barbara Minto, *The Pyramid Principle*, [1996] 2018
 - Christopher Alexander, *Notes on the Synthesis of Form*, 1964
 - Kathleen M. MacQueen et al., "Codebook development for team-based
   qualitative analysis", *Field Methods* 10(2), 1998
