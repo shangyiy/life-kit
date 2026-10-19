@@ -11,7 +11,9 @@ metadata:
 
 # /clean-arch-domain
 
-Decide where each business rule lives: domain or use case.
+Decide where each business rule lives: domain or use case. Each core principle
+and definition below is a rule: breaking one is a violation, and a definition
+that does not apply is marked not applicable.
 
 ## Core principles
 
@@ -19,13 +21,15 @@ Decide where each business rule lives: domain or use case.
    in any application the business uses, even if it has only one, and live in
    entities (the domain). Application-specific rules exist only for this
    application's process and live in use cases, which are never shared between
-   applications.
+   applications. Each rule has one home; a rule stated in more than one place
+   is a violation.
 2. **Dependencies point inward.** Source-code dependencies point from the
    outer side toward the business rules. The outer side is the delivery
-   mechanism (whatever talks to users or other systems), storage, and
-   frameworks. Nothing inside (domain and use cases) depends on it, and no
-   business rule sits in it. Business rules reach storage through an entity
-   gateway: an interface the business rules own and storage implements.
+   mechanism (whatever talks to users or other systems), storage, frameworks
+   and tools. Nothing inside (domain and use cases) depends on it, and no
+   business rule sits in it; detail that is not a business rule belongs
+   there. Business rules reach storage through an entity gateway: an interface
+   the business rules own and storage implements.
 3. **Architecture reveals intent.** The structure shows the use cases, not the
    tools.
 4. **Business rules are testable on their own.** Each use case can be tested
@@ -72,19 +76,3 @@ results.
 - **Response model**: the interactor gathers its results into it as unformatted
   values and passes it out through the output boundary; the delivery mechanism
   formats them.
-
-## Workflow
-
-1. **Use cases** — from the requirements (use cases or user stories) or the
-   existing code, write each use case as defined above.
-2. **Rules** — list every business rule each use case needs.
-3. **Place** — sort each rule by the two kinds in principle 1: domain rules go
-   on an entity, use case rules in the interactor.
-4. **Check** — check the design against every core principle and every rule in
-   the definitions; each one it breaks is a violation.
-
-## Output
-
-Use case list (input, primary course, exception courses) → rule table (rule,
-where it lives now if reviewing, domain or use case, reason) → violations,
-each with the principle it breaks and the move that fixes it.
