@@ -4,13 +4,13 @@
     "name": "shangyiy",
     "url": "https://github.com/shangyiy"
   },
-  "description": "Portable Agent Skills pack (resume, side-quest, unit-testing, carry-plan).",
+  "description": "Portable Agent Skills pack (resume, side-quest, unit-testing).",
   "plugins": [
     {
       "name": "life-kit",
       "source": "./",
-      "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan.",
-      "version": "0.16.0",
+      "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing.",
+      "version": "0.16.2",
       "author": {
         "name": "shangyiy",
         "url": "https://github.com/shangyiy"
