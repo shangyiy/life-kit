@@ -18,7 +18,7 @@ Design a module's static structure or recover it from code: its parts, how they 
 
 1. **Draw every field that holds another object as a kept link, never as a brief use** (association). This includes a collaborator or strategy passed in through a constructor or setter and then stored. A brief use (dependency) is only a parameter, a return type, a local, a static call, or an object created and not kept.
 2. **Choose the weakest relation the code proves**: brief use, then kept link, then owned lifetime. Move up only when you find the extra fact the stronger relation needs, as listed under the relations below, and cite where it shows (`design-principles` principle 7).
-3. **Put a behavior on a type when it uses that type's own data or keeps its invariants** (information expert); **move it to a separate collaborator when it varies independently of the type or needs data the type doesn't own.** Make it a free function when the type's public interface is enough. In design, take the behaviors from the steps of the use cases ([`user-stories`](../user-stories/SKILL.md)).
+3. **Put a behavior on a type when it uses that type's own data or keeps its invariants** (information expert); **move it to a separate collaborator when it varies independently of the type or needs data the type doesn't own.** In design, take the behaviors from the steps of the use cases ([`user-stories`](../user-stories/SKILL.md)).
 4. **Claim a pattern only when one of the variation shapes below is present and each of its roles maps to a concrete element.** Otherwise write "no pattern" and name the missing role. A name that sounds like a pattern is not evidence; whether a shape is worth adding is `design-principles` principle 6.
 5. **Keep the module view (modules and their dependencies) apart from the type view (the types inside one module).** Read module dependencies from the code's own declarations of what it uses: A declares it uses B, so A depends on B. Report every cycle; judge direction by `design-principles` principle 3.
 6. **Name every type, operation, field and variable for what it means, in the business's own terms where one exists**, and give each term one meaning within one part of the system.
@@ -35,7 +35,7 @@ Design a module's static structure or recover it from code: its parts, how they 
 ## Who creates, who coordinates
 
 - The type that contains, records, closely uses, or has the start-up data for an object creates it (creator).
-- One non-interface part receives each system event and coordinates its handling (controller; the interactor of [`clean-arch-domain`](../clean-arch-domain/SKILL.md)).
+- One part outside the delivery mechanism (not in the user interface) receives each system event and coordinates its handling (controller; the interactor of [`clean-arch-domain`](../clean-arch-domain/SKILL.md)).
 - When no business concept fits a job, add a helper type rather than overload a cohesive one (pure fabrication).
 
 ## Variation shapes
