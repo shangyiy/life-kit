@@ -1,15 +1,10 @@
 ---
 name: test-oracle
 description: >
-  Design the oracle of a test, the procedure that decides pass or fail, or
-  review existing oracles: which outcomes to observe, where expected results
-  come from, removing variation instead of weakening the oracle, failures
-  versus errors, essential versus redundant checks judged one by one,
-  hyperassertions, magic values, graded verdicts and verdicts per outcome,
-  validating a fallible oracle, kinds of oracle, interaction checks, and the
-  oracle problem. Method
-  under /testing. Use when defining or reviewing expected results, checks or
-  interaction checks, choosing or validating an oracle, or on /test-oracle.
+  Design or review a test's oracle, the check that decides pass or fail: what
+  to observe, where expected results come from, and how to trust the oracle.
+  Use for expected results, assertions, or interaction checks, or on
+  /test-oracle.
 metadata:
   short-description: "Design and review test oracles"
 parent-skill: testing

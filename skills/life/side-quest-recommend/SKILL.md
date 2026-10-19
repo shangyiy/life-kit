@@ -1,12 +1,10 @@
 ---
 name: side-quest-recommend
 description: >
-  Suggests a few optional things to do near you — a tiny at-home start, a local
-  outing, or a simple getaway idea — based on real time and place. Everything
-  suggested must be real and doable. User picks one option or skips. Use for
-  /side-quest-recommend, weekend plans, things to do, what should I do, bored,
-  local outing, day trip, getaway ideas, or side quest. Not (yet) multi-day
-  travel itineraries or restaurant booking.
+  Suggests a few real, doable things to do near you, from a tiny at-home start
+  to a local outing or simple getaway. Use for /side-quest-recommend, weekend
+  plans, things to do, bored, day trip, or side quest. Not for multi-day
+  itineraries or restaurant booking.
 ---
 
 # Side quest recommend

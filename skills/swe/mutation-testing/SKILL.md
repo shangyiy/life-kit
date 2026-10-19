@@ -1,14 +1,10 @@
 ---
 name: mutation-testing
 description: >
-  Judge test suite effectiveness by injecting small, realistic faults from a
-  fault model (mutants in a program, modeled defects in a circuit) and
-  measuring how many the suite detects. Covers the seeded-fault estimate
-  and why its validity rests on representative seeded faults, why small
-  seeded faults speak for real ones, fault models and operators, the score,
-  equivalent mutants, and what to do with survivors. Method under /testing.
-  Use to design operators and run a mutation analysis, to review a mutation
-  score, survivor triage or fault estimate, or on /mutation-testing.
+  Judge how well a test suite catches faults by injecting small, realistic
+  faults (mutants, modeled defects) and measuring how many it detects. Use to
+  design or run a mutation analysis, review a mutation score or surviving
+  mutants, or on /mutation-testing.
 metadata:
   short-description: "Mutation-based suite adequacy"
 parent-skill: testing

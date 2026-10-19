@@ -2,12 +2,9 @@
 name: verify-before-ship
 description: >
   Principles for handing over or approving any change (code, documents,
-  instructions): done means the owner can accept it after one read; an
-  independent, closed-book party verifies the exact version that ships;
-  editing the work or anything it relies on cancels earlier checks and
-  approval; no shaping the work to its checker; smallest full change; nothing
-  ships until the owner explicitly approves. Use to do such work or to review
-  it, or when the user runs /verify-before-ship.
+  instructions): the owner can accept it after one read, and the exact version
+  that ships is independently checked and approved. Use to do or review such
+  work, or on /verify-before-ship.
 license: MIT
 metadata:
   short-description: "Done = owner accepts after one read; verify what ships"
