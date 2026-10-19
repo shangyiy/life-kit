@@ -34,46 +34,6 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 | writing | [`readable`](./skills/writing/readable/SKILL.md) | Default plain-English style for text people read |
 | life | [`side-quest-recommend`](./skills/life/side-quest-recommend/SKILL.md) | Suggest a few real things to do near you |
 
-## Install
-
-### Grok
-
-```bash
-grok plugin install shangyiy/life-kit --trust
-# or local checkout
-grok plugin install /path/to/life-kit --trust
-```
-
-### Claude Code
-
-Inside Claude Code:
-
-```text
-/plugin marketplace add shangyiy/life-kit
-/plugin install life-kit@life-kit
-```
-
-Or from your shell:
-
-```bash
-claude plugin marketplace add shangyiy/life-kit
-claude plugin install life-kit@life-kit
-```
-
-Local checkout:
-
-```bash
-claude --plugin-dir /path/to/life-kit
-```
-
-Skills are namespaced, such as `/life-kit:unit-tests`. Run `/reload-plugins` if they don't show yet.
-
-To make `/readable` the default in another repo, add this line to its `AGENTS.md` and `CLAUDE.md`:
-
-```text
-For user-facing prose, follow the readable skill (/readable).
-```
-
 ## License
 
 [MIT](./LICENSE). Copyright (c) 2026 Shang-Yi Yu
