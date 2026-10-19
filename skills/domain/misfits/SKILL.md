@@ -27,7 +27,7 @@ the work or to review it; in a review, name each breach once, with its fix.
    something made but unused, or things piling up; one need served at
    another's expense, or a fix that worsens another need; gaps between parts
    left untended; a name with nothing behind it. Work repeated unchanged by
-   those who bear its results, and could change it, is fair evidence of fit.
+   those who bear its results and could change it is fair evidence of fit.
 3. **Write each misfit as a binary variable** two readers would judge alike,
    of equal scope, as independent as is reasonable, and as small as possible.
    Include needs met today that no one feels: even small forces left out
@@ -46,8 +46,8 @@ the work or to review it; in a review, name each breach once, with its fix.
    unresolved. Forces are never known exactly, so ask what tension remains
    and what new forces it creates, and list those as misfits.
 7. **Test by paired comparison.** Pair records of one context and similar
-   scope, with and without the configuration; judge only the part the pattern
-   governs. Ask which leaves less tension, never which is liked, going back
+   scope, with and without the configuration; compare only where the pattern
+   applies. Ask which leaves less tension, never which is liked, going back
    and forth more than once. If the one without it is better, or honestly no
    different, the pattern is no good. Only converging independent verdicts
    count.
