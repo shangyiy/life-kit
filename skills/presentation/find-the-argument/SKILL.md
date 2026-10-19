@@ -15,7 +15,7 @@ license: MIT
 
 People think in observations: they explore ideas, revisit them and correct themselves. Good communication is organized around an argument. The same principles serve doing the work and reviewing it: to review, check the outline or draft, and its source thinking when given, against each principle in order, and report each lapse once with the principle it breaks and the fix. The request decides what to produce.
 
-## Principles, most important first
+## Principles
 
 1. **One argument, not a summary.** The argument is the single idea that makes the other ideas feel inevitable. Find it by asking what the author is actually trying to convince someone of, what the audience should remember if they remember only one thing, and why all these ideas belong in the same conversation. Prefer one coherent argument over several disconnected good ideas.
 2. **Keep the understanding, not the thinking process.** Treat raw thinking as thinking, not dictation. The result reads as though the author had explained the idea clearly from the beginning: the reasoning survives, the false starts, detours and wording do not.

@@ -15,7 +15,7 @@ Every principle of [`testing`](../../domain/testing/SKILL.md) applies unchanged
 to evals of AI agents; this skill holds only what is agent-specific. To design
 or run an eval, meet every principle; to review one, report each one it breaks.
 
-## Principles, most important first
+## Principles
 
 1. **Agents are nondeterministic, so every score comes from repeated trials**
    (`testing` principles 5 and 8) and holds only for its exact model, harness

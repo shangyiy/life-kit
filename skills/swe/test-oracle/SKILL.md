@@ -14,7 +14,7 @@ parent-skill: testing
 
 How to build the pass-or-fail decision of a test, the assert step, for any entity under test (EUT): code, circuit or system. It applies [`testing`](../../domain/testing/SKILL.md) principle 2 (an oracle that can fail, expected results from the spec, every promised outcome checked) and uses its definitions of oracle, contract, fault, error and failure. To review oracles, list what the spec promises for each test's behavior, compare it with what the checks judge, and report each lapse with the principle broken and the fix.
 
-## Principles, most important first
+## Principles
 
 - **Observe every promised outcome.** A postcondition can promise a returned result, a resulting state, an interaction with a collaborator, or several of these; observe each one the spec makes a promise about. An unchecked outcome leaves its faults undetected, and a check placed elsewhere passes even though the state is wrong. Check what the contract promises, not internal state outside it, which ties the test to the implementation.
 - **Derive each expected result before the run** from the contract (postconditions and invariants), the input block, or the business rule for this case. A value copied from the EUT's own output only confirms what the EUT does. When a recorded or circular oracle is replaced, reselect the cases from the rule too, its blocks, boundaries and special values, instead of keeping arbitrary inputs with recomputed expectations.

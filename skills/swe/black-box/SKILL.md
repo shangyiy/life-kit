@@ -20,7 +20,7 @@ parent-skill: testing
 
 Choose test inputs from the specification, without looking at the implementation, for any entity under test (EUT): code, a circuit or a whole system; or review an existing suite's inputs and combinations against the same model. It applies [`testing`](../../domain/testing/SKILL.md) principles 3, 7 and 8 and uses its definitions; nothing here restates them. Model one independently testable requirement at a time: attributes, characteristics, blocks, combinations, representatives. To review, rebuild the model from the spec and place each existing test in its block per characteristic and its combination; gaps, redundancy and model defects then show directly.
 
-## Principles, most important first
+## Principles
 
 1. **The model is the hard part.** Once the input space model exists, deriving tests is fairly mechanical; listing every attribute and choosing characteristics is where it goes wrong, and no model is certainly complete. Every attribute counts, explicit or implicit. Review the model like any design: look for a missing characteristic and compare alternatives before choosing.
 2. **Check disjointness and completeness (testing principle 7) with degenerate inputs.** Place the empty, single and other degenerate inputs against every block: an input in no block shows incompleteness, an input in several shows overlap, a different defect. Overlap usually means a missing characteristic: add it, make the original depend on it, and give the ambiguous case its own block. Incompleteness takes an "other" block, including one for inputs where a characteristic does not apply.
