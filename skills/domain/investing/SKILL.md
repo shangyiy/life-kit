@@ -49,7 +49,7 @@ review, name each breach once, with its fix.
    cause of dumb mistakes. For an average institution, indexing can be wiser
    than its own stock picking.
 8. **Use the big ideas of many disciplines as a checklist.** Facts that do not
-   hang together on a framework of theory are not usable. Run through the big
+   hang together on a latticework of theory are not usable. Run through the big
    ideas of mathematics, accounting, economics, and psychology
    checklist-style, and think each problem through forward and in reverse.
 9. **Think independently of the crowd.** Copying the herd invites regression
