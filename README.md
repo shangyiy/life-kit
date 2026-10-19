@@ -17,6 +17,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | `/mutation-testing` | Meaningful mutation adequacy (child of `/unit-tests`) |
 | [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
 | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | `/clean-arch-domain` | Domain (entities) vs use case (interactor) split for business rules |
+| [`verify-before-ship`](./skills/core/verify-before-ship/SKILL.md) | `/verify-before-ship` | Ship only what the owner can accept after one read, verified on the exact version |
 | [`process-thinking-aloud`](./skills/presentation/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
 | [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
 | [`make-presentation-slide`](./skills/presentation/make-presentation-slide/SKILL.md) | `/make-presentation-slide` | One argument as claim titles + sparse evidence |
