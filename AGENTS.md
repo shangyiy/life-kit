@@ -3,9 +3,8 @@ For user-facing prose, follow the readable skill in skills/writing/readable/SKIL
 ## Shipping changes
 
 Follow skills/domain/verify-before-ship/SKILL.md (the principles; cited below as
-P1-P6). For a skill change, also follow the agent-evals eval method (written
-separately; not yet in this repo). This section names only this repo's files,
-tools, and order.
+P1-P6). For a skill change, also follow skills/swe/agent-evals/SKILL.md. This
+section names only this repo's files, tools, and order.
 
 **Skill layers.** Skills have at most two layers: domain skills
 (`skills/domain`) hold application-independent principles, and use-case skills

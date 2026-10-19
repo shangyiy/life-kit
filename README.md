@@ -22,6 +22,7 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 | | [`test-oracle`](./skills/swe/test-oracle/SKILL.md) | Design how a test decides pass or fail |
 | | [`white-box`](./skills/swe/white-box/SKILL.md) | Close structural coverage gaps |
 | | [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | Judge a suite by the injected faults it detects |
+| | [`agent-evals`](./skills/swe/agent-evals/SKILL.md) | Design, run and review evals of AI agents |
 | | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | Decide whether a business rule belongs in the domain or a use case |
 | | [`user-stories`](./skills/swe/user-stories/SKILL.md) | Turn an idea into user stories, acceptance checks and thin slices |
 | hiring | [`review-resume`](./skills/hiring/review-resume/SKILL.md) | Honest review of how a resume fits a job description |
