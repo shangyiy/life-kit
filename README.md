@@ -27,8 +27,7 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 | | [`user-stories`](./skills/swe/user-stories/SKILL.md) | Turn an idea into user stories, acceptance checks and thin slices |
 | hiring | [`review-resume`](./skills/hiring/review-resume/SKILL.md) | Honest review of how a resume fits a job description |
 | | [`resume-deep-dive`](./skills/hiring/resume-deep-dive/SKILL.md) | Mock interview on your resume claims, one question at a time |
-| presentation | [`process-thinking-aloud`](./skills/presentation/process-thinking-aloud/SKILL.md) | Turn voice notes into structured reasoning |
-| | [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | Find the one thesis that ties your notes together |
+| presentation | [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | Find the one argument in notes or voice notes and rebuild the reasoning around it |
 | | [`make-presentation-slide`](./skills/presentation/make-presentation-slide/SKILL.md) | Build a deck that teaches one argument with claim titles |
 | writing | [`readable`](./skills/writing/readable/SKILL.md) | Default plain-English style for text people read |
 | life | [`side-quest-recommend`](./skills/life/side-quest-recommend/SKILL.md) | Suggest a few real things to do near you |
