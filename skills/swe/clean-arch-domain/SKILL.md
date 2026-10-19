@@ -13,73 +13,78 @@ metadata:
 
 Decide where each business rule lives: domain or use case.
 
-## Principles
+## Core principles
 
-### Two kinds of business rules
+1. **Two kinds of business rules.** Application-independent rules would hold
+   in any application the business uses, even if it has only one, and live in
+   entities (the domain). Application-specific rules exist only for this
+   application's process and live in use cases, which are never shared between
+   applications.
+2. **Dependencies point inward.** Source-code dependencies point from the
+   outer side toward the business rules. The outer side is the delivery
+   mechanism (whatever talks to users or other systems), storage, and
+   frameworks. Nothing inside (domain and use cases) depends on it, and no
+   business rule sits in it. Business rules reach storage through an entity
+   gateway: an interface the business rules own and storage implements.
+3. **Architecture reveals intent.** The structure shows the use cases, not the
+   tools.
+4. **Business rules are testable on their own.** Each use case can be tested
+   by passing a request model in and reading the response model out, with only
+   the interactor and its entities running: no delivery mechanism, no storage.
 
-- **Application-independent**: hold across the business's applications → entities (domain).
-- **Application-specific**: exist only for this application's process → use cases.
+## Definitions
 
 ### Use case
 
-A use case gives the input data (named, not structured), the primary course,
-and the exception courses. Each step says what the system does, never how:
+A use case gives the input data (named, not structured), the primary course
+(the steps when everything goes right), and the exception courses (the steps
+when something goes wrong). Each step says what the system does, never how:
 validation criteria are decided later. It names no delivery mechanism or
 storage. The actor's action that starts it is not a system step. A user story
-and a use case are the same thing; heaviness comes from elaborate templates
-(tiers of actors, pre- and postconditions), not from the use case. Do not bury
-use cases in elaborate templates.
-
-### Interactor
-
-A use case takes data in, processes it, and puts data out, so it can become an
-object: the interactor (Jacobson's control object). It holds the application's
-specific rules and controls the dance of several entities, then gathers their
-results into the response model and passes it out through the output boundary.
-Use cases are not shared between applications.
-
-### Boundaries
-
-Data enters and leaves an interactor through boundaries (abstract
-interfaces). It implements the input boundary; the outer side, the output one.
-
-- **Request model**: the outer side translates outside input into it and passes
-  it through the input boundary; the interactor never sees the outside form. It
-  is a bunch of primitives with no framework dependencies, and reveals nothing
-  about the delivery mechanism.
-- **Response model**: the interactor gathers its results into it as unformatted
-  values and passes it out through the output boundary; formatting is outside.
+and a use case are the same thing. Keep use cases light: plain text with the
+input data, primary course and exception courses, not buried in elaborate
+forms.
 
 ### Entity
 
 An entity is a business object holding application-independent rules, not just
 data, so many use cases and applications may use it. It is not a copy of one
-storage table: it is usually built from many tables, and may include operations.
-Do not shape entities like tables.
+storage table: it typically spans several tables and can carry its own
+operations.
 
-### Core principles
+### Interactor
 
-1. Architecture should reveal intent: the use cases, not the tools.
-2. Source-code dependencies across a boundary point toward the business rules;
-   nothing inside (domain and use cases) depends on delivery, storage, or
-   frameworks. Business rules never sit in the delivery mechanism or in storage.
-3. Business rules can be tested with a request in and a response out, with
-   nothing else running: no delivery, no storage. Each use case is testable
-   this way.
+A use case takes data in, processes it, and puts data out, so it can become an
+object: the interactor (Jacobson's control object). It carries out the
+application-specific rules and directs several entities.
+
+### Boundaries
+
+Data enters and leaves an interactor through boundaries (abstract interfaces).
+The interactor implements the input boundary; the delivery mechanism implements
+the output boundary, so the interactor does not depend on what shows its
+results.
+
+- **Request model**: the delivery mechanism translates its input into it and
+  passes it through the input boundary, so the interactor never sees the input
+  in the form it had on the outer side. It holds plain values only and depends
+  on no framework.
+- **Response model**: the interactor gathers its results into it as unformatted
+  values and passes it out through the output boundary; the delivery mechanism
+  formats them.
 
 ## Workflow
 
-1. **Use cases** — from the requirements (use cases or user stories), write each
-   use case as defined in Use case above.
+1. **Use cases** — from the requirements (use cases or user stories) or the
+   existing code, write each use case as defined above.
 2. **Rules** — list every business rule each use case needs.
-3. **Classify** — sort each rule into one of the two kinds above:
-   application-independent → **domain**; application-specific → **use case**.
-4. **Assign** — domain rules go on entities; use case rules go in the
-   interactor (see Interactor and Boundaries).
-5. **Check** — check the design against every statement in Principles; each
-   one it breaks is a violation.
+3. **Place** — sort each rule by the two kinds in principle 1: domain rules go
+   on an entity, use case rules in the interactor.
+4. **Check** — check the design against every core principle and every rule in
+   the definitions; each one it breaks is a violation.
 
 ## Output
 
 Use case list (input, primary course, exception courses) → rule table (rule,
-domain or use case, reason) → violations and moves.
+where it lives now if reviewing, domain or use case, reason) → violations,
+each with the principle it breaks and the move that fixes it.
