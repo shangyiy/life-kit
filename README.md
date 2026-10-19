@@ -15,7 +15,8 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 
 | Folder | Skill | What it does |
 |--------|-------|--------------|
-| domain | [`testing`](./skills/domain/testing/SKILL.md) | What makes a good test, for anything under test |
+| domain | [`perspective`](./skills/domain/perspective/SKILL.md) | Influence people by reasoning from their side: get promoted, get hired, land an idea |
+| | [`testing`](./skills/domain/testing/SKILL.md) | What makes a good test, for anything under test |
 | | [`verify-before-ship`](./skills/domain/verify-before-ship/SKILL.md) | Hand over a change only when it is verified and the owner can accept it after one read |
 | swe | [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | Write and review unit tests |
 | | [`black-box`](./skills/swe/black-box/SKILL.md) | Pick test inputs from the spec and decide which combinations to test |
