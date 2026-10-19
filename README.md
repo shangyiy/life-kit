@@ -15,7 +15,8 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 
 | Folder | Skill | What it does |
 |--------|-------|--------------|
-| domain | [`perspective`](./skills/domain/perspective/SKILL.md) | Win someone's support by seeing the situation from their side |
+| domain | [`design-principles`](./skills/domain/design-principles/SKILL.md) | What makes a design easy to change: hiding, coupling, dependency direction, contracts |
+| | [`perspective`](./skills/domain/perspective/SKILL.md) | Win someone's support by seeing the situation from their side |
 | | [`testing`](./skills/domain/testing/SKILL.md) | What makes a good test, for anything under test |
 | | [`verify-before-ship`](./skills/domain/verify-before-ship/SKILL.md) | Hand over a change only when it is verified and the owner can accept it after one read |
 | swe | [`unit-tests`](./skills/swe/unit-tests/SKILL.md) | Write and review unit tests |
