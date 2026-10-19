@@ -20,10 +20,10 @@ the work or to review it; in a review, name each breach once, with its fix.
 
 1. **Start from misfits, judged by consequences.** Good fit shows only as the
    absence of misfits, which are specific enough to name. Read how the context
-   responded to the work, not your own reaction. Count a failure escaped only
-   by luck like one that happened.
+   responded to the work, not your own reaction. Possible failure counts, not
+   only failure seen.
 2. **Read the signs in the record.** Failure followed directly by correction;
-   a misfit returning worse, or a failing form repeated with nothing changed;
+   work at war with itself, or a failing form repeated with nothing changed;
    something made but unused, or things piling up; one need served at
    another's expense, or a fix that worsens another need; gaps between parts
    left untended; a name with nothing behind it. Work repeated unchanged by
@@ -38,8 +38,8 @@ the work or to review it; in a review, name each breach once, with its fix.
    between. Familiar categories control what you see: headings only list.
 5. **Find the invariant, named so you can tell at once if it is present.**
    Among records of one context, find a relation all the good have and all the
-   bad lack, or start from the bad and resolve them. Write it as context,
-   forces and one configuration, precise enough to be challenged.
+   bad lack, or start from the bad ones and find what resolves them. Write it
+   as context, forces and one configuration, precise enough to be challenged.
 6. **A pattern lives only if it resolves all the forces present,** judging
    none illegitimate. A real problem and a configuration that solves it can
    each hold while the whole is dead. Judge each force per case: resolved,
@@ -47,15 +47,14 @@ the work or to review it; in a review, name each breach once, with its fix.
    remains and what new forces it creates, and list those as misfits.
 7. **Test by paired comparison.** Pair records of one context and similar
    scope, with and without the configuration; judge only the part the pattern
-   governs. The judge, blind to which should win, asks which leaves less
-   tension, never which is liked, going back and forth more than once. If the
-   one without it is better, or honestly no different, the pattern is no good.
-   Only converging independent verdicts count.
+   governs. The judge, not part of the work, asks which leaves less tension,
+   never which is liked, going back and forth more than once. If the one
+   without it is better, or honestly no different, the pattern is no good. Only
+   converging independent verdicts count.
 8. **Retest on any sign of a dead pattern:** the name without the spirit;
-   halfhearted use; use because it is at hand; made to project an image;
-   makers who never face its results. A case lacking it can still live.
+   halfhearted use; use because it is at hand; made to project an image; makers
+   who do not face its results. A case without the pattern can still live.
 9. **Hold each pattern as a guess, and evolve the set one pattern at a time.**
    Revise or reject one on a case it cannot explain; expect to discard most.
    Change only on misfit, and put each pattern back into use where it came
-   from, so its users keep testing it. New configurations create new forces,
-   so the set is never finished.
+   from, so its users keep testing it. The set is never finished.
