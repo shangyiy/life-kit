@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.16.4",
+  "version": "0.16.5",
   "description": "Portable agent skills pack: resume, unit-testing, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
@@ -15,7 +15,6 @@
     "./skills/presentation/make-presentation-slide",
     "./skills/swe/black-box",
     "./skills/swe/clean-arch-domain",
-    "./skills/swe/combinatorial",
     "./skills/swe/mutation-testing",
     "./skills/swe/test-oracle",
     "./skills/swe/unit-tests",
