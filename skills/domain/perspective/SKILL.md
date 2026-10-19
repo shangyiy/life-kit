@@ -11,8 +11,8 @@ metadata:
 # /perspective
 
 The domain of influence: winning someone's support for an idea, a request or a
-case, whoever they are and whatever the medium. Use these to do the work or to
-review it; in a review, name each breach once, with its fix.
+case, whoever they are and whatever the medium. Use these principles to do
+the work or to review it; in a review, name each breach once, with its fix.
 
 ## Principles
 
@@ -24,11 +24,10 @@ review it; in a review, name each breach once, with its fix.
    with it. Do not stereotype their world.
 2. **Look for the need behind what they ask for.** What they ask for is a
    position; why they want it is the interest. An interest can usually be met
-   by several positions, not only the one they asked for. Ask why. The most
-   powerful interests are basic human needs, such as feeling important.
-3. **Claim only what is true, promise only what you can deliver, and praise
-   only what you mean.** Nobody wants flattery or insincerity, and one false
-   note can make people question your sincerity. Influence over time goes to
+   by several positions. Ask why. The most powerful interests are basic human
+   needs, such as feeling important.
+3. **Be sincere: promise only what you can deliver, and praise only what you
+   mean.** Nobody wants flattery or insincerity. Influence over time goes to
    the sincere, those genuinely interested in the welfare of others. None of
    these principles works as a trick.
 4. **Offer what they value, not what you value.** Being right is not enough.
@@ -36,9 +35,8 @@ review it; in a review, name each breach once, with its fix.
    terms of their interests, not its merit by your measure.
 5. **Know what you most need, and stay open on how you get it.** Know what you
    want, what matters most, and what you would settle for. Commit to that
-   need, not to one position, so an answer that works for both sides can
-   appear. Under stress people can forget their primary goals and just want
-   to beat the other side.
+   need, not to one position. Under stress people can forget their primary
+   goals and just want to beat the other side.
 6. **Listen first, show you understood, and let them take part in reaching
    the conclusion.** People listen better once they feel understood, so show
    you grasp their interests before asking them to grasp yours. The feeling
