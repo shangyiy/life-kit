@@ -46,7 +46,7 @@ review, name each breach once, with its fix.
    great businesses for long stretches can give a large edge from the way
    income taxes work, but trying too hard to minimize taxes is a standard
    cause of dumb mistakes. For an average foundation, indexing can be wiser
-   than its own stock picking.
+   than paying layers of managers and consultants to pick stocks.
 8. **Use the big ideas of many disciplines as a checklist.** Facts that do not
    hang together on a latticework of theory are not usable. Run through the big
    ideas of mathematics, accounting, economics, and psychology
