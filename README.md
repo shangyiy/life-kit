@@ -19,6 +19,7 @@ Portable [Agent Skills](https://agentskills.io) pack.
 | [`mutation-testing`](./skills/swe/mutation-testing/SKILL.md) | `/mutation-testing` | Mutation adequacy (method under `/testing`) |
 | [`carry-plan`](./skills/swe/carry-plan/SKILL.md) | `/carry-plan` | Carry a plan to draft PR: Dev/Validator split, done = remote body + PASS |
 | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | `/clean-arch-domain` | Domain (entities) vs use case (interactor) split for business rules |
+| [`user-stories`](./skills/swe/user-stories/SKILL.md) | `/user-stories` | Idea to user stories, acceptance checks, and thin vertical slices |
 | [`verify-before-ship`](./skills/core/verify-before-ship/SKILL.md) | `/verify-before-ship` | Ship only what the owner can accept after one read, verified on the exact version |
 | [`process-thinking-aloud`](./skills/presentation/process-thinking-aloud/SKILL.md) | `/process-thinking-aloud` | Voice notes → structured reasoning (not dictation) |
 | [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | `/find-the-argument` | Notes → one thesis that makes the rest inevitable |
