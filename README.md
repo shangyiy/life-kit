@@ -4,13 +4,12 @@ life-kit is a pack of portable [Agent Skills](https://agentskills.io). Each skil
 
 ## How skills are organized
 
-Skills are written in three layers, inspired by Clean Architecture.
+Skills are written in two layers, inspired by Clean Architecture.
 
-- **Domain** (`skills/core`): principles that hold whatever the tool or language.
-- **Use case**: one kind of work built on the domain, such as unit tests.
-- **Adapter**: tool and framework detail, kept in a skill's `references/`.
+- **Domain** (`skills/core`): principles that hold whatever the tool or language: `testing` and `verify-before-ship`.
+- **Use case**: one kind of work built on the domain. In testing, `unit-tests` and the techniques `black-box`, `combinatorial`, `test-oracle`, `white-box` and `mutation-testing`; in software design, `clean-arch-domain` and `user-stories`.
 
-Dependencies point inward only, and each rule has one home. See [skills/core/README.md](./skills/core/README.md) for more.
+Tool and framework detail is not written in the skills; it is worked out at run time from the project's environment. Dependencies point inward only, each rule has one home, and every skill supports both doing and reviewing the work. See [skills/core/README.md](./skills/core/README.md) for more.
 
 ## Skills
 
