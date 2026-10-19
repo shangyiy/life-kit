@@ -28,15 +28,14 @@ review, name each breach once, with its fix.
    you can state the case against it better than its opponents can. Check each
    decision against the standard causes of misjudgment; several acting
    together can produce extreme results.
-4. **Follow the incentives, including your advisers'.** Behavior follows
-   incentives. Especially fear advice that is especially good for the adviser:
-   learn the basics of the adviser's trade, and double-check, disbelieve, or
-   replace much of what you are told. Sometimes the best course is still to
-   trust an expert.
+4. **Follow the incentives, including your advisers'.** Especially fear
+   advice that is especially good for the adviser: learn the basics of the
+   adviser's trade, and double-check, disbelieve, or replace much of what you
+   are told. Sometimes the best course is still to trust an expert.
 5. **Allocate by opportunity cost, and bet heavily only when the odds are
    clearly in your favor.** Measure each use of capital against the next best
    use. Good ideas are rare, and odds help only where you can recognize them;
-   the rest of the time, do nothing. Fit concentration to your temperament: if
+   the rest of the time, do not bet big. Fit concentration to temperament: if
    losses will make you miserable, a very conservative pattern may be wise.
 6. **Judge the business, then the price.** Over the long term it is hard for a
    stock to earn much more than the business beneath it earns. A great
@@ -53,8 +52,9 @@ review, name each breach once, with its fix.
    ideas of mathematics, accounting, economics, and psychology
    checklist-style.
 9. **Think independently of the crowd.** Copying the herd invites regression
-   to the mean. Learn to ignore others' examples when they are wrong. Most of
-   the time, admit you do not know where the market is headed.
-10. **Fix mistakes fast, and keep learning.** Learn to quit a much-loved hand,
-    and do not spend good assets rescuing a venture going bad. Keep acquiring
-    wisdom, and anticipate trouble so you are ready when it comes.
+   to the mean. Learn to ignore others' examples when they are wrong. Stay
+   almost always agnostic about where the market as a whole is headed.
+10. **Fix mistakes fast, and keep learning.** Learn to quit sometimes, even
+    when holding a much-loved hand, and do not spend good assets rescuing a
+    venture going bad. Keep acquiring wisdom, and anticipate trouble so you
+    are ready when it comes.
