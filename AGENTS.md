@@ -3,14 +3,16 @@ For user-facing prose, follow the readable skill in skills/writing/readable/SKIL
 ## Shipping changes
 
 Follow skills/domain/verify-before-ship/SKILL.md (the principles; cited below as
-P1-P6). For a skill change, also follow the skill-file section of
-skills/swe/agent-evals/SKILL.md (the eval method). This section names only this
-repo's files, tools, and order.
+P1-P6). For a skill change, also follow the agent-evals eval method (written
+separately; not yet in this repo). This section names only this repo's files,
+tools, and order.
 
-**Skill layers.** Core skills hold application-independent principles. Method
-skills apply core skills and may name agents. Repo, tool, and harness detail
-lives here or in `skill-evals`, never in a core skill. Dependencies point
-inward: core cites nothing outward.
+**Skill layers.** Skills have at most two layers: domain skills
+(`skills/domain`) hold application-independent principles, and use-case skills
+(everything else, including testing techniques) apply them. No skill writes in
+tool detail; it is worked out at run time from the project's environment. Repo
+and harness detail lives here or in `skill-evals`, never in a skill.
+Dependencies point inward: the domain cites nothing outward.
 
 1. **Branch and commits**: never push to `main`. Work on a branch named
    `<type>/<topic>` (`feat/`, `fix/`, `docs/`, `refactor/`), with conventional
@@ -25,7 +27,7 @@ inward: core cites nothing outward.
    every claim must trace to the source.
 4. **Leak audit**: before opening the PR, search every file in the diff for
    private data and for copies of rubric or expected-answer wording (P4). For a
-   core skill, also search every file (`SKILL.md`, `references/`, `README.md`),
+   domain skill, also search every file (`SKILL.md`, `references/`, `README.md`),
    case-insensitive and whole-word, for terms about AI (AI, LLM, GPT, agent,
    prompt, assistant, chat, model in the AI sense), programming languages,
    frameworks, and tools or vendors (git, GitHub, ponytail, and any CI
