@@ -73,8 +73,9 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
      Stating that reason for the slice at hand, not only as a rule, is this
      skill's wording (run3 showed the bare rule was not applied).
 5. **Assume by default; ask what decides the result or is costly to guess.**
-   - `pipeline-design/idea-to-merge.md`: "asks only what changes the
-     result"; "ask once". This is the repo's own rule. The test "compare
+   - The owner's pipeline design notes (`pipeline-design/idea-to-merge.md`,
+     not in this repo): "asks only what changes the result"; "ask once".
+     This is the owner's own rule. The test "compare
      the plausible answers; ask when they change which stories, courses, or
      checks exist, or when no sensible default picks the items acted on;
      assume the rest openly" is this skill's wording of it (tightened after
@@ -113,9 +114,7 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
   p. 5-6: actors can be other systems, and the initiator is an actor or the
   system. Cohn ch. 7: active voice, one user, closed stories (after
   Lauesen).
-- **Course:** UC2 p. 8-9, 14 (basic and alternative flows). The
-  source-cannot-be-read course is this skill's generic rule, from UC2's
-  alternative flows and SbE edge cases; no source states it directly.
+- **Course:** UC2 p. 8-9, 14 (basic and alternative flows).
 - **Slice:** UC2 "Use-Case Slices" (p. 15): one or more stories selected
   from a use case to form a work item of clear value; a story is a thread
   through one or more flows with its test cases (p. 16).
