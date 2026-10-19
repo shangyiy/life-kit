@@ -3,8 +3,8 @@ name: mutation-testing
 description: >
   Judge how well a test suite catches faults by injecting small, realistic
   faults (mutants, modeled defects) and measuring how many it detects. Use to
-  design or run a mutation analysis, review a mutation score or surviving
-  mutants, or on /mutation-testing.
+  design or run a mutation analysis or fault seeding, review a mutation score,
+  surviving or equivalent mutants, or on /mutation-testing.
 metadata:
   short-description: "Mutation-based suite adequacy"
 parent-skill: testing

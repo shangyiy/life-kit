@@ -1,10 +1,9 @@
 ---
 name: verify-before-ship
 description: >
-  Principles for handing over or approving any change (code, documents,
-  instructions): the owner can accept it after one read, and the exact version
-  that ships is independently checked and approved. Use to do or review such
-  work, or on /verify-before-ship.
+  Principles for handing over, verifying, and approving any change (code,
+  documents, instructions) before it ships. Use to do or review such work, or
+  on /verify-before-ship.
 license: MIT
 metadata:
   short-description: "Done = owner accepts after one read; verify what ships"

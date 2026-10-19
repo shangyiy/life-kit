@@ -1,10 +1,9 @@
 ---
 name: testing
 description: >
-  What makes a good test, whatever is under test: oracles that can fail,
-  repeatability, partitioned inputs, measured adequacy, and held-out test
-  sets. Use to design, write, plan, or review any kind of test or test plan,
-  or on /testing.
+  What makes a good test, whatever is under test, from choosing inputs and
+  oracles to judging how adequate a suite is. Use to design, write, plan, or
+  review any kind of test or test plan, including flaky tests, or on /testing.
 metadata:
   short-description: "What makes a good test"
 ---

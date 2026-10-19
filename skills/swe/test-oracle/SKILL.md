@@ -3,8 +3,8 @@ name: test-oracle
 description: >
   Design or review a test's oracle, the check that decides pass or fail: what
   to observe, where expected results come from, and how to trust the oracle.
-  Use for expected results, assertions, or interaction checks, or on
-  /test-oracle.
+  Use for expected results, assertions, interaction checks, or the oracle
+  problem, or on /test-oracle.
 metadata:
   short-description: "Design and review test oracles"
 parent-skill: testing

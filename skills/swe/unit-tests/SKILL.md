@@ -2,9 +2,8 @@
 name: unit-tests
 description: >
   Write or review unit tests, tests of the smallest piece of code that can be
-  tested on its own, including test doubles (stubs, fakes, mocks) and
-  testability seams. Use to write unit tests, review a unit suite, or on
-  /unit-tests.
+  tested on its own, including test doubles (stubs, fakes, mocks), testability
+  seams, and test-first changes. Use for unit tests, TDD, or /unit-tests.
 metadata:
   short-description: "Write and review unit tests"
 parent-skill: testing

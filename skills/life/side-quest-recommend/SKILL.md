@@ -3,8 +3,8 @@ name: side-quest-recommend
 description: >
   Suggests a few real, doable things to do near you, from a tiny at-home start
   to a local outing or simple getaway. Use for /side-quest-recommend, weekend
-  plans, things to do, bored, day trip, or side quest. Not for multi-day
-  itineraries or restaurant booking.
+  plans, things to do, what should I do, bored, day trip, or side quest, but
+  not multi-day itineraries or restaurant booking.
 ---
 
 # Side quest recommend
