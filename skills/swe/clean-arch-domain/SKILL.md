@@ -11,9 +11,9 @@ metadata:
 
 # /clean-arch-domain
 
-Decide where each business rule lives: domain or use case. Each core principle
-and definition below is a rule: breaking one is a violation, and a definition
-that does not apply is marked not applicable.
+Decide where each business rule lives: domain or use case. Breaking any core
+principle or definition below is a violation; mark a definition that does not
+apply as not applicable.
 
 ## Core principles
 
@@ -27,9 +27,8 @@ that does not apply is marked not applicable.
    outer side toward the business rules. The outer side is the delivery
    mechanism (whatever talks to users or other systems), storage, frameworks
    and tools. Nothing inside (domain and use cases) depends on it, and no
-   business rule sits in it; detail that is not a business rule belongs
-   there. Business rules reach storage through an entity gateway: an interface
-   the business rules own and storage implements.
+   business rule sits in it. Business rules reach storage through an entity
+   gateway: an interface the business rules own and storage implements.
 3. **Architecture reveals intent.** The structure shows the use cases, not the
    tools.
 4. **Business rules are testable on their own.** Each use case can be tested
