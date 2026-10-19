@@ -13,7 +13,7 @@ license: MIT
 
 # /find-the-argument
 
-People think in observations: they explore ideas, revisit them and correct themselves. Good communication is organized around an argument. The same principles serve doing the work and reviewing it: to review, check the outline or draft, and its source thinking when given, against each principle in order, and report each lapse once with the principle it breaks and the fix. The request decides what to produce.
+People think in observations: they explore ideas, revisit them and correct themselves. Good communication is organized around an argument. Use these to do the work or to review it; in a review, check the outline or draft, and its source thinking when given, and name each lapse once, with its fix. The request decides what to produce.
 
 ## Principles
 

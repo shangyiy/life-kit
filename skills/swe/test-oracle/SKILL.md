@@ -12,7 +12,7 @@ parent-skill: testing
 
 # /test-oracle
 
-How to build the pass-or-fail decision of a test, the assert step, for any entity under test (EUT): code, circuit or system. It applies [`testing`](../../domain/testing/SKILL.md) principle 2 (an oracle that can fail, expected results from the spec, every promised outcome checked) and uses its definitions of oracle, contract, fault, error and failure. To review oracles, list what the spec promises for each test's behavior, compare it with what the checks judge, and report each lapse with the principle broken and the fix.
+How to build the pass-or-fail decision of a test, the assert step, for any entity under test (EUT): code, circuit or system. It applies [`testing`](../../domain/testing/SKILL.md) principle 2 (an oracle that can fail, expected results from the spec, every promised outcome checked) and uses its definitions of oracle, contract, fault, error and failure. To review oracles, list what the spec promises for each test's behavior, compare it with what the checks judge, and name each lapse once, with its fix.
 
 ## Principles
 

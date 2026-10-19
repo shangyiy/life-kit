@@ -12,9 +12,9 @@ metadata:
 # /verify-before-ship
 
 Ship only work the owner can accept after one read, with evidence and approval
-for the exact version that ships. To do the work, meet every principle below.
-To review work, check it against each principle and name every breach with
-its fix, most important first. Any report you write follows principle 1 too.
+for the exact version that ships. Use this skill to do the work or to review
+it; in a review, name each breach once, with its fix, most important first.
+Any report you write follows principle 1 too.
 
 ## Principles
 

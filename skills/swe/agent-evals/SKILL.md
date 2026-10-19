@@ -12,8 +12,9 @@ parent-skill: testing
 # /agent-evals
 
 Every principle of [`testing`](../../domain/testing/SKILL.md) applies unchanged
-to evals of AI agents; this skill holds only what is agent-specific. To design
-or run an eval, meet every principle; to review one, report each one it breaks.
+to evals of AI agents; this skill holds only what is agent-specific. Use it to
+design or run an eval or to review one; in a review, name each breach once,
+with its fix.
 
 ## Principles
 

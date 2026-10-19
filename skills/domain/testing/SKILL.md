@@ -10,7 +10,7 @@ metadata:
 
 # /testing
 
-The domain of testing. These principles and definitions hold for any entity under test (EUT): a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. They serve both to do testing work and to review it: to review, check the work against each principle in order and report each violation once, with the principle it breaks and the fix. The request decides what to produce.
+The domain of testing. These principles and definitions hold for any entity under test (EUT): a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. Use them to do testing work or to review it; in a review, name each breach once, with its fix. The request decides what to produce.
 
 ## Principles
 
@@ -28,7 +28,7 @@ The domain of testing. These principles and definitions hold for any entity unde
 
 12. **Results seen spend a test set.** Cases used to tune the EUT or the tests stop measuring anything beyond those cases: keep a held-out set apart from whoever tunes, judge with a judge independent of whoever built the EUT, and once its results are seen and acted on, report later results on it as tuning results.
 
-## The six general principles
+## The six general properties
 
 These are the main principles of verification and testing, applied by every technique:
 - **Redundancy:** triangulate results with different techniques, at different levels and from different angles; inside one test or one technique, redundancy is waste.
