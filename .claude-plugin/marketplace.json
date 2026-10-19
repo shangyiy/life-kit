@@ -9,7 +9,7 @@
     {
       "name": "life-kit",
       "source": "./",
-      "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing, carry-plan.",
+      "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing, carry-plan.",
       "version": "0.16.1",
       "author": {
         "name": "shangyiy",
