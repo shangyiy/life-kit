@@ -21,21 +21,26 @@ or in `skill-evals`, never in a skill.
    answers) goes in the life-kit PR or in a skill folder.
 5. **Checks:** for a skill, run the closed-book eval (see the `skill-evals`
    README) and an independent agent review against this file. Every claim must
-   trace to the skill's source. On every PR, run `/ponytail-review` (smallest
-   complete change) on the diff and the PR body. Apply the right findings, then
-   run the final checks. In the PR body, explain any flagged text you keep.
+   trace to the skill's source. On every PR, run a review that every line is
+   needed (such as `/ponytail-review`) on the diff and the PR body. Apply the
+   right findings. In the PR body, explain any flagged text you keep. Before a
+   PR is opened or updated, run every check that can run on its head sha.
 6. **Leak audit:** before a PR is opened or pushed, and again before merge: no
-   private data, rubric or expected-answer wording in the diff. No AI,
-   language, framework, tool or vendor terms (LLM, agent, git, ponytail, CI…)
-   in a domain skill's files, except names and titles in README credits
-   (case-insensitive, whole-word).
-7. **PR body:** shorter than the diff: Motivation, Summary, Test evidence (each
-   check's method, result and head sha, or "could not run" and why), and
-   Dependencies (linked PRs, or "none").
+   private data, rubric or expected-answer wording in the diff. For a
+   `skill-evals` PR, check private data only (eval wording is its content). No
+   AI, programming-language, framework, tool or vendor terms (LLM, agent, git,
+   ponytail, CI…) in a domain skill's files, except names and titles in README
+   credits (case-insensitive, whole-word).
+7. **PR body:** shorter than the diff: Motivation (the problem in one or two
+   sentences), Summary, Test evidence (each check, such as the eval, reviews
+   and leak audit, with its method, result and head sha, or "could not run"
+   and why), and Dependencies (linked PRs, or "none").
 8. **Merge:** open PRs as drafts and send Shang Yi the link. Merge only when
    every check passed on the final head sha. Any edit means running every check
    again. A check that could not run blocks the merge until Shang Yi decides.
    `skill-evals` PRs may be merged once an independent review and the leak audit
-   pass on the final head sha. Small life-kit fixes (wording or filler, no rule
-   change) may be self-merged. New skills and rule or principle changes wait for
-   Shang Yi's explicit OK.
+   pass on the final head sha. Small life-kit fixes (wording or a bug, no rule
+   change) may be self-merged once someone other than the author reviews them.
+   New skills and rule or principle changes wait for Shang Yi's explicit OK.
+   Everything else, and anything you are unsure about, waits for Shang Yi's
+   explicit OK.
