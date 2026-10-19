@@ -31,15 +31,15 @@ exception courses, and where each rule lives come from /clean-arch-domain.
    input or prepares data for a later slice is a step, not a slice. Work only
    builders value, or one layer or component, is a task: join it with what
    completes the goal; if no user sees a change, it stays a task.
-3. **A story passes when its acceptance checks pass.** Every slice you list or
-   review, each later one as well as the first, carries at least one check of
-   its own with concrete values. An outline, a blank, or a promise of checks
-   is not one. Write the first checks before building; add more as new cases
-   appear. Every use case with a slice shows its primary course and one or
-   more exception courses, even in a short answer. A quality or constraint
-   needs a target with a real number; if the owner gave none, assume one, note
-   it as an assumption, and check against it. A check states the result, never
-   how it is reached. Stop once another check adds no clarity to the intent.
+3. **A story passes when its acceptance checks pass.** The next slice to build
+   has its own checks with concrete values; an outline or a promise of checks
+   is not one. Each later slice must be checkable, named by the observable
+   result that will pass or fail it, with only the detail the plan needs. Write
+   checks before building; add more as new cases appear. Every use case with a
+   slice shows its primary course and one or more exception courses, even if
+   short. A quality or constraint needs a target with a real number; if none is
+   given, it is an open point (principle 5). A check states the result, never
+   how it is reached; stop when another check adds no clarity.
 4. **Cut thin vertical slices, and say why the first one comes first.** Split
    a story too big to finish, size, or understand. Each slice runs from the
    start to the goal's result and passes or fails on its own, ideally in any
@@ -48,20 +48,22 @@ exception courses, and where each rule lives come from /clean-arch-domain.
    delivers, the risk it settles, or the effort it carries for the others. The
    first slice takes the plain primary course; exception courses follow as
    later slices unless trivial to add.
-5. **Assume by default; ask only what decides the result.** For each open
-   point, compare its plausible answers. Ask when they change which stories,
-   courses, or checks exist, so that what gets built differs in kind, or when
-   no sensible default can pick the items the system acts on; ask it however
-   cheap a later change looks, even if the owner wants few questions. Assume
-   every other point openly: note it beside its story and turn it into a
-   check. Do not ask what the idea already states. Ask once, all questions
-   together, each with its plausible answers and the story or items it
-   changes. For each open question, name the slices that wait for it and those
-   that go ahead now, free of the answer. Never stop all work.
+5. **Assume by default; ask what decides the result or is costly to guess.**
+   For each open point, weigh its plausible answers and the cost of acting on a
+   wrong one. Ask when the answers change which stories, courses, or checks
+   exist; when no sensible default can pick the items the system acts on; when
+   the value is a fact only the owner knows; or when a wrong guess would cause
+   harm that is costly or hard to reverse, even if the stories stay the same.
+   Ask these even if a later change looks cheap or the owner wants few
+   questions. Assume openly each point whose wrong guess is cheap to reverse:
+   note it beside its story and turn it into a check. Never assume part of what
+   you ask, nor ask what the idea states. Ask once, all together, each with its
+   plausible answers and stakes. Name the slices that wait for each answer and
+   those that go ahead now. Never stop all work.
 6. **See the whole, detail only what is next.** List every use case the idea
-   implies, to see its scope and what to leave out. Detail only the slices you
-   put in the build order next, each with its checks (principle 3); the rest
-   stay named only, since understanding changes as slices are built.
+   implies, to see its scope and what to leave out. Detail only the slices next
+   in the build order; each later one stays at the result that will decide it
+   (principle 3), since understanding changes as slices are built.
 
 ## Definitions
 
@@ -77,24 +79,22 @@ exception courses, and where each rule lives come from /clean-arch-domain.
   cover each kind of behavior the story must show, and its edges. Where a
   failure could be taken for a valid result, the check shows that the two
   results differ.
-- **Assumption:** a choice made for the owner on a point that leaves the same
-  stories, stated openly so the owner can correct it.
+- **Assumption:** a choice made for the owner on a point whose wrong guess is
+  cheap to undo and leaves the same stories, stated openly so it can be fixed.
 - **Constraint:** a condition every story obeys instead of one behavior to
   build. Its check, with a real target, is set up alongside the first slice
   and rerun with every later slice; it is never left for the end.
 - **Task:** work builders do to deliver a story; it lives inside the story.
 - **Investigation:** the last resort, for when no part of a story can be built
-  or sized yet. Before proposing one, name the thinnest slice whose real work
-  would settle the doubt, and the part understood well enough to build now;
-  investigate only if neither exists, and say why. It has a fixed timebox; its
-  checks are the open questions, and it ends when they are answered.
+  or sized yet. First name the thinnest slice whose real work would settle the
+  doubt and the part understood well enough to build now; investigate only if
+  neither exists, saying why. It is timeboxed; open questions are its checks.
 - **Ways to split:** each keeps one case of a varying thing, and later slices
-  add the others: courses (primary course first, simplest form); business
-  rules (one rule, or a relaxed one, first); data (one kind or subset first);
-  operations (one per story); interfaces (simplest way in and out first);
-  shared effort (any one case first, the rest second); a quality target that
-  belongs to one story (behavior first, target next); investigation (last).
-  Pick the split that exposes low-value parts to drop or defer and gives
-  slices of similar size. Join pieces too small to track, or that end in no
-  goal, into closed stories. When slices depend on each other's order, combine
-  them or split along another line.
+  add the others: courses (primary first, simplest form); business rules (one,
+  or a relaxed one, first); data (one kind or subset first); operations (one
+  per story); interfaces (simplest way in and out first); shared effort (any
+  one case first, the rest second); a quality target of one story (behavior
+  first, target next); investigation (last). Pick the split that exposes
+  low-value parts to drop or defer and gives slices of similar size. Join
+  pieces too small to track, or ending in no goal, into closed stories. Combine
+  slices that depend on each other's order, or split another way.

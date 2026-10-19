@@ -36,11 +36,14 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
    - UC2 "Use-Case Slices" (p. 15): a slice is a work item of clear value;
      HW Pattern #1: splitting a workflow one step at a time is "the wrong
      way to go" (basis for: a prepare-only or input-only slice is a step).
-3. **A story is done when its acceptance checks pass.**
+3. **A story passes when its acceptance checks pass.**
    - UC2 Principle 1 (p. 5) and "Test Case" (p. 44-45): test cases are the
      most important part of a use case's description; they define what it
      means to complete it; at least one test case for each story (basis
-     for: every slice, not only the first, carries a check of its own).
+     for: the next slice has concrete checks of its own). Later slices only
+     need to be checkable, named by the result that decides them, because
+     detail is added just in time (principle 6); reworded after run4, where
+     "every slice carries concrete checks" pulled against principle 6.
    - UC2 "Prepare a Use-Case Slice" (p. 26): a slice with no test cases has
      not been properly prepared.
    - Jeffries, "Confirmation": the acceptance test confirms the story; the
@@ -69,7 +72,7 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
      effort), HW Meta-Pattern (first slice goes to the core complexity).
      Stating that reason for the slice at hand, not only as a rule, is this
      skill's wording (run3 showed the bare rule was not applied).
-5. **Assume by default; ask only what decides the result.**
+5. **Assume by default; ask what decides the result or is costly to guess.**
    - `pipeline-design/idea-to-merge.md`: "asks only what changes the
      result"; "ask once". This is the repo's own rule. The test "compare
      the plausible answers; ask when they change which stories, courses, or
@@ -77,7 +80,11 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
      assume the rest openly" is this skill's wording of it (tightened after
      run1, where a looser test let time, place, and format questions through;
      reworded after run3, where a cheap-to-correct test let a choice that
-     changes the stories go unasked).
+     changes the stories go unasked). Weighing the cost of a wrong guess
+     (ask when it would cause costly or hard-to-reverse harm, or the value
+     is a fact only the owner knows, even if the stories stay the same) is
+     this skill's addition after run4, where an answer asked a cheap detail
+     and silently assumed an unknown whose wrong value was costly.
    - HW "Step 1"/Pattern #9: "You probably know enough to build something.
      Do that, and you'll know more" (basis for assuming by default).
    - Jeffries, "Card" and "Conversation"; Wake, "Negotiable"; Cohn ch. 2,
@@ -116,7 +123,7 @@ guide. **SbE** = Adzic, *Specification by Example*, "Key process patterns".
   North, "Given / When / Then"; SbE, "Illustrating using examples" (key
   examples representing each important class of behavior, plus edge cases).
 - **Assumption:** Cohn ch. 6 (tests document assumptions); the
-  same-stories test from the pipeline rule above.
+  same-stories and cheap-to-undo tests from principle 5 above.
 - **Constraint:** Cohn ch. 7, "Put Constraints on Cards" (after Newkirk and
   Martin): obeyed rather than implemented; write the test "during one of the
   first iterations" and keep running it each iteration.

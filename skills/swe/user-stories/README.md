@@ -40,4 +40,5 @@ with or endorsed by their authors.
   https://dannorth.net/blog/introducing-bdd/
 
 The ask-or-assume rule ("ask only what changes the result") is the owner's
-own rule; the sources above support its parts, as listed in `sources.md`.
+own rule; this skill also weighs what a wrong guess would cost. The sources
+above support its parts, as listed in `sources.md`.
