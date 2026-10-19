@@ -42,19 +42,19 @@ the work or to review it; in a review, name each breach once, with its fix.
    as context, forces and one configuration, precise enough to be challenged.
 6. **A pattern lives only if it resolves all the forces present,** judging
    none illegitimate. A real problem and a configuration that solves it can
-   each hold while the whole is dead. Judge each force per case: resolved,
-   unresolved or worse. Forces are never known exactly, so ask what tension
-   remains and what new forces it creates, and list those as misfits.
+   each hold while the whole is dead. Judge each force per case: resolved or
+   unresolved. Forces are never known exactly, so ask what tension remains
+   and what new forces it creates, and list those as misfits.
 7. **Test by paired comparison.** Pair records of one context and similar
    scope, with and without the configuration; judge only the part the pattern
-   governs. The judge, not part of the work, asks which leaves less tension,
-   never which is liked, going back and forth more than once. If the one
-   without it is better, or honestly no different, the pattern is no good. Only
-   converging independent verdicts count.
+   governs. Ask which leaves less tension, never which is liked, going back
+   and forth more than once. If the one without it is better, or honestly no
+   different, the pattern is no good. Only converging independent verdicts
+   count.
 8. **Retest on any sign of a dead pattern:** the name without the spirit;
    halfhearted use; use because it is at hand; made to project an image; makers
    who do not face its results. A case without the pattern can still live.
 9. **Hold each pattern as a guess, and evolve the set one pattern at a time.**
    Revise or reject one on a case it cannot explain; expect to discard most.
-   Change only on misfit, and put each pattern back into use where it came
-   from, so its users keep testing it. The set is never finished.
+   Change only on misfit, and keep each pattern in use, so those who use it
+   keep testing it. The set is never finished.
