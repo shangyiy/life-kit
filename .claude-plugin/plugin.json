@@ -1,7 +1,7 @@
 {
   "name": "life-kit",
   "version": "0.16.2",
-  "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, review-skill, swe unit-testing.",
+  "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing.",
   "author": {
     "name": "shangyiy",
     "url": "https://github.com/shangyiy"
@@ -16,8 +16,8 @@
     "agent-skills"
   ],
   "skills": [
-    "./skills/core/testing",
-    "./skills/core/verify-before-ship",
+    "./skills/domain/testing",
+    "./skills/domain/verify-before-ship",
     "./skills/hiring/resume-deep-dive",
     "./skills/hiring/review-resume",
     "./skills/life/side-quest-recommend",
@@ -28,7 +28,6 @@
     "./skills/swe/clean-arch-domain",
     "./skills/swe/combinatorial",
     "./skills/swe/mutation-testing",
-    "./skills/swe/review-skill",
     "./skills/swe/test-oracle",
     "./skills/swe/unit-tests",
     "./skills/swe/user-stories",
