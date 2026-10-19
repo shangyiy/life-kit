@@ -68,9 +68,8 @@ Any report you write follows principle 1 too.
    only creates the next target.
 5. **Make the smallest change that solves the whole task.** Each part must earn
    its place. Leave out work the task does not need, including for needs that
-   do not exist yet. Offer such work, or a split of the change, as an option
-   the owner may decline, never as a condition. A change that leaves part of
-   the task unsolved is not smaller, it is unfinished.
+   do not exist yet; you may offer it to the owner as a later option. A change
+   that leaves part of the task unsolved is not smaller, it is unfinished.
 6. **Nothing ships until the owner explicitly approves it.** Green checks and
    other reviewers' sign-offs support the owner's decision; they do not make it.
    Work stays a draft until the owner, or someone the owner named, approves
