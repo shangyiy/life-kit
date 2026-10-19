@@ -27,8 +27,8 @@ Design a module's static structure or recover it from code: its parts, how they 
 
 - **Owned lifetime** (composition): the part belongs to at most one whole at a time and ends with it. Evidence: the whole creates or receives it, is its only holder, never hands it out to be kept, and releases it (held by value, embedded, or destroyed by the whole). If it is shared or outlives the whole, it is a kept link.
 - **Grouping** (aggregation): the standard leaves its meaning open; draw a kept link unless the requester defines it.
-- **Is a kind of, and inherits code** (generalization, inheritance): declares the other as its supertype and reuses its implementation.
-- **Promises an interface** (realization): implements an interface or abstract type without inheriting code; implicit conformance counts only if some code uses it through that interface.
+- **Is a kind of** (generalization): declares the other as its supertype, type to type or interface to interface, whether or not it inherits code; subclassing an abstract type is generalization.
+- **Promises an interface** (realization): a type implements an interface; implicit conformance counts only if some code uses it through that interface.
 - **How many** (multiplicity): optional single gives 0..1; required at creation and never empty gives 1; a collection gives 0..*, and 1..* only if non-empty is enforced.
 - **Who can reach whom** (navigability): the holder of a reference reaches the held; both ways only if both hold one.
 
