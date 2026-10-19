@@ -1,13 +1,11 @@
 # core
 
-This folder is inspired by Clean Architecture. It holds the domain: principles and definitions that stay true whatever the tool, language or output format. The skills here name none of them.
+This folder is inspired by Clean Architecture. It holds the domain: principles and definitions that stay true whatever the tool, language or output format.
 
-## Two layers
+Skills in this kit have at most two layers:
 
-Skills in this kit are written in two layers. The testing and software design families show how.
-
-- **Domain** lives here. [`testing`](./testing/SKILL.md) says what makes a good test, for anything under test. [`verify-before-ship`](./verify-before-ship/SKILL.md) says when a change is ready to hand over.
-- **Use case** is one kind of work built on the domain. In testing, [`unit-tests`](../swe/unit-tests/SKILL.md) applies `testing` to the smallest piece of code, and the techniques [`black-box`](../swe/black-box/SKILL.md), [`combinatorial`](../swe/combinatorial/SKILL.md), [`test-oracle`](../swe/test-oracle/SKILL.md), [`white-box`](../swe/white-box/SKILL.md) and [`mutation-testing`](../swe/mutation-testing/SKILL.md) each apply it to one question, such as which inputs to pick or how to decide pass or fail. In software design, [`clean-arch-domain`](../swe/clean-arch-domain/SKILL.md) decides whether a business rule belongs in the domain or in a use case, and [`user-stories`](../swe/user-stories/SKILL.md) turns an idea into stories, acceptance checks and thin slices.
+- **Domain** lives here. A core skill states what good work is in its field, and nothing about how one kind of work is done.
+- **Use case** lives elsewhere. A use case skill is one kind of work that serves a core idea, and cites the core instead of restating it.
 
 Tool and framework detail is not written in the skills; it is worked out at run time from the project's environment.
 
