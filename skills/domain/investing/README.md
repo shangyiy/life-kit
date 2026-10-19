@@ -2,8 +2,8 @@
 
 Principles for deciding where to put capital, what to pay, and when to act or
 wait (`/investing`). `SKILL.md` holds the principles, most important first.
-The order is the editor's judgment of emphasis in the source; the source's own
-checklist says its principles cannot "necessarily be prioritized".
+The order is this skill's judgment of emphasis, not the source's; the source's
+own checklist says its principles cannot "necessarily be prioritized".
 
 ## Credit
 
@@ -39,8 +39,8 @@ has no page numbers, so sources are named by chapter or talk.
 7. **Costs, frictions, taxes, indexing**: Chapter Three ("never take action
    for its own sake"); Talk Two (taxes); Talk Six (croupiers' costs; indexing
    "a wiser choice for the average foundation").
-8. **Big ideas as a checklist; forward and reverse**: Talk Two; Talk Four;
-   Talk Five; Talk Nine ("use those tools checklist-style"); Talk Ten.
+8. **Big ideas as a checklist**: Talk Two; Talk Five; Talk Nine ("use those
+   tools checklist-style"); Talk Ten.
 9. **Independence from the crowd**: Chapter Three ("Mimicking the herd invites
    regression to the mean"); Talk Eleven (social proof); Talk Three (market
    agnosticism).
