@@ -1,24 +1,24 @@
 {
   "name": "life-kit",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Portable agent skills pack: resume, unit-testing, carry-plan, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
   },
   "skills": [
-    "./skills/black-box",
-    "./skills/carry-plan",
-    "./skills/find-the-argument",
-    "./skills/make-presentation-slide",
-    "./skills/mutation-testing",
-    "./skills/process-thinking-aloud",
-    "./skills/readable",
-    "./skills/resume-deep-dive",
-    "./skills/review-resume",
-    "./skills/review-skill",
-    "./skills/side-quest-recommend",
-    "./skills/test-oracle",
-    "./skills/unit-tests",
-    "./skills/white-box"
+    "./skills/hiring/resume-deep-dive",
+    "./skills/hiring/review-resume",
+    "./skills/life/side-quest-recommend",
+    "./skills/presentation/find-the-argument",
+    "./skills/presentation/make-presentation-slide",
+    "./skills/presentation/process-thinking-aloud",
+    "./skills/swe/black-box",
+    "./skills/swe/carry-plan",
+    "./skills/swe/mutation-testing",
+    "./skills/swe/review-skill",
+    "./skills/swe/test-oracle",
+    "./skills/swe/unit-tests",
+    "./skills/swe/white-box",
+    "./skills/writing/readable"
   ]
 }
