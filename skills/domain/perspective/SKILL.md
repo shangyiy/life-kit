@@ -29,9 +29,9 @@ name each breach once, with its fix.
    strongest interests are basic human needs, such as feeling important.
 3. **Claim only what is true, promise only what you can deliver, and praise
    only what you mean.** People sense flattery and empty promises, and once
-   they find one, they stop trusting the rest. Influence over time goes to the
-   sincere, those genuinely interested in others. None of these principles
-   works as a trick.
+   they find one, they start to doubt the rest. Influence over time goes to
+   the sincere, those genuinely interested in others. None of these
+   principles works as a trick.
 4. **Offer what they value, not what you value.** Being right is not enough:
    the truth does not win by itself. An idea moves people only through
    something they already care about, so put it in terms of their interests,
@@ -52,6 +52,7 @@ name each breach once, with its fix.
    argument. Judge the substance plainly without softening the verdict. Admit
    you may be wrong, own your mistakes first, and let them save face.
 8. **Treat the other person as an ally toward a shared end, and build trust
-   before you need it.** Most disagreements are about means, not ends. Do not
-   write off someone who resists or is slow to go along; the cause is more
-   often in your approach than in them. People help those they trust.
+   before you need it.** Where you truly share the end, say so: show that
+   you differ on method, not purpose. Do not write off someone who resists or
+   is slow to go along; the cause is more often in your approach than in them.
+   People help those they trust.
