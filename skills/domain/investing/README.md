@@ -9,9 +9,10 @@ own checklist says its principles cannot "necessarily be prioritized".
 
 Each principle restates Charles T. Munger, *Poor Charlie's Almanack: The
 Essential Wit and Wisdom of Charles T. Munger*, ed. Peter D. Kaufman (Stripe
-Press, 2023; first published 2005), read in the free online edition
-([text](https://www.stripe.press/poor-charlies-almanack/book)). That edition
-has no page numbers, so sources are named by chapter or talk.
+Press; first published 2005), read in the free online edition
+([text](https://www.stripe.press/poor-charlies-almanack/book)). The Chapter
+Three checklist items are Kaufman's summary of Munger's approach. That
+edition has no page numbers, so sources are named by chapter or talk.
 
 1. **Avoid big mistakes; margin of safety; leverage**: Chapter Three
    (investing checklist: "All investment evaluations should begin by
@@ -42,11 +43,11 @@ has no page numbers, so sources are named by chapter or talk.
 8. **Big ideas as a checklist**: Talk Two; Talk Five; Talk Nine ("use those
    tools checklist-style"); Talk Ten.
 9. **Independence from the crowd**: Chapter Three ("Mimicking the herd invites
-   regression to the mean"); Talk Eleven (social proof); Talk Three (market
-   agnosticism).
-10. **Fix mistakes; keep learning**: Talk Three (quitting "a much-loved
-    hand"); Talk Eleven (deprival-superreaction); Talk Ten (wisdom as a duty;
-    anticipating trouble).
+   regression to the mean"); Talk Eleven (social proof); Talk Three ("almost
+   always agnostic about the market").
+10. **Fix mistakes; keep learning**: Talk Three ("learn to quit sometimes
+    when holding a much-loved hand"); Talk Eleven (deprival-superreaction);
+    Talk Ten (wisdom as a duty; anticipating trouble).
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by the author, the editor, or the publisher.
