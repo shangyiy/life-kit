@@ -10,8 +10,8 @@ metadata:
 
 # /user-stories
 
-To write stories, meet every principle and definition below; to review them,
-name every breach with its fix, most important first.
+Use the principles and definitions below to write stories or to review them;
+in a review, name each breach once, with its fix, most important first.
 
 ## Core principles
 

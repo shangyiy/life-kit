@@ -11,10 +11,11 @@ metadata:
 
 # /clean-arch-domain
 
-Decide where each business rule lives: domain or use case. Breaking any core
-principle or definition below is a violation. Name each violation with the
-move that fixes it: the rule moved to its one home, or the dependency turned to
-point inward. Mark a definition that does not apply as not applicable.
+Decide where each business rule lives: domain or use case. Use everything
+below to do the work or to review it; in a review, name each breach once, with
+the move that fixes it: the rule moved to its one home, or the dependency
+turned to point inward. Mark a definition that does not apply as not
+applicable.
 
 ## Core principles
 
