@@ -29,6 +29,7 @@ Tool and framework detail is not written in the skills; it is worked out at run 
 | | [`clean-arch-domain`](./skills/swe/clean-arch-domain/SKILL.md) | Decide whether a business rule belongs in the domain or a use case |
 | | [`user-stories`](./skills/swe/user-stories/SKILL.md) | Turn an idea into user stories, acceptance checks and thin slices |
 | | [`structure-view`](./skills/swe/structure-view/SKILL.md) | Design or recover a module's static structure |
+| | [`behavior-view`](./skills/swe/behavior-view/SKILL.md) | Design or recover behavior as sequence views and use case courses |
 | hiring | [`review-resume`](./skills/hiring/review-resume/SKILL.md) | Honest review of how a resume fits a job description |
 | | [`resume-deep-dive`](./skills/hiring/resume-deep-dive/SKILL.md) | Mock interview on your resume claims, one question at a time |
 | presentation | [`find-the-argument`](./skills/presentation/find-the-argument/SKILL.md) | Find the one argument in notes or voice notes and rebuild the reasoning around it |
