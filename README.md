@@ -6,7 +6,7 @@ Each skill writes down what good work is in one area, in plain English. Read it 
 
 ## How it's organized
 
-Inspired by Clean Architecture, skills have two layers. **Domain** skills (`skills/domain`) say what good work is in a field, whatever the tool. **Use case** skills (every other folder) do one kind of work and cite the domain skill instead of restating it.
+Inspired by Clean Architecture, skills have at most two layers. **Domain** skills (`skills/domain`) say what good work is in a field, whatever the tool. **Use case** skills (every other folder) do one kind of work; when one builds on a domain skill, it cites it instead of restating it.
 
 Each rule has one home, and tool or framework detail is worked out at run time from your project.
 
