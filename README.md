@@ -2,7 +2,7 @@
 
 Know what good looks like.
 
-Each skill writes down what good work is in one area, in plain English. Read it as a guide, or run it in an AI agent as a slash command, such as `/readable`, to do the work or review it.
+Each skill writes down what good work is in one area, in plain English. Read it as a guide, or run it in an AI agent as a slash command, such as `/perspective` or `/investing`, to do the work or review it.
 
 ## How it's organized
 
