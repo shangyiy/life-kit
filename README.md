@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/mascot.png" alt="A tabby cat in a teal hoodie sitting on a scooter, eyes closed" width="200"></p>
+<p align="center"><img src="assets/mascot.png" alt="A tabby cat in a teal hoodie sitting on a scooter, eyes closed" width="400"></p>
 
 # life-kit
 
