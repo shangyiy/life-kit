@@ -24,9 +24,9 @@ any field. What counts as good comes from whoever runs the search.
    are scarce.** When many items qualify, keep only the best. When few do,
    keep fewer rather than pad.
 4. **Leave a source when it pays less than the others.** Once a source turns
-   up fewer kept items per hour than your other sources do, move on. Count
-   the kept items each source gives, crediting the source where you first
-   found each one.
+   up fewer kept items per hour than your other sources do, move on. Judge
+   that across searches, not within one, and credit every source that turned
+   up a kept item, not only the first.
 
 ## Definitions
 
