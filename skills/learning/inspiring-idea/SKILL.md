@@ -21,7 +21,7 @@ Rank by what the reader is missing or has asked about.
 ## Use case: pick items
 1. Collect candidates from the caller's sources, mostly the quiet ones. Skip anything already reported.
 2. Open each and judge it by the rules above. Drop thin ones.
-3. Return each kept item with: use case, what is new (the one move it makes that the usual approach does not, compared with that usual approach; not its results), value underneath, why few noticed it, how this reader could use it, and its link.
+3. Return each kept item with: use case, what is new (name the usual approach's bottleneck, with its cost when known; the one move that removes or bypasses it; and whether that is a new way or just the same thing faster. Not its results), value underneath, why few noticed it, how this reader could use it, and its link.
 
 Nothing qualifies: return nothing.
 
