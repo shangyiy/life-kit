@@ -47,10 +47,12 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**make-presentation-slide**](./skills/presentation/make-presentation-slide/SKILL.md): Build a deck that teaches one argument with claim titles.
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
 
+### Learning
+- [**trend-catch-up**](./skills/learning/trend-catch-up/SKILL.md): Find what you must catch up on in a fast-moving field, checked against real attention.
+
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
-- [**trend-catch-up**](./skills/learning/trend-catch-up/SKILL.md): Find what you must catch up on in a fast-moving field, checked against real attention.
 
 ## License
 
