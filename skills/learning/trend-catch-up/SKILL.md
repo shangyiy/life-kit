@@ -23,7 +23,7 @@ Rank by what the reader is missing or has asked about, not by novelty.
 ## Use case: pick items
 1. Collect candidates from the caller's sources for the time window. Skip anything already reported.
 2. Open each and check it against the rules above. Drop thin ones.
-3. Return each kept item with: use case, what is new (the one move it makes that the usual approach does not, compared with that usual approach; not its results), value underneath, why it rose now, how this reader could use it, and its link.
+3. Return each kept item with: use case, what is new (name the usual approach's bottleneck, with its cost when known; the one move that removes or bypasses it; and whether that is a new way or just the same thing faster. Not its results), value underneath, why it rose now, how this reader could use it, and its link.
 
 Nothing qualifies: return nothing. A source fails: carry on and say which.
 
