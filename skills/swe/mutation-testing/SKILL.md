@@ -12,7 +12,7 @@ parent-skill: testing
 
 # /mutation-testing
 
-Judge a suite's power to find real faults by measuring how well it finds seeded ones, or review a fault-injection analysis someone else ran. It is the method behind [`testing`](../../domain/testing/SKILL.md) principle 9 and works on any entity under test (EUT) for which a fault model exists: small slips in a program, or modeled defects in a circuit such as a line stuck at a fixed value. To review an analysis, check for a baseline the EUT passes, operators that model realistic faults, one fault per mutant, equivalent mutants identified rather than counted as survivors, survivors given a cause before tests were added, and any estimate stated with its representativeness assumption; name each lapse once, with its fix.
+Judge a suite's power to find real faults by measuring how well it finds seeded ones, or review a fault-injection analysis someone else ran. It is the method behind [`testing`](../../core/testing/SKILL.md) principle 9 and works on any entity under test (EUT) for which a fault model exists: small slips in a program, or modeled defects in a circuit such as a line stuck at a fixed value. To review an analysis, check for a baseline the EUT passes, operators that model realistic faults, one fault per mutant, equivalent mutants identified rather than counted as survivors, survivors given a cause before tests were added, and any estimate stated with its representativeness assumption; name each lapse once, with its fix.
 
 ## Principles
 

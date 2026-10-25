@@ -8,27 +8,27 @@ Each skill writes down what good work is in one area, in plain English. Read it 
 
 ## How it's organized
 
-Inspired by Clean Architecture, skills have at most two layers. **Domain** skills (`skills/domain`) say what good work is in a field, whatever the tool. **Use case** skills (every other folder) do one kind of work; when one builds on a domain skill, it cites it instead of restating it.
+Inspired by Clean Architecture, skills have at most two layers. **Core** skills (`skills/core`) say what good work is in a field: what holds for every use case under it, whatever the tool. **Use case** skills (every other folder) do one kind of work; when one builds on a core skill, it cites it instead of restating it.
 
 Each rule has one home, and tool or framework detail is worked out at run time from your project.
 
 ## Skills
 
 ### Thinking
-- [**perspective**](./skills/domain/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
-- [**grouping**](./skills/domain/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
-- [**misfits**](./skills/domain/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
+- [**perspective**](./skills/core/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
+- [**grouping**](./skills/core/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
+- [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 
 ### Software design
-- [**design-principles**](./skills/domain/design-principles/SKILL.md): What makes a design easy to change: hiding, coupling, dependency direction, contracts.
+- [**design-principles**](./skills/core/design-principles/SKILL.md): What makes a design easy to change: hiding, coupling, dependency direction, contracts.
 - [**clean-arch-domain**](./skills/swe/clean-arch-domain/SKILL.md): Decide whether a business rule belongs in the domain or a use case.
 - [**structure-view**](./skills/swe/structure-view/SKILL.md): Design or recover a module's static structure.
 - [**behavior-view**](./skills/swe/behavior-view/SKILL.md): Design or recover behavior as sequence views and use case courses.
 - [**user-stories**](./skills/swe/user-stories/SKILL.md): Turn an idea into user stories, acceptance checks and thin slices.
 
 ### Validation
-- [**verify-before-ship**](./skills/domain/verify-before-ship/SKILL.md): Hand over a change only when it is verified and the owner can accept it after one read.
-- [**testing**](./skills/domain/testing/SKILL.md): What makes a good test, for anything under test.
+- [**verify-before-ship**](./skills/core/verify-before-ship/SKILL.md): Hand over a change only when it is verified and the owner can accept it after one read.
+- [**testing**](./skills/core/testing/SKILL.md): What makes a good test, for anything under test.
 - [**unit-tests**](./skills/swe/unit-tests/SKILL.md): Write and review unit tests.
 - [**black-box**](./skills/swe/black-box/SKILL.md): Pick test inputs from the spec and decide which combinations to test.
 - [**white-box**](./skills/swe/white-box/SKILL.md): Close structural coverage gaps.
@@ -46,7 +46,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
 
 ### Life
-- [**investing**](./skills/domain/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
+- [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 
 ## License

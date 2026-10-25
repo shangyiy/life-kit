@@ -12,7 +12,7 @@ parent-skill: design-principles
 
 # /structure-view
 
-Design a module's static structure or recover it from code: its parts, how they relate, where each behavior belongs, and which design patterns are present. It applies [`design-principles`](../../domain/design-principles/SKILL.md); nothing here restates it. Use it to do the work or to review it; in a review, name each breach once, with its fix.
+Design a module's static structure or recover it from code: its parts, how they relate, where each behavior belongs, and which design patterns are present. It applies [`design-principles`](../../core/design-principles/SKILL.md); nothing here restates it. Use it to do the work or to review it; in a review, name each breach once, with its fix.
 
 ## Principles
 

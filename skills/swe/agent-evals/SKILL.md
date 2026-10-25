@@ -11,7 +11,7 @@ parent-skill: testing
 
 # /agent-evals
 
-Every principle of [`testing`](../../domain/testing/SKILL.md) applies unchanged
+Every principle of [`testing`](../../core/testing/SKILL.md) applies unchanged
 to evals of AI agents; this skill holds only what is agent-specific. Use it to
 design or run an eval or to review one; in a review, name each breach once,
 with its fix.
@@ -20,7 +20,7 @@ with its fix.
 
 1. **Agents are nondeterministic, so every score comes from repeated trials**
    (`testing` principles 5 and 8) and holds only for its exact model, harness
-   and skill ([`verify-before-ship`](../../domain/verify-before-ship/SKILL.md)
+   and skill ([`verify-before-ship`](../../core/verify-before-ship/SKILL.md)
    principle 3); run several models so a gain is no one model's quirk. Use
    pass@k (at least one of k trials succeeds) when one success is enough,
    pass^k (all k do) when users need every one. Average each task's trials
