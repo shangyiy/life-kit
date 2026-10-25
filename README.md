@@ -51,6 +51,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 - [**trend-catch-up**](./skills/learning/trend-catch-up/SKILL.md): Find what you must catch up on in a fast-moving field, checked against real attention.
+- [**inspiring-idea**](./skills/learning/inspiring-idea/SKILL.md): Find ideas to carry into your own work from quiet corners or other fields.
 
 ## License
 
