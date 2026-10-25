@@ -2,9 +2,8 @@
 
 Find what a reader must catch up on in a fast-moving field
 (`/trend-catch-up`). New things spread from a few early users to the
-majority along an S-curve. The attention-jump and two-independent-sources
-tests are this skill's stand-in for the take-off of that curve, not Rogers'
-rules.
+majority along an S-curve. The attention-jump test is this skill's stand-in
+for the take-off of that curve, not Rogers' rules.
 
 ## Credit
 
