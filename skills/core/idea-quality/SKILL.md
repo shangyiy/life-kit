@@ -31,4 +31,5 @@ whoever runs this says which apply.
 
 - **What is new:** the usual approach's bottleneck (its cost when known), the
   one move that removes or bypasses it, and whether that is a new way or the
-  same way faster. Not its results.
+  same way faster. Not its results. The same way faster is labelled faster,
+  not new, and kept only when the speed-up changes what people can do.
