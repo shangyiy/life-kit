@@ -11,7 +11,7 @@ parent-skill: design-principles
 
 # /behavior-view
 
-Design how a system's parts cooperate in a scenario, or recover it from code as a sequence view and as a use case's courses. It applies [`design-principles`](../../domain/design-principles/SKILL.md); the use case form (input, primary course, exception courses) is defined in [`user-stories`](../user-stories/SKILL.md), and the interactor that carries a use case out in [`clean-arch-domain`](../clean-arch-domain/SKILL.md). Use it to do the work or to review it; in a review, name each breach once, with its fix.
+Design how a system's parts cooperate in a scenario, or recover it from code as a sequence view and as a use case's courses. It applies [`design-principles`](../../core/design-principles/SKILL.md); the use case form (input, primary course, exception courses) is defined in [`user-stories`](../user-stories/SKILL.md), and the interactor that carries a use case out in [`clean-arch-domain`](../clean-arch-domain/SKILL.md). Use it to do the work or to review it; in a review, name each breach once, with its fix.
 
 ## Principles
 

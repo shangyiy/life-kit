@@ -18,7 +18,7 @@ parent-skill: testing
 
 # /black-box
 
-Choose test inputs from the specification, without looking at the implementation, for any entity under test (EUT): code, a circuit or a whole system; or review an existing suite's inputs and combinations against the same model. It applies [`testing`](../../domain/testing/SKILL.md) principles 3, 7 and 8 and uses its definitions; nothing here restates them. Model one independently testable requirement at a time: attributes, characteristics, blocks, combinations, representatives. To review, rebuild the model from the spec and place each existing test in its block per characteristic and its combination; gaps, redundancy and model defects then show directly.
+Choose test inputs from the specification, without looking at the implementation, for any entity under test (EUT): code, a circuit or a whole system; or review an existing suite's inputs and combinations against the same model. It applies [`testing`](../../core/testing/SKILL.md) principles 3, 7 and 8 and uses its definitions; nothing here restates them. Model one independently testable requirement at a time: attributes, characteristics, blocks, combinations, representatives. To review, rebuild the model from the spec and place each existing test in its block per characteristic and its combination; gaps, redundancy and model defects then show directly.
 
 ## Principles
 
