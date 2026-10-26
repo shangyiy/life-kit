@@ -54,6 +54,9 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**make-presentation-slide**](./skills/presentation/make-presentation-slide/SKILL.md): Build a deck that teaches one argument with claim titles.
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
 
+### Learning
+- [**inspiring-idea**](./skills/learning/inspiring-idea/SKILL.md): Given an idea and your context, say whether it can inspire your work, why, and how to apply it.
+
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
