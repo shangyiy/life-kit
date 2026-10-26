@@ -5,7 +5,8 @@ Principles for judging whether an idea is good by reading it
 from what is surely true, not by analogy. The second is cohesion from
 structured design: parts that belong together, and nothing else. The third
 is Paul Graham's "organic" ideas: the best come from people solving their own
-problems.
+problems. Christopher Alexander's patterns add that a good one names a problem
+that keeps recurring, plus the core of its solution.
 
 ## Credit
 
@@ -18,6 +19,8 @@ problems.
   Journal* 13(2), 115-139, 1974
 - Paul Graham, "How to Get Startup Ideas", November 2012,
   paulgraham.com/startupideas.html
+- Christopher Alexander, Sara Ishikawa, Murray Silverstein, *A Pattern
+  Language*, Oxford University Press, 1977
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.

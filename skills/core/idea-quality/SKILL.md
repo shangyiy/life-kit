@@ -3,8 +3,8 @@ name: idea-quality
 description: >-
   Judge or review whether an idea, project or method is good by reading it:
   does it make sense from first principles, is it one simple cohesive idea,
-  and was it built for a real problem of the author's own. Use on
-  /idea-quality.
+  and was it built for a real, recurring problem of the author's own. Use
+  on /idea-quality.
 ---
 # /idea-quality
 
@@ -25,7 +25,9 @@ whoever runs this says which apply.
    part serves that sentence. A bundle of loosely related tricks fails,
    however polished.
 3. **Organic.** It grew out of the author's own need, and they would use it
-   even if someone else had made it. No proof required.
+   even if someone else had made it. No proof required. That need is a real
+   problem that keeps recurring, for the author and for others, and the idea
+   names it along with the core of its solution, as a good pattern does.
 
 ## Definitions
 
