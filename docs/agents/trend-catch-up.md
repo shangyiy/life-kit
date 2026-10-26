@@ -10,8 +10,8 @@ sentences on the problem, how it works, the evidence and why it is in its
 section, then a link labeled with the item's name. Before judging any item, the
 agent opens its full source and keeps expanding it until it reaches the actual
 idea, and it judges only on that full text, never on a title, snippet or listed
-date. The agent itself is [`agents/trend-catch-up.md`](../../agents/trend-
-catch-up.md).
+date. The agent itself is
+[`agents/trend-catch-up.md`](../../agents/trend-catch-up.md).
 
 ## Runtime requirements
 
