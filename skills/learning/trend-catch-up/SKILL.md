@@ -20,7 +20,7 @@ Rank by what the reader is missing or has asked about, not by novelty.
 
 ## Pick items
 1. Before any topic or keyword search, scan each source's highest-attention items in the window, sorted by the attention signal it offers, with no topic or keyword filter. Read every one and note keep or drop with a one-line reason. Whether an item is seen should depend on its attention, not on whether its text happens to contain topic words; keyword searches miss high-attention items whose text has none.
-2. Then collect candidates from the caller's sources for the time window, counted from when an item started getting attention, not when it was published. Skip anything already reported: judge by content, so the same story under a new link counts as reported.
+2. Then collect candidates from the caller's sources for the time window. The window measures spread, not birth: an item counts if it is still gaining attention in the window and not yet reported, even if its attention began earlier. Skip anything already reported: judge by content, so the same story under a new link counts as reported.
 3. Open each and check it against the rules above.
 4. Return each kept item with: use; what is new (as defined in [`idea-quality`](../../core/idea-quality/SKILL.md)); value underneath; why it rose now; how this reader could use it; link.
 
