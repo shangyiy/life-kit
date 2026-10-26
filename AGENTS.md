@@ -27,7 +27,10 @@ examples, no source notes.
    answers) goes in the life-kit PR or in a skill folder.
 5. **Checks:** for a skill, run the closed-book eval (see the `skill-evals`
    README) and an independent agent review against this file. Every claim must
-   trace to the skill's source. On every PR, run a review that every line is
+   trace to the skill's source. For a new or changed skill or agent, also do a
+   dry run: run the head version on real inputs (such as past cases with known
+   right outputs) and judge the output's quality. A structural or wording
+   review does not replace it. On every PR, run a review that every line is
    needed (such as `/ponytail-review`) on the diff and the PR body. Apply the
    right findings. In the PR body, explain any flagged text you keep. Before a
    PR is opened or updated, run every check that can run on its head sha.
