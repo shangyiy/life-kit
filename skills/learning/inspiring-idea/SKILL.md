@@ -51,23 +51,3 @@ their field. How popular the item is does not matter.
   first concrete step to try it, and what to watch where the pairing does not
   hold.
 - **If no,** say which of the points above it misses.
-
-## Example
-
-Item: a small code project that checks trading backtests for trades that
-used future prices, from the trade log and prices alone. Reader: a test
-engineer who wants to check systems without reading their code.
-
-Yes. The project solves a recurring problem: backtests that quietly use
-prices not yet known. It flags any trade that could only have been made with
-such prices. This pairs with testing a system from the outside: the trade
-log is the system's output, the prices are the expected facts, and no
-strategy code is needed. The shared rule: an output must not depend on input
-that arrived after it. What is new: the usual audit needs the strategy code
-and an expert reviewer (bottleneck); this checks outputs against a timing
-rule instead (move), a new way. The pairing does not hold where the reader's
-system has no clear idea of "known at the time".
-
-How to apply it: for a system whose outputs carry timestamps, write a check
-that flags any output depending on input that arrived after it. Start with
-one service's logs; skip systems whose inputs carry no reliable time.
