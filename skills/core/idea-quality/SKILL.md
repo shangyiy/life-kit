@@ -22,8 +22,11 @@ whoever runs this says which apply.
    say what it gives up. If they are not written down, do not count that
    against it.
 2. **One simple, cohesive idea.** Its core fits in one sentence, and every
-   part serves that sentence. A bundle of loosely related tricks fails,
-   however polished.
+   part serves that sentence. A bundle is not itself the idea: a collection
+   never draws attention as a whole, only through one idea in it or a common
+   problem it solves. So never drop an item for being a bundle; find what made
+   it spread (what people quote, discuss or install) and judge that. A bundle
+   may hold one idea, several or none.
 3. **Organic.** It grew out of the author's own need, and they would use it
    even if someone else had made it. No proof required.
 
