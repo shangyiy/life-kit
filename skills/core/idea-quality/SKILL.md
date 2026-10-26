@@ -17,7 +17,8 @@ resolves it, and that solution works alongside others.
 
 1. **A good idea answers a problem that someone observed recurring in their
    own work.** The source shows who kept running into the problem and that the
-   idea grew from that experience. A problem invented to fit a solution is not
+   idea grew from that experience. The problem is also common: others keep
+   running into it too, and the idea actually helps them. A problem invented to fit a solution is not
    such a problem. A feature copied from another product to keep up with it is
    evidence against the idea, not a gap in what is known. When the source
    shows no such problem, the idea has not yet shown that it is good.
@@ -25,7 +26,8 @@ resolves it, and that solution works alongside others.
 2. **A good idea has one core solution that resolves that problem.** It may
    have several parts, as long as they all serve the same problem for the same
    reason. What matters is whether there is one core, not how many parts there
-   are. A part that serves nothing the reader needs is an add-on. Name it, but
+   are. The core fits in one sentence, one problem and one solution, even when
+   there are several parts. A part that serves nothing the reader needs is an add-on. Name it, but
    it does not change what the core is worth. Only when each part solves its
    own separate problem and no core ties them together is the idea really
    several ideas.
@@ -36,8 +38,8 @@ resolves it, and that solution works alongside others.
    the goal and trusts the worker to keep to it leaves the hard part
    untouched, and nothing handles the gap between the reading of the goal and
    the real need. Why the solution works follows from basic facts about what
-   it does, not from the idea's own account of its problem and mechanism, and
-   not from the fact that others do it.
+   it does, not from "it is like X" or "others do it", and not from the
+   idea's own account of its problem and mechanism.
 4. **A good idea composes with other ideas.** It does one job and hands the
    rest to other practices, instead of trying to do everything itself. That
    lets it work alongside them.
