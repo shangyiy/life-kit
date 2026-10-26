@@ -10,7 +10,7 @@ metadata:
 
 # /testing
 
-Name the entity under test (EUT) before anything else. These principles and definitions hold for any EUT: a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. Use them to do testing work or to review it; in a review, name each breach once, with its fix. The request decides what to produce.
+Name the entity under test (EUT) before anything else: what it is, where its boundary lies (what belongs to it and what belongs to the fixture), what it takes in, what it puts out, and what it promises. The oracle, the inputs and the adequacy measure all follow from this choice. When a test exercises several parts, name the one being judged and hold the rest fixed as fixture; changing two at once leaves a failure without a cause. These principles and definitions hold for any EUT: a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. Use them to do testing work or to review it; in a review, name each breach once, with its fix. The request decides what to produce.
 
 ## Principles
 
