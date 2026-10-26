@@ -7,7 +7,7 @@ description: >-
 ---
 # Inspiring idea
 
-Find a few ideas the reader can carry into their own work. Search the way [`info-foraging`](../../core/info-foraging/SKILL.md) says, and spend most of it where attention is low (small projects, practitioner forums, other human languages, other fields): good quiet work gives off little popularity, so that cue misleads here. Judge by quality and fit to the reader, not attention. The field, sources, reader and examples of good work come from whoever runs this.
+Find a few ideas the reader can carry into their own work. Look where attention is low (small projects, practitioner forums, other human languages, other fields): good quiet work gets little attention, so popularity will not point to it. Judge by quality and fit to the reader, not attention. The field, sources, reader and examples of good work come from whoever runs this.
 
 ## What earns a place
 Every item has something real to look at (code, paper, writing, demo, measured result) and solves a lasting problem; if you cannot name that problem, leave it out.
