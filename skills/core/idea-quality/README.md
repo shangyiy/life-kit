@@ -1,12 +1,12 @@
 # idea-quality
 
 Principles for judging whether an idea is good by reading it
-(`/idea-quality`). The first check is first-principles reasoning: reason up
-from what is surely true, not by analogy. The second is cohesion from
-structured design: parts that belong together, and nothing else. The third
-is Paul Graham's "organic" ideas: the best come from people solving their own
-problems. Christopher Alexander's patterns add that a good one names a problem
-that keeps recurring, plus the core of its solution.
+(`/idea-quality`). The first check is Christopher Alexander's pattern: a good
+idea names a problem that keeps recurring, plus the core of its solution; Paul
+Graham's "organic" ideas, built for the author's own need, are evidence of
+one. The second is first-principles reasoning: reason up from what is surely
+true to the mechanism, not by analogy. The third is cohesion from structured
+design.
 
 ## Credit
 

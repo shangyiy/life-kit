@@ -2,9 +2,9 @@
 name: idea-quality
 description: >-
   Judge or review whether an idea, project or method is good by reading it:
-  does it make sense from first principles, is it one simple cohesive idea,
-  and was it built for a real, recurring problem of the author's own. Use
-  on /idea-quality.
+  does it solve a real, recurring problem, can you name from first principles
+  the mechanism by which it does, and is it one simple cohesive idea. Use on
+  /idea-quality.
 ---
 # /idea-quality
 
@@ -14,24 +14,28 @@ whoever runs this says which apply.
 
 ## Principles
 
-1. **Makes sense from first principles.** Break it down to what is surely
-   true (its basic parts, causes and costs) and reason up from there to why
-   it should work: you can name the mechanism. It fails if it rests only on
-   popularity, "it is like X", "others do it", or someone's say-so. Where its
-   design choices are written down, each should follow from the problem and
-   say what it gives up. If they are not written down, do not count that
-   against it.
-2. **One simple, cohesive idea.** Its core fits in one sentence, and every
+1. **Solves a real, recurring problem.** The problem keeps coming back, for
+   the author and for others, and the idea names it along with the core of
+   its solution, as a good pattern does. An author who built it for their own
+   need and would use it even if someone else had made it is evidence of
+   this; that part needs no proof. The recurring problem itself must be
+   named.
+2. **Makes sense from first principles.** Break it down to what is surely
+   true (its basic parts, causes and costs) and reason up to the mechanism by
+   which it solves that problem. It fails if it rests only on popularity, "it
+   is like X", "others do it", or someone's say-so. Where its design choices
+   are written down, each should follow from the problem and say what it
+   gives up. If they are not written down, do not count that against it.
+3. **One simple, cohesive idea.** Its core fits in one sentence, and every
    part serves that sentence. A bundle of loosely related tricks fails,
    however polished.
-3. **Organic.** It grew out of the author's own need, and they would use it
-   even if someone else had made it. No proof required. That need is a real
-   problem that keeps recurring, for the author and for others, and the idea
-   names it along with the core of its solution, as a good pattern does.
 
 ## Definitions
 
+- **Use / value underneath:** what a person does with it, and the lasting
+  problem it solves, whatever the tool. What is new is how it attacks that
+  problem.
 - **What is new:** the usual approach's bottleneck (its cost when known), the
   one move that removes or bypasses it, and whether that is a new way or the
   same way faster. Not its results. The same way faster is labelled faster,
-  not new, and kept only when the speed-up changes what people can do.
+  not new; it matters only when the speed-up changes what people can do.
