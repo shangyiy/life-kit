@@ -5,11 +5,6 @@ Principles for searching for information under limited attention
 information like animals looking for food: follow cues to promising patches,
 and leave a patch when it pays less than the others.
 
-Two choices differ from the sources on purpose. The bar stays fixed when good
-items are scarce, unlike the foraging diet rule, which says to accept more
-kinds of food then: padding a short list costs the reader more than it gives.
-Searching quiet places follows from popularity being a misleading cue.
-
 ## Credit
 
 - Peter Pirolli and Stuart Card, "Information foraging", *Psychological
