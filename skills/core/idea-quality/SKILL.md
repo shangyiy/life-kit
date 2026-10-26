@@ -14,8 +14,8 @@ recommends it.
 ## Principles
 
 1. **A good idea solves a common, recurring problem.** You can name the
-   problem and who keeps running into it. Popularity without such a problem
-   does not make an idea useful.
+   problem and who keeps running into it, and the idea actually solves it for
+   them. Popularity alone does not make an idea useful.
 2. **A good idea is one simple, cohesive idea that makes sense from first
    principles.** It fits in one sentence: one problem, one mechanism. Why the
    mechanism works follows from basic facts, not from "it is like X" or
