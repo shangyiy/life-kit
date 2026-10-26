@@ -2,9 +2,8 @@
 name: idea-quality
 description: >-
   Judge or review whether an idea, project or method is good by reading it:
-  does it solve a real, recurring problem, can you name from first principles
-  the mechanism by which it does, and is it one simple cohesive idea. Use on
-  /idea-quality.
+  does it solve a real problem that keeps recurring, by a mechanism you can
+  explain from first principles. Use on /idea-quality.
 ---
 # /idea-quality
 
@@ -14,21 +13,19 @@ whoever runs this says which apply.
 
 ## Principles
 
-1. **Solves a real, recurring problem.** The problem keeps coming back, for
-   the author and for others, and the idea names it along with the core of
-   its solution, as a good pattern does. An author who built it for their own
-   need and would use it even if someone else had made it is evidence of
-   this; that part needs no proof. The recurring problem itself must be
-   named.
-2. **Makes sense from first principles.** Break it down to what is surely
-   true (its basic parts, causes and costs) and reason up to the mechanism by
-   which it solves that problem. It fails if it rests only on popularity, "it
-   is like X", "others do it", or someone's say-so. Where its design choices
-   are written down, each should follow from the problem and say what it
-   gives up. If they are not written down, do not count that against it.
-3. **One simple, cohesive idea.** Its core fits in one sentence, and every
-   part serves that sentence. A bundle of loosely related tricks fails,
-   however polished.
+1. **A good idea solves a real problem that keeps recurring, and you can
+   explain from first principles the mechanism by which it solves that
+   problem.** The rest follows from this:
+   - It fails if it rests only on popularity, "it is like X", "others do it",
+     or someone's say-so.
+   - One problem plus one mechanism makes one cohesive idea. If it cannot be
+     stated as one problem and one mechanism in a sentence, it is a bundle:
+     judge each idea in it on its own.
+   - The author's own need is evidence that the problem is real. That
+     evidence needs no proof, but the recurring problem must be named.
+   - Where its design choices are written down, each should follow from the
+     problem and say what it gives up. If they are not written down, do not
+     count that against it.
 
 ## Definitions
 

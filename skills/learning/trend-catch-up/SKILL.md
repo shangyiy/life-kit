@@ -12,7 +12,7 @@ Find the few things in a field the reader should not miss: things moving from a 
 ## What earns a place
 Every item has something real to look at (code, paper, writing, demo, measured result) and a value underneath (as defined in [`idea-quality`](../../core/idea-quality/SKILL.md)); if you cannot state it, leave it out.
 
-Attention is an effect with a cause. For each high-attention item, read its primary source, not a title or a retelling, and name the idea or common problem that drives the attention. Judge that idea, not the whole item, by every check in [`idea-quality`](../../core/idea-quality/SKILL.md). Every drop reason names that cause and why it fails. The item also got much more attention than usual: clearly above the typical (median) engagement of its author's recent items, or of the source's items in the window. Either is enough.
+Attention is an effect with a cause. For each high-attention item, read its primary source, not a title or a retelling, and name the idea or common problem that drives the attention. Judge that idea, not the whole item, with [`idea-quality`](../../core/idea-quality/SKILL.md). Every drop reason names that cause and why it fails. The item also got much more attention than usual: clearly above the typical (median) engagement of its author's recent items, or of the source's items in the window. Either is enough.
 
 Rank by what the reader is missing or has asked about, not by novelty. If few items qualify, keep fewer rather than pad.
 
