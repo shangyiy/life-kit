@@ -4,12 +4,14 @@ Catches one reader up on a fast-moving field by combining `info-foraging`,
 `idea-quality`, `inspiring-idea` and `readable`. It writes a report of at most
 500 words in two sections. **Trend catch-up** holds good ideas that drew
 attention well above their author's usual. **Inspiration** holds good ideas
-that apply the field in another domain, popular or not. For each item, the
-report says what problem it solves and what is new about it. Before judging
-any item, the agent opens its full source and keeps expanding it until it
-reaches the actual idea, and it judges only on that full text, never on a
-title, snippet or listed date. The agent itself is
-[`agents/trend-catch-up.md`](../../agents/trend-catch-up.md).
+that apply the field in another domain, popular or not. Each item is one
+paragraph: a bold sentence saying what the agent or AI does, then a few plain
+sentences on the problem, how it works, the evidence and why it is in its
+section, then a link labeled with the item's name. Before judging any item, the
+agent opens its full source and keeps expanding it until it reaches the actual
+idea, and it judges only on that full text, never on a title, snippet or listed
+date. The agent itself is [`agents/trend-catch-up.md`](../../agents/trend-
+catch-up.md).
 
 ## Runtime requirements
 
