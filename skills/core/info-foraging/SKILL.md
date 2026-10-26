@@ -15,9 +15,7 @@ any field. What counts as good comes from whoever runs the search.
 
 1. **Popularity is a hint, not value.** Many reposts, votes or citations tell
    you where to look, not that it is good. Open the thing itself before
-   judging it: never judge or drop an item from its title or someone's
-   retelling. Follow a second-hand mention to the original, and drop an item
-   only for what its content says, never for its form.
+   judging it, not its title or someone's retelling.
 2. **Search quiet places on purpose.** Popularity is the cue here, and it
    misleads: good quiet work gives off little of it. So spend part of every
    open-ended search where attention is low: small projects, practitioner
@@ -29,9 +27,6 @@ any field. What counts as good comes from whoever runs the search.
    up fewer kept items per hour than your other sources do, move on. Judge
    that across searches, not within one, and credit every source that turned
    up a kept item, not only the first.
-5. **Read in order of attention.** Where you read by attention, open the
-   highest-attention items first and work down until your reading budget runs
-   out, not to a fixed count.
 
 ## Definitions
 
