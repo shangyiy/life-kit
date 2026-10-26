@@ -13,9 +13,10 @@ hold principles of your own; each step applies a life-kit skill.
 2. **See the parts.** Read the connected code, not only the diff. Recover how
    the changed parts relate (`structure-view`) and how they cooperate on the
    main path (`behavior-view`).
-3. **Check the design.** Apply `design-principles`: what each module hides,
-   what it is tied to, which way it depends, what it promises. Where business
-   rules moved, check where they belong with `clean-arch-domain`.
+3. **Check the design.** On the structure and behavior from step 2, apply
+   `design-principles`: what each module hides, what it is tied to, which way
+   it depends, what it promises. Where business rules moved, check where they
+   belong with `clean-arch-domain`.
 4. **Check the tests.** Apply `testing`, and its method skills where they fit:
    `black-box` for the inputs chosen, `test-oracle` for what decides pass or
    fail, `unit-tests` for doubles and seams, `mutation-testing` for whether the
