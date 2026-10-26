@@ -1,23 +1,16 @@
 # idea-quality
 
-Principles describing what a good idea looks like
-(`/idea-quality`): it solves a common, recurring problem; it is one simple,
-cohesive idea that makes sense from first principles; and it grew from a real
-need, as in Paul Graham's "organic" ideas.
+Principles for what makes an idea good, in the spirit of Christopher
+Alexander's patterns (`/idea-quality`).
 
 ## Credit
 
-- Aristotle, *Physics* I.1, 184a10-16, and *Posterior Analytics* I.2,
-  71b19-72a5
-- Elon Musk, interview by Kevin Rose, *Foundation*, 8 September 2012 ("reason
-  from first principles rather than by analogy"; batteries at $600/kWh
-  against about $80 of raw materials)
-- W. Stevens, G. Myers, L. Constantine, "Structured design", *IBM Systems
-  Journal* 13(2), 115-139, 1974
-- Paul Graham, "How to Get Startup Ideas", November 2012,
-  paulgraham.com/startupideas.html
-- Christopher Alexander, Sara Ishikawa, Murray Silverstein, *A Pattern
-  Language*, Oxford University Press, 1977
+- *Notes on the Synthesis of Form*, Christopher Alexander
+- *A Pattern Language*, Christopher Alexander, Sara Ishikawa, Murray Silverstein
+- "How to Get Startup Ideas", Paul Graham (paulgraham.com/startupideas.html)
+- *Physics* I.1 and *Posterior Analytics* I.2, Aristotle
+- Interview by Kevin Rose (*Foundation*, 2012), Elon Musk
+- "Structured design" (IBM Systems Journal, 1974), W. Stevens, G. Myers, L. Constantine
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
