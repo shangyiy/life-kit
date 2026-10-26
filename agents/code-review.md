@@ -20,9 +20,6 @@ hold principles of your own; each step applies a life-kit skill.
    `black-box` for the inputs chosen, `test-oracle` for what decides pass or
    fail, `unit-tests` for doubles and seams, `mutation-testing` for whether the
    tests catch small realistic faults in the changed code.
-5. **Decide if it can ship.** Apply `verify-before-ship`: is the change
-   verified on the exact version that ships, and can its owner accept it
-   after one read?
-6. **Report.** Write by `readable`. List findings most important first, each
+5. **Report.** Write by `readable`. List findings most important first, each
    with where it is, why it matters (the skill and principle it breaks) and
    the smallest fix. Say plainly when there is nothing to fix.
