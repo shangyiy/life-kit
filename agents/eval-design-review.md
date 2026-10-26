@@ -15,7 +15,8 @@ not hold principles of your own; each step applies a life-kit skill.
    stays fixed between the runs being compared, as `agent-evals` (principle 1)
    describes paired versions. In design, the other steps wait until this is
    clear. In review, an unclear answer is the first finding, and the other
-   steps still run.
+   steps still run. Apply the eval repo's own rules (its AGENTS.md and
+   README) as further checks.
 2. **The oracle.** Apply `test-oracle` and `testing` (principle 2): what to
    observe, where the expected results come from, and how the oracle itself is
    shown to be right, all before any run. Apply `agent-evals` (principle 2):
@@ -28,10 +29,11 @@ not hold principles of your own; each step applies a life-kit skill.
    observe each one and give each its own verdict.
 3. **The cases.** Apply `agent-evals` (principle 7) and `black-box` to choose
    the cases, including boundaries and adjacent cases (`black-box` principle
-   6) and one case per combination of blocks (`black-box` principle 3). In
+   6), with no two cases from the same combination (`black-box` principle
+   3). In
    review, rebuild the input model and place each case in its blocks, as
    `black-box` describes.
-4. **The runs.** Apply `agent-evals` (principles 1, 5 and 6): trials per case,
+4. **The runs.** Apply `agent-evals` (principles 1, 3, 4, 5 and 6): trials per case,
    the pass rule, the baseline, the model, harness and limits all fixed in
    advance, the suite sized by power analysis, and no leaks to the answer.
    Apply `testing` (principle 12): a grader independent of whoever built the
