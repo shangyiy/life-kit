@@ -17,8 +17,8 @@ resolves it, and that solution works alongside others.
 ## Principles
 
 1. **A good idea answers a problem that someone observed recurring in their own
-   work.** The source shows who kept running into the problem and that the idea
-   grew from that experience. The problem is also common: others keep running
+   work.** If the source does not name the problem, work it out from what the idea
+   does, then check that the author and others really keep meeting it. The problem is also common: others keep running
    into it too, and the idea actually helps them. A problem invented to fit a
    solution is not such a problem. A feature copied from another product to
    keep up with it is evidence against the idea, not a gap in what is known.
