@@ -1,8 +1,8 @@
 ---
 name: idea-quality
 description: >-
-  What makes an idea good: it answers a problem someone kept meeting in their
-  own work, it is one simple, cohesive idea that makes sense from first
+  What makes an idea good: it is the core of the solution to a problem that
+  occurs over and over again in its context, it makes sense from first
   principles, it removes the problem when it runs, and it works alongside
   other ideas. Use to shape or review an idea, project, tool or method, or on
   /idea-quality.
@@ -10,22 +10,19 @@ description: >-
 # /idea-quality
 
 What a good idea looks like, in any field, whatever its popularity or whoever
-recommends it. A good idea is like a pattern in a pattern language: someone
-keeps meeting the same problem in real use and finds one core solution that
-resolves it, and that solution works alongside others.
+recommends it. A good idea is like a pattern in a pattern language: a problem
+keeps occurring in real use, and the idea is the core of a solution that
+resolves it and works alongside others.
 
 ## Principles
 
-1. **A good idea answers a problem that someone observed recurring in their own
-   work.** Others keep meeting the problem too, and the idea helps them.
-   Popularity alone does not show that the problem is real.
-2. **A good idea is one simple, cohesive idea that makes sense from first
-   principles.** It breaks the problem down to its most fundamental pieces,
-   facts that hold no matter what others have built, and reasons up from them
-   to the solution, instead of copying what others do or arguing that "it is
-   like X". Because its parts follow from the same pieces, they fit together.
-   An idea whose parts each answer a different problem is several ideas, not
-   one.
+1. **A good idea is the core of the solution to a problem that occurs over and
+   over again in its context.** Many people keep meeting the problem, and the
+   idea helps them. Popularity alone does not show that the problem is real.
+2. **A good idea makes sense from first principles.** It breaks the problem
+   down to its most fundamental pieces, facts that hold no matter what others
+   have built, and reasons up from them to the solution, instead of copying
+   what others do or arguing that "it is like X".
 3. **A good idea removes the problem when it runs, not only describes it
    well.** It need not remove all of the problem: a clear statement of what
    matters, backed by a concrete action that moves the hard part, is enough.
