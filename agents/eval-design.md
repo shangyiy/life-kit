@@ -14,7 +14,10 @@ life-kit skill.
    runs being compared.
 2. **Design the oracle.** Apply `test-oracle`: decide what to observe, where
    the expected results come from, and how the oracle itself is shown to be
-   right, all before any run.
+   right, all before any run. When the output carries both a verdict and the
+   reasoning behind it, give each its own oracle and its own verdict: check
+   the verdict in code against the expected labels, and judge the reasoning
+   against the expert's reasons with a validated judge.
 3. **Source the cases and write the eval.** Apply `agent-evals`: take cases
    from real use, with expected answers fixed in advance by someone who knows
    the field, never invented to fit the skill. Cover should and should-not
