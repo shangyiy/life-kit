@@ -22,8 +22,8 @@ whoever runs this says which apply.
    say what it gives up. If they are not written down, do not count that
    against it.
 2. **One simple, cohesive idea.** Its core fits in one sentence, and every
-   part serves that sentence. A bundle of loosely related tricks fails as one
-   idea, however polished; judge each idea in it on its own.
+   part serves that sentence. A bundle of loosely related tricks fails,
+   however polished.
 3. **Organic.** It grew out of the author's own need, and they would use it
    even if someone else had made it. No proof required.
 
