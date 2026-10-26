@@ -25,13 +25,13 @@ resolves it, and that solution works alongside others.
    When the source shows no such problem, the idea has not yet shown that it is
    good. Popularity alone does not show that the problem is real.
 2. **A good idea is one simple, cohesive idea that makes sense from first
-   principles.** It fits in one sentence: one problem, one mechanism. Why the
-   mechanism works follows from basic facts, not from "it is like X" or "others
-   do it". It may have several parts, as long as they all serve that one
-   problem for the same reason. A part that serves nothing the reader needs is
-   an add-on: name it, but it does not change what the core is worth. Only when
-   each part solves its own separate problem and no core ties them together is
-   it several ideas.
+   principles.** Simple means it fits in one sentence: one problem, one
+   mechanism. Cohesive means every part serves that one problem for the same
+   reason. A part that serves something else is an add-on; it neither adds to
+   nor takes from the core. When each part solves a different problem and
+   nothing ties them together, it is several ideas, not one. Making sense from
+   first principles means why the mechanism works follows from basic facts, not
+   from "it is like X" or "others do it".
 3. **A good idea removes the problem when it runs, not only describes it
    well.** It need not remove all of the problem: a clear statement of what
    matters, backed by a concrete action that moves the hard part, is enough.
