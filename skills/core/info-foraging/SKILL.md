@@ -14,8 +14,10 @@ any field. What counts as good comes from whoever runs the search.
 ## Principles
 
 1. **Popularity is a hint, not value.** Many reposts, votes or citations tell
-   you where to look, not that it is good. Open the thing itself before
-   judging it, not its title or someone's retelling.
+   you where to look, not that it is good. Attention is an effect and always
+   has a cause. Before acting on it, state from the primary source why the
+   item is getting attention (the specific idea, or the common problem it
+   solves), and judge from that cause, never from a title or retelling.
 2. **Search quiet places on purpose.** Popularity is the cue here, and it
    misleads: good quiet work gives off little of it. So spend part of every
    open-ended search where attention is low: small projects, practitioner
