@@ -10,7 +10,7 @@ metadata:
 
 # /testing
 
-The domain of testing. These principles and definitions hold for any entity under test (EUT): a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. Use them to do testing work or to review it; in a review, name each breach once, with its fix. The request decides what to produce.
+Name the entity under test (EUT) before anything else. These principles and definitions hold for any EUT: a function, a component, a whole system, a circuit, a device, or any process that turns inputs into outputs. Each kind of test applies them by choosing its EUT, where its oracle comes from, and which faults it models. Use them to do testing work or to review it; in a review, name each breach once, with its fix. The request decides what to produce.
 
 ## Principles
 
