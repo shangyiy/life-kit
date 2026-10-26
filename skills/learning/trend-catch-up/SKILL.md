@@ -12,7 +12,7 @@ Find the few things in a field the reader should not miss: things moving from a 
 ## What earns a place
 Every item has something real to look at (code, paper, writing, demo, measured result) and splits into its use (what a person does with it) and the value underneath (the lasting problem it solves, whatever the tool). What is new is how this item attacks that problem. If you cannot state the value, leave it out.
 
-Find each item's cause of attention as [`info-foraging`](../../core/info-foraging/SKILL.md) says. Judge a bundle by the part that caused its attention, and make every drop reason name the cause and why it does not fit.
+Attention is an effect with a cause. For each high-attention item, name from its primary source which idea or common problem drives the attention, and judge that with [`idea-quality`](../../core/idea-quality/SKILL.md). So judge a bundle by the part that caused its attention; read the original, since a title or retelling cannot give the cause; and make every drop reason name the cause and why it does not fit.
 
 It also:
 - Got much more attention than its author or source usually gets: clearly above the typical (median) engagement of their own recent items. If it is brand new, compare with similar new items from the same kind of source. One strong source is enough.
