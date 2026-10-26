@@ -5,22 +5,26 @@ Catches one reader up on a fast-moving field by combining `info-foraging`,
 500 words in two sections. **Trend catch-up** holds good ideas that drew
 attention well above their author's usual. **Inspiration** holds good ideas
 that apply the field in another domain, popular or not. For each item, the
-report says what problem it solves and what is new about it. The agent itself
-is [`agents/trend-catch-up.md`](../../agents/trend-catch-up.md).
+report says what problem it solves and what is new about it. Before judging
+any item, the agent opens its full source and keeps expanding it until it
+reaches the actual idea, and it judges only on that full text, never on a
+title, snippet or listed date. The agent itself is
+[`agents/trend-catch-up.md`](../../agents/trend-catch-up.md).
 
 ## Runtime requirements
 
 The agent opens the full text of outside items, and that text can carry
-injected instructions. These requirements are for the harness that runs the
-agent. The prompt does not enforce them, and they must not depend on its
-wording.
+injected instructions. These are harness requirements: the harness that runs
+the agent must enforce them. The prompt does not enforce them, and they must
+not depend on its wording.
 
 - The agent gets read-only tools only: search, open, and read text.
-- The harness never executes code, install commands or scripts from an item.
+- Nothing from an item, such as code, install commands or scripts, is ever
+  executed.
 - A fixed script does all fetching. It only downloads a page and converts it
   to text.
 - The judging run has no secrets, credentials or account connections, and it
-  runs in a disposable sandbox.
+  runs in a disposable sandbox, such as a fresh cloud VM.
 
 ## Limits
 
