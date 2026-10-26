@@ -28,7 +28,9 @@ not hold principles of your own; each step applies a life-kit skill.
    reasoning behind it, both are promised outcomes: apply `test-oracle` to
    observe each one and give each its own verdict.
 3. **The cases.** Apply `agent-evals` (principle 7) and `black-box` to choose
-   the cases, including boundaries and adjacent cases (`black-box` principle
+   the cases. Each case comes from real use, is a capability task for a
+   planned feature, or is a seeded defect whose answer is known by
+   construction. Include boundaries and adjacent cases (`black-box` principle
    6), with no two cases from the same combination (`black-box` principle
    3). In
    review, rebuild the input model and place each case in its blocks, as
@@ -36,16 +38,23 @@ not hold principles of your own; each step applies a life-kit skill.
 4. **The runs.** Apply `agent-evals` (principles 1, 3, 4, 5 and 6): trials per case,
    the pass rule, the baseline, the model, harness and limits all fixed in
    advance, the suite sized by power analysis, and no leaks to the answer.
-   Apply `testing` (principle 12): a grader independent of whoever built the
-   entity under test, and held-out cases kept apart from whoever tunes it.
+   Each run records its skill version, model, harness, trial count and
+   baseline score (`agent-evals` principles 1 and 6). Apply `testing`
+   (principle 12): a grader independent of whoever built the entity under
+   test, and held-out cases kept apart from whoever tunes it. When no unseen
+   held-out cases remain, every score is reported as a tuning score.
 5. **Review by someone else.** Apply `verify-before-ship` (principles 2 and
    3): a design is done only when a reviewer who did not write it runs these
    steps in review and finds nothing to fix. After any fix, the review runs
-   again on the edited design. In review, you are that reviewer, so skip this
-   step.
+   again on the edited design. In review, check that a record exists of a
+   review by someone who did not write the eval, and that its findings were
+   fixed.
 6. **Report.** Write by `readable`. For a design: what is under test, where
    the cases and expected results came from, how a run is scored, and the
    review result. For a review: findings most important first, each with the
-   case, the skill and principle it breaks, and the smallest fix. Say plainly
-   whether the eval is ready to run, and whether its results hold beyond the
-   cases used for tuning (`testing` principle 12).
+   case, the skill and principle it breaks, and the smallest fix. For a large
+   set, read the README, the rubric and a sample of cases, check the rest by
+   script, and say which cases got which check (`testing` principles 10 and
+   11). End with one verdict: the eval is ready to run, or it needs the fixes
+   listed (`verify-before-ship` principle 1). Say plainly whether its results
+   hold beyond the cases used for tuning (`testing` principle 12).
