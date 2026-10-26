@@ -2,9 +2,8 @@
 name: idea-quality
 description: >-
   Judge or review whether an idea, project or method is good by reading it:
-  is it a good pattern, a problem that keeps recurring plus the core of its
-  solution, with first principles explaining why that solution works. Use on
-  /idea-quality.
+  does it solve a real problem that keeps recurring, by a mechanism you can
+  explain from first principles. Use on /idea-quality.
 ---
 # /idea-quality
 
@@ -14,10 +13,9 @@ whoever runs this says which apply.
 
 ## Principles
 
-1. **A good idea is a good pattern: a real problem that keeps recurring,
-   plus the core of its solution, where first principles (its basic parts,
-   causes and costs) explain the mechanism by which that solution works.**
-   The rest follows from this:
+1. **A good idea solves a real problem that keeps recurring, and you can
+   explain from first principles the mechanism by which it solves that
+   problem.** The rest follows from this:
    - It fails if it rests only on popularity, "it is like X", "others do it",
      or someone's say-so.
    - One problem plus one mechanism makes one cohesive idea. If it cannot be

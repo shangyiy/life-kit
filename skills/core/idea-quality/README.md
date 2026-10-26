@@ -1,13 +1,12 @@
 # idea-quality
 
 Principles for judging whether an idea is good by reading it
-(`/idea-quality`). One principle, from Christopher Alexander's *A Pattern
-Language*: a good idea is a good pattern, a problem that keeps recurring plus
-the core of its solution. First-principles reasoning, up from what is surely
-true rather than by analogy, explains why that solution works. One problem
-with one mechanism is one cohesive idea, as in structured design. Paul
-Graham's "organic" ideas, built for the author's own need, are evidence that
-the problem is real.
+(`/idea-quality`). One principle: a good idea solves a problem that keeps
+recurring, by a mechanism you can explain from first principles, reasoning up
+from what is surely true rather than by analogy. One problem with one
+mechanism is one cohesive idea, as in structured design. Paul Graham's
+"organic" ideas, built for the author's own need, are evidence that the
+problem is real.
 
 ## Credit
 
