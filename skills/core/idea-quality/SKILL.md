@@ -13,14 +13,14 @@ recommends it.
 
 ## Principles
 
-1. **A good idea solves a common, recurring problem** (usefulness). You can
-   name the problem and who keeps running into it. Popularity without such a
-   problem is not usefulness.
+1. **A good idea solves a common, recurring problem.** You can name the
+   problem and who keeps running into it. Popularity without such a problem
+   does not make an idea useful.
 2. **A good idea is one simple, cohesive idea that makes sense from first
-   principles** (cohesion). It fits in one sentence: one problem, one
-   mechanism. Why the mechanism works follows from basic facts, not from "it
-   is like X" or "others do it". A bundle of unrelated ideas is several ideas,
-   each with its own problem and mechanism.
-3. **A good idea grows from its author's or organization's own need**
-   (organic). That need is evidence the problem is real. Where the source
-   does not show it, it stays unknown.
+   principles.** It fits in one sentence: one problem, one mechanism. Why the
+   mechanism works follows from basic facts, not from "it is like X" or
+   "others do it". A bundle of unrelated ideas is several ideas, each with its
+   own problem and mechanism.
+3. **A good idea grows from its author's or organization's own need.** That
+   need is evidence the problem is real. Where the source does not show it,
+   it stays unknown.
