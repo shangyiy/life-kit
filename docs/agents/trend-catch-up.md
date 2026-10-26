@@ -47,3 +47,6 @@ domain, not a promise that it helps the reader's own work.
 
 **Merging is a judgment call.** The agent decides which kept items are the same
 idea, so it can merge two ideas that only look alike, or keep one idea twice.
+
+**Picks depend on the reader.** The agent picks the ideas most valuable for
+the reader, so it picks only as well as the input describes the reader.
