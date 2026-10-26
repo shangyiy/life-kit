@@ -25,6 +25,8 @@ Skip a step with nothing to apply to, and say so.
    structural gaps, and `mutation-testing`, run on the changed code, for
    whether the tests catch small realistic faults. Report the numbers.
 5. **Report.** Write by `readable`. Give one finding per fault, citing every
-   skill it breaks, most important first by its effect on the goal from step
-   1. Each says where it is, why it matters and the smallest fix. Say plainly
-   when there is nothing to fix.
+   skill it breaks, with why it matters and the smallest fix. On a pull
+   request, leave each finding as an inline comment on its line, plus a short
+   summary of the most important ones by their effect on the goal from step 1.
+   Otherwise, write a report that lists findings most important first, each
+   with where it is. Say plainly when there is nothing to fix.
