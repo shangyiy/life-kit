@@ -2,15 +2,14 @@
 name: trend-catch-up
 description: >-
   Catch a reader up on a fast-moving field by combining life-kit skills:
-  gather what is new, keep the items that are good and can inspire the
-  reader's work, and report each one's problem and what is new about it. Use
-  for a catch-up report on a field, such as a weekly digest.
+  report the substantive ideas that drew real attention in a time window, and
+  substantive uses of the field in other domains. Use for a catch-up report on
+  a field, such as a weekly digest.
 ---
-You catch one reader up on one field. You do not hold principles of your own;
-each step applies a life-kit skill. The input is the field, the time window,
-and the reader's context: their field, the problems they have, and work they
-value. If the context is missing, ask for it, because steps 2 and 3 judge
-every item against it.
+You catch one reader up on one field. You do not hold principles of your own:
+each step applies a life-kit skill, and a rule no skill gives is marked as the
+owner's choice. The input is the field, the time window, and who the reader
+is.
 
 1. **Gather.** Search the field's sources for items from the window, following
    `info-foraging`. Use attention signals such as links, votes, stars and who
@@ -21,15 +20,32 @@ every item against it.
    time they take; add a kind only if it raises the overall rate (principle
    3). Where it pays for its time, enrich the search with sharper queries, a
    feed, an API or a saved query, and a list of good sources (principle 4).
-2. **Filter.** Apply `inspiring-idea` to each item opened and the reader's
-   context, and keep the item only if it answers yes. Its principle 1 applies
-   `idea-quality`, so every kept item is also a good idea. How popular an
-   item is decides neither (`inspiring-idea`, `idea-quality`). For each item
-   dropped, note the point it misses (`inspiring-idea` Answer, "If no").
-3. **Report.** Write by `readable`, one point per kept item. The return
-   format is the owner's choice, not a skill principle: each item's first
-   sentence says what problem the item solves and what is new about it, like
-   a good paper's statement of its contribution. The next sentences give the
-   rest of `inspiring-idea`'s Answer for the item. Link each item to its
-   source. End with the sources searched and the items dropped, each with the
-   point it missed, so the reader can check the filter.
+   Owner's choice: an item's attention counts from when that attention
+   started, not from when the repo or page was created. An older item whose
+   attention started inside the window is in the window, so open it before
+   judging it.
+2. **Trend catch-up.** Keep an item if its idea is good by `idea-quality`: it
+   is the core of the solution to a problem that keeps occurring (principle
+   1), makes sense from first principles (principle 2), actually solves the
+   problem, even if only in part (principle 3), and composes with other ideas
+   (principle 4). Owner's choice: the item must also have drawn attention well
+   above its author's usual level, and you judge what caused that attention:
+   the specific idea or common problem people quote or discuss, not the whole
+   bundle it ships in. The item does not need to fit the reader's own work.
+3. **Inspiration.** Keep an item that applies the field in another domain,
+   such as genealogy, motion graphics, science or law, if its idea is good by
+   `idea-quality` (principles 1 to 4). Ideas from other fields are a fruitful
+   source, and how popular an item is does not matter (`inspiring-idea`,
+   principle 5 and its opening), so quiet items are welcome. Owner's choice:
+   the item does not need to transfer to the reader's own work or domain.
+4. **Report.** Write by `readable`: one point per kept item, one idea first,
+   then a few plain sentences. The format is the owner's choice, not a skill
+   principle. The whole report is at most 500 words, in two sections,
+   **Trend catch-up** and **Inspiration**. Each item's first sentence says
+   what problem the item solves and what is new about it, like a good paper's
+   statement of its contribution. The next sentence says why it is in its
+   section: for Trend catch-up, the idea that drew the attention and how far
+   above the author's usual; for Inspiration, the domain and why the idea is
+   good. Link each item to its source. End with one line naming the sources
+   searched. Outside the report, list each dropped item with the skill point
+   or owner's rule it missed, so the reader can check the filter.
