@@ -13,17 +13,20 @@ is.
 
 1. **Gather.** Search the field's sources for items from the window, following
    `info-foraging`. Use attention signals such as links, votes, stars and who
-   points to an item as scent to choose what to open, and open each item
-   before judging it (principle 1). Leave a source once it yields less per
-   unit of time than the average across sources, counting the time to move
-   between them (principle 2). Take the kinds of items that pay most for the
-   time they take; add a kind only if it raises the overall rate (principle
-   3). Where it pays for its time, enrich the search with sharper queries, a
-   feed, an API or a saved query, and a list of good sources (principle 4).
-   Owner's choice: an item's attention counts from when that attention
-   started, not from when the repo or page was created. An older item whose
-   attention started inside the window is in the window, so open it before
-   judging it.
+   points to an item as scent to choose what to open (principle 1). Owner's
+   choice: before judging any item, open its full source and keep expanding it,
+   following what it points to and taking any collection apart, until you reach
+   the actual idea (for example a post's linked article or a repo's skill
+   files). Judge only on that full text, never on a title, snippet or listed
+   date. Leave a source once it yields less per unit of time than the average
+   across sources, counting the time to move between them (principle 2). Take
+   the kinds of items that pay most for the time they take; add a kind only if
+   it raises the overall rate (principle 3). Where it pays for its time, enrich
+   the search with sharper queries, a feed, an API or a saved query, and a list
+   of good sources (principle 4). Owner's choice: an item's attention counts
+   from when that attention started, not from when the repo or page was
+   created. An older item whose attention started inside the window is in the
+   window, so open it before judging it.
 2. **Trend catch-up.** Keep an item if its idea is good by `idea-quality`: it
    is the core of the solution to a problem that keeps occurring (principle
    1), makes sense from first principles (principle 2), actually solves the
