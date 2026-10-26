@@ -17,10 +17,19 @@ in the reader's field. Popularity plays no part.
 1. **It is a good idea,** as [`idea-quality`](../../core/idea-quality/SKILL.md)
    describes. Where the source cannot show the author's own need, leave that
    unknown; the problem it solves must still be named.
-2. **Its structure fits a problem the reader has.** How its parts relate
-   maps onto how the parts of the reader's problem relate, not just its
-   surface or vocabulary. An idea from another field whose structure fits is
-   the strongest case.
+2. **Its structure fits a problem the reader has.** Causes carry across,
+   not surface features. To check:
+   1. Understand the reader's field and problem from the context.
+   2. Write the idea's mechanism as relations between its parts, without its
+      field's nouns, and the reader's problem the same way.
+   3. Map the parts one to one, and keep only what carries over as a
+      connected chain of causes, not scattered resemblances.
+   4. State in one sentence the principle both sides share; that is what to
+      carry over.
+   5. List where the mapping does not hold.
+
+   Ideas from another field are the strongest source: someone who knows both
+   fields sees what people in one of them do not.
 3. **It is new to the reader.** The context does not show the reader
    already working this way.
 
