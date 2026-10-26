@@ -1,9 +1,10 @@
 # inspiring-idea
 
 Given an idea and a reader's context, say whether the idea can inspire the
-reader's own work, why, and how to apply it (`/inspiring-idea`). An idea inspires when it is
-good and its structure, not its surface, fits a problem the reader has, so
-ideas from other fields are a main source.
+reader's own work, why, and how to apply it (`/inspiring-idea`). An idea
+inspires when it is good and shares the relations of a problem the reader
+has, not its surface; the reader rarely sees such a match alone, so it is
+pointed out, and other fields are the best source.
 
 ## Credit
 

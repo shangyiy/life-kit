@@ -15,40 +15,42 @@ their field. How popular the item is does not matter.
 ## What makes an idea inspiring for this reader
 
 1. **It is a good idea,** as [`idea-quality`](../../core/idea-quality/SKILL.md)
-   describes. If the source does not show the author's own need, leave that
-   unknown, but still name the problem the idea solves.
-2. **It works the same way as a problem the reader has.** Its parts and the
-   reader's problem are linked by the same causes, not just by looking alike.
-   To check:
-   1. Understand the reader's field and problem from the context.
-   2. Describe how the idea works as links between its parts, without the
-      words of its own field. Describe the reader's problem the same way.
-      This plain wording is only for the check; write the answer in the
-      reader's own words.
-   3. Pair each part of the idea with a part of the reader's problem. Keep
-      only the pairs that form one chain of causes; drop scattered
-      resemblances.
-   4. Write in one sentence the rule both sides share. That rule is what the
-      reader carries over.
-   5. List where the pairing does not hold.
-
-   Ideas from another field are the best source. Someone who knows both
-   fields sees what people inside one of them miss.
-3. **It is new to the reader.** The context does not show the reader already
+   describes. An idea that is not good inspires nothing worth carrying over.
+2. **It shares the reader's problem's relations, not its surface.** What
+   carries over is how the parts act on each other: what causes, limits or
+   checks what. What the parts look like, or what they are called, does not
+   carry over. Map each part of the idea to one part of the reader's problem,
+   one to one. A match on looks alone is a false lead; a match on relations
+   is an analogy even when the two fields look nothing alike.
+3. **The more connected the shared relations, the stronger the idea.** Prefer
+   a mapping that carries a whole chain of causes, held together by one
+   higher-order relation, over many separate matches. That one relation,
+   stated without either field's words, is the rule the reader carries over.
+   Where a part of the chain does not map, say so: that is where the
+   transfer can break.
+4. **The reader will not see it alone, so point it out.** People rarely use
+   a distant analogy on their own, even one that would solve their problem;
+   once told it applies, most do. So name which part matches which, and
+   state the shared rule in the reader's own words.
+5. **Ideas from other fields are the best source.** Their surface differs
+   from the reader's, so only the relations can link them, and people inside
+   one field miss what someone who knows both sees.
+6. **It is new to the reader.** The context does not show the reader already
    working this way.
 
 ## Answer
 
 - **Yes or no.**
 - **Why.** Name the problem the idea solves and how it solves it. Name the
-  reader's problem it pairs with, and which part matches which. Say what is
+  reader's problem it pairs with, which part matches which, and the shared
+  rule. Say what is
   new: the usual approach's bottleneck, the one move that removes it, and
   whether that is a new way or only a faster one. Say where the pairing does
   not hold.
 - **How to apply it.** Say what the idea becomes in the reader's field, the
   first concrete step to try it, and what to watch where the pairing does not
   hold.
-- **If no,** say which of the three points above it misses.
+- **If no,** say which of the points above it misses.
 
 ## Example
 
