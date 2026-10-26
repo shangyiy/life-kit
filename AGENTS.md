@@ -7,6 +7,12 @@ not its fit to the skill.
 Skills follow the two layers in `README.md`. Repo and harness detail lives here
 or in `skill-evals`, never in a skill.
 
+Every new or changed skill folder has a `README.md` with a Credit list of its
+sources (author, title, venue, year), ending with: "This skill is an
+independent restatement. It is not affiliated with or endorsed by any of these
+authors." A core `SKILL.md` holds principles and definitions only: no
+examples, no source notes.
+
 ## Shipping
 
 1. **Branch:** never push to `main`. Use `<type>/<topic>` (`feat`, `fix`,

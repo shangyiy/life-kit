@@ -27,8 +27,10 @@ any field. What counts as good comes from whoever runs the search.
    to handle them. Take the most profitable kinds; add a less profitable kind
    only if it raises your overall rate. So the diet narrows when good items
    are plentiful and widens when they are scarce.
-4. **Enrich the patch.** Effort that raises later rates (sharper queries,
-   filters, a list of good sources) pays when you will search again.
+4. **Enrich the patch.** Spend effort to raise the rate later, either
+   within patches (sharper queries, filters) or between them (a list of good
+   sources). It pays when the higher rate makes up for the time spent
+   enriching.
 
 ## Definitions
 
