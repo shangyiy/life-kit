@@ -4,7 +4,7 @@ version that ships, then the owner approves, or rule 8 lets it merge. For
 skills, also follow `agent-evals`: score over repeated trials; grade the work,
 not its fit to the skill.
 
-Skills follow the two layers in `README.md`. Repo and harness detail lives here
+Skills follow the two layers in `README.md`. Agents in `agents/` only combine skills: each names the skills it applies and in what order. A rule an agent needs goes in a skill, never in the agent. Repo and harness detail lives here
 or in `skill-evals`, never in a skill.
 
 Every new or changed skill folder has a `README.md` with a Credit list of its

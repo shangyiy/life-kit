@@ -12,6 +12,13 @@ Inspired by Clean Architecture, skills have at most two layers. **Core** skills 
 
 Each rule has one home, and tool or framework detail is worked out at run time from your project.
 
+**Agents** (`agents/`) combine skills for one purpose, like building with blocks: each says which skills to apply, in what order, and what to return. An agent holds no principles of its own.
+
+## Agents
+
+- [**code-review**](./agents/code-review.md): Review a code change for design and tests by combining the software design and validation skills.
+- [**eval-design-review**](./agents/eval-design-review.md): Design or review an agent eval by combining the testing and eval skills; a design passes only after a review by someone else. Needs high-quality labeled cases as input ([limits](./docs/agents/eval-design-review.md#limits)).
+
 ## Skills
 
 ### Thinking
