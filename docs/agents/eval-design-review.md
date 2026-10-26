@@ -1,8 +1,8 @@
-# eval-design
+# eval-design-review
 
-Designs and writes one agent eval by combining `testing`, `test-oracle` and
-`agent-evals`, then hands it to an independent audit. The agent itself is
-[`agents/eval-design.md`](../../agents/eval-design.md).
+Designs or reviews one agent eval by combining `testing`, `test-oracle` and
+`agent-evals`; a design passes only after a review by someone else. The
+agent itself is [`agents/eval-design-review.md`](../../agents/eval-design-review.md).
 
 ## Limits
 
