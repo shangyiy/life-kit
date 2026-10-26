@@ -1,9 +1,10 @@
 # idea-quality
 
-Principles describing what a good idea looks like
-(`/idea-quality`): it solves a common, recurring problem; it is one simple,
-cohesive idea that makes sense from first principles; and it grew from a real
-need, as in Paul Graham's "organic" ideas.
+Principles describing what a good idea looks like (`/idea-quality`), in the
+spirit of Christopher Alexander's patterns: it answers a problem someone kept
+meeting in their own work, as in Paul Graham's "organic" ideas; it has one core
+solution that removes that problem when it runs, for reasons that follow from
+first principles; and it works alongside other ideas.
 
 ## Credit
 
@@ -18,6 +19,8 @@ need, as in Paul Graham's "organic" ideas.
   paulgraham.com/startupideas.html
 - Christopher Alexander, Sara Ishikawa, Murray Silverstein, *A Pattern
   Language*, Oxford University Press, 1977
+- Christopher Alexander, *Notes on the Synthesis of Form*, Harvard University
+  Press, 1964
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
