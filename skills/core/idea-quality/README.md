@@ -1,6 +1,6 @@
 # idea-quality
 
-Principles for judging whether an idea is good by reading it
+Principles describing what a good idea looks like
 (`/idea-quality`): it solves a common, recurring problem; it is one simple,
 cohesive idea that makes sense from first principles; and it grew from a real
 need, as in Paul Graham's "organic" ideas.
