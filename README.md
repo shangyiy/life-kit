@@ -26,6 +26,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**grouping**](./skills/core/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
 - [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 - [**info-foraging**](./skills/core/info-foraging/SKILL.md): Get the most value for the attention spent looking: how to follow scent, which items to take, when to leave a source.
+- [**idea-quality**](./skills/core/idea-quality/SKILL.md): What makes an idea good: it is the core of the solution to a problem that occurs over and over again in its context, it makes sense from first principles, it actually solves the problem, even if only in part, and it works alongside other ideas.
 
 ### Software design
 - [**design-principles**](./skills/core/design-principles/SKILL.md): What makes a design easy to change: hiding, coupling, dependency direction, contracts.
