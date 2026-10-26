@@ -2,8 +2,8 @@
 name: info-foraging
 description: >-
   Plan or review any search for information under limited attention, in any
-  field: where to look, how far to trust popularity, when to raise the bar,
-  and when to leave a source for another. Use on /info-foraging.
+  field: where to look, how to follow scent, which items to take, and when
+  to leave a source for another. Use on /info-foraging.
 ---
 # /info-foraging
 
@@ -13,21 +13,22 @@ any field. What counts as good comes from whoever runs the search.
 
 ## Principles
 
-1. **Popularity is a hint, not value.** Many reposts, votes or citations tell
-   you where to look, not that it is good. Open the thing itself before
-   judging it.
-2. **Search quiet places on purpose.** Popularity is the cue here, and it
-   misleads: good quiet work gives off little of it. So spend part of every
-   open-ended search where attention is low: small projects, practitioner
-   forums, other languages, other fields.
-3. **Raise the bar when good items are plentiful; never lower it when they
-   are scarce.** When many items qualify, keep only the best. When few do,
-   keep fewer rather than pad.
-4. **Leave a source when it pays less than the others.** Once a source turns
-   up fewer kept items per hour than your other sources do, move on. Judge
-   that across searches, not within one, and credit every source that turned
-   up a kept item, not only the first.
+1. **Follow information scent.** Cues you see before opening something
+   (titles, snippets, who points to it, how many do) are scent: a guess at
+   what lies behind it. Head where scent is strongest, but it is only a guess:
+   open the item itself to judge it. Popularity is one such cue.
+2. **Leave a patch when its rate falls to the average.** A source yields
+   less the longer you stay. Leave once what you gain there per unit of time
+   falls below the average rate across all sources, counting the time it
+   takes to move between them.
+3. **Pick a diet by profitability.** Rank kinds of items by value per time
+   to handle them. Take the most profitable kinds; add a less profitable kind
+   only if it raises your overall rate. So the diet narrows when good items
+   are plentiful and widens when they are scarce.
+4. **Enrich the patch.** Effort that raises later rates (sharper queries,
+   filters, a list of good sources) pays when you will search again.
 
 ## Definitions
 
-- **Kept item:** one that clears the bar and is used.
+- **Patch:** a place where items cluster, such as a site, feed, list or person.
+- **Scent:** the cues you use to guess an item's value before opening it.
