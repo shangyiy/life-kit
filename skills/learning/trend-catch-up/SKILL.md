@@ -1,28 +1,58 @@
 ---
 name: trend-catch-up
 description: >-
-  Find or review what a reader must catch up on in a fast-moving field (e.g.
-  AI agents): things spreading from early users to everyone, checked against
-  real attention signals. Use on /trend-catch-up.
+  Given one item from a fast-moving field and a reader's context, say whether
+  the reader must catch up on it, why, and how they could use it. Use on
+  /trend-catch-up.
 ---
 # Trend catch-up
 
-Find the few things in a field the reader should not miss: things moving from a few early users to everyone in the field. Search the way [`info-foraging`](../../core/info-foraging/SKILL.md) says. The field, sources, reader and examples of good work come from whoever runs this.
+You get one item (a tool, method, paper or post) with its attention numbers,
+and the reader's context: their field, what they already use, and what they
+have asked about. Say whether the reader must catch up on it, why, and how
+they could use it. Finding the items is the caller's job.
 
-## What earns a place
-Every item has something real to look at (code, paper, writing, demo, measured result) and solves a lasting problem; if you cannot name that problem, leave it out.
+## What the reader must catch up on
 
-Attention is an effect with a cause. For each high-attention item, read its primary source, not a title or a retelling, and name the idea or common problem that drives the attention. Judge that idea, not the whole item, with [`idea-quality`](../../core/idea-quality/SKILL.md). Every drop reason names that cause and why it fails. The item also got much more attention than usual: clearly above the typical (median) engagement of its author's recent items, or of the source's items in the window. Either is enough.
+1. **It is spreading from a few early users to everyone in the field.** It
+   got much more attention than usual: clearly above the typical (median)
+   attention of its author's recent items, or of its source's items in the
+   same time window. Either is enough. The window measures spread, not when
+   the item was made.
+2. **The cause of its attention is a good idea.** Attention is an effect with
+   a cause. Read the primary source, not a title or a retelling, and find the
+   one idea or common problem people quote and discuss. A bundle never
+   spreads as a whole; one part of it does. Judge that idea, not the whole
+   item, by [`idea-quality`](../../core/idea-quality/SKILL.md). There must be
+   something real to look at: code, a paper, writing, a demo or a measured
+   result.
+3. **The reader is missing it.** The context does not show the reader
+   already using it or knowing it. Something they asked about counts for
+   more than something merely new.
 
-Rank by what the reader is missing or has asked about, not by novelty. If few items qualify, keep fewer rather than pad.
+## Answer
 
-## Pick items
-1. Before any topic or keyword search, scan each source's items with the most attention during the window, whatever their post date, sorted by the attention signal it offers, with no topic or keyword filter. Read each, down to where items stop clearing the attention test above, and note keep or drop with a one-line reason. Whether an item is seen should depend on its attention, not on whether its text happens to contain topic words; keyword searches miss high-attention items whose text has none.
-2. Then collect candidates from the caller's sources for the time window. The window measures spread, not birth. Skip anything already reported: judge by content, so the same story under a new link counts as reported.
-3. Open each and check it against the rules above.
-4. Return each kept item with: use; what is new (the usual approach's bottleneck, the one move that removes it, and whether that is a new way or only faster); the lasting problem it solves; why it rose now; how this reader could use it; link.
-
-A source fails: carry on and say which.
+- **Yes or no.**
+- **Why.** Name the cause of the attention and the lasting problem it
+  solves. Say what is new: the usual approach's bottleneck, the one move that
+  removes it, and whether that is a new way or only a faster one. Say how far
+  above usual its attention is and why it rose now.
+- **How to use it.** Say where it fits in the reader's work and a first
+  concrete step.
+- **If no,** say which of the three points above it misses, naming the cause
+  when that is what fails.
 
 ## Example
-A lab's write-up on proving code correct shows up on a big forum, far above that lab's usual attention: it passes. What is new: proving code correct usually needs a hand-written formal spec, which takes weeks of expert time (bottleneck). Move: use the existing fuzz tests as the spec. A new way, not the same thing faster. Not new: the claim that proofs cover all inputs.
+
+Item: a lab's write-up on proving code correct, on a big forum at ten times
+that lab's usual attention. Reader: an engineer who maintains a parser with
+fuzz tests and has asked how to get stronger guarantees.
+
+Yes. People quote one idea: use existing fuzz tests as the formal spec.
+Problem: proving code correct usually needs a hand-written spec, which takes
+weeks of expert time (bottleneck). Move: reuse the fuzz tests as that spec.
+A new way, not the same thing faster. Not new: the claim that proofs cover
+all inputs. It rose now because the lab released working code.
+
+How to use it: try the lab's tool on the parser's existing fuzz tests and
+see which functions it can prove.

@@ -1,9 +1,9 @@
 # trend-catch-up
 
-Find what a reader must catch up on in a fast-moving field
-(`/trend-catch-up`). New things spread from a few early users to the
-majority along an S-curve. The attention-jump test is this skill's stand-in
-for the take-off of that curve, not Rogers' rules.
+Given one item and your context, say whether you must catch up on it, why,
+and how to use it (`/trend-catch-up`). New things spread from a few early
+users to everyone along an S-curve. The "much more attention than usual"
+test stands in for the take-off of that curve; it is not Rogers' own rule.
 
 ## Credit
 
