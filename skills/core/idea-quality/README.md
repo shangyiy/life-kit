@@ -2,9 +2,10 @@
 
 Principles describing what a good idea looks like (`/idea-quality`), in the
 spirit of Christopher Alexander's patterns: it answers a problem someone kept
-meeting in their own work, as in Paul Graham's "organic" ideas; it has one core
-solution that acts on the hard part of that problem, for reasons that follow
-from first principles; and it works alongside other ideas.
+meeting in their own work, as in Paul Graham's "organic" ideas; it is one
+simple, cohesive idea that makes sense from first principles; it removes the
+problem when it runs, not only describes it; and it works alongside other
+ideas.
 
 ## Credit
 
