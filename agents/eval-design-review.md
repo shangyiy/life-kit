@@ -12,28 +12,38 @@ not hold principles of your own; each step applies a life-kit skill.
 1. **Name what is under test.** Apply `testing`: the entity under test (which
    skill, version and setup), where its boundary lies, what goes in, what must
    come out, and where that promise is written. Everything else is fixture and
-   stays fixed between the runs being compared, as `agent-evals` describes a
-   paired baseline. Until this is clear, the other steps wait on it.
-2. **The oracle.** Apply `test-oracle`: what to observe, where the expected
-   results come from, and how the oracle itself is shown to be right, all
-   before any run. Expected results are fixed in advance by someone who knows
-   the field, from the promise and never from the skill's own wording. Each
-   case can fail, and a known-good answer passes it. When the output carries
-   both a verdict and the reasoning behind it, treat them as two outcomes,
-   each with its own oracle and verdict.
-3. **The cases.** Apply `agent-evals` and `black-box`: real cases from real
-   use, never invented to fit the skill, covering should and should-not
-   answers, boundaries and near misses, without two cases testing the same
-   thing.
-4. **The runs.** Apply `agent-evals`: trials per case, the pass rule and the
-   baseline fixed in advance, no leaks to the answer, a grader independent of
-   the author and kept from seeing which run had the skill, and cases used for
-   tuning kept apart from held-out ones.
-5. **Review by someone else.** A design is done only when a reviewer who did
-   not write it runs these steps in review and finds nothing to fix. Fix every
-   finding at once.
+   stays fixed between the runs being compared, as `agent-evals` (principle 1)
+   describes paired versions. In design, the other steps wait until this is
+   clear. In review, an unclear answer is the first finding, and the other
+   steps still run.
+2. **The oracle.** Apply `test-oracle` and `testing` (principle 2): what to
+   observe, where the expected results come from, and how the oracle itself is
+   shown to be right, all before any run. Apply `agent-evals` (principle 2):
+   two domain experts would independently reach each verdict, and no case
+   grades fit to the skill's own wording. With no labeled cases given, or a
+   label still waiting on the expert, report that gap instead of guessing
+   (`testing` principle 3). A proposed label is not an expected result until
+   the expert confirms it. When the output carries both a verdict and the
+   reasoning behind it, both are promised outcomes: apply `test-oracle` to
+   observe each one and give each its own verdict.
+3. **The cases.** Apply `agent-evals` (principle 7) and `black-box` to choose
+   the cases, including boundaries and adjacent cases (`black-box` principle
+   6) and one case per combination of blocks (`black-box` principle 3). In
+   review, rebuild the input model and place each case in its blocks, as
+   `black-box` describes.
+4. **The runs.** Apply `agent-evals` (principles 1, 5 and 6): trials per case,
+   the pass rule, the baseline, the model, harness and limits all fixed in
+   advance, the suite sized by power analysis, and no leaks to the answer.
+   Apply `testing` (principle 12): a grader independent of whoever built the
+   entity under test, and held-out cases kept apart from whoever tunes it.
+5. **Review by someone else.** Apply `verify-before-ship` (principles 2 and
+   3): a design is done only when a reviewer who did not write it runs these
+   steps in review and finds nothing to fix. After any fix, the review runs
+   again on the edited design. In review, you are that reviewer, so skip this
+   step.
 6. **Report.** Write by `readable`. For a design: what is under test, where
    the cases and expected results came from, how a run is scored, and the
    review result. For a review: findings most important first, each with the
-   case, the skill it breaks and the smallest fix; say plainly when the eval
-   is ready to trust.
+   case, the skill and principle it breaks, and the smallest fix. Say plainly
+   whether the eval is ready to run, and whether its results hold beyond the
+   cases used for tuning (`testing` principle 12).
