@@ -17,13 +17,14 @@ resolves it, and that solution works alongside others.
 ## Principles
 
 1. **A good idea answers a problem that someone observed recurring in their own
-   work.** If the source does not name the problem, work it out from what the idea
-   does, then check that the author and others really keep meeting it. The problem is also common: others keep running
-   into it too, and the idea actually helps them. A problem invented to fit a
-   solution is not such a problem. A feature copied from another product to
-   keep up with it is evidence against the idea, not a gap in what is known.
-   When the source shows no such problem, the idea has not yet shown that it is
-   good. Popularity alone does not show that the problem is real.
+   work.** If the source does not name the problem, work it out from what the
+   idea does, then check that the author really keeps meeting it. The problem
+   is also common: others keep running into it too, and the idea actually helps
+   them. A problem invented to fit a solution is not such a problem. A feature
+   copied from another product to keep up with it is evidence against the idea,
+   not a gap in what is known. When the source shows no such problem, the idea
+   has not yet shown that it is good. Popularity alone does not show that the
+   problem is real.
 2. **A good idea is one simple, cohesive idea that makes sense from first
    principles.** It breaks the problem down to its most fundamental pieces,
    facts that hold no matter what others have built, and reasons up from them
