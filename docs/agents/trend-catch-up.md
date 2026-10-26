@@ -16,3 +16,6 @@ whether it is new or useful to this reader.
 **Attention signals choose what to open, not what to keep.** A loud item can
 fail the filter and a quiet one can pass it. The report lists the dropped items
 so the reader can see this.
+
+**Each item is judged alone.** Two kept items can solve the same problem, and
+the report can list both.
