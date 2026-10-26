@@ -48,7 +48,6 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
 
 ### Learning
-- [**trend-catch-up**](./skills/learning/trend-catch-up/SKILL.md): Find what you must catch up on in a fast-moving field, checked against real attention.
 - [**inspiring-idea**](./skills/learning/inspiring-idea/SKILL.md): Given an idea and your context, say whether it can inspire your work, why, and how to apply it.
 
 ### Life
