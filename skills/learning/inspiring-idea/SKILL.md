@@ -12,7 +12,7 @@ Find a few ideas the reader can carry into their own work. Search the way [`info
 ## What earns a place
 Every item has something real to look at (code, paper, writing, demo, measured result) and a value underneath (as defined in [`idea-quality`](../../core/idea-quality/SKILL.md)); if you cannot state it, leave it out.
 
-Every item, of either kind, passes every check in [`idea-quality`](../../core/idea-quality/SKILL.md). Where the text cannot show the author's own need, leave that evidence unknown; the recurring problem must still be named. It is one of:
+Every item, of either kind, holds up when judged with [`idea-quality`](../../core/idea-quality/SKILL.md). Where the text cannot show the author's own need, leave that evidence unknown; the recurring problem must still be named. It is one of:
 - **Quiet quality:** judged by reading it, not by its attention. It would sit comfortably next to the caller's examples of good work.
 - **New field:** an idea carried into a field it has not reached yet, where its structure (how its parts relate), not its surface, fits a problem in that field. Prefer work by people from that field.
 
