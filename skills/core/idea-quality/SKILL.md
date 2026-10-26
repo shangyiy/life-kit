@@ -25,11 +25,12 @@ resolves it, and that solution works alongside others.
    When the source shows no such problem, the idea has not yet shown that it is
    good. Popularity alone does not show that the problem is real.
 2. **A good idea is one simple, cohesive idea that makes sense from first
-   principles.** It starts from basic facts about the problem, facts that hold
-   no matter what others have built, and reasons from them to the solution,
-   instead of copying what others do or arguing that "it is like X". Because
-   its parts follow from the same facts, they fit together. An idea whose parts
-   each answer a different problem is several ideas, not one.
+   principles.** It breaks the problem down to its most fundamental pieces,
+   facts that hold no matter what others have built, and reasons up from them
+   to the solution, instead of copying what others do or arguing that "it is
+   like X". Because its parts follow from the same pieces, they fit together.
+   An idea whose parts each answer a different problem is several ideas, not
+   one.
 3. **A good idea removes the problem when it runs, not only describes it
    well.** It need not remove all of the problem: a clear statement of what
    matters, backed by a concrete action that moves the hard part, is enough.
