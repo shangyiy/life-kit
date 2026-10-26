@@ -4,7 +4,7 @@ Given an idea and a reader's context, say whether the idea can inspire the
 reader's own work, why, and how to apply it (`/inspiring-idea`). An idea
 inspires when it is good and shares the relations of a problem the reader
 has, not its surface; the reader rarely sees such a match alone, so it is
-pointed out, and other fields are the best source.
+pointed out, and other fields are a fruitful source.
 
 ## Credit
 

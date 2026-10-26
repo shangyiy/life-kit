@@ -31,8 +31,9 @@ their field. How popular the item is does not matter.
 4. **The reader will not see it alone, so point it out.** People rarely use
    a distant analogy on their own, even one that would solve their problem;
    once told it applies, most do. So name which part matches which, and
-   state the shared rule in the reader's own words.
-5. **Ideas from other fields are the best source.** Their surface differs
+   state the shared rule, first without either field's words, then in the
+   reader's own words.
+5. **Ideas from other fields are a fruitful source.** Their surface differs
    from the reader's, so only the relations can link them, and people inside
    one field miss what someone who knows both sees.
 6. **It is new to the reader.** The context does not show the reader already
@@ -43,10 +44,9 @@ their field. How popular the item is does not matter.
 - **Yes or no.**
 - **Why.** Name the problem the idea solves and how it solves it. Name the
   reader's problem it pairs with, which part matches which, and the shared
-  rule. Say what is
-  new: the usual approach's bottleneck, the one move that removes it, and
-  whether that is a new way or only a faster one. Say where the pairing does
-  not hold.
+  rule. Say what is new: the usual approach's bottleneck, the one move that
+  removes it, and whether that is a new way or only a faster one. Say where
+  the pairing does not hold.
 - **How to apply it.** Say what the idea becomes in the reader's field, the
   first concrete step to try it, and what to watch where the pairing does not
   hold.
