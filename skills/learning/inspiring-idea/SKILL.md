@@ -23,6 +23,8 @@ their field. How popular the item is does not matter.
    1. Understand the reader's field and problem from the context.
    2. Describe how the idea works as links between its parts, without the
       words of its own field. Describe the reader's problem the same way.
+      This plain wording is only for the check; write the answer in the
+      reader's own words.
    3. Pair each part of the idea with a part of the reader's problem. Keep
       only the pairs that form one chain of causes; drop scattered
       resemblances.
