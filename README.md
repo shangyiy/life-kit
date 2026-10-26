@@ -17,7 +17,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ## Agents
 
 - [**code-review**](./agents/code-review.md): Review a code change for design and tests by combining the software design and validation skills.
-- [**eval-design**](./agents/eval-design.md): Design and write an agent eval by combining the testing, test-oracle and agent-eval skills, then pass an independent audit.
+- [**eval-design**](./agents/eval-design.md): Design and write an agent eval by combining the testing, test-oracle and agent-eval skills, then pass an independent audit. Needs high-quality labeled cases as input ([limits](./docs/agents/eval-design.md#limits)).
 - [**eval-review**](./agents/eval-review.md): Review an agent eval's cases by combining the testing and agent-eval skills: is what it tests clear, and can every check tell a good answer from a bad one.
 
 ## Skills
