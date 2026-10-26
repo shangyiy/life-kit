@@ -1,27 +1,55 @@
 ---
 name: inspiring-idea
 description: >-
-  Find or review ideas a reader can carry into their own work from quiet
-  corners or other fields, judged by quality rather than popularity. Use on
+  Given an idea and a reader's context, say whether the idea can inspire the
+  reader's own work, why, and how to apply it in their field. Use on
   /inspiring-idea.
 ---
 # Inspiring idea
 
-Find a few ideas the reader can carry into their own work. Look where attention is low (small projects, practitioner forums, other human languages, other fields): good quiet work gets little attention, so popularity will not point to it. Judge by quality and fit to the reader, not attention. The field, sources, reader and examples of good work come from whoever runs this.
+You get an item (a project, article, paper or method) and the reader's
+context: their field, the problems they have, and work they value. Say
+whether the item can inspire the reader's own work, why, and how to apply it
+in the reader's field. Popularity plays no part.
 
-## What earns a place
-Every item has something real to look at (code, paper, writing, demo, measured result) and solves a lasting problem; if you cannot name that problem, leave it out.
+## What makes an idea inspiring for this reader
 
-Every item, of either kind, holds up when judged with [`idea-quality`](../../core/idea-quality/SKILL.md). Where the text cannot show the author's own need, leave that evidence unknown; the recurring problem must still be named. It is one of:
-- **Quiet quality:** judged by reading it, not by its attention. It would sit comfortably next to the caller's examples of good work.
-- **New field:** an idea carried into a field it has not reached yet, where its structure (how its parts relate), not its surface, fits a problem in that field. Prefer work by people from that field.
+1. **It is a good idea,** as [`idea-quality`](../../core/idea-quality/SKILL.md)
+   describes. Where the source cannot show the author's own need, leave that
+   unknown; the problem it solves must still be named.
+2. **Its structure fits a problem the reader has.** How its parts relate
+   maps onto how the parts of the reader's problem relate, not just its
+   surface or vocabulary. An idea from another field whose structure fits is
+   the strongest case.
+3. **It is new to the reader.** The context does not show the reader
+   already working this way.
 
-Rank by what the reader is missing or has asked about. If few items qualify, keep fewer rather than pad.
+## Answer
 
-## Pick items
-1. Collect candidates by randomly sampling quiet projects or articles, and work from other fields, from the caller's sources, reading their content, not titles, rankings or links. Skip anything already reported: judge by content, so the same story under a new link counts as reported.
-2. Open each and judge it by the rules above.
-3. Return each kept item with: use; what is new (the usual approach's bottleneck, the one move that removes it, and whether that is a new way or only faster); the lasting problem it solves; why few noticed it; how this reader could use it; link.
+- Yes or no.
+- Why: the problem the idea solves and its mechanism; the reader's problem
+  it maps onto, with what corresponds to what; what is new (the usual
+  approach's bottleneck, the one move that removes it, and whether that is a
+  new way or only faster); where the mapping breaks.
+- How to apply it: what the idea becomes in the reader's field, the first
+  concrete step to try it, and what to watch for where the mapping breaks.
+- If no, which of the three points above it misses.
 
 ## Example
-New field: judging a system by its outputs alone, not its insides (black-box testing), carried into investing. A 0-star code project checks trading backtests for look-ahead bias from the trade log and prices alone. What is new: the usual audit needs the strategy code and an expert reviewer (bottleneck); this flags trades that could only have been made with future prices (move). A new way.
+
+Item: a small code project that checks trading backtests for look-ahead bias
+from the trade log and prices alone. Reader: a test engineer who wants to
+check systems without reading their code.
+
+Yes. The project solves a recurring problem (backtests that quietly use
+future prices) by flagging trades that could only have been made with
+prices not yet known. That maps onto black-box testing: the trade log is the
+system's output, the prices are the oracle, and no strategy code is needed.
+What is new: the usual audit needs the strategy code and an expert reviewer
+(bottleneck); this checks outputs against a timing rule instead (move), a
+new way. The mapping breaks where the reader's system has no clear notion of
+"known at the time".
+
+How to apply it: for a system whose outputs carry timestamps, write a check
+that flags any output depending on input that arrived after it. Start with
+one service's logs; skip systems where inputs carry no reliable time.

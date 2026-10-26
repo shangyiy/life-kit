@@ -1,9 +1,9 @@
 # inspiring-idea
 
-Find ideas a reader can carry into their own work from quiet corners or other
-fields (`/inspiring-idea`). It uses analogy to find ideas and first
-principles to judge them. What carries across fields is an idea's structure,
-not its surface, so ideas from other fields are a main source of new ones.
+Given an idea and a reader's context, say whether the idea can inspire the
+reader's own work, why, and how to apply it (`/inspiring-idea`). An idea inspires when it is
+good and its structure, not its surface, fits a problem the reader has, so
+ideas from other fields are a main source.
 
 ## Credit
 
