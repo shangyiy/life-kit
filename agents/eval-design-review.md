@@ -37,24 +37,24 @@ not hold principles of your own; each step applies a life-kit skill.
    `black-box` describes.
 4. **The runs.** Apply `agent-evals` (principles 1, 3, 4, 5 and 6): trials per case,
    the pass rule, the baseline, the model, harness and limits all fixed in
-   advance, the suite sized by power analysis, and no leaks to the answer.
-   Each run records its skill version, model, harness, trial count and
-   baseline score (`agent-evals` principles 1 and 6). Apply `testing`
-   (principle 12): a grader independent of whoever built the entity under
-   test, and held-out cases kept apart from whoever tunes it. When no unseen
-   held-out cases remain, every score is reported as a tuning score.
+   advance, the suite sized by power analysis, and no leaks to the answer,
+   with each run's version, model, harness, trial count and baseline score
+   recorded. Apply `testing` (principle 12): a grader independent of whoever
+   built the entity under test, and held-out cases kept apart from whoever
+   tunes it. When no unseen held-out cases remain, report every later score
+   as a tuning score.
 5. **Review by someone else.** Apply `verify-before-ship` (principles 2 and
    3): a design is done only when a reviewer who did not write it runs these
    steps in review and finds nothing to fix. After any fix, the review runs
-   again on the edited design. In review, check that a record exists of a
-   review by someone who did not write the eval, and that its findings were
-   fixed.
+   again on the edited design. In review, you are that reviewer only if you
+   did not write the eval. Any earlier review counts only if it ran on this
+   version.
 6. **Report.** Write by `readable`. For a design: what is under test, where
    the cases and expected results came from, how a run is scored, and the
-   review result. For a review: findings most important first, each with the
-   case, the skill and principle it breaks, and the smallest fix. For a large
-   set, read the README, the rubric and a sample of cases, check the rest by
-   script, and say which cases got which check (`testing` principles 10 and
-   11). End with one verdict: the eval is ready to run, or it needs the fixes
-   listed (`verify-before-ship` principle 1). Say plainly whether its results
-   hold beyond the cases used for tuning (`testing` principle 12).
+   review result. For a review, start with one verdict: the eval is ready to
+   run, or it needs the fixes listed (`verify-before-ship` principle 1). Then
+   give the findings most important first, each with the case, the skill and
+   principle it breaks, and the smallest fix. For a large set, say which
+   cases you read in full and which got only a scripted check (`testing`
+   principle 11). Say plainly whether its results hold beyond the cases used
+   for tuning (`testing` principle 12).
