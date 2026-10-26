@@ -1,9 +1,11 @@
 ---
 name: info-foraging
 description: >-
-  Plan or review any search for information under limited attention, in any
-  field: where to look, how to follow scent, which items to take, and when
-  to leave a source for another. Use on /info-foraging.
+  A restatement of information foraging theory: how to search well when
+  attention is limited, by following scent, taking the items worth their
+  time, and leaving a source once it pays less than average. Use to plan or
+  review any search for good items you cannot name in advance, in any field,
+  or on /info-foraging.
 ---
 # /info-foraging
 
