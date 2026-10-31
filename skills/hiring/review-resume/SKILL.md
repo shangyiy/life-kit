@@ -22,5 +22,5 @@ State the verdict once, early, on its own line: `**Verdict: Stretch fit**` (or S
 Name the blind spots: where strong work reads weak, why, and how to reframe. On Stretch or Weak fit, ask one question at a time to surface experience they forgot to put on paper—unless they wanted a quick read.
 
 Then apply /perspective to the resume: see it from the reader's side. A recruiter or hiring manager reads for what this JD needs, top to bottom and left to right: name and title, the top role (usually the newest) and its first 1–2 bullets, then the first few words of each bullet. Find where the JD's top 2–3 signals land in that order and name any that are buried (e.g. "4th bullet of the 2nd role"). Suggest reordering only: add nothing, and keep every date true and visible.
-- Order roles and projects by relevance to the JD, not by time. Pick the fit for this case: a top "Relevant experience" section, or moving an older but more relevant role or project up.
-- Order bullets by importance, and start each with its outcome or number.
+- Order roles and projects by relevance to the JD, not by time. Either add a top "Relevant experience" section or move an older but more relevant role or project up, whichever fits.
+- Order bullets by importance, and move the outcome or number to the front.
