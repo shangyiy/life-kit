@@ -10,7 +10,7 @@
       "name": "life-kit",
       "source": "./",
       "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing.",
-      "version": "0.29.0",
+      "version": "0.29.1",
       "author": {
         "name": "shangyiy",
         "url": "https://github.com/shangyiy"
