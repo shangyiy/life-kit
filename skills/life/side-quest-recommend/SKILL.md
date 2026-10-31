@@ -87,7 +87,7 @@ Check each returned option against the grounding tests above before anything goe
 
 The board uses quest words in place of mode names. A starter is a daily quest (日常任務), a half-day outing is a side quest (支線任務), and a weekend getaway is an expedition (遠征). Give each quest a one-line name, a win condition the person can finish and tick off (binary, and checkable on the page you opened), a small reward, hours, travel time and the link. A reward is a plain idea such as a coffee on the way back or "new place unlocked"; name a shop only if you verified it. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far.
 
-Lead with one recommended quest (今日推薦任務) and one line on why it fits this person and time best: usually the top-ranked outing, or a daily quest when time, energy or weather is low. Below it, show up to 3 other verified quests as the board, ordered from near to far by travel time, each sourced or labeled as an estimate per the Travel test. Omit tiers with no winner.
+Lead with one recommended quest (今日推薦任務) and one line on why it fits this person and time best: usually the top-ranked outing, or a daily quest when time, energy or weather is low. Below it, show up to 3 other verified quests as the board, ordered from near to far by travel time. Omit tiers with no winner. If a range of days returns more quests than that, drop the farthest first.
 
 Write the board in `packet.language`, with place names in the venue's own language, in a friendly game-guide tone. Never book or commit for the person; a reply is enough to continue.
 
@@ -103,7 +103,7 @@ Example, with one pair for the same board:
 任務：買一顆水果帶回家。獎勵：回程順便來杯咖啡。上午9點到下午1點，車程約20分鐘（估計），https://…
 
 任務板：
-1. 日常任務，泡茶坐5分鐘不看手機。獎勵：多一小時的好心情。就在家，0分鐘。
+1. 日常任務，泡茶坐5分鐘不看手機。獎勵：輕鬆的一天開場。就在家，0分鐘。
 2. 支線任務，公園走一圈。任務：走完一圈。獎勵：新地點解鎖。上午9點到下午5點，車程約30分鐘（估計），https://…
 
 # en
