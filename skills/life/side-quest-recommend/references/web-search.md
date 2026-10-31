@@ -29,8 +29,7 @@ Cite the URL you opened, not a guessed homepage.
 Check each candidate against the grounding tests in SKILL.md, plus these two. A candidate that fails is dropped, and you try another or SKIP.
 
 - The place exists: a name and an address or area on the page.
-- A park or seasonal quest: the official page confirms hours, closures, reservations and fees for the date.
-- A stay is available tonight: never claim it; give an info URL and `check-before-go`.
+- A park or seasonal sight: the official page confirms hours, closures, reservations and fees for the date. A seasonal sight also passes the Seasonal sight test in SKILL.md.
 
 ## Query sets
 
@@ -41,7 +40,7 @@ Half-day: mix queries from these.
 1. Dated events: the city or district, the date or weekday, plus "events" or its local word.
 2. Periodic markets: the city, the weekday, plus "farmers market" or its local word.
 3. A nearby town's market on the same weekday, if the home town has none that day.
-4. Seasonal happenings in the region (foliage, wildlife, blooms), confirmed by an official or current source for the date.
+4. Seasonal sights in the region (foliage, wildlife, blooms); see the Seasonal sight test in SKILL.md.
 5. Last tier: a park, landmark, green space or short hike, then open its hours page.
 
 Win shapes: buy one fruit, walk one short loop, watch one set or one float, leave with one free thing.
@@ -49,7 +48,7 @@ Win shapes: buy one fruit, walk one short loop, watch one set or one float, leav
 Weekend, only when the free window allows a real leave, sleep and return (not late at night, not an unbooked "leave tonight"):
 
 1. "weekend getaway from {city} under {max one-way}" or "overnight near {city}".
-2. A state, national or regional park in the region, and its open status, reservations and fees. A scenic route that links several parks can be one trip.
+2. A state, national or regional park in the region, and its open status, reservations and fees, plus seasonal sights at the destination. A scenic route that links several parks can be one trip.
 3. Events in the destination town on the date range.
 4. Optional: a scenic drive, through its visitor bureau.
 
@@ -57,4 +56,4 @@ For the stay, give the type only, with an info URL. Say `check-before-go` and le
 
 ## Region files
 
-If a file in `references/regions/` matches the packet location, read it before searching; otherwise search generically. A region file holds local words, official sources and quest ideas as hints, not facts: every quest still has to be verified live. Adding a region means adding one file there.
+If a file in `references/regions/` matches the packet location, read it before searching; otherwise search generically. A region file holds local words, official sources and quest ideas as hints, not facts; verify every quest live. Adding a region means adding one file there.

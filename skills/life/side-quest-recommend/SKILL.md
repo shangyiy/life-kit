@@ -55,22 +55,13 @@ Infer `free_window` from the person's words and the clock:
 
 Each mode finds one option of its own kind, and the free window decides which modes run.
 
-| Mode | Files | Web | Job |
-|------|-------|-----|-----|
-| starter | [modes/starter.md](modes/starter.md) | no | A tiny at-home option, doable at packet time. |
-| half-day | [modes/half-day.md](modes/half-day.md), [references/web-search.md](references/web-search.md) | must search and fetch | A same-day outing, real and open that day. |
-| weekend | [modes/weekend.md](modes/weekend.md), [references/web-search.md](references/web-search.md) | must search and fetch | A doable getaway sketch, or SKIP. |
+| Mode | Files | Web | Job | Runs when |
+|------|-------|-----|-----|-----------|
+| starter | [modes/starter.md](modes/starter.md) | no | A tiny at-home option, doable at packet time. | Always. |
+| half-day | [modes/half-day.md](modes/half-day.md), [references/web-search.md](references/web-search.md) | must search and fetch | A same-day outing, real and open that day. | Always, but for `short` only if the outdoor window is usable (see below). |
+| weekend | [modes/weekend.md](modes/weekend.md), [references/web-search.md](references/web-search.md) | must search and fetch | A doable getaway sketch, or SKIP. | For `overnight` and `unknown`; for `full-weekend` only if an overnight fits; and whenever the person asked for a getaway or overnight. |
 
-| `free_window` | Modes to run |
-|---------------|--------------|
-| `short` | starter, plus half-day only if the outdoor window is usable |
-| `half-day` | starter, half-day |
-| `overnight`, `unknown` | starter, half-day, weekend |
-| `full-weekend` | starter, half-day, and weekend only if an overnight fits |
-
-If the person asked for a getaway or overnight, always run weekend as well.
-
-For `short`, run half-day only if at least about 2 hours remain before the stated end time, else the looked-up sunset, else 18:00. If sunset is unknown and the local hour is after 15, skip half-day. Prefer skipping half-day to sending someone out into the dark.
+For `short`, run half-day only if at least about 2 hours remain before the stated end time, else the looked-up sunset, else 18:00. Prefer skipping half-day to sending someone out into the dark.
 
 ## Run each mode as one pass
 
@@ -84,15 +75,15 @@ Two independent runs per mode (A and B) are an optional variant in [references/a
 
 When more than one candidate survives, take the higher class. Ranking only orders candidates that passed the grounding tests.
 
-1. A dated or seasonal event that day, such as a festival, a fair, a special exhibition, or a seasonal sight confirmed for that date.
+1. A dated or seasonal event that day, such as a festival, a fair, a special exhibition, or a seasonal sight that passes the Seasonal sight test.
 2. A market that runs on that weekday, such as a weekly farmers market or night market.
 3. A fixed landmark, or a park (city, state or national) with open hours.
 
-On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. If a region file in `references/regions/` matches the packet location, it lists the local types that fill these classes (see [references/web-search.md](references/web-search.md)).
+On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. Local types that fill these classes come from the region file for the packet location (see [references/web-search.md](references/web-search.md)).
 
 ## Check, then show the quest board
 
-Check each returned option against the grounding tests above before anything goes on the board, and drop any that fails, including a named place or hours with no source URL you opened (a starter needs only clear home doability). Never merge two places into one quest, and never invent another.
+Check each returned option against the grounding tests above before anything goes on the board, and drop any that fails, including a named place or hours with no source URL you opened (a starter needs only clear home doability). Never blend two returned options into one quest, and never invent another.
 
 The board uses quest words in place of mode names. A starter is a daily quest (日常任務), a half-day outing is a side quest (支線任務), and a weekend getaway is an expedition (遠征). Give each quest a one-line name, a win condition the person can finish and tick off (binary, and checkable on the page you opened), a small reward, hours, travel time and the link. A reward is a plain idea such as a coffee on the way back or "new place unlocked"; name a shop only if you verified it. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far.
 
@@ -109,19 +100,19 @@ Example, with one pair for the same board:
 ```
 # zh-Hant
 今日推薦任務：週日農夫市集。早上天氣最好，離你最近，很適合現在出門。
-任務：買一顆水果帶回家。獎勵：回程順便來杯咖啡。上午9點到下午1點，車程約20分鐘，https://…
+任務：買一顆水果帶回家。獎勵：回程順便來杯咖啡。上午9點到下午1點，車程約20分鐘（估計），https://…
 
 任務板：
 1. 日常任務，泡茶坐5分鐘不看手機。獎勵：多一小時的好心情。就在家，0分鐘。
-2. 支線任務，公園走一圈。任務：走完一圈。獎勵：新地點解鎖。車程約30分鐘（估計），https://…
+2. 支線任務，公園走一圈。任務：走完一圈。獎勵：新地點解鎖。上午9點到下午5點，車程約30分鐘（估計），https://…
 
 # en
 Recommended quest today: the Sunday farmers market. The weather is best in the morning and it is the closest outing.
-Quest: buy one fruit and bring it home. Reward: a coffee on the way back. 9 am to 1 pm, about 20 min drive, https://…
+Quest: buy one fruit and bring it home. Reward: a coffee on the way back. 9 am to 1 pm, about 20 min drive (estimate), https://…
 
 Quest board:
 1. Daily quest: brew tea and sit 5 minutes without your phone. Reward: an easy start to the day. At home, 0 min.
-2. Side quest: walk one loop in the park. Quest: finish the loop. Reward: new place unlocked. About 30 min drive (estimate), https://…
+2. Side quest: walk one loop in the park. Quest: finish the loop. Reward: new place unlocked. 9 am to 5 pm, about 30 min drive (estimate), https://…
 ```
 
 ## After the reply

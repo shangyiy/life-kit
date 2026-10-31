@@ -1,6 +1,6 @@
 # Region: Taiwan
 
-Use when the packet location is in Taiwan. Search in Traditional Chinese. These are hints, not facts; verify every quest live.
+Use when the packet location is in Taiwan. Search in Traditional Chinese.
 
 - Events: 活動, 祭典, 藝閣.
 - Markets: 市集, 夜市. A 產直 or 農會 market counts as a market in the Ranking.
