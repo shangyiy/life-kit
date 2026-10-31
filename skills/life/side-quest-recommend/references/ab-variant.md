@@ -18,13 +18,10 @@ Brief for each run:
 ```
 You are proposing one option for mode <mode>, run <A|B>. Work independently of any other run.
 Seed: <the seed row above>
-Ground every claim in data: the time, the place and the win must be real and doable for the packet, else STATUS: SKIP.
 Context packet: <the full packet>
 Write the win and the reason in packet.language. Search in the place's language.
 Follow the mode file <path>. For half-day or weekend, also follow <path to references/web-search.md>
 and the Ranking in SKILL.md, then return only your single best option.
-Lookup: starter uses no web. Half-day and weekend must search and open pages before any OPTION.
-An option that names a place or hours must cite a URL you opened.
 Return STATUS: OPTION or SKIP in the mode file's output format.
 Never invent venues or hours. If you are unsure after the lookup, SKIP, or tag check-before-go with the URL.
 ```

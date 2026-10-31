@@ -1,8 +1,8 @@
 # Mode: weekend
 
-One overnight or getaway sketch. It is not a booking service.
+One overnight or getaway sketch, not a booking service.
 
-Follow [../references/web-search.md](../references/web-search.md) (weekend query set); lookup is required.
+Follow [../references/web-search.md](../references/web-search.md) (weekend query set), with 2 or 3 regions that have a doable hook, ranked by the class of the destination hook, then the tie-break in [../SKILL.md](../SKILL.md).
 
 ## When to skip
 
@@ -16,12 +16,6 @@ Follow [../references/web-search.md](../references/web-search.md) (weekend query
 - Nights: 1 unless the person said 2.
 - `weather`: check the destination forecast for the date range.
 - `special_dates`.
-
-## Steps
-
-1. Look up 2 or 3 regions with a doable hook, using the weekend queries, and verify each.
-2. Pick one region and one hook, ranked by the class of the destination hook, then the tie-break in [../SKILL.md](../SKILL.md).
-3. Return one OPTION, or SKIP.
 
 ## Output
 

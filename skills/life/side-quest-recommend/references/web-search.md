@@ -1,6 +1,6 @@
 # Web search and fetch
 
-This is the lookup for the half-day and weekend modes: every claim about a place or its hours rests on a page you opened. The ranking is in [SKILL.md](../SKILL.md); this file does not repeat it.
+This is the lookup for the half-day and weekend modes, where every claim about a place or its hours rests on a page you opened, and the ranking is in [SKILL.md](../SKILL.md).
 
 ## Pipeline
 
@@ -8,9 +8,9 @@ Search, open, verify, rank, then emit. Run the steps in this order.
 
 1. Search with 2 to 4 targeted queries from the query sets below. Stop once you hold 2 or 3 candidates that verify.
 2. Open the official page of each candidate. A search snippet is never enough.
-3. Verify each candidate with the table below.
-4. Rank the survivors by the Ranking in SKILL.md.
-5. Emit one OPTION with hours and the URL you opened, or SKIP.
+3. Verify each candidate with the checks below.
+4. Pick the best survivor by the Ranking in SKILL.md.
+5. Emit one OPTION or SKIP.
 
 You must use search and page fetch. Never fill a gap from memory, and never write "usually 9 to 5". If the lookup fails or nothing verifies, return `STATUS: SKIP` and list the queries.
 
@@ -26,15 +26,10 @@ Cite the URL you opened, not a guessed homepage.
 
 ## Verify, and fail closed
 
-Check each candidate against the grounding tests in SKILL.md, plus the rows below. A candidate that fails is dropped, and you try another or SKIP.
+Check each candidate against the grounding tests in SKILL.md, plus these two. A candidate that fails is dropped, and you try another or SKIP.
 
-| Check | On failure |
-|-------|------------|
-| The place exists: a name and an address or area on the page | Drop |
-| `packet.weather` is `unknown` for an outdoor plan | Keep it as `check-before-go` |
-| A stay is available tonight | Never claim it; give an info URL and `check-before-go` |
-| "Everyone goes to X" with no URL | Drop |
-| A half-day option is a full expedition | Drop |
+- The place exists: a name and an address or area on the page.
+- A stay is available tonight: never claim it; give an info URL and `check-before-go`.
 
 ## Query sets
 
@@ -45,7 +40,7 @@ Half-day: mix queries from these.
 1. Dated events: the city or ward, the date or weekday, plus "events" or its local word.
 2. Periodic markets: the city, the weekday, plus "farmers market" or its local word.
 3. A nearby town's market on the same weekday, if the home town has none that day.
-4. Last tier: a park, green space or short hike, then open its hours page.
+4. Last tier: a park, landmark, green space or short hike, then open its hours page.
 
 Win shapes: buy one fruit, walk one short loop, watch one set or one float, leave with one free thing.
 

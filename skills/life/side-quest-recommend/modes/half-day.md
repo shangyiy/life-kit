@@ -1,20 +1,14 @@
 # Mode: half-day
 
-One same-day local outing: home, out, back, roughly 2 to 6 hours door to door. Skip it if the person is mid-flight, wants only home ideas, or wants only an overnight.
+One same-day local outing, roughly 2 to 6 hours door to door, skipped if the person is mid-flight or wants only home ideas or an overnight.
 
-Follow [../references/web-search.md](../references/web-search.md) (half-day query set); lookup is required.
+Follow [../references/web-search.md](../references/web-search.md) (half-day query set).
 
 ## Inputs from the packet
 
 - `location`, and the target date and weekday from `datetime`.
 - `max_one_way_local`.
 - `weather` and `special_dates`.
-
-## Steps
-
-1. Look up 2 or 3 candidates with the shared lookup and verify each.
-2. Pick the best by the Ranking in [../SKILL.md](../SKILL.md).
-3. Return one OPTION, or SKIP.
 
 ## Output
 
