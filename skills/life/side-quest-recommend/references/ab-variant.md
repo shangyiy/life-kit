@@ -31,4 +31,4 @@ If the host has no subagents, run the mode file twice yourself with the two seed
 
 ## Pick the winner
 
-Apply the drop checks in SKILL.md to A and B first. If both fail, the mode adds nothing. If both pass, take the higher ranked class, then the tie-break in SKILL.md. If A and B name the same place, keep the write-up with the stronger hours and URL. Show one winner per mode, never both runs.
+Apply the grounding tests in SKILL.md to A and B first. If both fail, the mode adds nothing. If both pass, take the higher ranked class, then the tie-break in SKILL.md. If A and B name the same place, keep the write-up with the stronger hours and URL. Show one winner per mode, never both runs.

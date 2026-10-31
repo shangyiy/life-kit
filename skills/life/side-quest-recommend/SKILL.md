@@ -89,15 +89,9 @@ For a range of days (a vacation, or a `full-weekend`), run the half-day mode onc
 
 ## Check, then show the menu
 
-Show a short friend-text menu, and let the person choose. Before anything goes in it, drop an option that has:
+Show a short friend-text menu, and let the person choose. Before anything goes in it, check each returned option against the grounding tests above and drop any that fails, including a named place or hours with no source URL you opened (a starter needs only clear home doability).
 
-- a named place or hours with no source URL you opened (starter excepted, which needs only clear home doability);
-- the wrong weekday or date for its market, event or hours;
-- a time the free window cannot fit, such as leave-tonight overnight with no booked stay;
-- travel clearly over the packet limit;
-- an outdoor plan in a rain window.
-
-A mode whose option is dropped adds nothing and says nothing. Never merge two places into one option, and never invent another.
+Never merge two places into one option, and never invent another.
 
 Write the menu in `packet.language`, with place names in the venue's own language. Use human labels, not mode names or run labels. Number the options, one line each: what to do, the one-step win, hours, travel, link. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far. Omit modes with no winner.
 
