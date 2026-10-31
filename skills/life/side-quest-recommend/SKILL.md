@@ -88,7 +88,7 @@ When more than one candidate survives, take the higher class. Ranking only order
 2. A market that runs on that weekday, such as a weekly farmers market or night market.
 3. A fixed landmark, or a park (city, state or national) with open hours.
 
-On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. Regional types that fill these classes are in [references/web-search.md](references/web-search.md).
+On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. If a region file in `references/regions/` matches the packet location, it lists the local types that fill these classes (see [references/web-search.md](references/web-search.md)).
 
 ## Check, then show the quest board
 
@@ -96,7 +96,7 @@ Check each returned option against the grounding tests above before anything goe
 
 The board uses quest words in place of mode names. A starter is a daily quest (日常任務), a half-day outing is a side quest (支線任務), and a weekend getaway is an expedition (遠征). Give each quest a one-line name, a win condition the person can finish and tick off (binary, and checkable on the page you opened), a small reward, hours, travel time and the link. A reward is a plain idea such as a coffee on the way back or "new place unlocked"; name a shop only if you verified it. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far.
 
-Lead with one recommended quest (今日推薦任務) and one line on why it fits this person and time best: usually the top-ranked outing, or a daily quest when time, energy or weather is low. Below it, show up to 3 other verified quests as the board, ordered from near to far by travel time. Take each time from a map or the venue page, or label it as an estimate. Omit tiers with no winner.
+Lead with one recommended quest (今日推薦任務) and one line on why it fits this person and time best: usually the top-ranked outing, or a daily quest when time, energy or weather is low. Below it, show up to 3 other verified quests as the board, ordered from near to far by travel time, each sourced or labeled as an estimate per the Travel test. Omit tiers with no winner.
 
 Write the board in `packet.language`, with place names in the venue's own language, in a friendly game-guide tone. Never book or commit for the person; a reply is enough to continue.
 
@@ -126,4 +126,4 @@ Quest board:
 
 ## After the reply
 
-When the person accepts a quest, give at most 3 bullets: how to start, one thing to check before going, and one backup. Write no multi-stop itinerary and make no booking.
+When the person accepts a quest, give at most 3 bullets: how to start, one thing to check before going, and one backup. Write no hour-by-hour itinerary and make no booking.
