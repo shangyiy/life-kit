@@ -2,7 +2,7 @@
 
 One overnight or getaway sketch. It is not a booking service.
 
-It must be grounded: a real region within driving range, web-backed open or season status for anything claimed, and doable in this free window. Follow [../references/web-search.md](../references/web-search.md) (weekend query set); lookup is required.
+Follow [../references/web-search.md](../references/web-search.md) (weekend query set); lookup is required.
 
 ## When to skip
 
@@ -11,15 +11,16 @@ It must be grounded: a real region within driving range, web-backed open or seas
 
 ## Inputs from the packet
 
-- Home, and the upcoming weekend or the named dates.
-- `max_one_way_getaway`: 2.5 hours by default.
+- `location`, and the upcoming weekend or the named dates from `datetime`.
+- `max_one_way_getaway`.
 - Nights: 1 unless the person said 2.
-- `weather` and `special_dates`: a holiday weekend can fill every stay and change opening hours.
+- `weather`: check the destination forecast for the date range.
+- `special_dates`.
 
 ## Steps
 
 1. Look up 2 or 3 regions with a doable hook, using the weekend queries, and verify each.
-2. Pick one region and one hook.
+2. Pick one region and one hook, ranked by the class of the destination hook, then the tie-break in [../SKILL.md](../SKILL.md).
 3. Return one OPTION, or SKIP.
 
 ## Output

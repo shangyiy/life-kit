@@ -2,13 +2,13 @@
 
 One same-day local outing: home, out, back, roughly 2 to 6 hours door to door. Skip it if the person is mid-flight, wants only home ideas, or wants only an overnight.
 
-It must be grounded: a real place, real hours for the packet weekday and date, within the travel budget, with a win the person can finish. Follow [../references/web-search.md](../references/web-search.md) (half-day query set); lookup is required.
+Follow [../references/web-search.md](../references/web-search.md) (half-day query set); lookup is required.
 
 ## Inputs from the packet
 
-- Home or area, the target date and weekday.
-- `max_one_way_local`: 60 minutes, up to 75 if clearly worth it.
-- `weather` and `special_dates`: a rain window removes an outdoor stop, and a holiday can change its hours.
+- `location`, and the target date and weekday from `datetime`.
+- `max_one_way_local`.
+- `weather` and `special_dates`.
 
 ## Steps
 

@@ -1,6 +1,6 @@
 # Mode: starter
 
-One tiny at-home ritual: zero travel, no web needed. It is grounded when it is doable now (or at packet time) at home with nothing fake, and makes no claim about the neighborhood.
+One tiny at-home ritual: zero travel, no web needed, doable at packet time.
 
 It suits a morning, a soft start or low energy, and is still a gentle option at any hour. Return an OPTION nearly always; SKIP only if the person ruled out home ideas or none is possible.
 
@@ -23,7 +23,7 @@ reason: …
 
 ## Ideas
 
-Pick one family and rotate between runs.
+Pick one family that fits the time of day.
 
 | Family | Example win |
 |--------|-------------|

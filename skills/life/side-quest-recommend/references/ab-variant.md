@@ -1,6 +1,8 @@
 # Optional variant: two independent runs per mode
 
-This variant runs the half-day or weekend mode twice, as independent runs A and B, and keeps one result. Use it only when the person or the host asks for it: nothing shows it beats the default single pass, and it costs up to six subagents (starter, half-day and weekend, two each).
+This variant runs each mode twice, as independent runs A and B, and keeps one result.
+
+Use it only when the person or the setup asks for it. It has no evidence of beating the default single pass, and it costs up to six separate helper runs (starter, half-day and weekend, two each).
 
 ## Run it
 
@@ -27,7 +29,7 @@ Return STATUS: OPTION or SKIP in the mode file's output format.
 Never invent venues or hours. If you are unsure after the lookup, SKIP, or tag check-before-go with the URL.
 ```
 
-If the host has no subagents, run the mode file twice yourself with the two seeds.
+If the setup has no separate helper runs, run the mode file twice yourself with the two seeds.
 
 ## Pick the winner
 

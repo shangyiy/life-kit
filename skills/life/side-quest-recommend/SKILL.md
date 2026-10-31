@@ -9,7 +9,7 @@ description: >
 
 # Side quest recommend
 
-Give a short list of real, doable options for right now (or the day the person named); the person picks one or none. It is dessert, not homework, and picking none costs nothing. There is no mode quiz: the person sees a numbered menu, not the modes behind it.
+Give a short menu of real, doable options for now or the day the person named, and let them pick one or none.
 
 ## Ground every option in data
 
@@ -67,17 +67,17 @@ Each mode finds one option of its own kind, and the free window decides which mo
 
 If the person asked for a getaway or overnight, always run weekend as well.
 
-The outdoor window is usable for `short` when at least about 2 hours remain before sunset. Use 18:00 local when sunset is unknown, and the real sunset after a clock change. If neither is known, run half-day only when the local hour is 15 or earlier. Prefer skipping half-day to sending someone out into the dark.
+The outdoor window is usable for `short` when at least about 2 hours remain before sunset. Use a stated end time if the person gave one. Use 18:00 local when sunset is unknown, and the real sunset after a clock change. If neither is known, run half-day only when the local hour is 15 or earlier. Prefer skipping half-day to sending someone out into the dark.
 
 ## Run each mode as one pass
 
-For each mode, one pass finds 2 or 3 verified candidates and picks the best, then returns one OPTION or SKIP in the mode file's output format. You run the passes yourself, or hand each mode to one subagent when the host has them and parallel runs help. Either way, give each pass the full packet and its mode files, and write nothing for a mode you did not run.
+For each mode, one pass finds 2 or 3 verified candidates and picks the best, then returns one OPTION or SKIP in the mode file's output format. You run the passes yourself, or hand each mode to a separate helper run when the setup has them and parallel runs help. Either way, give each pass the full packet and its mode files, and write nothing for a mode you did not run.
 
-Two independent runs per mode (A and B) are an optional variant, described in [references/ab-variant.md](references/ab-variant.md). It has no evidence of beating one pass and costs up to six subagents, so use it only when the person or the host asks for it.
+Two independent runs per mode (A and B) are an optional variant, described in [references/ab-variant.md](references/ab-variant.md). It has no evidence of beating one pass and costs up to six separate helper runs, so use it only when the person or the setup asks for it.
 
-## Rank the verified candidates
+## Ranking
 
-When more than one candidate survives verification, take the higher class. Verification, the travel limit, the weather and the special dates filter first, and ranking only orders what is left.
+When more than one candidate survives verification, take the higher class. Ranking only orders candidates that passed the grounding tests.
 
 1. A dated event that day, such as a festival, a fair or a special exhibition open on that date.
 2. A market that runs on that weekday, such as a weekly farmers market or night market.
@@ -85,7 +85,7 @@ When more than one candidate survives verification, take the higher class. Verif
 
 On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Regional types that fill these classes are in [references/web-search.md](references/web-search.md).
 
-For a range of days (a vacation, or a `full-weekend`), run the half-day mode once per day, at most 3 days unless the person names the days. Run starter once for the whole range, and weekend only if an overnight fits. Do not repeat a venue or a class-3 option across days when a candidate of class 1 or 2 exists. This is still not a multi-city itinerary.
+For a range of days (a vacation, or a `full-weekend`), run the half-day mode once per day, at most 3 days; ask which days if the range is longer, unless the person named them. Run starter once for the whole range, and weekend only if an overnight fits. Do not repeat a venue or a class-3 option across days when a candidate of class 1 or 2 exists. This is still not a multi-city itinerary.
 
 ## Check, then show the menu
 
@@ -110,7 +110,7 @@ Example, with one pair for the same option:
 
 # en
 Hey, pick one or none:
-1. Sunday farmers market: grab one fruit and head home (about 15 min), 9–1, about 20 min drive, https://…
+1. Sunday farmers market: grab one fruit and head home (about 15 min), 9 am to 1 pm, about 20 min drive, https://…
 ```
 
 ## After the pick
