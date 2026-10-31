@@ -1,42 +1,28 @@
 # Mode: half-day
 
-One **same-day** local outing. Home → out → back. Roughly 2–6 h door-to-door.
+One same-day local outing, roughly 2 to 6 hours door to door, skipped if the person is mid-flight or wants only home ideas or an overnight.
 
-**Grounded:** real place · real hours for packet weekday/date · within travel budget · completable win.  
-**Lookup:** required — follow [../references/web-search.md](../references/web-search.md) (**half-day** query set).
+Follow [../references/web-search.md](../references/web-search.md) (half-day query set).
 
-## Fit
+## Inputs from the packet
 
-Daylight free time, weekend afternoon, “things to do near me.”  
-SKIP if mid-flight / only wants home / only wants overnight.
-
-## Defaults
-
-| Input | From packet |
-|--------|-------------|
-| Home / area | Required |
-| Date | Target day + weekday |
-| Max one-way | `max_one_way_local` (60 min; ≤75 if clearly worth it) |
-
-## Pipeline
-
-1. Web lookup (shared ref, half-day queries).  
-2. One clear stop.  
-3. OPTION or SKIP.
+- `location`, and the target date and weekday from `datetime`.
+- `max_one_way_local`.
+- `weather` and `special_dates`.
 
 ## Output
 
 ```
 STATUS: OPTION
 title: …
-win: binary (e.g. buy 1 fruit and bring it home)
-where/when: place · date · ~door-to-door time
-hours: sourced text · check-before-go if fragile · https://…
+win: binary (for example, buy 1 fruit and bring it home)
+where/when: place, date, about door-to-door time
+hours: sourced text, check-before-go if fragile, https://…
 travel: one-way estimate
-why: fits this datetime + location
+why: fits this datetime, weather and location
 ```
 
 ```
 STATUS: SKIP
-reason: … (what you searched / why nothing honest)
+reason: … (what you searched, why nothing honest)
 ```

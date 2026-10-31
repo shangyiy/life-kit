@@ -1,22 +1,16 @@
 # Mode: starter
 
-One tiny **at-home** ritual. Zero travel. No web required.
+One tiny at-home ritual: zero travel, no web needed, doable at packet time.
 
-**Grounded:** doable **now** (or at packet time) at home with nothing fake — no invented neighborhood claims.
-
-## Fit
-
-Best when morning / soft start / low energy. Still valid any time as a gentle option.
+It suits a morning, a soft start or low energy, and is still a gentle option at any hour. Return an OPTION nearly always; SKIP only if the person ruled out home ideas or none is possible.
 
 ## Output
-
-Usually one OPTION. SKIP only if user forbade home ideas / impossible.
 
 ```
 STATUS: OPTION
 title: …
-win: binary, doable in 5–25 min
-where/when: home · now-ish
+win: binary, doable in 5 to 25 minutes
+where/when: home, now-ish
 hours: n/a
 travel: none
 why: fits this time of day
@@ -27,16 +21,16 @@ STATUS: SKIP
 reason: …
 ```
 
-## Ideas (pick one; rotate)
+## Ideas
+
+Pick one family that fits the time of day.
 
 | Family | Example win |
 |--------|-------------|
-| Coffee/tea | Brew; sit **5 min before any app** |
-| Meal | Any veg + any protein on one plate |
-| Air | Open one window; just listen outside (no phone) |
+| Coffee or tea | Brew it and sit 5 minutes before any app |
+| Meal | Any veg and any protein on one plate |
+| Air | Open one window and listen outside, no phone |
 | Tidy | Clear exactly 5 things from one surface |
-| Water | One full glass before coffee or first scroll |
+| Water | One full glass before coffee or the first scroll |
 
-**A/B seed:** A prefer coffee/tea or meal · B prefer air, tidy, or water (not the same family as a typical brew if avoidable).
-
-Pleasure, not wellness lecture. “The win is the sit, not the caffeine optimize.”
+Aim for pleasure, not a wellness lecture: the win is the sit, not optimizing the caffeine.
