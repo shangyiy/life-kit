@@ -21,6 +21,7 @@ Show an option only if its time, place and win are real and checkable for this p
 - Travel: take the time from a map or the venue page, or write "about X, confirm on a map".
 - Home starter: doable at home in minutes, with no fake props and no invented "local" claim.
 - Weather: an outdoor option needs a dry enough window. Rain in the window removes it, or the option moves indoors. If weather is `unknown`, tag an outdoor option `check-before-go`.
+- Seasonal sight: offer a seasonal happening (a foliage peak, a wildlife season, a bloom) only when an official or current source confirms it is happening in the target window, else drop it.
 - Special dates: a holiday, festival, long weekend or clock change can move hours, crowds and daylight. Check the option's hours against that date.
 - Fragile hours: if the place is real but its hours may shift, keep the option and tag it `check-before-go` with the URL.
 
@@ -83,9 +84,9 @@ Two independent runs per mode (A and B) are an optional variant in [references/a
 
 When more than one candidate survives, take the higher class. Ranking only orders candidates that passed the grounding tests.
 
-1. A dated event that day, such as a festival, a fair or a special exhibition open on that date.
+1. A dated or seasonal event that day, such as a festival, a fair, a special exhibition, or a seasonal sight confirmed for that date.
 2. A market that runs on that weekday, such as a weekly farmers market or night market.
-3. A fixed landmark or park with open hours.
+3. A fixed landmark, or a park (city, state or national) with open hours.
 
 On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. Regional types that fill these classes are in [references/web-search.md](references/web-search.md).
 
