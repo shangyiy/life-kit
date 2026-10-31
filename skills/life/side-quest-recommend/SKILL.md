@@ -9,11 +9,11 @@ description: >
 
 # Side quest recommend
 
-Give a short menu of real, doable options for now or the day the person named, led by the one you recommend.
+Turn the person's surroundings into a short quest board of real, doable options for now or the day the person named, led by one recommended quest.
 
 ## Ground every option in data
 
-Show an option only if its time, place and win are real and checkable for this person. Skip any option that fails a test below, and prefer a short honest menu to a pretty false one. Never invent venues, open hours, seasons, closures, or "rooms available tonight".
+Show an option only if its time, place and win are real and checkable for this person. Skip any option that fails a test below, and prefer a short honest board to a pretty false one. Never invent venues, open hours, seasons, closures, or "rooms available tonight".
 
 - Time: a real clock or a time the person stated, turned into a weekday and a free window, never a guessed "sometime".
 - Location: the place the person stated, else network geolocation, never a made-up city.
@@ -89,32 +89,40 @@ When more than one candidate survives, take the higher class. Ranking only order
 
 On a tie, take the shorter one-way trip, then the clearer and easier win over the logistics-heavy one, then the better official URL. Across days, do not repeat a venue or a class-3 option when a candidate of class 1 or 2 exists. Regional types that fill these classes are in [references/web-search.md](references/web-search.md).
 
-## Check, then show the menu
+## Check, then show the quest board
 
-Check each returned option against the grounding tests above before anything goes in the menu, and drop any that fails, including a named place or hours with no source URL you opened (a starter needs only clear home doability). Never merge two places into one option, and never invent another.
+Check each returned option against the grounding tests above before anything goes on the board, and drop any that fails, including a named place or hours with no source URL you opened (a starter needs only clear home doability). Never merge two places into one quest, and never invent another.
 
-Lead with the one option you recommend and one line on why it fits this person and time best: usually the top-ranked outing, or the starter when time, energy or weather is low. Then list the other verified options as alternatives. Never book or commit for the person; a reply is enough to continue.
+The board uses quest words in place of mode names. A starter is a daily quest (日常任務), a half-day outing is a side quest (支線任務), and a weekend getaway is an expedition (遠征). Give each quest a one-line name, a win condition the person can finish and tick off (binary, and checkable on the page you opened), a small reward, hours, travel time and the link. A reward is a plain idea such as a coffee on the way back or "new place unlocked"; name a shop only if you verified it. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far.
 
-Write the menu in `packet.language`, with place names in the venue's own language, in a natural friend tone. Use human labels, not mode names or run labels. Give each option one line: what to do, the one-step win, hours, travel, link. Tag fragile hours `check-before-go`. Prefer free or cheap, and mention the drive cost when far. Omit modes with no winner.
+Lead with one recommended quest (今日推薦任務) and one line on why it fits this person and time best: usually the top-ranked outing, or a daily quest when time, energy or weather is low. Below it, show up to 3 other verified quests as the board, ordered from near to far by travel time. Take each time from a map or the venue page, or label it as an estimate. Omit tiers with no winner.
 
-If the person asked for a getaway and weekend has no winner, add one soft honest line that an overnight does not fit this window (it needs a booked stay, or a freer Friday and Saturday), then still show the other options.
+Write the board in `packet.language`, with place names in the venue's own language, in a friendly game-guide tone. Never book or commit for the person; a reply is enough to continue.
 
-If nothing survives, give one grounded starter from [modes/starter.md](modes/starter.md), or say you could not verify an outing. Do not invent filler.
+If the person asked for a getaway and weekend has no winner, add one soft honest line that an expedition does not fit this window (it needs a booked stay, or a freer Friday and Saturday), then still show the other quests.
 
-Example, with one pair for the same menu:
+If nothing survives, give one grounded daily quest from [modes/starter.md](modes/starter.md), or say you could not verify an outing. Do not invent filler.
+
+Example, with one pair for the same board:
 
 ```
 # zh-Hant
-我推薦週日的農夫市集：離你車程約20分鐘，早上天氣最好，買一顆水果就能回家。上午9點到下午1點，https://…
-其他可以考慮：
-- 週六下午逛公園（約1小時），https://…
+今日推薦任務：週日農夫市集。早上天氣最好，離你最近，很適合現在出門。
+任務：買一顆水果帶回家。獎勵：回程順便來杯咖啡。上午9點到下午1點，車程約20分鐘，https://…
+
+任務板：
+1. 日常任務，泡茶坐5分鐘不看手機。獎勵：多一小時的好心情。就在家，0分鐘。
+2. 支線任務，公園走一圈。任務：走完一圈。獎勵：新地點解鎖。車程約30分鐘（估計），https://…
 
 # en
-I'd go to the Sunday farmers market: about 20 min away, best weather in the morning, and you can grab one fruit and head home. 9 am to 1 pm, https://…
-Other options:
-- Saturday afternoon walk in the park (about 1 hour), https://…
+Recommended quest today: the Sunday farmers market. The weather is best in the morning and it is the closest outing.
+Quest: buy one fruit and bring it home. Reward: a coffee on the way back. 9 am to 1 pm, about 20 min drive, https://…
+
+Quest board:
+1. Daily quest: brew tea and sit 5 minutes without your phone. Reward: an easy start to the day. At home, 0 min.
+2. Side quest: walk one loop in the park. Quest: finish the loop. Reward: new place unlocked. About 30 min drive (estimate), https://…
 ```
 
 ## After the reply
 
-When the person picks something, give at most 3 bullets: how to start, one thing to check before going, and one backup. Write no multi-stop itinerary and make no booking.
+When the person accepts a quest, give at most 3 bullets: how to start, one thing to check before going, and one backup. Write no multi-stop itinerary and make no booking.

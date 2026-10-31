@@ -1,8 +1,8 @@
 # side-quest-recommend
 
-Gives a short menu of real, doable things to do near you, led by one recommendation, from a tiny at-home start to a local outing or a simple getaway (`/side-quest-recommend`). Every outing rests on a page that was opened for the date and place.
+Treats your surroundings like an RPG map and turns them into a quest board (`/side-quest-recommend`): one recommended quest, then a few others ordered from near to far. A daily quest is a tiny at-home start, a side quest is a local outing, and an expedition is a simple getaway. Each quest has a win you can tick off and a small reward, and every outing rests on a page that was opened for the date and place.
 
-- `SKILL.md`: grounding rules, the context packet, which modes run, the ranking, and how the menu is shown.
+- `SKILL.md`: grounding rules, the context packet, which modes run, the ranking, and how the quest board is shown.
 - `modes/`: one file per mode (starter, half-day, weekend).
 - `references/web-search.md`: the lookup pipeline and regional notes.
 - `references/ab-variant.md`: an optional variant that runs each mode twice.
