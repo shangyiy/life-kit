@@ -17,8 +17,8 @@ first backs check 1 and the second check 2.
 
 ## This skill's own framing
 
-The direct source for check 1 is 柯西's "the way back is thought through".
-The rest is this skill's framing, not the speakers':
+The direct source for check 1 is "the way back is thought through", said in
+the conversation with 柯西. The rest is this skill's framing, not the speakers':
 
 - The three-part test: who catches you, under what conditions, and whether
   the path will still exist.
@@ -26,8 +26,8 @@ The rest is this skill's framing, not the speakers':
   that looks small only because of a claim is the one to doubt most.
 - That a real way out keeps the worst case survivable while the upside stays
   open.
-- Check 2: the source's decaying option is a personal timing choice, one that
-  loses value with age. Generalising it to any option, the way out or the
+- Check 2: the source's decaying option is an analogy, not shown, for a
+  personal timing choice that loses value with age and assumes savings. Generalising it to any option, the way out or the
   chance it backs, "no hurry" when the value holds, "decide, which includes
   declining", and "never a reason to skip check 1" are inferences. The source
   goes further: since you have the option, use it.
