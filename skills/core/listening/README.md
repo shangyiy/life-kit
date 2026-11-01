@@ -5,23 +5,23 @@ that order (`/listening`).
 
 ## Own interpretation
 
-These ideas are the author's own reading; no listed source states them:
+These ideas are the author's own reading:
 
-- The three levels of empathy: understand, then feel what they feel, then, if the speaker wants
-  help, side with the change they want, without solving.
+- The three levels of empathy: understand, then feel what they feel, then side
+  with the change they want, without solving.
+- Siding with the change is part of empathy, comes before asking, and needs no
+  permission; siding with the change is not offering your view.
 - Hear the whole account before you respond, whatever the purpose.
 - Skipping the listening makes the speaker feel you are not on their side.
-- Telling can signal superiority.
 - What the speaker needs determines where to stop listening.
 - Always ask before offering your view.
-- Answer directly when the speaker plainly asks or asks a simple factual
-  question.
-- A request to judge is evaluation: ask first, unless the speaker plainly wants
-  a quick verdict.
+- Answer directly, without asking first, only for a plain request for an answer,
+  a simple factual question, or a plain request for a quick verdict.
+- A request to judge is evaluation.
 - Guide with questions from the speaker's position.
-- Tell as seldom as you can, because advice the speaker did not reach is harder
-  to accept.
-- Move on to asking and telling only when the speaker wants help.
+- Tell as seldom as you can, because rushing to present your solutions can look
+  like trying to prove you can help.
+- Move on to asking only when the speaker has finished and wants help.
 
 Two lines are deliberate choices by the owner: filter out noise and junk, and
 put the risk of harm before any purpose.
