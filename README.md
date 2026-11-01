@@ -61,6 +61,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
+- [**way-outs**](./skills/life/way-outs/SKILL.md): Before a risk that leans on a fallback, check the way out is real and the option is not decaying.
 
 ## License
 

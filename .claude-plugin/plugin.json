@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.29.4",
+  "version": "0.30.0",
   "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing.",
   "author": {
     "name": "shangyiy",
@@ -28,6 +28,7 @@
     "./skills/hiring/review-resume",
     "./skills/learning/inspiring-idea",
     "./skills/life/side-quest-recommend",
+    "./skills/life/way-outs",
     "./skills/presentation/find-the-argument",
     "./skills/presentation/make-presentation-slide",
     "./skills/swe/agent-evals",
