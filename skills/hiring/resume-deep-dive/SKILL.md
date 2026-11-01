@@ -19,6 +19,7 @@ Pick the lens that fits **this** claim (one lens per turn):
 - **Why X** — for tool/tech claims (Docker, Helm, Kafka, a library, a language feature): why this tool; if thin, dig one layer deeper into how it works.
 - **Why Y** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, gotchas (e.g. designed for X, accepted risk in Y).
 - **Problem → proof** — for metric/impact claims (“40% faster”, scope, outcome): what you were solving, what changed, how you know it worked (measure, baseline, scope)—not the slogan number alone.
+- **Why move / why now** — only for a transition the resume itself shows (a change of employer, role or field): why that move, why then, what else was on the table, how the decision was made. Stay on moves on the page; do not ask general questions about values or drive.
 - For **RAG / retrieval / LLM quality** claims, if thin dig into retrieval and eval honesty (not slogan accuracy numbers alone).
 
 If ownership is fuzzy (led / with a team), first pin what **I** did, then dig into that only.
