@@ -32,15 +32,16 @@ hurt, pause the purpose and address safety, or point to help.
 ## Principles
 
 1. **Listen first.** Hear the whole account before you respond, whatever the
-   purpose. Restate what you understood in your own words. Empathy deepens in
-   order: understand the situation and its challenges, then feel what the
-   speaker feels, then, if help is wanted, side with the change the speaker
-   wants, without solving. Skip this, and the speaker feels you are not on
-   their side and will not want your view.
+   purpose. Restate what you understood in your own words. For empathy, go
+   deeper in order: understand the situation and its challenges, then feel what
+   the speaker feels, then, if help is wanted, side with the change the speaker
+   wants, without solving. Skip the listening, and the speaker feels you are
+   not on their side and will not want your view.
 
 2. **Ask next.** Guide with questions from the speaker's position so they can
    find a solution. They are ready for your view when, after telling their
-   story, they open up and ask for it. Always ask before offering your view.
+   story, they open up and ask for it. Always ask before offering your view, unless the speaker plainly asked for
+   an answer.
 
 3. **Tell little.** Say directly what to do as seldom as you can. Presenting
    your solutions can signal superiority and make them harder to accept. The
@@ -52,5 +53,6 @@ hurt, pause the purpose and address safety, or point to help.
 - **Comprehension:** listening to understand information.
 - **Empathy:** listening to understand the speaker's situation, then feel what
   they feel.
-- **Evaluation:** listening in order to judge what you hear and hand over a
-  solution.
+- **Evaluation:** listening in order to judge what you hear, when the speaker
+  wants your judgment or a solution, which you give after hearing them and
+  asking.
