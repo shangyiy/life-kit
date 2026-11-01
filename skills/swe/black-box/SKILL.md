@@ -1,16 +1,13 @@
 ---
 name: black-box
 description: >
-  Spec-based (black-box) test input selection, for designing inputs or
-  reviewing the inputs and combinations an existing suite covers, for any
-  entity under test: input space models built from attributes,
-  characteristics and blocks; disjoint, complete and uniform partitions;
-  validity; relationships; boundaries; representatives; which combinations of
-  blocks to test (all combinations, each choice, pairwise, t-wise, base
-  choice, multiple base choice); constraints; decision tables; random testing
-  and fuzzing. Use case of the testing domain. Use for behavior-first input
-  design or review, equivalence classes, boundary values, pairwise or
-  decision tables, or /black-box.
+  Choose test inputs from the specification, without looking at the code:
+  which inputs to test and which combinations of them. Use for equivalence
+  classes, boundary values, input space models, combination criteria (each
+  choice, pairwise, t-wise, base choice), decision tables, random testing
+  and fuzzing, or to review the inputs an existing suite covers, or on
+  /black-box. Not for the pass or fail check itself (test-oracle) or for
+  coverage of the code's structure (white-box).
 metadata:
   short-description: "Spec-based test inputs and their combinations"
 parent-skill: testing
