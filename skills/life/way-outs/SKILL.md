@@ -24,8 +24,13 @@ review, name each breach once, with its fix.
    conditions, and whether that path will still exist when you need it. A
    fallback that fails in the same event as the risk is not a way out. A named
    person or body without stated terms, or one that may not exist by then,
-   still fails. An unstated fallback is a claim, not a way out. If nothing
-   passes, decide as if there were no way out (`investing` 1).
+   still fails. An unstated fallback, or one that fails any of these tests, is
+   a claim, not a way out. One that passes all of them (named holder, stated
+   terms, lasts as long as needed, there when needed) is real even if unaudited:
+   say so and stop testing it, and take facts the person states as verified as
+   given; extra checks are optional unless a needed fact is missing. Spend the
+   rest on what it costs and leaves uncovered, naming both without lowering the
+   verdict. If nothing passes, decide as if there were no way out (`investing` 1).
 2. **Is the option decaying?** An option is a choice you hold now: the way out
    itself or the chance it backs. Ask whether its value shrinks the longer you
    wait, what it would be worth if used later, and the last date it can be
