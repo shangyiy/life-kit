@@ -15,3 +15,6 @@ Core principles for judging and shaping any design (`/design-principles`).
 - *Agile Software Development: Principles, Patterns, and Practices*, Robert C. Martin
 - *Design Patterns*, Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 - *Foundations of Software Engineering* (CMU 18-652), Hakan Erdogmus
+
+This skill is an independent restatement. It is not affiliated with or
+endorsed by any of these authors.
