@@ -13,17 +13,21 @@ Principles for deciding why you are listening and listening that way
 
 Where the source stops, this skill goes on by inference, as follows.
 
-- Principle 1: asking the speaker up front what they want from you is this
-  skill's addition.
+- Principle 1: the source says to judge why you are listening "at suitable
+  moments". Doing it before you start, and asking the speaker up front what
+  they want from you, are this skill's additions.
 - Principle 2: that evaluation can take over before you notice is this
   skill's reading of the source's note that it is common among leaders.
 - Principle 4: the source has the listener restate the situation the speaker
   met. Restating how it sits with them follows from the definition of
   empathy and is not in the source.
-- Principle 5: in the source the speaker invites advice after finishing,
-  and the listener is then ready to hear it. Asking whether they want your
-  view, and what to do on a refusal, is this skill's addition.
+- Principle 5: the source says that once the speaker has finished they are
+  ready for advice; its wording is unclear on who asks whom. Treating an
+  invitation as the main signal, asking whether they want your view, and
+  what to do on a refusal are this skill's readings.
 - Principle 6: "hear the whole account first" is this skill's addition.
+- Appreciation and comprehension get definitions only, because the source
+  says little more about them.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
