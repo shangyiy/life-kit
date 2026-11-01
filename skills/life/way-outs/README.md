@@ -10,6 +10,8 @@ These ideas are the author's own reading:
   the risk could hit, and does not fail in the same event.
 - A passing way out is real; its cost and gaps are named, not held against it.
 - An option can lose value while you wait.
+- If no fallback passes, decide as if there were no way out.
+- Decay never replaces the check that the way out is real.
 
 There is no literature source. These principles are not affiliated with or
 endorsed by anyone.
