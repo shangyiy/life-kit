@@ -9,7 +9,7 @@ principles.
 - "打工人如何获得财富自由？｜什么才是真正的财富和真正的自由？（中文字幕）｜
   Multiple-Fire系列", interview with Leon, 课代表立正, YouTube, 2021: money
   and promotion are means, not ends; metrics measure strategy and are not the
-  goal (the self-directed split).
+  goal (mistaking a means for an end).
 - Charles Goodhart, "Problems of Monetary Management: The U.K. Experience",
   paper from a 1975 conference, published in *Papers in Monetary Economics*
   vol. 1, Reserve Bank of Australia, 1976: a statistical regularity tends to
@@ -30,9 +30,10 @@ principles.
 
 The central idea is derived from the mechanism these works describe; none of
 them is offered as proof of it, and "most principles follow" because some are
-this skill's own reading, not the sources': in principle 1, the step for when
-no end can be named; in principle 4, the check close to the goal and the
-self-flattery note (from a framework author, not Leon); and in principle 5,
+this skill's own reading, not the sources': in principle 1, that wanting a
+means is fine while it serves the end, and the step for when no end can be
+named; in principle 4, the check close to the goal and the note on
+self-serving claims (from a framework author, not Leon); and in principle 5,
 the limits for shared standards and pay, and the advice for a mandated number.
 
 This skill is an independent restatement. It is not affiliated with or

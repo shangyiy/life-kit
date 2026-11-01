@@ -18,17 +18,19 @@ work or to review it; in a review, name each breach once, with its fix.
 ## Central idea
 
 A metric is a stand-in for a goal. It tends to track the goal until effort or
-reward is aimed at it. Then effort goes wherever the number moves most
-cheaply, which is often not where the goal moves, and the more the number is
-used for rewards and decisions, the further the two tend to drift apart. Most
-principles below follow from this.
+reward is aimed at it. The split happens in two ways: you take a means for the
+end, or others rewarded on the metric optimize it, honestly or not. Either
+way, effort tends to go where the number moves most cheaply, which is often
+not where the goal moves, and the more the number is used for rewards and
+decisions, the further the two tend to drift apart. Most principles below
+follow from this.
 
 ## Principles
 
-1. **State the goal without naming a means or a metric.** Money, a title,
-   praise and scores are means. Wanting a means is fine while it serves the
-   end. If you cannot name an end beyond it, you do not yet know whether it
-   serves one, so find that out before you push harder.
+1. **State the goal without naming a means or a metric.** Money, a title
+   and praise are means. Wanting a means is fine while it serves the end. If
+   you cannot name an end beyond it, you do not yet know whether it serves
+   one, so find that out before you push harder.
 2. **Treat every metric as a proxy that weakens under pressure.** The more
    decisions and rewards hang on it, the more it tends to drift from the goal.
 3. **Look at what is paid for, not what you hope for.** People tend to do what
@@ -40,19 +42,15 @@ principles below follow from this.
    rises while the goal stands still, effort moves to what is counted, or the
    number is faked. Judge the goal itself, with a check close to it that the
    metric's own effort cannot easily raise. A claim that you chase the end,
-   not the means, can be self-flattery; check it by whether the goal moved.
+   not the means, can be self-serving; check it by whether the goal moved.
 5. **Keep heavy stakes off the metric.** Use a metric to learn and to diagnose.
    Tie rewards or big decisions to it only as far as you can check the goal
    behind it. Metrics are still needed, for shared standards and for practical
-   limits such as pay. Where a number is mandated, report it, use it as an aid
-   to judgment, and say openly where it and the goal part.
+   limits on how people are paid. Where a number is mandated, report it, use
+   it as an aid to judgment, and say openly where it and the goal part.
 
 ## Definitions
 
 - **Goal:** what you actually want; an end.
-- **Means:** anything pursued to reach the goal, such as money, rank, praise
-  or a chosen plan.
+- **Means:** anything pursued to reach the goal, including a chosen plan.
 - **Metric:** a visible measure of how a means is going.
-
-The split happens in two ways. You take a means for the end, or others
-rewarded on the metric optimize it, honestly or not.
