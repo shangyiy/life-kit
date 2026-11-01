@@ -25,6 +25,8 @@ Where the source stops, this skill goes on by inference, as follows.
   solution. "Hear the whole account first" is this skill's addition. Applying
   evaluation to deciding on a proposal goes beyond the source and is an
   inference.
+- Principle 2: that evaluation can take over before you notice is this
+  skill's reading of the source's note that it is common among leaders.
 - Principle 1: the source says to judge "at suitable moments" why you are
   listening. Nothing more is claimed about the purpose changing.
 

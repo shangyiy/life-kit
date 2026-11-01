@@ -32,21 +32,19 @@ review it; in a review, name each breach once, with its fix.
    let them correct you. Done well, the speaker knows that you took in all
    of it.
 5. **Offer advice when the speaker invites it.** Once they have said what
-   they came to say, they are more open, and often ask for your view; that
+   they came to say, they are more open, and may ask for your view; that
    invitation is the main signal. If none comes, ask whether they want your
    view before you give it. If they decline, take that as the purpose, keep
    listening, and do not press; they may ask later.
-6. **When the purpose is evaluation, judge what you hear in order to give a
-   solution, and do it once a solution is wanted.** Hear the whole account
-   first, so that the judgment answers what was said and not what you
-   expected.
+6. **When the purpose is evaluation, hear the whole account before you
+   judge.** Then the solution answers what was said, not what you expected.
 
 ## Definitions
 
 Listening has four purposes. The listening itself differs for each.
 
 - **Appreciation:** listening for enjoyment.
-- **Comprehension:** listening to understand information, so you can use it.
+- **Comprehension:** listening to understand information.
 - **Empathy:** listening to understand how the speaker feels about their
   situation.
 - **Evaluation:** listening while you judge what you hear, in order to give a
