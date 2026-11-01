@@ -17,8 +17,8 @@ work or to review it; in a review, name each breach once, with its fix.
 
 ## Central idea
 
-A metric is a stand-in for a goal. It tends to track the goal until effort or
-reward is aimed at it. The split happens in two ways: you take a means for the
+A metric measures how a means is going, and so stands in for the goal. It tends
+to track the goal until effort or reward is aimed at it. The split happens in two ways: you take a means for the
 end, or others rewarded on the metric optimize it, honestly or not. Either
 way, effort tends to go where the number moves most cheaply, which is often
 not where the goal moves, and the more the number is used for rewards and
@@ -27,17 +27,17 @@ follow from this.
 
 ## Principles
 
-1. **State the goal without naming a means or a metric.** Money, a title
-   and praise are means. Wanting a means is fine while it serves the end. If
-   you cannot name an end beyond it, you do not yet know whether it serves
-   one, so find that out before you push harder.
-2. **Treat every metric as a proxy that weakens under pressure.** The more
-   decisions and rewards hang on it, the more it tends to drift from the goal.
+1. **State the goal without naming a means or a metric.** Whatever you pursue
+   in order to reach an end, however valuable, is a means. Wanting a means is
+   fine while it serves the end. If you cannot name an end beyond it, you do
+   not yet know whether it serves one, so find that out before you push
+   harder.
+2. **Treat every metric as a proxy that tends to weaken under pressure.** The
+   more decisions and rewards hang on it, the more it tends to drift from the
+   goal.
 3. **Look at what is paid for, not what you hope for.** People tend to do what
    a reward pays for, often at the expense of what is only hoped for, so a
    reward on one behavior often produces it even when you hoped for another.
-   To see what a reward does to someone, see how they are measured and
-   rewarded (`perspective` 1) and whom the incentives favor (`investing` 4).
 4. **Watch for the split between metric and goal.** Warning signs: the number
    rises while the goal stands still, effort moves to what is counted, or the
    number is faked. Judge the goal itself, with a check close to it that the
@@ -53,4 +53,5 @@ follow from this.
 
 - **Goal:** what you actually want; an end.
 - **Means:** anything pursued to reach the goal, including a chosen plan.
-- **Metric:** a visible measure of how a means is going.
+- **Metric:** a visible measure of how a means or strategy is going; it stands
+  in for the goal.

@@ -7,8 +7,8 @@ principles.
 ## Credit
 
 - "打工人如何获得财富自由？｜什么才是真正的财富和真正的自由？（中文字幕）｜
-  Multiple-Fire系列", interview with Leon, 课代表立正, YouTube, 2021: money
-  and promotion are means, not ends; metrics measure strategy and are not the
+  Multiple-Fire系列", conversation with Leon, 课代表立正, YouTube, 2021: money
+  and rank are means, not ends; metrics measure strategy and are not the
   goal (mistaking a means for an end).
 - Charles Goodhart, "Problems of Monetary Management: The U.K. Experience",
   paper from a 1975 conference, published in *Papers in Monetary Economics*
@@ -28,13 +28,16 @@ principles.
   2018: metrics work as a complement to judgment, not a replacement
   (principle 5).
 
+## This skill's own readings
+
 The central idea is derived from the mechanism these works describe; none of
-them is offered as proof of it, and "most principles follow" because some are
-this skill's own reading, not the sources': in principle 1, that wanting a
-means is fine while it serves the end, and the step for when no end can be
-named; in principle 4, the check close to the goal and the note on
-self-serving claims (from a framework author, not Leon); and in principle 5,
-the limits for shared standards and pay, and the advice for a mandated number.
+them is offered as proof of it. Most principles follow from it. These parts
+are this skill's own reading, not the sources':
+
+- Principle 1: wanting a means is fine; the step when no end can be named.
+- Principle 4: the warning signs, the check close to the goal, the note on
+  self-serving claims.
+- Principle 5: the limits for shared standards and pay; the mandated number.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
