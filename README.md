@@ -24,7 +24,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Thinking
 - [**perspective**](./skills/core/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
-- [**goals-vs-metrics**](./skills/core/goals-vs-metrics/SKILL.md): Keep the goal apart from the number that measures it; a chased metric drifts from its goal.
+- [**goals-vs-metrics**](./skills/core/goals-vs-metrics/SKILL.md): Keep the goal apart from the number that measures it; a chased metric tends to drift from its goal.
 - [**grouping**](./skills/core/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
 - [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 - [**info-foraging**](./skills/core/info-foraging/SKILL.md): Get the most value for the attention spent looking: how to follow scent, which items to take, when to leave a source.
