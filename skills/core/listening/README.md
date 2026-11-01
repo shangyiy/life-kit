@@ -5,13 +5,12 @@ that order (`/listening`).
 
 ## Own interpretation
 
-These ideas rest only on video sources, so they are this folder's own
-interpretation, not settled findings:
+These ideas are the author's own reading; no listed source states them:
 
-- The three levels of empathy: understand, then feel what they feel, then side
-  with the change they want.
+- The three levels of empathy: understand, then feel what they feel, then, if the speaker wants
+  help, side with the change they want, without solving.
 - Hear the whole account before you respond, whatever the purpose.
-- Skipping this makes the speaker feel you are not on their side.
+- Skipping the listening makes the speaker feel you are not on their side.
 - Telling can signal superiority.
 - What the speaker needs determines where to stop listening.
 - Always ask before offering your view.
@@ -22,10 +21,10 @@ interpretation, not settled findings:
 - Guide with questions from the speaker's position.
 - Tell as seldom as you can, because advice the speaker did not reach is harder
   to accept.
-- Move on to asking and telling only when the speaker wants a solution.
+- Move on to asking and telling only when the speaker wants help.
 
 Two lines are deliberate choices by the owner: filter out noise and junk, and
 put the risk of harm before any purpose.
 
-There is no literature source. This folder is not affiliated with or endorsed
+There is no literature source. These principles are not affiliated with or endorsed
 by anyone.
