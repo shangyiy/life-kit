@@ -20,23 +20,25 @@ review, name each breach once, with its fix.
 ## Checks
 
 1. **Is the way out real?** A way out is a path that catches you if the risk
-   fails. It counts only if you can say who or what catches you, under what
-   conditions, and whether that path will still exist when you need it. A
-   fallback that fails in the same event as the risk is not a way out. A named
-   person or body without stated terms, or one that may not exist by then,
-   still fails. An unstated fallback, or one that fails any of these tests, is
-   a claim, not a way out. One that passes all of them (named holder, stated
-   terms, lasts as long as needed, there when needed) is real even if unaudited:
-   say so and stop testing it, and take facts the person states as verified as
-   given; extra checks are optional unless a needed fact is missing. Spend the
-   rest on what it costs and leaves uncovered, naming both without lowering the
-   verdict. If nothing passes, decide as if there were no way out (`investing` 1).
+   fails. Four tests:
+   - Named holder: you can say who or what catches you.
+   - Stated terms: you can say under what conditions it does.
+   - Lasts: it will still exist until the risk could hit.
+   - There when needed: it does not fail in the same event as the risk.
+
+   Verdict: an unstated fallback, or one that fails any test, is a claim, not
+   a way out. One that passes all four is real, and that verdict does not wait
+   on more checks. Take stated facts as given; ask for more only when a fact a
+   test needs is missing.
+
+   Next: name what using it costs and what it leaves uncovered, without
+   lowering the verdict. Count only the fallbacks that pass, each at the size
+   of the risk it covers. If none passes, decide as if there were no way out
+   (`investing` 1).
 2. **Is the option decaying?** An option is a choice you hold now: the way out
    itself or the chance it backs. Ask whether its value shrinks the longer you
    wait, what it would be worth if used later, and the last date it can be
-   used. If it shrinks, waiting has a cost (`investing` 5); there is no hurry
-   only if its value holds to a date that is far off. Decay is a reason to decide,
-   which includes declining, never a reason to skip check 1.
-
-Inference: a real way out keeps the worst case survivable while the upside
-stays open.
+   used. If it shrinks, waiting has a cost (`investing` 5). If it holds, there
+   is no hurry only while that date lies beyond the time you need to decide.
+   Decay is a reason to decide, which includes declining, never a reason to
+   skip check 1.
