@@ -37,7 +37,7 @@ are this skill's own reading, not the sources':
 - Principle 1: wanting a means is fine; the step when no end can be named.
 - Principle 4: the warning signs, the check close to the goal, the note on
   self-serving claims.
-- Principle 5: the limits for shared standards and pay; the mandated number.
+- Principle 5: all of it except keeping heavy stakes off the metric.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
