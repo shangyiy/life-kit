@@ -13,10 +13,12 @@ interpretation, not settled findings:
 - Hear the whole account before you respond, whatever the purpose.
 - Skipping this makes the speaker feel you are not on their side.
 - Telling can signal superiority.
-- The purpose determines where to stop listening.
+- What the speaker needs determines where to stop listening.
 - Always ask before offering your view.
 - Answer directly when the speaker plainly asks or asks a simple factual
   question.
+- A request to judge is evaluation: ask first, unless the speaker plainly wants
+  a quick verdict.
 - Guide with questions from the speaker's position.
 - Tell as seldom as you can, because advice the speaker did not reach is harder
   to accept.
