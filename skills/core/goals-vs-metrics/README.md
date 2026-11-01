@@ -26,14 +26,15 @@ principles.
 
 ## This skill's own readings
 
-The central idea is derived from the mechanism these works describe; none of
-them is offered as proof of it. Most principles follow from it. These parts go
+The gaming half of the central idea is derived from the mechanism these works
+describe; none of them is offered as proof of it. Most principles follow from it. These parts go
 beyond the works above:
 
 - Principle 1: the means-for-end half of the idea, that wanting a means is
   fine, and the step when no end can be named.
 - Principle 3: the warning signs and the check close to the goal.
-- Principle 4: the advice for a mandated number.
+- Principle 4: using the metric to learn and diagnose, tying rewards only as
+  far as the goal can be checked, and the advice for a mandated number.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors.
