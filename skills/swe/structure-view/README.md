@@ -10,3 +10,6 @@ Design or recover a module's static structure (`/structure-view`).
 - *Domain-Driven Design*, Eric Evans
 - *The 4+1 View Model of Architecture*, Philippe Kruchten
 - *Foundations of Software Engineering* (CMU 18-652), Hakan Erdogmus
+
+This skill is an independent restatement. It is not affiliated with or
+endorsed by any of these authors.
