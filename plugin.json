@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.31.1",
+  "version": "0.32.0",
   "description": "Portable agent skills pack: resume, unit-testing, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
@@ -14,6 +14,7 @@
     "./skills/core/misfits",
     "./skills/core/motivation",
     "./skills/core/perspective",
+    "./skills/core/purpose",
     "./skills/core/testing",
     "./skills/core/verify-before-ship",
     "./skills/hiring/resume-deep-dive",
