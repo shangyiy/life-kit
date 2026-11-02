@@ -15,8 +15,8 @@
   Celebrity in Olympic Athletes," *Psychology of Sport and Exercise* 37, 2018,
   pp. 67-78. That qualitative study concerned four Olympians, so it supports a
   possibility, not a universal claim.
-- Everything else is the author's own: principles 1-3 and 5, the shaping
-  rule of principle 4 apart from the learning-goal clause, and principle 6's
+- Everything else is the author's own: principles 1-4 and 6, the shaping
+  rule of principle 5 apart from the learning-goal clause, and principle 7's
   caution against reading a low period as proof a goal was worthless.
 
 This skill is an independent restatement. It is not affiliated with or endorsed

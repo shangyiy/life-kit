@@ -50,7 +50,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**agent-evals**](./skills/swe/agent-evals/SKILL.md): Design, run and review evals of AI agents.
 
 ### Career & communication
-- [**goal-design**](./skills/career/goal-design/SKILL.md): Interview for real career motivation, turn it into candidate goals, choose one, and set review and stop points.
+- [**goal-design**](./skills/career/goal-design/SKILL.md): Interview a person to uncover career motivation, generate candidate goals, choose and shape one, and set review and stop points.
 - [**review-resume**](./skills/hiring/review-resume/SKILL.md): Honest review of how your resume fits a job description.
 - [**resume-deep-dive**](./skills/hiring/resume-deep-dive/SKILL.md): Mock interview on your resume claims, one question at a time.
 - [**find-the-argument**](./skills/presentation/find-the-argument/SKILL.md): Find the one argument in notes or voice notes and rebuild the reasoning around it.
