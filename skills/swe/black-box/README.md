@@ -5,3 +5,6 @@ Use case of the testing domain: choose spec-based test inputs and the combinatio
 ## Credit
 
 - *Software Verification and Testing* (CMU 18-654), Hakan Erdogmus and Jeff Gennari
+
+This skill is an independent restatement. It is not affiliated with or
+endorsed by any of these authors.
