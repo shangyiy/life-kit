@@ -7,4 +7,7 @@ in a use case (interactor) (`/clean-arch-domain`).
 
 Adapted from Robert C. Martin's talk *The Principles of Clean Architecture*
 and Ivar Jacobson's *Object-Oriented Software Engineering: A Use Case Driven
-Approach* (1992). This is an independent restatement.
+Approach* (1992).
+
+This skill is an independent restatement. It is not affiliated with or
+endorsed by any of these authors.
