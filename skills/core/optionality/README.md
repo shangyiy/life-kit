@@ -17,7 +17,9 @@ chooses for you (`/optionality`).
 - Hakan Erdogmus, course notes for CMU 18-657 (Decision Analysis and
   Engineering Economics for Software Engineers): the value of flexibility
   under uncertainty; a choice as a right, not a duty, whose worst case is the
-  cost of keeping it while its upside stays open; a choice counting only if
+  cost of keeping it while its upside stays open; judging a choice by
+  comparing the situation with and without it across bad, typical, and good
+  outcomes, with the worst case kept bearable; a choice counting only if
   you would act on it; waiting for information but acting before the window
   closes; and judging a path by the choices it leaves after the decision: to
   wait, stop, expand, switch, or sell off what is left.
