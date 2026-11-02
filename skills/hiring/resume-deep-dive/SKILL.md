@@ -20,11 +20,11 @@ Pick the question type that fits **this** claim (one per turn):
 
 - **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; if the answer is thin, ask one layer deeper into how it works.
 - **Why this design** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, known pitfalls, and which risks were accepted.
-- **Impact** — for metric/impact claims (numbers, scope, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the headline number alone.
+- **Impact** — for metric/impact claims (numbers, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the headline number alone.
 
-If ownership is fuzzy (led / with a team), first pin what the user did, then ask about that only.
+If ownership is fuzzy (led / with a team), first ask what the user did themselves, then ask about that.
 
-On a claim: one follow-up if the answer is thin; if it is still vague or looping, move on. Once it is clear whether the claim is solid or thin, take the next claim.
+On a claim: one follow-up if the answer is thin; if it is still vague or repeats itself, move on. Once it is clear whether the claim is solid or thin, take the next claim.
 
 If the user names a target company or role, ask once why they want that company or role, then use `/motivation` to judge the answer.
 
