@@ -13,66 +13,67 @@ metadata:
 Find the real choices you have and judge what each is worth; it never
 chooses for you.
 
+People often accept a path because they think it is the only one. Principles 1
+to 5 say what a choice is and what gives it worth; principles 6 to 11 say how to
+find choices, which ones count, and how to weigh them.
+
 ## Principles
 
-1. **What a choice is.** People often accept a path because they think it is
-   the only one. A real choice is a right, not a duty: you act on it only when
-   doing so is worth it. So the most you can lose is what keeping and trying it
-   costs, while what it could bring stays open, and the choice itself is never
-   worth less than nothing. A choice that is only listed, not real, gives no
-   freedom. Principles 2 to 4 find choices; principles 5 to 11 judge whether
-   each is real and what it is worth.
-2. **Find what is already open.** Include doing nothing, keeping things as
-   they are, and walking away.
-3. **Find the choices you have not seen, including those left after the
-   decision.** For each path, ask what you could still do after taking it: wait,
-   stop partway, expand if it goes well, switch, combine it with another path,
-   do it somewhere else, or sell off what is left. Ask also what you would do if
-   this path disappeared. Treat what others in your situation chose as an idea
-   to check, not a fact about your case.
-4. **Build a choice that is missing.** When a useful path does not exist yet,
-   make it real with a limited first commitment, sized to the loss you could
-   bear.
-5. **Judge worth by comparing with and without the choice.** Picture the
-   situation with the choice and without it, once if things go badly and once
-   if they go well; the difference is what the choice is worth. When more is at
-   stake, sketch a bad, a typical, and a good outcome with rough odds and
-   results, and count what a choice could bring only in the outcomes where you
-   would act on it. An average alone is not enough: the worst case must also be
-   bearable, since a loss weighs more than a gain of the same size. Numbers help
-   you think but do not decide; mark any you have not checked as unknown.
-6. **Count only real choices.** Before using principle 5 on a choice, check that
-   it is real; leave out any that fails. A choice is real when it has been
-   checked and is available, will still be there if the trouble that would make
-   you need it happens, and is one you would act on in some outcome you can
-   picture. Mark any fact not yet checked as unknown instead of assuming it; a
-   choice that rests on one stays listed but is not yet counted.
-7. **Judge the downside.** The downside is the most you pay to keep and try a
-   choice: money, time, attention, relationships, and what you lose by not
-   committing to another direction, since commitment also builds value over
-   time. That most must truly have a limit: you can stop at a point set in
-   advance, and you need not hold on when it goes badly. A path you cannot stop,
-   because of what you already spent, a contract, or saving face, has no limit
-   on its loss; it is a bet, not a choice you hold. The worst case must be one
-   the person could bear, and only the person deciding can say what that is.
-   Lay out the trade-off; do not decide it for them.
-8. **Judge the upside.** The upside comes from how wide the range of possible
-   outcomes is. When a path changes the place, team, field, or circle someone
-   is in, ask how often good chances arise there and how large they are; you
-   choose your odds, not the outcome. Ask also whether you could catch a good
-   chance when it comes: be there, see it, and be able to act on it.
-9. **Judge uncertainty.** Uncertainty raises a choice's worth, because you can
-   wait to learn more and act only in the outcomes that turn out well. It adds
-   nothing when the loss has no limit or the good outcomes cannot be reached.
-10. **Count time.** Time is both where a choice's worth comes from and its
-    limit. The longer a choice stays open, the more you can learn before acting,
-    so the more it is worth; as its window closes it is worth less, and once it
-    expires it is worth nothing. A choice can also cost more later, or close off
-    once another path is taken. So ask when each choice expires and what waiting
-    would teach, and decide before the window closes; holding a choice is not by
-    itself a reason to use it. Waiting can also save resources or let conditions
-    improve, as long as the choice is still open then.
-11. **Judge how freely the choices let you walk away.** Together, the real
-    choices give you room to refuse, leave, recover, or hear no with less fear,
-    and to ask for better terms. Ask whether each could replace the current
-    path. This room is not by itself a reason to leave.
+1. **A choice is a right, not a duty.** You use it when using it is worth it and
+   leave it when it is not, so a choice is never worth less than nothing: its
+   loss has a floor and its gain stays open. Once you use it, the right becomes
+   a duty, and you carry what that path asks of you.
+2. **The floor is the most you can lose.** Count two costs apart. Keeping a
+   choice open costs money, time, attention, and what you give up by not
+   committing to another direction; sometimes keeping it pays you instead, as a
+   job with a salary does. Using it costs whatever you cannot get back once you
+   act. Stopping is not undoing: the more of a choice cannot be undone, the more
+   it is a commitment and the less it is a choice. The floor must truly hold:
+   you can stop at a point set in advance and need not hold on when it goes
+   badly. A path you cannot stop, because of what you already spent, a contract,
+   or saving face, is a bet, not a choice you hold. Only the person deciding can
+   say what loss they could bear; lay out the trade-off and do not decide it for
+   them.
+3. **The ceiling is how much good you can catch.** It depends on how often good
+   chances arise where the choice puts you, and how large they are; you choose
+   your odds, not the outcome. A chance counts only if you are there, see it,
+   and can act on it.
+4. **Uncertainty raises a choice's worth.** The wider the range of outcomes, the
+   more a choice is worth, because the floor stops the bad ones and the good
+   ones have no cap. This holds only while the floor holds and the good outcomes
+   can be reached.
+5. **Time both feeds and drains a choice.** Waiting lets you learn before you
+   act. But a choice you hold loses worth as time passes and is worth nothing
+   once it expires; it can also cost more later, or close once another path is
+   taken. Ask when each choice expires and what waiting would teach; when it
+   loses worth faster than you learn, use it or let it go before the window
+   closes. Holding a choice is not by itself a reason to use it.
+6. **Find what is already open,** including doing nothing, keeping things as
+   they are, and walking away. Real choices elsewhere give you room to refuse,
+   leave, recover, hear no with less fear, and ask for better terms; that room
+   is not by itself a reason to leave.
+7. **Find the choices you have not seen.** For each path, ask what you could
+   still do after taking it: wait, stop partway, expand if it goes well, switch,
+   combine it with another path, do it somewhere else, or sell off what is left.
+   Ask also what you would do if this path disappeared. Treat what others in
+   your situation chose as an idea to check, not a fact about your case.
+8. **Build a choice that is missing** with a limited first commitment, sized to
+   the loss you could bear.
+9. **Count only real choices.** A choice is real when it has been checked and is
+   available, will still be there if the trouble that would make you need it
+   happens, and is one you would use in some outcome you can picture. A choice
+   that is only listed gives no freedom; leave it out. Mark any fact not yet
+   checked as unknown; a choice that rests on one stays listed but is not yet
+   counted.
+10. **Judge worth by comparing with and without the choice.** Picture the
+    situation with the choice and without it, once if things go badly and once
+    if they go well; the difference is what the choice is worth. Weigh it in
+    words, in numbers, or both. When more is at stake, sketch a bad, a typical,
+    and a good outcome with rough odds and results, as an odds-weighted average
+    or a tree of decisions and outcomes, and count what a choice could bring
+    only where you would use it. An average alone is not enough: the worst case
+    must also be bearable, since a loss weighs more than a gain of the same
+    size. Numbers help you think but do not decide.
+11. **Weigh choices together.** Using one choice can use up or close another,
+    and two can be worth less together than apart, so judge them as a set, not
+    one at a time.
