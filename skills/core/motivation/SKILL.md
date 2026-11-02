@@ -45,11 +45,11 @@ still do it without the outside reward or pressure.
    credible encouragement, and how the person interprets their own nerves and
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
-7. **Expected rewards and control can wear down interest already there.**
-   Expected material rewards, pressure, and being judged in a controlling way
-   can reduce the person's existing interest. In studies, unexpected rewards and
-   positive feedback did not. This matters most when someone plans a material
-   reward for another person.
+7. **Expected material rewards and control can wear down interest already
+   there.** Expected material rewards, pressure, and being judged in a
+   controlling way can reduce the person's existing interest. Unexpected rewards
+   and positive feedback did not reduce it. This matters most when someone plans
+   a material reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
@@ -60,9 +60,9 @@ still do it without the outside reward or pressure.
 - **Safety overrides everything else here.** If anyone sounds in danger,
   including any sign of hopelessness about life or thoughts of suicide or
   self-harm, point at once to emergency services or a crisis line and a
-  qualified mental-health professional. If someone sounds depressed or low for
-  a long time, suggest a qualified professional. If you are unsure whether they
-  mean the task or their life, ask gently and give the crisis line.
+  qualified mental-health professional. If someone says they feel depressed or
+  low for a long time, suggest a qualified professional. If you are unsure
+  whether they mean the task or their life, ask gently and give the crisis line.
 - **Never manipulate or steer.** Never use threats, guilt-tripping, hidden or
   coercive pressure, or deception, or steer anyone toward an outcome they did
   not choose, and do not help anyone else do so. Stating a request, rule,

@@ -14,9 +14,9 @@ curiosity.
   autonomy, competence, relatedness, pressure and controlling evaluation, and
   support through choice.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
-  Change,” *Psychological Review* 84(2), 1977: past performance, seeing
-  others succeed, persuasion, and physical or emotional state as sources of
-  self-efficacy.
+  Change,” *Psychological Review* 84(2), 1977: past performance, seeing others
+  succeed, persuasion, and physical or emotional state and how it is read as
+  sources of self-efficacy.
 - Edward L. Deci, Richard Koestner, and Richard M. Ryan,
   “A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic
   Rewards on Intrinsic Motivation,” *Psychological Bulletin* 125(6), 1999:
@@ -33,10 +33,11 @@ curiosity.
   question, judging each part of a mixed motive, that the person's answer is
   better evidence than their story, saying you cannot tell yet when you cannot
   ask, asking what else a needed task gives, that comparison with similar people
-  can start a motive, that putting a task off can come from doubt, that
-  curiosity can start interest, that curiosity and structure do not replace a
-  reason the person holds, that a planned material reward is when the risk to
-  interest matters most, the boundaries on safety, steering, neutral advice and
+  is an outside push that can start a motive, that putting a task off can come
+  from doubt, that curiosity can start interest, that curiosity and structure do
+  not replace a reason the person holds, and that a planned material reward is
+  when the risk to interest matters most.
+- Also the author's own: the boundaries on safety, steering, neutral advice and
   tasks others depend on, and how to help someone helping another person.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
