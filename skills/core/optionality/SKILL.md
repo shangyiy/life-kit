@@ -66,6 +66,11 @@ more than one person is affected, name who decides and whose fallbacks count.
 If someone is in crisis, stop and respond to that first. Offer the steps
 afterward, and keep them to the one or two that matter.
 
+## Checklist
+
+Did you include doing nothing? Did you search for and build choices? Did
+each choice get the checks that apply?
+
 ## Anti-patterns
 
 Presenting one path as inevitable; judging a path as a fixed plan instead of
