@@ -2,14 +2,10 @@
 
 ## Credit
 
-- The near-source and distant-source heuristic draws on David A. Kalkstein,
-  Tali Kleiman, Cheryl J. Wakslak, Nira Liberman, and Yaacov Trope, "Social
-  Learning Across Psychological Distance," *Journal of Personality and Social
-  Psychology* 110(1), 2016, pp. 1-19. Its career use is the author's synthesis.
-- The distinction between hard performance goals and learning goals in
-  unfamiliar complex work draws on Edwin A. Locke and Gary P. Latham,
-  "Building a Practically Useful Theory of Goal Setting and Task Motivation:
-  A 35-Year Odyssey," *American Psychologist* 57(9), 2002, pp. 705-717.
+- Preferring a learning goal when the person lacks the skill for complex
+  work draws on Edwin A. Locke and Gary P. Latham, "Building a Practically
+  Useful Theory of Goal Setting and Task Motivation: A 35-Year Odyssey,"
+  *American Psychologist* 57(9), 2002, pp. 705-717.
 - Renewable structure draws by analogy on Jesper Juul, "The Open and the
   Closed: Games of Emergence and Games of Progression," in Frans Mäyrä, ed.,
   *Computer Games and Digital Cultures Conference Proceedings*, Tampere
@@ -20,7 +16,8 @@
   pp. 67-78. That qualitative study concerned four Olympians, so it supports a
   possibility, not a universal claim.
 - The adaptive interview, source-versus-reason distinction, transition and
-  choice rules, no-candidate fallback, and remaining prescriptions are the
+  survival rules, no-candidate fallback, the caution against reading a low
+  period as proof a goal was worthless, and remaining prescriptions are the
   author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed

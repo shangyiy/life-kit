@@ -17,31 +17,35 @@ The use case for designing a career goal. Every principle and definition of
 [`optionality`](../../core/optionality/SKILL.md),
 [`experimentation`](../../core/experimentation/SKILL.md), and
 [`listening`](../../core/listening/SKILL.md) applies unchanged. This skill
-turns a motive into candidates and one goal with review and stop points. Use
-it to design or review a goal; in a review, name each breach once, with its
-fix.
+decides how to interview, when to propose candidates, which one to adopt,
+and its review, stop, and renewal points. Use it to design or review a goal;
+in a review, name each breach once, with its fix.
 
 ## Principles
 
-1. **Interview before designing.** Ask one question at a time and derive the
-   next from the answer; use no fixed question list. Find recurring pulls and
-   conflicts, constraints or duties, desired change, and evidence of sustained
-   effort. Scale to what is known; if speed is wanted, confirm and move on.
-   Stop when asked; apply `listening`'s safety override if there is distress.
-2. **Know when to propose candidates.** Move on when the wanted change,
-   constraints, and owned reason or binding duty distinguish candidates.
-   Instrumental reasons suffice; otherwise apply `experimentation` principle 1.
-3. **Separate source and reason.** Record both for each candidate. Comparison
-   and role models reveal options; then ask why each would be adopted under
-   `outcome-orientation`. Nearer models suggest paths; distant ones, direction.
+1. **Interview before designing.** A request for help with a goal is the
+   permission `listening`'s Gate asks for; check again if the topic changes.
+   Ask one question at a time and derive the next from the answer; use no
+   fixed question list. Find recurring pulls and conflicts, constraints or
+   duties, the change wanted, and evidence of sustained effort. If speed is
+   wanted, confirm the change, constraints, and reason in one line and mark
+   the rest as assumptions. Stop when asked. Distress gets `listening` first;
+   signs of harm get its safety rule.
+2. **Propose candidates once they can differ.** Move on when the change,
+   constraints, and reason are clear enough to tell candidates apart; if no
+   reason holds yet, apply `experimentation` principle 1.
+3. **Separate source and reason.** Record both for each candidate. Use
+   comparison and models to find options under `motivation` principles 1 and
+   4, then ask why each would be adopted under `outcome-orientation`.
 4. **Generate, then choose and shape.** Form contrasting candidates under
-   `experimentation` principle 4, including bounded exploration if uncertain.
-   For exploration or an unfamiliar complex domain, use a learning goal rather
-   than a hard performance goal. Otherwise state a high direction with near
-   targets, promise only near targets, and apply `optionality` principle 8.
+   `experimentation` principle 4. When the person lacks the skill for complex
+   work and no duty fixes a performance target, prefer a learning goal. Set
+   any stretch under `optionality` principle 8.
 5. **Make the choice explicit.** State the goal, its reason, why it won, what
-   it displaces, and its first bounded action. If none survives, return to the
-   motive or run a bounded probe under `experimentation`.
+   it displaces, and its first bounded action. A candidate survives if it is
+   feasible within the constraints, has an owned reason or binding duty, and
+   has a survivable downside. If none survives, return to the motive once,
+   then run a bounded probe under `experimentation`.
 6. **Set review, stop, and renewal points.** Apply `experimentation` principle
    3. For a finite goal, decide how it might renew and explore what follows.
    Do not treat a low period after completion alone as proof it was worthless.
