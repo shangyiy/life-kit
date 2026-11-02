@@ -23,33 +23,36 @@ goal; in a review, name each breach once, with its fix.
 
 ## Principles
 
-1. **Interview before designing.** A request for help with a goal is the
+1. **Find the motive before designing.** A request for help with a goal is the
    permission `listening`'s Gate asks for; check again if the topic changes.
-   Ask one question at a time and derive the next from the answer; use no
-   fixed question list. Find recurring pulls and conflicts, constraints or
-   duties, the change wanted, and evidence of sustained effort. If speed is
-   wanted, confirm the change, constraints, and reason in one line and mark
-   the rest as assumptions. Distress gets `listening` first; signs of harm
-   get its safety rule.
-2. **Propose candidates once they can differ.** Move on when the change,
-   constraints, and reason are clear enough to tell candidates apart; if no
-   direction holds yet, apply `experimentation` principle 1.
-3. **Separate source and reason.** Record both for each candidate. Use
-   comparison and role models to find options under `motivation` principles
-   1 and 4, then ask why each would be adopted under `outcome-orientation`
-   principle 1.
-4. **Generate, then shape.** Form contrasting candidates under
+   First agree how either person will know when to stop probing. Ask why the
+   person wants a goal, then follow each answer with a question that makes the
+   motive concrete. Push back on labels, abstractions, and restatements. Continue
+   until they state a reason they own under `motivation`, or name it as borrowed
+   from parents, peers, status, guilt, or a promotion
+   ladder. Stop at the agreed condition.
+2. **Interview from the motive outward.** Ask one question at a time and derive
+   the next from the answer; use no fixed list. Find recurring pulls and
+   conflicts, constraints or duties, the change wanted, and sustained effort.
+   Distress gets `listening` first; signs of harm get its safety rule.
+3. **Propose candidates only after the motive is clear.** Move on when the
+   motive, change, and constraints are clear enough to tell candidates apart.
+   If speed is required, state what remains assumed; if no direction holds
+   yet, apply `experimentation` principle 1.
+4. **Separate source and reason.** Record both for each candidate. Comparison
+   and role models can supply options, but the reason for adopting one must be
+   tested under `motivation`; a borrowed source does not establish an owned
+   why.
+5. **Generate, then shape.** Form contrasting candidates under
    `experimentation` principle 4. When the person lacks the skill for complex
    work and no duty fixes a performance target, prefer a learning goal. Set
    any stretch under `optionality` principle 8.
-5. **Let the person choose.** Test each candidate under `optionality`
-   principles 1 and 8 and `motivation` principle 1, then lay out the
-   survivors; the person picks. State the chosen goal, its reason, and its
-   first bounded action, the probe `experimentation` principle 4 asks for.
-   If none survives, return to the motive once, then run a bounded probe.
-6. **Set review, stop, and renewal points.** Apply `experimentation` principle
-   3. For a finite goal, decide how it might renew and explore what follows.
-   Do not treat a low period after completion alone as proof it was worthless.
+6. **Let the person choose.** Test each candidate under `optionality`
+   principles 1 and 8 and `motivation` principle 1, then lay out the survivors;
+   the person picks. State the chosen goal, its reason, and its first bounded
+   action. If none survives, return to the motive, then run a bounded probe.
+7. **Set review, stop, and renewal points.** Apply `experimentation` principle 3.
+   For a finite goal, decide renewal and what follows; a later low alone does not prove it worthless.
 
 ## Definitions
 
