@@ -15,12 +15,15 @@ chooses for you.
 
 ## Principles
 
-1. **Why find and judge.** People often accept a path because they think it
-   is the only one. Listing possibilities is not enough: a choice that is
-   unchecked, gone before you would need it, or too costly to keep gives no
-   real freedom. An uncertain future usually raises what a real choice is
-   worth, but uncertainty alone does not make it valuable; principles 5 to 9
-   judge whether it is.
+1. **Why find and judge.** People often accept a path because they think it is
+   the only one. A real choice is a right, not a duty: you act on it only when
+   doing so is worth it, so the most you lose is what keeping it costs, while
+   what it could bring stays open; the choice itself is never worth less than
+   nothing. That is why an uncertain future raises its worth: you can wait to
+   learn more and act only in the outcomes that turn out well. Listing
+   possibilities is not enough: a choice that is unchecked, gone before you
+   would need it, or too costly to keep gives no real freedom; principles 5 to 9
+   judge whether a choice is real and what it is worth.
 2. **Find what is already open.** Include doing nothing, keeping things as
    they are, and walking away.
 3. **Find the choices you have not seen, including those left after the
@@ -35,10 +38,10 @@ chooses for you.
 5. **Count only real choices.** This check comes before principles 6 to 9: a
    choice that fails it is left out. A choice is real when it has been checked
    and is available. It must also still be there if the trouble that would make
-   you need it happens, and be one you would take in some outcome you can
-   picture, at a cost you could bear. Others can point out facts and costs; only
-   the person deciding can say what they could bear. Mark any fact not yet
-   checked as unknown instead of assuming it.
+   you need it happens, and be worth acting on in some outcome you can picture,
+   at a cost you could bear. Others can point out facts and costs; only the
+   person deciding can say what they could bear. Mark any fact not yet checked
+   as unknown instead of assuming it.
 6. **Judge how freely it lets you walk away.** Ask whether each real choice
    could replace the current path, and how much all of them together make it
    easier to refuse, leave, recover, or hear no with less fear. This shows how
@@ -48,9 +51,14 @@ chooses for you.
    relationships, what you give up, and what you lose by not committing to a
    direction, since commitment also builds value over time. Lay out this
    trade-off; do not decide it for the person.
-8. **Count time.** A choice can expire, cost more later, or close off once
-   another path is taken. Waiting can also bring information, save resources,
-   or let conditions improve. Weigh both.
+8. **Count time.** Time is both where a choice's worth comes from and its limit.
+   The longer a choice stays open, the more you can learn before acting, so the
+   more it is worth; as its window closes it is worth less, and once it expires
+   it is worth nothing. A choice can also cost more later, or close off once
+   another path is taken. So ask when each choice expires and what waiting would
+   teach, and decide before the window closes; holding a choice is not by itself
+   a reason to use it. Waiting can also save resources or let conditions
+   improve, as long as the choice is still open then.
 9. **Judge how many chances the setting offers.** When a choice changes the
    place, team, field, or circle someone is in, ask how it changes how often
    good chances arise and how large they are. You choose your odds, not the
