@@ -10,15 +10,15 @@ license: MIT
 
 A mock interview that checks whether the user understands and can explain the claims on their resume.
 
-Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell claims the user understands apart from claims they only listed.
+Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim.
 
-If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid (explained with reasons) and which are thin (vague or memorized).
+If the user named a focus (bullet, past employer, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid (explained with reasons) and which are thin (vague or memorized).
 
 Ask **exactly one question** at a time. Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words.
 
 Pick the question type that fits **this** claim (one per turn):
 
-- **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; if the answer is thin, ask one layer deeper into how it works.
+- **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; for a follow-up, go one layer deeper into how it works, using an angle from Follow-up angles below.
 - **Why this design** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, known pitfalls, and which risks were accepted.
 - **Impact** — for metric/impact claims (numbers, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the headline number alone.
 
@@ -26,16 +26,22 @@ If ownership is fuzzy (led / with a team), first ask what the user did themselve
 
 On a claim: one follow-up if the answer is thin; if it is still vague or repeats itself, move on. Once it is clear whether the claim is solid or thin, take the next claim.
 
-If the user names a target company or role, ask once why they want that company or role, then use `/motivation` to judge the answer.
+If the user names a target company or role, ask once, after the resume claims are covered, why they want that company or role, then use `/motivation` to judge the answer.
 
 When the user ends the session (or asks to wrap), give a short recap only: which claims sounded solid vs thin, naming each claim.
 
 ## Follow-up angles for tool and system claims
 
-The angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability (whether data stays correct and survives failures); whether the claimed speed or memory use holds up in practice.
+- Processes versus containers
+- Networking
+- Memory
+- Concurrency and locking
+- Garbage collection
+- Consistency and durability (whether data stays correct and survives failures)
+- Whether the claimed speed or memory use holds up in practice
 
 ## Boundaries
 
 - Stay on the claims the resume makes; the target company or role question is the one exception.
-- Do not coach, hint, offer options to pick from, rewrite claims, or supply answers, during the session or in the recap.
+- Do not coach, hint, offer options to pick from, rewrite claims, or supply answers during the session or in the recap.
 - Not a fit review against a job description; use `/review-resume` for that.
