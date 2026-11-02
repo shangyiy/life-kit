@@ -2,7 +2,7 @@
 
 Judge whether a motive can keep a person acting by asking whether they would
 still do it without the outside reward or pressure (`/motivation`). It draws on
-work on intrinsic and extrinsic motivation, self-efficacy, goals, and
+research into intrinsic and extrinsic motivation, self-efficacy, goals, and
 curiosity.
 
 ## Credit
@@ -31,12 +31,13 @@ curiosity.
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question, asking why as well, judging each part of a mixed motive, that the
-  person's answer is better evidence than their account, saying you cannot tell
-  yet when you cannot ask, asking what else a needed task gives, that putting a
-  task off can come from doubt, that curiosity can spark interest, that
-  curiosity, goals and feedback do not replace a reason the person holds, and
-  that a planned material reward is when the risk to interest matters most.
+  question, asking why as well, judging each part of a mixed motive, that what
+  the person says is better evidence than what you infer from how they seem or
+  what others say, saying you cannot tell yet when no one can be asked, asking
+  what else a needed task gives, that putting a task off can come from doubt,
+  that curiosity can spark interest, that curiosity, goals and feedback do not
+  replace a reason the person holds, and that a planned material reward is when
+  the risk to interest matters most.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
   tasks others depend on, and how to help someone helping another person.
 

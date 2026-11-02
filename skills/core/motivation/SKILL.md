@@ -22,11 +22,12 @@ still do it without the outside reward or pressure.
    interest or satisfaction in the activity. Extrinsic motivation comes from
    outside it: a reward, pressure, or what others expect. Motives are often
    mixed, so judge each part.
-2. **Ask; do not guess from their account.** Ask whether they would still act
-   if the outside reward or pressure went away, and why. Their direct answer is
-   better evidence than what you infer from their account; the why shows
-   whether the reason is one they value (see 3 and 4).
-   - If you cannot ask, say you cannot tell yet whether the motive will last.
+2. **Ask the person; do not guess.** Ask whether they would still act if the
+   outside reward or pressure went away, and why. What they tell you is better
+   evidence than what you infer from how they seem or what others say; the why
+   shows whether the reason is one they value (see 3 and 4).
+   - If neither they nor anyone who knows them can be asked, say you cannot
+     tell yet whether the motive will last.
    - If they must do the task anyway, ask what else it gives them.
    - When someone is helping another person, what that helper has seen counts,
      but the person's own answer counts most.
@@ -38,7 +39,7 @@ still do it without the outside reward or pressure.
    they value, not a way to escape guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason become their own.**
    Real choice (autonomy), a sense of getting better (competence), and
-   connection with others (relatedness) each make it feel more like theirs.
+   connection with others (relatedness) support this.
 6. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person interprets their own nerves and
@@ -46,14 +47,14 @@ still do it without the outside reward or pressure.
    from not caring.
 7. **Expected material rewards and control can wear down interest already
    there.** Material rewards they expect for doing, finishing, or doing well at
-   the task can reduce the person's existing interest. So can pressure and being
-   graded in a way that feels controlling. Unexpected rewards and positive
+   the task can reduce the person's existing interest. So can pressure, and so
+   can grading that feels controlling. Unexpected rewards and positive
    feedback usually do not reduce it. This matters most when someone plans a
    material reward for another person.
 8. **Curiosity, goals, and feedback support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can spark interest.
-   Clear, demanding goals matched to their ability, once the person accepts
-   them, and feedback help a person keep going. None of these gives a lasting
+   Clear, demanding goals that match their ability and that they accept help a
+   person keep going, and so does feedback. None of these gives a lasting
    reason by itself; the person still needs one they hold.
 
 ## Boundaries
