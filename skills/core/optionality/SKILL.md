@@ -44,10 +44,10 @@ find choices, which ones count, and how to weigh them.
    can be reached.
 5. **Time both feeds and drains a choice.** Waiting lets you learn before you
    act. But a choice you hold loses worth as time passes and is worth nothing
-   once it expires; it can also cost more later, or close once another path is
-   taken. Ask when each choice expires and what waiting would teach; when it
-   loses worth faster than you learn, use it or let it go before the window
-   closes. Holding a choice is not by itself a reason to use it.
+   once it expires, and it can cost more later. Ask when each choice expires and
+   what waiting would teach; when it loses worth faster than you learn, use it
+   or let it go before the window closes. Holding a choice is not by itself a
+   reason to use it.
 6. **Find what is already open,** including doing nothing, keeping things as
    they are, and walking away. Real choices elsewhere give you room to refuse,
    leave, recover, hear no with less fear, and ask for better terms; that room
@@ -62,9 +62,9 @@ find choices, which ones count, and how to weigh them.
 9. **Count only real choices.** A choice is real when it has been checked and is
    available, will still be there if the trouble that would make you need it
    happens, and is one you would use in some outcome you can picture. A choice
-   that is only listed gives no freedom; leave it out. Mark any fact not yet
-   checked as unknown; a choice that rests on one stays listed but is not yet
-   counted.
+   that fails these tests gives no freedom; drop it. Mark any fact not yet
+   checked as unknown; a choice that rests on one is held back, not counted,
+   until it is checked.
 10. **Judge worth by comparing with and without the choice.** Picture the
     situation with the choice and without it, once if things go badly and once
     if they go well; the difference is what the choice is worth. Weigh it in
