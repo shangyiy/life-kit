@@ -26,11 +26,12 @@ with its fix.
    result, acceptance, authority, and important dependencies. Spend little
    effort on a small commitment and more where failure would matter. Ownership
    stays within your authority and does not override other duties. If a
-   commitment exceeds your authority or capacity, say so and renegotiate it
-   before you accept.
+   commitment exceeds your authority or capacity, say so as soon as you see
+   it, and before you accept where acceptance is yours to give.
 3. **Make the true state visible.** Share progress, decisions, risks, and
    changes early enough for affected people to act. When you make a mistake,
-   report it early, limit the harm, and fix what you can.
+   report it early without shifting blame, limit the harm, and fix what you
+   can.
 4. **Escalate obstacles without giving up the outcome.** Bring the right
    decision-maker the context, consequence, options, and urgency. If no one
    responds, follow up, seek another proper authority, and leave the risk
@@ -39,12 +40,12 @@ with its fix.
 5. **Change a commitment openly.** When scope, timing, quality, risk, or
    capacity changes materially, seek a new decision from those entitled to
    make it. A proposed change is not a new commitment until they agree.
-6. **Transfer responsibility explicitly.** A handoff is complete
-   when a named recipient understands the state and accepts responsibility.
-   Until then, remain responsible and follow up or escalate. If you must leave
-   before anyone accepts, return the state to whoever assigned the work and
-   leave the gap visible. For evidence and
-   approval before handoff, use `verify-before-ship`.
+6. **Transfer responsibility explicitly.** A handoff is complete when a named
+   recipient understands the state and accepts responsibility. Until then,
+   remain responsible and follow up or escalate. If you must leave before
+   anyone accepts, return the state to whoever assigned the work and leave the
+   gap visible. For evidence and approval before handoff, use `verify-before-
+   ship`.
 7. **Close the loop explicitly.** Close only when the agreed acceptance or
    stop process is complete. A vague reply or silence is not acceptance unless
    that process says it is. If no process was agreed or the acceptor is gone,
