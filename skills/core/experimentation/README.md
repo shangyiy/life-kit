@@ -17,13 +17,13 @@ settle an uncertainty (`/experimentation`).
   Contingency,” *Academy of Management Review* 26(2), 2001, for risking only
   what one can afford to lose.
 - Principle 3 draws on Tim Ferriss, “Why you should define your fears instead
-  of your goals,” TED, 2017, for writing down the worst case, prevention, and
-  repair.
-- Principle 1 draws on Ralph Waldo Emerson's advice to act in the face of fear.
+  of your goals,” TED talk, 2017-04-24,
+  https://www.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals,
+  for writing down the worst case, prevention, and repair.
 - Principle 1 also draws on Michelle G. Craske et al., “Maximizing exposure
   therapy: An inhibitory learning approach,” *Behaviour Research and Therapy*
   58, 2014, for learning by facing fear.
 - Everything not named above is the author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
-by any of these authors.
+by any of these authors or speakers.

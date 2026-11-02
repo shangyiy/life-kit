@@ -2,7 +2,8 @@
 name: experimentation
 description: >
   When thinking cannot settle something, run a small, cheap, reversible test,
-  learn from the result, and adjust. Use on /experimentation.
+  learn from the result, and adjust. Use when a question stays open after
+  thinking it through, or on /experimentation.
 metadata:
   short-description: "Learn what thinking alone cannot settle"
 ---
@@ -14,44 +15,26 @@ learn from the result, and adjust.
 
 ## Principles
 
-1. **Act when fear keeps the unknown vague.** Missing facts are not always what
-   keeps people stuck. Once you act, fear can shrink from a large unknown to a
-   concrete size, and a reversible first step becomes possible.
+1. **Act to see how big the fear really is.** Missing facts are not always
+   what keeps people stuck; often it is fear of a vague unknown. Acting
+   shows that the fear is smaller and more concrete than imagined, and more
+   research only hides it.
 2. **Keep the test small and reversible.** Spend little, make it easy to stop
-   or undo, and risk only losses you can afford to bear yourself. Test several
-   paths cheaply instead of making one large bet.
+   or undo, and risk only what you can afford to lose. Start with the smallest
+   test that could teach something, and try several paths cheaply instead of
+   making one large bet.
 3. **Make the fear concrete if that helps.** Write down the worst case, how you
    could prevent it, and how you could repair the damage. This step is
    optional; use it only when fear is blocking action.
-4. **Say what result would change your decision.** Do this before the test.
-   Also say when you will stop. Allow for a result that gives no clear answer.
+4. **Say what result would change your decision.** Do this before the test,
+   not after seeing the result. Also say when you will stop. Allow for a
+   result that gives no clear answer.
 5. **Adjust after the result.** Let what happened change the next action.
-   Record surprises and harm. Repeat only when another test could teach more.
+   Repeat only when another test could teach more.
 6. **Skip the test when it cannot help.** Think when thought can settle the
-   question or there is no time to learn. For a one-shot decision, test any
-   reversible parts; if none exist, decide by thinking.
+   question or there is no time to learn, and do not test only to feel busy.
+   For a one-shot decision, test any reversible parts; if none exist, decide
+   by thinking.
 7. **Keep other people's risk small and chosen.** If others bear risk, they
-   must know and agree. Keep their risk small or redesign the test.
-
-## Workflow
-
-Name the uncertainty and the decision. If fear blocks action, write the worst
-case, prevention, and repair. Choose a small reversible test, what you can
-afford to lose, what result would change the decision, and when you will stop.
-Check risk with others, run the test, then adjust.
-
-## Checklist
-
-Could the answer change an action? Is this the smallest useful test? Are you
-ready for no clear answer? Can each affected person decline?
-
-## Anti-patterns
-
-Acting only to feel busy; hiding fear behind more research; making the first
-test too large; deciding what counts after the test; shifting risk.
-
-## Output
-
-State the uncertainty, test, loss limit, risk to others, what result would
-change the decision, and when you will stop. Write `Result: planned` until the
-test runs; then replace it with the result and adjustment.
+   must know and be free to decline. Keep their risk small or redesign the
+   test.
