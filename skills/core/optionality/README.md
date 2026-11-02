@@ -28,15 +28,13 @@ Source-to-principle map:
 - Dixit and Pindyck inform principle 5's value lost while waiting and
   principle 6: the value of waiting under uncertainty before an irreversible
   commitment.
-- Leon's 2021 talk informs principle 1's walk-away capacity. His 2023 talk
+- Leon's 2021 talk informs principle 1's walk-away threshold. His 2023 talk
   informs principle 5's treatment of choices that lose value with time.
-- Sitkin et al. inform principle 7's slack clause: slack lets failure of a
+- Sitkin et al. inform principle 8's slack clause: slack lets failure of a
   stretch goal be absorbed.
 
-The holder, evidence, terms, duties, risk-window, same-event-failure,
-exposure, and reliability rules in principles 1–4 are the author's own. So
-are principle 5's other costs and principle 7's independent paths,
-commitment, stretch-as-direction, replaceability, and personal bound.
+Everything else, including the opener, the definitions, and the remaining
+rules of principles 1–8, is the author's own.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.

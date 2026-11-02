@@ -46,10 +46,10 @@ from their interest is the work of `perspective`.
    Count paths sharing a holder or resource as one. Keep reachable, independent
    paths when learning, asymmetric downside, or dependence makes them valuable.
    Otherwise commit for focus, trust, coordination, compounding, or timing.
-   Hold a stretch target as direction, not commitment, and only when missing it
-   is survivable. Slack makes failure absorbable, and an organization can often
-   replace people or teams while a person usually cannot replace themselves, so
-   keep a personal stretch within loss you can survive.
+8. **Hold a stretch target as direction, not commitment.** Take it on only when
+   missing it is survivable. Slack lets an organization absorb a miss and
+   replace people or teams; a person usually cannot replace themselves, so keep
+   a personal stretch within loss you can survive.
 
 ## Definitions
 
