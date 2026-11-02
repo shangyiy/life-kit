@@ -4,13 +4,18 @@ description: >
   Review whether to buy, add, hold, trim, or exit an investment position by
   testing the thesis, expectations, forced-exit risk, and value of waiting.
   Use for /investment-positioning or before changing market exposure.
+metadata:
+  short-description: "Decision record for changing a position"
+parent-skill: investing
 ---
 
-# Investment positioning
+# /investment-positioning
 
 Turn a proposed position change into a decision record. Apply
 [investing](../../core/investing/SKILL.md) first. Do not place orders, move
-money, request account access, or ask for personal financial data.
+money, or request account access. Ask only general, category-level questions
+(such as whether the money may be needed before the review); never ask for
+balances, account details, or identifiers, and use only what is volunteered.
 
 ## Decide
 
@@ -24,10 +29,11 @@ money, request account access, or ask for personal financial data.
 3. **Test the alternatives.** Compare acting now with holding, doing nothing,
    and the next-best use of capital. Include costs, uncertainty, and the value
    of preserving room to act later.
-4. **Run the forced-exit check.** Consider worse-than-expected losses, price
-   gaps, disappearing liquidity, financing changes, correlated selling,
-   dated cash needs, loss of income, and whether fear or discomfort could
-   force an untimely sale.
+4. **Run the forced-exit check.** A forced exit is selling at someone else's
+   time or price. Consider margin, borrowed money, or other leverage;
+   worse-than-expected losses; sudden price jumps; disappearing liquidity;
+   financing changes; correlated selling; dated cash needs; loss of income;
+   and fear or discomfort that could force an untimely sale.
 5. **Choose and record.** Select buy, add, hold, trim, exit, or wait. Give the
    strongest reason, the strongest objection, the thesis-break condition, and
    the next review trigger.
@@ -71,25 +77,26 @@ to a conservative action:
 - Using activity to relieve fear, regret, boredom, or urgency.
 - Accepting a promise of guaranteed returns; treat it as a red flag and stop
   the evaluation until the claim and provider are independently verified.
-- Giving a personalized allocation when the needed suitability facts are
-  unavailable or inappropriate to collect.
 
 ## Suitability boundary
 
+This skill gives a decision record, never an allocation or position size.
 Refer the person to a licensed financial professional instead of answering
 when the decision requires individualized allocation, tax or legal advice,
 retirement-income planning, debt restructuring, evaluation of an unsuitable
 or opaque product, or reconciliation of near-term cash needs with loss
 capacity. Also refer when the person may be under coercion, facing fraud, or
-unable to understand the possibility of loss.
+unable to understand the possibility of loss. Then return only `Stop`, why
+the decision is outside this skill, what kind of professional to see, and a
+reminder to ask how that professional is paid.
 
 ## Formats
 
-For a simple or emotional case, return only: `Pause`, `What is known`,
-`What is unknown`, `Safest next action`, and `Review trigger`. Do not pad it
-into a full analysis.
+Use the short format when the person is upset, rushed, or asking a narrow
+question. Return only `Pause`, `What is known`, `What is unknown`,
+`Safest next action`, and `Review trigger`, without padding.
 
 Otherwise return the proposed choice, thesis, priced-in expectations,
 strongest supporting and opposing evidence, forced-exit result, unknowns and
-their actions, and review trigger. End once with: “Educational only; this is
-not individualized financial advice.”
+their actions, and review trigger. End every format once with: “Educational
+only; this is not individualized financial advice.”
