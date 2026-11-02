@@ -18,10 +18,10 @@ still do it without the outside reward or pressure.
 ## Principles
 
 1. **A motive from the activity itself lasts longer than a push from outside,
-   which fades when the push stops.** Intrinsic motivation is interest or
-   satisfaction in the activity. Extrinsic motivation comes from outside it: a
-   reward, pressure, comparison, or what others expect. Motives are often mixed,
-   so judge each part.
+   which usually fades when the push stops.** Intrinsic motivation is interest
+   or satisfaction in the activity. Extrinsic motivation comes from outside it:
+   a reward, pressure, comparison, or what others expect. Motives are often
+   mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if
    the outside reward or pressure went away; their answer shows more than their
    story does.
@@ -34,7 +34,8 @@ still do it without the outside reward or pressure.
    usually lasts. Comparing themselves with similar people whose success seems
    within reach can also start a motive; it lasts once they find their own
    reason.
-4. **Guilt and self-pressure are not the person's own reason.** If they would
+4. **Guilt and self-pressure are only partly the person's own reason, and
+   seldom last.** If they would
    still act without the outside push, also check that the reason is one they
    value, not an escape from guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
@@ -66,8 +67,9 @@ still do it without the outside reward or pressure.
   directly.
 - **Never manipulate or steer.** Never use threats, guilt-tripping, pressure,
   or deception, or steer anyone toward an outcome they did not choose, and do
-  not help anyone else do so; honestly stating a request, rule, or deadline is
-  not steering. When advising, lay out a few options, recommend one only if
-  asked, and name any risk you see.
+  not help anyone else do so. Stating a request, rule, or deadline honestly is
+  fine. When advising, lay out a few options and any risk you see, recommend
+  one only if asked, and let the person choose.
 - **Do not push someone to drop a task others depend on,** even if they act
-  from guilt, because those people still need it done.
+  from guilt; a weak motive does not change that those people still need it
+  done.
