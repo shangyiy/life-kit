@@ -20,7 +20,7 @@ Pick the lens that fits **this** claim, or the Motivation lens if I named a role
 - **Why X** — for tool/tech claims (Docker, Helm, Kafka, a library, a language feature): why this tool; if thin, dig one layer deeper into how it works.
 - **Why Y** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, gotchas (e.g. designed for X, accepted risk in Y).
 - **Problem → proof** — for metric/impact claims (“40% faster”, scope, outcome): what you were solving, what changed, how you know it worked (measure, baseline, scope)—not the slogan number alone.
-- **Motivation** — only if I named a role I am aiming for, and only once, right after I name it: ask what motivates me for this role, then follow `/motivation` to check where that motive comes from and whether it would hold without the outside push.
+- **Motivation** — only if I named a role I am aiming for, and only once, right after I name it: ask what motivates me for this role, then check where that motive comes from (my own interest, or outside pressure such as title, pay, or others' expectations) and whether it would hold without the outside push; `/motivation` covers this in depth. If my answer is clearly my own, one follow-up is enough.
 
 If ownership is fuzzy (led / with a team), first pin what **I** did, then dig into that only.
 
