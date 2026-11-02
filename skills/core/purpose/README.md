@@ -10,7 +10,7 @@ replace it (`/purpose`).
   Multiple-Fire系列,” guest on 课代表立正, 2021-08-06,
   https://youtu.be/9LKJ8JdLtfI: money, promotion, ratings, bonuses, and
   management processes are means that serve the goal, and a metric is not the
-  goal (state the purpose plainly; judge every means by the purpose).
+  goal (judge every means by the purpose).
 - Charles A. E. Goodhart, “Problems of Monetary Management: The U.K.
   Experience,” presented in 1975 and published in *Papers in Monetary
   Economics* 1, Reserve Bank of Australia, 1976, and Marilyn Strathern,
@@ -28,13 +28,14 @@ replace it (`/purpose`).
   what a reward makes attractive; effort follows the reward).
 - Jerry Z. Muller, *The Tyranny of Metrics*, Princeton University Press, 2018:
   metrics support judgment rather than replace it, and rewards tied to metrics
-  invite gaming by the easier route (easier cases, lowered standards), pull
-  effort from what is not measured, and cost other people time (treat numbers
-  as evidence; the easiest way to raise a number; gaming, neglected quality,
-  and costs moved onto others).
-- Owning the result, completed work as evidence, trusting a number only while
-  direct evidence agrees, naming what to check and who can, open purpose
-  changes, trade-offs, boundaries, and definitions are the author's own.
+  invite gaming, pull effort from what is not measured, and cost other people
+  time (treat numbers as evidence; effort goes to the easiest way to raise a
+  number; neglected quality and costs moved onto people the number does not
+  show).
+- Owning the result, stating the purpose plainly, completed work as evidence,
+  trusting a number only while direct evidence agrees, naming what to check and
+  who can check, open purpose changes, trade-offs, boundaries, and definitions
+  are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.

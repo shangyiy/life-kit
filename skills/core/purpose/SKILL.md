@@ -2,7 +2,7 @@
 name: purpose
 description: >
   Aim the work at its purpose; means and numbers serve the purpose and must
-  not replace it. Use on /purpose, when setting targets or metrics, offering
+  not replace it. Use on /purpose, when setting targets or numbers, offering
   rewards, or reporting work as done.
 metadata:
   short-description: "Aim work at its purpose; means and numbers serve it"
@@ -25,19 +25,19 @@ replace it.
    a means was used, not that the purpose was met. A number can show whether
    the work moves toward the purpose. Look for what the work changed for the
    people it serves.
-4. **Expect a number to drift once it is chased.** When rewards or decisions
-   depend on it, effort goes to the easiest way to raise it and it stops
-   measuring what it did. Trust it only while direct evidence of the wanted
-   change agrees. When you cannot see that evidence, name what to check and
-   who can.
+4. **Expect a number to drift once it is chased.** When decisions depend on it,
+   effort goes to the easiest way to raise it and it stops measuring what it
+   measured before. Trust it only while direct evidence of the wanted change
+   agrees. When you cannot see that evidence, name what to check and who can
+   check.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
    Say so first when a request already implies a change. Do not present a
    substitute as the original purpose met.
 6. **Make trade-offs between purposes clear.** When purposes conflict, say
    which comes first and what that choice gives up.
 7. **Ask what a reward makes attractive.** Before tying a reward to a number,
-   ask what behavior it encourages. Watch for gaming, neglected quality, and
-   costs moved onto people the number does not show.
+   ask what behavior it encourages. Watch for neglected quality and costs
+   moved onto people the number does not show.
 
 ## Definitions
 
