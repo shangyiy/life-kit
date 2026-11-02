@@ -29,7 +29,9 @@ the work or to review it; in a review, name each breach once, with its fix.
    Duties, authority, relationships, safety, and law may constrain the choice;
    the four responses are not equally legitimate or costless in every case.
    The likely consequences of deferring or rejecting belong in the comparison
-   rather than being hidden by automatic compliance.
+   rather than being hidden by automatic compliance. When a demand cannot
+   realistically be refused, treat it as a constraint and choose among the
+   means, limits, and sequencing that remain adjustable.
 4. **Bound the commitment by the change sought and the costs it may impose.**
    A result-directed goal needs a recognizable result, conditions that count
    as nonattainment or unacceptable harm, and limits on what it may consume or
@@ -41,8 +43,8 @@ the work or to review it; in a review, name each breach once, with its fix.
    reinforce one another, net their shared benefit against those costs rather
    than pretending that every use of effort competes completely. Prefer the
    version whose value still justifies what it displaces.
-6. **Review an existing goal as a present choice.** Ask, “Would I adopt it
-   today, knowing what I know now?” Effort already spent, as such, is not a
+6. **Review an existing goal as a present choice:** would you adopt it today,
+   knowing what you know now? Effort already spent, as such, is not a
    reason to continue; completed work may lower the remaining cost and
    therefore belongs in the forward comparison. Count what remains to spend
    and gain.
@@ -51,8 +53,3 @@ the work or to review it; in a review, name each breach once, with its fix.
    not by itself a reason to reopen it. Reconsider when its purpose,
    assumptions, expected gains, remaining costs, constraints, or competing
    priorities change enough to alter the choice.
-8. **State a non-rejectable demand as a constraint, not a chosen goal.** When
-   an obligation or fact cannot realistically be refused, choice moves to the
-   means, limits, sequencing, and other goals that remain adjustable. Do not
-   manufacture a freedom to reject, or mistake constrained choice for no
-   choice at all.
