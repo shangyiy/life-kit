@@ -1,9 +1,8 @@
 ---
 name: motivation
 description: >
-  Tell intrinsic motivation from extrinsic motivation, check whether an
-  extrinsic reason is genuinely endorsed, and support motivation without
-  manipulation. Use on /motivation.
+  Ask whether you would still do it without outside pressure, and help
+  extrinsic motives become reasons you genuinely endorse. Use on /motivation.
 metadata:
   short-description: "Understand what moves action"
 ---
@@ -15,46 +14,51 @@ comparison, or expectation is driving it.
 
 Core check: Would you still do it if the outside push went away?
 
+A yes points to interest or a genuinely held reason; a no means the push is
+still outside. For someone else, observe whether they continue when the push is
+removed.
+
 ## Principles
 
-1. **Name the kind of motive.** Intrinsic motivation comes from interest or
-   satisfaction in the activity itself. Extrinsic motivation comes from a
-   separate result, such as reward, approval, pressure, or comparison.
-2. **Check whether an extrinsic reason is internalized.** It can move from
-   external pressure or introjected guilt toward identified importance and
-   integrated fit with the person's values. Endorsement does not make it intrinsic.
+1. **Name the kind of motive.** Intrinsic motivation comes from the activity's
+   interest or satisfaction. Extrinsic motivation comes from reward, pressure,
+   comparison, or others' expectations.
+2. **Check whether an extrinsic reason is internalized.** External means reward
+   or demand; introjected means avoiding guilt or trying to feel worthy.
+   Identified means personally important; integrated means it fits the person's
+   values; all remain extrinsic.
 3. **Support autonomy, competence, and relatedness.** Motivation lasts better
-   when people have real choice, feel able to improve, and feel connected to
-   others. Find which need is supported or blocked.
-4. **Build self-efficacy.** Belief in being able to act grows through past
-   success, relevant models, credible encouragement, and how physical or
-   emotional signals are read. Use the strongest evidence available.
-5. **Protect existing interest from rewards.** Expected rewards, pressure, and
-   evaluation can turn chosen activity into compliance and reduce later
-   interest. Check what reason the reward strengthens or replaces.
+   with real choice, growing ability, and connection. Find the blocked need.
+4. **Build self-efficacy.** Belief grows through past success, relevant models,
+   credible encouragement, and how physical or emotional signals are read.
+5. **Protect existing interest from control.** Expected task rewards, pressure,
+   and controlling evaluation can reduce interest; unexpected rewards or
+   informational recognition are safer.
 6. **Use curiosity to begin.** A visible gap between what someone knows and
    wants to know can start action, but it does not create a lasting purpose.
-7. **Use structure as support.** Routines, deadlines, near goals, and feedback
-   can help action continue. They amplify motivation; they do not replace it.
-8. **Do not manipulate motives.** Do not use guilt, pressure, deception, or
-   tricks to make someone want an end. Offer information and leave the choice
-   with them.
+7. **Use structure as support.** Routines, self-set deadlines, clear goals, and
+   quick feedback can help action continue. They amplify motivation; they do
+   not replace it.
+8. **Support choice without engineering feelings.** When asked for help, offer
+   reasons the person can examine and structure they choose. Guilt, pressure,
+   or deception is manipulation, not support.
 
 ## Workflow
 
-Name the motive, apply the outside-push check, place any extrinsic reason on
-the internalization continuum, then check needs, self-efficacy, and supports.
+Name the motive and apply the outside-push check. For an extrinsic motive only,
+name its regulation type, then check needs, self-efficacy, and supports.
 
 ## Checklist
 
-Intrinsic or extrinsic; outside push; internalization; autonomy; competence;
-relatedness; self-efficacy; reward effects; curiosity; structure; free choice.
+Intrinsic or extrinsic; outside push; extrinsic regulation; autonomy;
+competence;
+relatedness; self-efficacy; reward effects; curiosity; chosen structure.
 
 ## Anti-patterns
 
-Calling an endorsed extrinsic reason intrinsic; treating guilt as endorsement;
-using rewards over existing interest; mistaking compliance for motivation.
+Calling endorsed extrinsic reasons intrinsic; calling guilt endorsement; using
+controlling rewards over interest; mistaking compliance for motivation.
 
 ## Output
 
-State the motive type, internalization stage, core-check answer, supports, blocks, and next support.
+State the motive, core-check answer, main support or block, and next support.

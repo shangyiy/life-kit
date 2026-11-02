@@ -5,11 +5,11 @@ supporting motivation without manipulation (`/motivation`).
 
 ## Credit
 
-- Principles 1–3 draw on Richard M. Ryan and Edward
+- Principles 1–3 and 5 draw on Richard M. Ryan and Edward
   L. Deci, “Self-Determination Theory and the Facilitation of Intrinsic
   Motivation, Social Development, and Well-Being,” *American Psychologist*
   55(1), 2000, for intrinsic and extrinsic motivation, the internalization
-  continuum, and autonomy, competence, and relatedness.
+  continuum, autonomy, competence, relatedness, and controlling evaluation.
 - Principle 4 draws on Albert Bandura, “Self-Efficacy: Toward a Unifying Theory
   of Behavioral Change,” *Psychological Review* 84(2), 1977, for past
   performance, models, persuasion, and physical or emotional state as sources
@@ -25,11 +25,12 @@ supporting motivation without manipulation (`/motivation`).
   Optimal Experience*, Harper & Row, 1990, and Jeanne Nakamura and Mihaly
   Csikszentmihalyi, “The Concept of Flow,” in C. R. Snyder and Shane J. Lopez,
   eds., *Handbook of Positive Psychology*, Oxford University Press, 2002, for
-  near goals and feedback.
-- The core-check wording, principle 7's routines and deadlines and its claim
-  that structure does not replace motivation, principle 8's non-manipulation
-  boundary, and the workflow, checklist, anti-patterns, and output are the
-  author's own.
+  clear goals and quick feedback.
+- The core-check wording and interpretation, principle 6's claim that curiosity
+  does not create lasting purpose, principle 7's routines and self-set
+  deadlines and its claim that structure does not replace motivation,
+  principle 8's support boundary, and the workflow, checklist, anti-patterns,
+  and output are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
