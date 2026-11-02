@@ -2,8 +2,8 @@
 name: purpose
 description: >
   Aim the work at its purpose; means and numbers serve the purpose and must
-  not replace it. Use on /purpose, when setting targets or numbers, offering
-  rewards, or reporting work as done.
+  not replace it. Use on /purpose, when choosing how to do the work, setting
+  numbers, offering rewards, or reporting work as done.
 metadata:
   short-description: "Aim work at its purpose; means and numbers serve it"
 ---
@@ -21,24 +21,24 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
 1. **State the purpose plainly.** Name it in one sentence that says what
    should change, not how or how much.
 2. **Judge every means by the purpose.** Keep a means only while it helps
-   produce the wanted change; replace it when that link breaks or evidence
-   shows a better one, and hold the purpose.
-3. **Own the result.** Answer for the wanted change, not only the assigned
-   work.
-4. **Treat completed work and numbers as evidence.** Completed work shows that
+   produce the wanted change. Replace it when it stops helping or a better
+   one appears; keep the purpose.
+3. **Treat completed work and numbers as evidence.** Completed work shows that
    a means was used, not that the purpose was met. A number can show whether
    the work moves toward the purpose.
-5. **Expect a number to drift once it is chased.** When decisions depend on it,
+4. **Expect a number to drift once it is chased.** When decisions depend on it,
    effort goes to the easiest way to raise it and it stops measuring what it
    measured before. Trust it only while direct evidence of the wanted change
    agrees. When you cannot see that evidence, name what to check and who can
    check it.
-6. **Change the purpose openly.** State the old purpose, the new one, and why.
-   When a request would change the purpose, say so before acting on it. Do not
-   present a substitute as the original purpose met.
-7. **Weigh conflicting purposes by what they serve.** When purposes
-   conflict, choose by the larger purpose both serve, and say which one wins
-   and what the other loses.
+5. **Change the purpose openly.** State the old purpose, the new one, and why.
+   When a request would change the purpose, say so before acting on it. Don't
+   report a different result as if it met the original purpose.
+6. **Own the result.** Answer for the wanted change, not only the assigned
+   work.
+7. **Weigh competing purposes by the goal they serve.** When two purposes
+   pull apart, choose by the goal both are meant to serve, and say which one
+   wins and what the other loses.
 8. **Ask what a reward makes attractive.** Before tying a reward to a number,
    ask what behavior it encourages. Watch for neglected quality and costs
    moved onto people the number does not show.

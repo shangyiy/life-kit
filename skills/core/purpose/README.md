@@ -35,7 +35,7 @@ replace it (`/purpose`).
 - Owning the result, stating the purpose plainly, completed work as evidence,
   means may change while the purpose holds, trusting a number only while
   direct evidence agrees, naming what to check and who can check it, open
-  purpose changes, trade-offs, boundaries, and definitions are the author's
+  purpose changes, weighing competing purposes, boundaries, and definitions are the author's
   own.
 
 This skill is an independent restatement. It is not affiliated with or
