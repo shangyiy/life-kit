@@ -22,7 +22,8 @@ still do it without the outside reward or pressure.
    interest or satisfaction in the activity. Extrinsic motivation comes from
    outside it: a reward, pressure, comparison, or what others expect. Comparing
    themselves with similar people whose success seems within reach is an outside
-   push that can start a motive; it can last once they find their own reason.
+   push that can start a motive; the motive can last once they find their own
+   reason.
    Motives are often mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if the
    outside reward or pressure went away; their direct answer is better evidence
@@ -39,15 +40,16 @@ still do it without the outside reward or pressure.
    they value, not a way to escape guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason become their own.**
    Real choice (autonomy), a sense of getting better (competence), and
-   connection with others (relatedness) help a reason feel like theirs.
+   connection with others (relatedness) each make it feel more like theirs.
 6. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person interprets their own nerves and
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
 7. **Expected material rewards and control can wear down interest already
-   there.** Such rewards, pressure, and being watched or graded in a way that
-   feels controlling can reduce the person's existing interest. Unexpected
+   there.** Material rewards they expect for doing, finishing, or doing well at
+   the task, pressure, and being graded in a way that feels controlling can
+   reduce the person's existing interest. Unexpected
    rewards and positive feedback usually do not reduce it. This matters most
    when someone plans a material reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**

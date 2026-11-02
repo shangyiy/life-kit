@@ -20,8 +20,9 @@ curiosity.
 - Edward L. Deci, Richard Koestner, and Richard M. Ryan,
   “A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic
   Rewards on Intrinsic Motivation,” *Psychological Bulletin* 125(6), 1999:
-  how expected material rewards can reduce existing interest, while unexpected
-  rewards and positive feedback did not.
+  how expected material rewards for doing, finishing, or doing well at a task
+  can reduce existing interest, while unexpected rewards and positive feedback
+  did not.
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
   Psychologist* 57(9), 2002: clear, demanding goals matched to ability, and
