@@ -30,7 +30,7 @@ real choices, and what each is worth, keeps that from happening.
 4. **Count only real choices.** A choice you have not checked is worth zero.
    If it fails in the same event that makes you need it, do not count it.
 5. **Ask how easily it lets you say no.** The better your real alternative, the
-   easier it is to turn down a deal or offer or to leave.
+   easier it is to turn down what is on offer, or to leave where you are.
 6. **Count what it costs to keep this choice open.** Include money, time,
    attention, relationships, and what you give up to keep it.
 7. **Count time.** A choice can expire or cost more later. Wait only when
@@ -52,9 +52,9 @@ belong to `motivation`.
 
 ## Workflow
 
-Find existing, unseen, and buildable choices. Judge each on the five checks:
-real, ease of saying no, cost, time, environment. State what could change the
-answer.
+Find existing, unseen, and buildable choices. Judge each on the five checks
+(steps 4 to 8). Match the depth to the size of the decision: for a small one, a
+line per choice is enough. State what could change the answer.
 
 ## Checklist
 
@@ -64,10 +64,12 @@ real? Did you apply all five checks?
 ## Anti-patterns
 
 Presenting one path as inevitable; counting an unverified choice; hiding cost;
-treating better odds as a promised outcome; choosing for the person.
+treating better odds as a promised outcome; choosing for the person; a long
+analysis of a small decision.
 
 ## Output
 
 List the choices found (existing, unseen, buildable), each one's worth on the
 five checks, and the facts that would change it. If asked what to do, name
-the facts that would tip the choice, not the path to take.
+the facts that would tip the choice, which path each fact favors, and the next
+cheap check; do not pick the path.
