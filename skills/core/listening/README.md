@@ -6,7 +6,7 @@ that order (`/listening`).
 ## Credit
 
 - Leon (guest), "Influence Without Authority ｜ 人生元能力", 课代表立正
-  (YouTube), 2021-07-28, https://youtu.be/CTcMvIZFQcw
+  (YouTube), 2021-07-27, https://youtu.be/CTcMvIZFQcw
 
 These principles draw on the video:
 
@@ -14,7 +14,7 @@ These principles draw on the video:
   and evaluation distinct (Gate, Definitions). The video attributes the four
   purposes to a Stanford study that is not cited here.
 - Listen first (Principle 1): hear the whole account and restate it; the three
-  levels of empathy, ending in help with the change the speaker wants;
+  levels of empathy, ending in siding with the change the speaker wants;
   skipping this makes them feel you are not with them.
 - Ask next (Principle 2): guide with questions from the speaker's position.
 - Tell little (Principle 3): the order listen, ask, tell; rushing in with
@@ -26,6 +26,7 @@ These are the author's own, not from the video:
 
 - Asking whether they want help or your view before any guiding question or
   view, and siding with the change needing no permission.
+- Hearing the whole account whatever the purpose, not only for empathy.
 - The direct-answer exceptions.
 - The noise filter and the harm override.
 
