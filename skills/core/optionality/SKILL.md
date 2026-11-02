@@ -31,13 +31,13 @@ chooses for you.
 4. **Build a choice that is missing.** When a useful path does not exist yet,
    make it real with a limited first commitment, sized to the loss you could
    bear.
-5. **Count only real choices.** This check comes before the others: a choice
-   that fails it is left out. A choice is real when it has been checked and is
-   available. It must also survive the event that would make you need it, and be
-   one you would take in some outcome you can picture, at a cost you could bear.
-   Others can point out facts and costs; only the person deciding can say what
-   they could bear. Mark any fact not yet checked as unknown instead of assuming
-   it.
+5. **Count only real choices.** This check comes before principles 6 to 9: a
+   choice that fails it is left out. A choice is real when it has been checked
+   and is available. It must also still be there if the trouble that would make
+   you need it happens, and be one you would take in some outcome you can
+   picture, at a cost you could bear. Others can point out facts and costs; only
+   the person deciding can say what they could bear. Mark any fact not yet
+   checked as unknown instead of assuming it.
 6. **Judge how freely it lets you walk away.** Ask whether each real choice
    could replace the current path, and how much all of them together make it
    easier to refuse, leave, recover, or hear no with less fear. This shows how
