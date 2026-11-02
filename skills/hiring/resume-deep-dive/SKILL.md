@@ -18,7 +18,7 @@ Ask **exactly one question** at a time. Wait for the answer before the next. If 
 
 Pick the question type that fits **this** claim (one per turn):
 
-- **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; for a follow-up, go one layer deeper into how it works, using an angle from Follow-up angles below.
+- **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; for a follow-up, go one layer deeper into how it works, using one of the Follow-up angles.
 - **Why this design** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, known pitfalls, and which risks were accepted.
 - **Impact** — for metric/impact claims (numbers, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the headline number alone.
 
@@ -26,11 +26,11 @@ If ownership is fuzzy (led / with a team), first ask what the user did themselve
 
 On a claim: one follow-up if the answer is thin; if it is still vague or repeats itself, move on. Once it is clear whether the claim is solid or thin, take the next claim.
 
-If the user names a target company or role, ask once, after the resume claims are covered, why they want that company or role, then use `/motivation` to judge the answer.
+If the user names a target company or role, ask once, before the recap, why they want that company or role, then use `/motivation` to judge the answer.
 
 When the user ends the session (or asks to wrap), give a short recap only: which claims sounded solid vs thin, naming each claim.
 
-## Follow-up angles for tool and system claims
+## Follow-up angles
 
 - Processes versus containers
 - Networking
