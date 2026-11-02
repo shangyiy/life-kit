@@ -31,14 +31,15 @@ name each breach once, with its fix.
    during action are evidence about where to probe next, not proof that a
    direction is right. Use a baseline and change one thing at a time where
    possible.
-3. **Fix the evidence rule before seeing the result.** Decide which
-   observations bear on the assumption, what counts as enough evidence, and how
-   each possible result changes the decision. Include an inconclusive outcome
-   and a stop point. Disclose later revisions instead of fitting the rule to
-   the result.
+3. **Fix the evidence rule before seeing the result.** When testing a stated
+   assumption, decide which observations bear on it, what counts as enough
+   evidence, and how each possible result changes the decision. Include an
+   inconclusive outcome and a stop point. When exploring, fix at least the stop
+   point and limits in advance. Disclose later revisions instead of fitting the
+   rule to the result.
 4. **Use the least commitment that can produce useful evidence.** Isolate the
-   uncertainty where possible. Before committing to one path, generate several
-   contrasting alternatives and give each a cheap probe. Prefer a test that can
+   uncertainty where possible. When more than one path is open, generate
+   contrasting alternatives and give each a cheap probe before committing. Prefer a test that can
    be stopped, undone, or redirected. Increase commitment only when useful
    learning requires it.
 5. **Bound exposure by affordable downside, not hoped-for upside.** Set limits
@@ -49,11 +50,9 @@ name each breach once, with its fix.
    override law, safety, consent, rights, promises, duties, or authorized
    constraints. Identify who benefits and who bears the exposure. Obtain
    required authority or consent. Do not run an unsafe or unlawful action, or
-   shift material risk to others because you can afford it.
-7. **Keep the result interpretable.** Preserve the conditions needed to
-   interpret the result. Calling preventable harm an experiment does not make
-   it informative.
-8. **Let the evidence alter belief and action.** Record surprises, adverse
+   shift material risk to others because you can afford it. Calling
+   preventable harm an experiment does not make it informative.
+7. **Let the evidence alter belief and action.** Record surprises, adverse
    effects, and uncertainty. Draw no stronger conclusion than the observations
    support. Update the assumption and decision. Repeat only to add information.
 

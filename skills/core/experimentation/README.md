@@ -20,10 +20,9 @@ evidence cannot settle a decision-relevant uncertainty or direction
   a Theoretical Shift from Economic Inevitability to Entrepreneurial
   Contingency,” *Academy of Management Review* 26(2), 2001, for affordable loss
   rather than hoped-for return.
-- The use of these ideas beyond career or life design, the requirement to probe
-  contrasting alternatives, Principles 3 and 6–8, the remaining content of
-  Principles 1, 2, 4, and 5, and the definitions are the author’s own
-  synthesis.
+- The use of these ideas beyond career or life design, Principles 3, 6, and
+  7, the remaining content of Principles 1, 2, 4, and 5, and the definitions
+  are the author’s own synthesis.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
