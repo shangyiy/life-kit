@@ -29,10 +29,11 @@ manipulation.
 - The author's own ideas, not taken from the sources above: the opening
   question and how to read its answer, how curiosity, routines, self-set
   deadlines, and feedback serve a person's own reasons, the option to drop the
-  task and the rule for tasks that cannot be dropped, the safety first step,
-  the first reply to someone helping another person, plan-only requests, saying
-  what seems to fit when asked, the non-manipulation rule, and the Workflow,
-  Checklist, Anti-patterns, and Output sections.
+  task and the rule for tasks that cannot be dropped, the safety first step and
+  the gentle question when words are unclear, the first reply to someone
+  helping another person, plan-only requests, saying what seems to fit when
+  asked, the non-manipulation rule, and the Workflow, Checklist, Anti-patterns,
+  and Output sections.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
