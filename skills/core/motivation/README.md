@@ -12,10 +12,11 @@ curiosity.
   *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation,
   internalization, guilt and self-pressure as a partly internalized motive,
   autonomy, competence, relatedness, pressure and controlling evaluation, and
-  support through reasons and choice.
+  support through choice.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
-  Change,” *Psychological Review* 84(2), 1977: past performance, models,
-  persuasion, and physical or emotional state as sources of self-efficacy.
+  Change,” *Psychological Review* 84(2), 1977: past performance, seeing
+  others succeed, persuasion, and physical or emotional state as sources of
+  self-efficacy.
 - Edward L. Deci, Richard Koestner, and Richard M. Ryan,
   “A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic
   Rewards on Intrinsic Motivation,” *Psychological Bulletin* 125(6), 1999:

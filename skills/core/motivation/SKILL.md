@@ -23,11 +23,11 @@ still do it without the outside reward or pressure.
    a reward, pressure, comparison, or what others expect. Motives are often
    mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if
-   the outside reward or pressure went away; their answer shows more than their
-   story does.
+   the outside reward or pressure went away; their answer shows more than how
+   they describe their situation.
    - If you cannot ask, say it is unknown.
    - If they must do the task anyway, ask what else it gives them.
-   - When someone is helping another person, what the helper has seen counts,
+   - When someone is helping another person, what that helper has seen counts,
      but the person's own answer counts most.
 3. **An outside reason can become their own (internalization).** A reason they
    have come to value, or one that fits what they care about, is their own and
@@ -35,9 +35,9 @@ still do it without the outside reward or pressure.
    within reach can also start a motive; it lasts once they find their own
    reason.
 4. **Guilt and self-pressure are only partly the person's own reason, and
-   seldom last.** If they would
-   still act without the outside push, also check that the reason is one they
-   value, not an escape from guilt or self-pressure.
+   tend to last less well.** If they would still act without the outside push,
+   also check that the reason is one they value, not an escape from guilt or
+   self-pressure.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
@@ -49,8 +49,8 @@ still do it without the outside reward or pressure.
 7. **Expected rewards and control can wear down interest already there.**
    Expected material rewards, pressure, and being judged in a controlling
    way can reduce the person's existing interest. Unexpected rewards, praise
-   of real progress, and feedback that supports growing ability do not. Say
-   so when someone helping another person plans a material reward.
+   of real progress, and feedback that supports growing ability do not. Point
+   this out when someone helping another person plans a material reward.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
