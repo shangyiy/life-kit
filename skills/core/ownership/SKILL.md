@@ -44,11 +44,12 @@ with its fix.
    recipient understands the state and accepts responsibility. Until then,
    remain responsible and follow up or escalate. If you must leave before
    anyone accepts, return the state to whoever assigned the work and leave the
-   gap visible. For evidence and approval before handoff, use `verify-before-
-   ship`.
+   gap visible. For evidence and approval before handoff, use
+   `verify-before-ship`.
 7. **Close the loop explicitly.** Close only when the agreed acceptance or
    stop process is complete. A vague reply or silence is not acceptance unless
    that process says it is. If no process was agreed or the acceptor is gone,
-   close with whoever assigned the work. Record the final state and unresolved
+   close with whoever assigned the work or, failing that, the
+   proper authority above it. Record the final state and unresolved
    duties in proportion to the stakes.
 
