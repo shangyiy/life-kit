@@ -7,6 +7,8 @@ wait without placing orders or collecting account details
 
 ## Credit
 
+The Gooaye 股癌 episodes are in Mandarin.
+
 - 謝孟恭, "EP189 | 吃筍是為了可以一直吃筍", *Gooaye 股癌*, 2021-11-03, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/0a5f08e0-dd62-450a-a475-f4b1fde43e7f): judge an exit by whether the original case still holds.
 - 謝孟恭, "EP270 | 🦏", *Gooaye 股癌*, 2022-08-13, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/b61a059f-10e4-4a0a-8fbc-42d815bc1e96): fear of a further drawdown as a reason people sell at the wrong time.
 - 謝孟恭, "EP621 | 🎄", *Gooaye 股癌*, 2025-12-24, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/799ffa1f-1dcc-425a-95ce-c707ac5267cb): leverage and financing as causes of a forced sale.
