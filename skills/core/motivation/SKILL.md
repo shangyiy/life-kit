@@ -20,8 +20,10 @@ still do it without the outside reward or pressure.
 1. **Interest in the activity itself tends to last; a push from outside fades
    when it stops, unless the person comes to value it.** Intrinsic motivation is
    interest or satisfaction in the activity. Extrinsic motivation comes from
-   outside it: a reward, pressure, comparison, or what others expect. Motives
-   are often mixed, so judge each part.
+   outside it: a reward, pressure, comparison, or what others expect. Comparing
+   themselves with similar people whose success seems within reach is an outside
+   push that can start a motive; it can last once they find their own reason.
+   Motives are often mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if the
    outside reward or pressure went away; their direct answer is better evidence
    than what you infer from their story.
@@ -31,9 +33,7 @@ still do it without the outside reward or pressure.
      but the person's own answer counts most.
 3. **An outside reason can become their own.** This is called internalization. A
    reason they have come to value, or one that fits what they care about, is
-   their own and usually lasts. Comparing themselves with similar people whose
-   success seems within reach can also start a motive; it can last once they
-   find their own reason.
+   their own and usually lasts.
 4. **A motive from guilt or self-pressure is only partly the person's own.**
    Even if they would act without the outside push, check that the reason is one
    they value, not a way to escape guilt or self-pressure.
@@ -46,14 +46,15 @@ still do it without the outside reward or pressure.
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
 7. **Expected material rewards and control can wear down interest already
-   there.** Such rewards, pressure, and being judged in a controlling way can
-   reduce the person's existing interest. Unexpected rewards and positive
-   feedback usually do not reduce it. This matters most when someone plans a
-   material reward for another person.
+   there.** Such rewards, pressure, and being watched or graded in a way that
+   feels controlling can reduce the person's existing interest. Unexpected
+   rewards and positive feedback usually do not reduce it. This matters most
+   when someone plans a material reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**
-   Curiosity, a wish to close a gap in what one knows, can start interest.
+   Curiosity, a wish to close a gap in what one knows, can spark interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
-   keep going.
+   keep going. Neither gives a lasting reason by itself; the person still needs
+   one they hold.
 
 ## Boundaries
 

@@ -34,7 +34,7 @@ curiosity.
   better evidence than their story, saying you cannot tell yet when you cannot
   ask, asking what else a needed task gives, that comparison with similar people
   is an outside push that can start a motive, that putting a task off can come
-  from doubt, that curiosity can start interest, that curiosity and structure do
+  from doubt, that curiosity can spark interest, that curiosity and structure do
   not replace a reason the person holds, and that a planned material reward is
   when the risk to interest matters most.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
