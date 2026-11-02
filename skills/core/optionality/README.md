@@ -31,7 +31,8 @@ Source-to-principle map:
 - Leon's 2021 talk informs principle 1's walk-away threshold. His 2023 talk
   informs principle 5's treatment of choices that lose value with time.
 - Sitkin et al. inform principle 8's slack clause: slack lets failure of a
-  stretch goal be absorbed.
+  stretch goal be absorbed. The point about replacing people or teams is the
+  author's own.
 
 Everything else, including the opener, the definitions, and the remaining
 rules of principles 1–8, is the author's own.

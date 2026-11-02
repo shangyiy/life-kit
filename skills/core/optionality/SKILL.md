@@ -13,8 +13,7 @@ metadata:
 The domain of keeping, creating, using, and closing feasible choices under
 uncertainty. Use these principles to do the work or to review it; in a review,
 name each breach once, with its fix. Scale the effort to what is at stake and
-how hard the decision is to reverse. How to distinguish a person's position
-from their interest is the work of `perspective`.
+how hard the decision is to reverse.
 
 ## Principles
 
