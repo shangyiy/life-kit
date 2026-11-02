@@ -39,15 +39,15 @@ person choose, and set when to review or end it.
 4. **Give each a source and a reason.** A source is where an idea came from; it
    does not replace the reason the person would adopt it. Use `motivation` to
    name the reason as intrinsic or extrinsic and check that the person endorses
-   it. Keep a candidate only once the person gives a reason of their own; until
-   then, ask, or let them drop it. Candidates with the person's reason go on to
-   step 5; settle the rest before step 6.
+   it. Keep a candidate when the person gives a reason of their own; until then,
+   ask, or let them drop it. Candidates with the person's reason go on to step
+   5; settle the rest before step 6.
 5. **Make each a learning goal or a performance goal.** Propose the type and a
    size with the reason; the person confirms or changes them. If the person
    lacks the skill, propose a learning goal, plus any target a duty already
    sets; otherwise a performance goal with a specific, hard target, not "do your
-   best". If the goal reaches past what the person can do now, keep its downside
-   one they could bear, as `optionality` guides.
+   best"; for a goal with no fixed end, a level to keep up. A goal past what
+   they can do now needs a downside they could bear (`optionality`).
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
@@ -78,7 +78,7 @@ point alone does not prove a goal worthless.
 
 ## Output
 
-- The chosen goal, the person's reason, and key constraints and assumptions.
+- The chosen goal, the person's reason, and the constraints and assumptions.
 - The first small action and the evidence that would show progress.
 - The review point and the stop point.
 - For a finite goal, when and on what evidence the person will decide on a
@@ -87,7 +87,7 @@ point alone does not prove a goal worthless.
 ## Definitions
 
 - **Learning goal:** a goal to gain a skill or knowledge. **Performance goal:**
-  a goal to reach a set result.
+  a goal to reach or keep up a set result.
 - **Review point:** a time or event to check that the goal still holds.
 - **Stop point:** when the person ends the goal: a result, a date, or for a goal
   with no end, evidence that it no longer serves the motive.
