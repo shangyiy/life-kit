@@ -20,12 +20,12 @@ replace it (`/purpose`).
 - Donald T. Campbell, “Assessing the Impact of Planned Social Change,”
   *Evaluation and Program Planning* 2(1), 1979: the more an indicator is used
   for decisions, the more it is subject to corruption pressures and the more it
-  distorts the processes it monitors (decisions that rely on a number put
-  pressure on it).
+  distorts the processes it monitors (a number drifts once decisions depend
+  on it).
 - Steven Kerr, “On the Folly of Rewarding A, While Hoping for B,”
   *Academy of Management Journal* 18(4), 1975: people seek to do, or appear to
   do, what is rewarded, even when the rewarder hopes for something else (ask
-  what a reward makes attractive; effort follows the reward).
+  what a reward makes attractive).
 - Jerry Z. Muller, *The Tyranny of Metrics*, Princeton University Press, 2018:
   metrics support judgment rather than replace it, and rewards tied to metrics
   invite gaming, pull effort from what is not measured, and cost other people
@@ -35,8 +35,8 @@ replace it (`/purpose`).
 - Owning the result, stating the purpose plainly, completed work as evidence,
   means may change while the purpose holds, trusting a number only while
   direct evidence agrees, naming what to check and who can check it, open
-  purpose changes, weighing competing purposes, boundaries, and definitions are the author's
-  own.
+  purpose changes, choosing openly when purposes conflict, boundaries, and
+  definitions are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.
