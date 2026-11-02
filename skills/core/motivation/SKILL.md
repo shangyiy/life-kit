@@ -23,8 +23,8 @@ still do it without the outside reward or pressure.
    outside it: a reward, pressure, comparison, or what others expect. Motives
    are often mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if the
-   outside reward or pressure went away; their answer is better evidence than
-   guesses from how they describe their situation.
+   outside reward or pressure went away; their direct answer is better evidence
+   than what you infer from their story.
    - If you cannot ask, say you cannot tell yet whether the motive will last.
    - If they must do the task anyway, ask what else it gives them.
    - When someone is helping another person, what that helper has seen counts,
@@ -34,9 +34,9 @@ still do it without the outside reward or pressure.
    their own and usually lasts. Comparing themselves with similar people whose
    success seems within reach can also start a motive; it can last once they
    find their own reason.
-4. **A motive from guilt or self-pressure is only partly the person's own.** If
-   they would still act without the outside push, also check that the reason is
-   one they value, not an escape from guilt or self-pressure.
+4. **A motive from guilt or self-pressure is only partly the person's own.**
+   Even if they would act without the outside push, check that the reason is one
+   they value, not a way to escape guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason become their own.**
    Real choice (autonomy), a sense of getting better (competence), and
    connection with others (relatedness) help a reason feel like theirs.
@@ -46,10 +46,10 @@ still do it without the outside reward or pressure.
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
 7. **Expected material rewards and control can wear down interest already
-   there.** Expected material rewards, pressure, and being judged in a
-   controlling way can reduce the person's existing interest. Unexpected rewards
-   and positive feedback did not reduce it. This matters most when someone plans
-   a material reward for another person.
+   there.** Such rewards, pressure, and being judged in a controlling way can
+   reduce the person's existing interest. Unexpected rewards and positive
+   feedback usually do not reduce it. This matters most when someone plans a
+   material reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
