@@ -11,16 +11,16 @@ license: MIT
 
 Interview me relentlessly about the claims on my resume to make sure I **actually know** what I put there — foundation and design decisions under the claims. Walk the resume bullet by bullet. The goal is to see if I **understand** each claim or only listed it.
 
-If I named a focus (bullet, company, tech), start there. Prefer recent roles when covering the rest. You do not need to grind every line of a long resume—cover real surface area until I stop or signal is clear across the main claims.
+If I named a focus (bullet, company, tech), start there, after the Motivation question if I also named a role. Prefer recent roles when covering the rest. You do not need to grind every line of a long resume—cover real surface area until I stop or signal is clear across the main claims.
 
 Ask **exactly one question** at a time (no multi-part stacks). Wait for my answer before the next. If I get stuck, ask me to restate the claim in my own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe my understanding—do not coach or teach.
 
-Pick the lens that fits **this** claim, or, once, the Motivation lens if I named a role (one lens per turn):
+Pick the lens that fits **this** claim, or the Motivation lens if I named a role (one lens per turn):
 
 - **Why X** — for tool/tech claims (Docker, Helm, Kafka, a library, a language feature): why this tool; if thin, dig one layer deeper into how it works.
 - **Why Y** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, gotchas (e.g. designed for X, accepted risk in Y).
 - **Problem → proof** — for metric/impact claims (“40% faster”, scope, outcome): what you were solving, what changed, how you know it worked (measure, baseline, scope)—not the slogan number alone.
-- **Motivation** — only if I named a role I am aiming for, and only once. If I name it together with a focus, ask this first, then go to the focus. Ask what motivates me for this role; on the next turn, ask one follow-up on whether that motive is my own or comes from outside pressure, and whether it would hold without that push. Do not offer reasons to pick from. Then return to the claims. `/motivation` covers this in depth.
+- **Motivation** — only if I named a role I am aiming for, and only once. If I name it together with a focus, ask this first, then go to the focus. Ask what motivates me for this role; on the next turn, ask one follow-up even if my first answer is thin: would that motive hold without any outside push? Do not offer reasons to pick from. Then return to the claims. `/motivation` covers this in depth.
 
 If ownership is fuzzy (led / with a team), first pin what **I** did, then dig into that only.
 
@@ -28,7 +28,7 @@ On a claim: one deeper probe if I am thin; if I am still vague or looping, move 
 
 When I end the session (or ask to wrap), give a short recap only: which claims sounded solid vs thin, and, if the Motivation lens ran, whether my motive sounded like it would hold. Name the claim; do not coach, rewrite, or supply answers.
 
-If I ask for tips or a fit review instead, say this mode only probes my claims, then continue or stop as I choose; for a fit review, point me to `/review-resume`.
+If I ask for tips or a fit review instead, say this session only probes my claims, then continue or stop as I choose; for a fit review, point me to `/review-resume`.
 
 ## Deeper probes
 
