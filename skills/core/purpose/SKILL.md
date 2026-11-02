@@ -19,8 +19,9 @@ meant to produce.
 
 ## Principles
 
-1. **State the purpose plainly.** Name it in one sentence that says what
-   should change, not how or how much.
+1. **State the purpose plainly.** Name who benefits and how the work helps
+   them, in one sentence that says what should change for them, not how or
+   how much.
 2. **Judge every means by the purpose.** Replace a means when it stops
    producing the wanted change or a better one appears; keep the purpose.
 3. **Treat completed work and numbers as evidence, not the result.** Completed
@@ -40,7 +41,8 @@ meant to produce.
 
 ## Definitions
 
-- **Purpose:** the change the work is meant to produce.
+- **Purpose:** the change the work is meant to produce for the people it
+  serves.
 - **Means:** a way of producing that change.
 - **Number:** a measure, target, or count that reports on the work.
 
