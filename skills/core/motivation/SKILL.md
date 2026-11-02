@@ -1,60 +1,60 @@
 ---
 name: motivation
 description: >
-  Understand what moves a person to begin and sustain action. Use to diagnose,
-  support, or review motivation in oneself or others, or on /motivation.
+  Tell intrinsic motivation from extrinsic motivation, check whether an
+  extrinsic reason is genuinely endorsed, and support motivation without
+  manipulation. Use on /motivation.
 metadata:
   short-description: "Understand what moves action"
 ---
 
 # /motivation
 
-The domain of what moves a person to begin and sustain action, not of whether
-its result is worth pursuing. Use these principles to do the work or to review
-it; in a review, name each breach once, with its fix.
+First ask whether the activity itself is satisfying or whether reward, pressure,
+comparison, or expectation is driving it.
+
+Core check: Would you still do it if the outside push went away?
 
 ## Principles
 
-1. **Distinguish a motive from a worthwhile end.** Interest, reward, pressure,
-   comparison, and belonging can each move action without proving that its
-   result deserves pursuit. A person can own an instrumental reason without
-   making it intrinsic.
-2. **Separate owned from borrowed reasons.** An owned why is a reason the
-   person holds for themselves and would keep without outside approval. A
-   borrowed why depends on outside approval, relative standing, guilt, pressure,
-   or an inherited script. Name it rather than presenting it as owned.
-3. **Never manipulate a person's motives.** Do not use pressure, guilt,
-   deception, or tricks to make someone want an end. Offer information, invite
-   reflection, and preserve the person's authority to name or reject a reason.
-4. **Look for autonomy, competence, and relatedness.** Motivation is supported
-   by experienced choice and ownership, growing effectiveness, and meaningful
-   connection. Diagnose which need the activity satisfies or frustrates. Do
-   not infer motivation from stated importance alone.
-5. **Do not let a reward displace an existing reason.** Expected tangible
-   rewards, pressure, and evaluation can turn a chosen activity into controlled
-   compliance and reduce later interest. A reward can still inform, recognize,
-   or enable action; judge which reason for acting it strengthens or replaces.
-6. **Build belief that action can work.** Evidence of capability comes from
-   one's own mastery, seeing others succeed, credible persuasion, and physical
-   or emotional state. Weight these sources by quality. A model is most
-   motivating when relevant and attainable; an unreachable model can
-   discourage instead.
-7. **Use curiosity as a starting force.** Curiosity arises when a person
-   notices a gap between what is known and what they want to know. Make the gap
-   visible enough to invite action without pretending that curiosity
-   establishes a lasting purpose.
-8. **Use structure to amplify motivation, not replace it.** Clear near goals,
-   prompt feedback, and challenge near the edge of skill can turn a motive
-   into sustained engagement by supporting competence and progress. Structure
-   can also produce compliance; check what remains when it is removed.
+1. **Name the kind of motive.** Intrinsic motivation comes from interest or
+   satisfaction in the activity itself. Extrinsic motivation comes from a
+   separate result, such as reward, approval, pressure, or comparison.
+2. **Check whether an extrinsic reason is internalized.** It can move from
+   external pressure or introjected guilt toward identified importance and
+   integrated fit with the person's values. Endorsement does not make it intrinsic.
+3. **Support autonomy, competence, and relatedness.** Motivation lasts better
+   when people have real choice, feel able to improve, and feel connected to
+   others. Find which need is supported or blocked.
+4. **Build self-efficacy.** Belief in being able to act grows through past
+   success, relevant models, credible encouragement, and how physical or
+   emotional signals are read. Use the strongest evidence available.
+5. **Protect existing interest from rewards.** Expected rewards, pressure, and
+   evaluation can turn chosen activity into compliance and reduce later
+   interest. Check what reason the reward strengthens or replaces.
+6. **Use curiosity to begin.** A visible gap between what someone knows and
+   wants to know can start action, but it does not create a lasting purpose.
+7. **Use structure as support.** Routines, deadlines, near goals, and feedback
+   can help action continue. They amplify motivation; they do not replace it.
+8. **Do not manipulate motives.** Do not use guilt, pressure, deception, or
+   tricks to make someone want an end. Offer information and leave the choice
+   with them.
 
-## Definitions
+## Workflow
 
-- **Motivation:** forces and experienced reasons that initiate, direct, and
-  sustain action.
-- **Owned why:** a reason a person holds for themselves and would keep without
-  outside approval.
-- **Borrowed why:** a reason dependent on another's aim or approval, relative
-  standing, guilt, pressure, or an inherited script.
-- **Intrinsic motive:** interest or enjoyment inherent in the activity itself.
-- **Self-efficacy:** belief in one's capability to perform a required action.
+Name the motive, apply the outside-push check, place any extrinsic reason on
+the internalization continuum, then check needs, self-efficacy, and supports.
+
+## Checklist
+
+Intrinsic or extrinsic; outside push; internalization; autonomy; competence;
+relatedness; self-efficacy; reward effects; curiosity; structure; free choice.
+
+## Anti-patterns
+
+Calling an endorsed extrinsic reason intrinsic; treating guilt as endorsement;
+using rewards over existing interest; mistaking compliance for motivation.
+
+## Output
+
+State the motive type, internalization stage, core-check answer, supports, blocks, and next support.
