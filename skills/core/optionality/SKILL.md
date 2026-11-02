@@ -1,56 +1,67 @@
 ---
 name: optionality
 description: >
-  Judge a decision by which paths remain usable, what freedom they provide,
-  what they cost to preserve, and when they close. Use on /optionality.
+  Find the choices you actually have and judge what each is worth, so you are
+  not pushed into a path just because it looks like the only one; then you
+  choose. Use on /optionality.
 metadata:
   short-description: "Choose with future choices in view"
 ---
 
 # /optionality
 
-After this decision, what choices will I still have?
+Find your choices, judge what each is worth, and make the choice yourself.
 
-An option counts only when it is real; like a financial option, it lets you
-walk away, costs something to keep, and expires.
+## Find the choices
 
-## Principles
+1. **List what is already open.** Include doing nothing and keeping things as
+   they are.
+2. **Look for choices you have not seen.** Ask what you would do if this path
+   disappeared, what others in your situation chose, and what changes with a
+   different place, time, or combination.
+3. **Build a choice with a small first investment.** Spend only enough to make
+   a new path possible. Use `experimentation` to test it cheaply.
 
-1. **Prove the option exists.** Identify who can make it happen, the conditions
-   for using it, and the evidence. Until then, leave it out. If the trouble
-   that makes you need it can also take it away, it is no backup.
-2. **Pay for freedom only while it helps.** An option lets you choose later
-   without making you act. That freedom strengthens your hand and makes refusal
-   possible, but keeping the path open uses resources and it will not last.
-3. **Pick the field, not the result.** A setting changes how many worthwhile
-   chances may appear and how large they may be; luck still decides which one
-   pays off.
-4. **Close options when focus wins.** Keeping paths open helps while you are
-   unsure; commitment brings focus and compounding. Choose a direction when
-   those gains beat flexibility, and stretch only if you can live with a miss.
+## Judge what each is worth
 
+4. **Treat an unreal choice as worth zero.** Verify that you can use it. If it
+   fails in the same event that makes you need it, do not count it.
+5. **Measure the freedom to refuse.** Ask how much the choice lets you leave a
+   deal or offer.
+6. **Count the full cost of keeping it.** Include its upkeep and what you give
+   up.
+7. **Count time and environment.** A choice can expire or cost more later. Wait
+   only when waiting brings information. An environment sets how many and how
+   large the chances are, not the outcome.
+
+## Boundaries
+
+`perspective` is about seeing the other side and not fixating on one solution;
+`optionality` is about not being left with only one usable path.
+
+Keeping choices open can help, while commitment can create focus. Compare their
+value instead of treating either as always better.
+
+The user chooses. Goals belong to `goal-design`; motives belong to `motivation`.
 For capital choices, use `investing`.
-For affordable-loss limits on tests, use `experimentation`.
-
-`perspective` keeps you from clinging to one answer; `optionality` keeps one
-answer from becoming your only usable path.
 
 ## Workflow
 
-List the paths that will remain. Test each one, weigh its freedom against its
-cost and closing point, then choose whether to preserve it or commit.
+Find existing, unseen, and buildable choices. Judge each on reality, freedom to
+refuse, cost, time, and environment. State what could change the answer.
 
 ## Checklist
 
-Evidence; shared failure; freedom to refuse; upkeep; closing point; value of
-focus; survivable miss.
+Did you include doing nothing? Did you search for and build choices? Is each
+real? Did you count freedom, cost, time, and environment?
 
 ## Anti-patterns
 
-Counting a hope as a path; relying on a backup that breaks when needed; paying
-to preserve stale choices; avoiding commitment; risking a miss you cannot bear.
+Presenting one path as inevitable; counting an unverified choice; hiding cost;
+treating better odds as a promised outcome; choosing for the user.
 
 ## Output
 
-State the paths left, the evidence for each, the freedom and cost each brings,
-when each closes, and whether to preserve it or commit.
+State the choices found—existing, unseen, and buildable—each one's worth on the
+four checks, and the facts that would change it. Give no recommendation unless
+the user asks.

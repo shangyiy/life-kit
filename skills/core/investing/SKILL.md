@@ -37,8 +37,6 @@ review, name each breach once, with its fix.
    use. Good ideas are rare, and odds help only where you can recognize them;
    the rest of the time, do not bet big. Fit concentration to temperament: if
    losses will make you miserable, a very conservative pattern may be wise.
-   How to compare feasible choices, timing, and claimed ways out is the work
-   of `optionality`.
 6. **Judge the business, then the price.** Over the long term it is hard for a
    stock to earn much more than the business beneath it earns. A great
    business at a fair price beats a fair business at a great price. Too high a
