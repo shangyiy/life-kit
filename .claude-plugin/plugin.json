@@ -22,6 +22,7 @@
     "./skills/core/investing",
     "./skills/core/listening",
     "./skills/core/misfits",
+    "./skills/core/outcome-orientation",
     "./skills/core/perspective",
     "./skills/core/testing",
     "./skills/core/verify-before-ship",

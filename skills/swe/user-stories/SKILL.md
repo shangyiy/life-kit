@@ -15,10 +15,9 @@ in a review, name each breach once, with its fix, most important first.
 
 ## Core principles
 
-1. **Start from the goal, not the solution.** Find who the idea is for, what
-   they want, and why. Test a named solution against that goal and the
-   actor's situation: reject it, saying why, if it cannot reach the goal;
-   otherwise it is one option, not the requirement.
+1. **Start from the goal, not the solution.** Apply
+   [`outcome-orientation`](../../core/outcome-orientation/SKILL.md) before
+   writing stories.
 2. **Every story and slice ends in the result its actor's goal names.**
    Gathering input, preparing data, one layer or component, or work only
    builders value is a step or task: join it with what completes the goal.
