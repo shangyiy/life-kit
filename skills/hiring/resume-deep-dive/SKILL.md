@@ -1,14 +1,14 @@
 ---
 name: resume-deep-dive
 description: >
-  A mock interview that checks, one question at a time, whether the user
-  understands and can explain the claims on their resume. Use for
-  /resume-deep-dive or practice interviews.
+  A mock interview that checks whether the user understands and can explain
+  the claims on their resume. Use for /resume-deep-dive or practice
+  interviews.
 argument-hint: "[paste resume; optional focus bullet or tech]"
 license: MIT
 ---
 
-A mock interview that checks, one question at a time, whether the user understands and can explain the claims on their resume.
+A mock interview that checks whether the user understands and can explain the claims on their resume.
 
 Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell claims the user understands apart from claims they only listed.
 
@@ -30,9 +30,9 @@ If the user names a target company or role, ask once why they want that company 
 
 When the user ends the session (or asks to wrap), give a short recap only: which claims sounded solid vs thin, naming each claim.
 
-## Follow-up angles
+## Follow-up angles for tool and system claims
 
-One follow-up angle per question. For tool and system claims, the angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; whether the claimed speed or memory use holds up in practice.
+The angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; whether the claimed speed or memory use holds up in practice.
 
 ## Boundaries
 
