@@ -2,7 +2,7 @@
 name: goal-design
 description: >
   Interview a person to uncover career motivation, generate candidate goals,
-  choose and shape one, and set review and stop points. Use when finding,
+  shape and choose one, and set review and stop points. Use when finding,
   adopting, or reviewing a career goal, or on /goal-design.
 metadata:
   short-description: "Design a career goal from real motivation"
@@ -11,7 +11,7 @@ metadata:
 # /goal-design
 
 Interview a person to uncover career motivation, generate candidate goals,
-choose and shape one, and set review and stop points.
+shape and choose one, and set review and stop points.
 
 A goal from a first guess or someone else's example may not be one the person
 wants for itself. So find the motive first, offer real alternatives, let the
@@ -19,35 +19,34 @@ person choose, and set when to review or end it.
 
 ## Designing a goal
 
-1. **Interview from the motive outward.** Ask one question at a time, built on
-   the last answer. Use `perspective` to see the situation from the person's
-   side, and say back what you heard until they confirm it. Ask why they want
-   the goal, then why each answer matters. Push back when an answer is a label,
-   an abstraction, or the last answer reworded. Continue until the answer stops
+1. **Interview to find the motive.** Ask one question at a time, built on the
+   last answer. Use `perspective` to see the situation from the person's side,
+   and say back what you heard until they confirm it. Ask why they want the
+   goal, then why each answer matters. Push back when an answer is a label, an
+   abstraction, or the last answer reworded. Continue until the answer stops
    changing or reaches something wanted for itself. Also find what keeps drawing
    them and what conflicts with it, their skills, duties, and constraints, and
    the change wanted. They may stop at any time, keeping what was learned.
-2. **Check the goal is clear enough.** Use `purpose` to state, in one sentence,
-   the change the person wants. Go on when that change, the motive, and the
-   constraints are clear enough to tell candidates apart; if not, go back to
-   step 1. If the person wants to move fast, state what remains assumed.
+2. **Check the wanted change is clear enough.** Use `purpose` to state, in one
+   sentence, the change the person wants. Go on when that change, the motive,
+   and the constraints are clear enough to tell candidates apart; if not, go
+   back to step 1. If the person wants to move fast, state what remains assumed.
    Sustained effort is evidence for a motive, not a requirement; with none, mark
    the motive untested.
 3. **Generate candidates** from what people like them did and what they are
    curious about, differing in the change, the path, or the effort; include at
    least one with no fixed end.
-4. **Give each a source and a reason.** A source is where an idea came from; it
-   does not replace the reason the person would adopt it. Use `motivation` to
-   name the reason as intrinsic or extrinsic and check that the person endorses
-   it. Keep a candidate when the person gives a reason of their own; until then,
-   ask, or let them drop it. Candidates with the person's reason go on to step
-   5; settle the rest before step 6.
-5. **Make each a learning goal or a performance goal.** Propose the type and a
-   size with the reason; the person confirms or changes them. If the person
-   lacks the skill, propose a learning goal, plus any target a duty already
-   sets; otherwise a performance goal with a specific, hard target, not "do your
-   best"; for a goal with no fixed end, a level to keep up. A goal past what
-   they can do now needs a downside they could bear (`optionality`).
+4. **Find each candidate's source and ask for the person's reason.** A source is
+   where an idea came from, not the person's reason to adopt it. Use
+   `motivation` to name the reason as intrinsic or extrinsic and check that the
+   person endorses it. Keep a candidate only when the person gives a reason of
+   their own; otherwise ask for one, or let them drop it, before comparing.
+5. **Propose a learning or performance goal for each.** Give a size and the
+   reason; the person confirms or changes them. If the person lacks the skill,
+   propose a learning goal, plus any target a duty already sets; otherwise a
+   performance goal with a specific, hard target, not "do your best"; for a goal
+   with no fixed end, a level to keep up. A goal past what they can do now needs
+   a downside they could bear (`optionality`).
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
@@ -61,10 +60,10 @@ person choose, and set when to review or end it.
 
 ## Reviewing an existing goal
 
-Recheck step 2, the reason (step 4), the assumptions recorded when the goal was
-set (ask for them if not set here), and any change in constraints or options. If
-the motive is unclear or untested, return to step 1 first. Decide with the
-person; add the decision and change to the Output:
+Recheck the wanted change, the person's reason, the assumptions made when the
+goal was set (ask for them if none were recorded), and any change in constraints
+or options. If the motive is unclear or untested, return to step 1 first. Decide
+with the person; add the decision and change to the Output:
 
 - **Continue:** the reason holds and the evidence supports it.
 - **Reshape:** the motive holds but the goal or its reason no longer fits; redo
@@ -73,8 +72,9 @@ person; add the decision and change to the Output:
 - **Stop:** the motive is gone, a better option replaces the goal, or the stop
   point is reached.
 
-For Reshape, Pause or Stop, say what changed and what follows. A later low
-point alone does not prove a goal worthless.
+For Reshape, Pause or Stop, say what changed and what follows. A slump in mood
+or drive, even right after reaching a goal, does not by itself show the goal was
+not worth it.
 
 ## Output
 
