@@ -13,76 +13,43 @@ metadata:
 Find the real choices you have and judge what each is worth; it never
 chooses for you.
 
-People often accept a path because they think it is the only one. Seeing the
-real choices, and what each is worth, keeps that from happening.
+## Principles
 
-## Find the choices
-
-1. **List what is already open.** Include doing nothing and keeping things as
+1. **Why find and judge.** People often accept a path because they think it
+   is the only one. Listing possibilities is not enough: a choice that is
+   unchecked, about to expire, or too costly to keep gives no real freedom.
+   An uncertain future usually raises what a real choice is worth, but
+   uncertainty alone does not make it valuable; principles 5 to 9 decide.
+2. **Find what is already open.** Include doing nothing and keeping things as
    they are.
-2. **Look for choices you have not seen.** Ask what you would do if this path
-   disappeared, what others in your situation chose, and what changes with a
-   different place, time, or combination. Treat what others chose as an idea
-   to check, not a fact about your case. Ask also whether you can stop partway,
-   expand if it goes well, switch to something else, wait, or sell off what is
-   left.
-3. **Build a choice with a small first investment.** Spend only enough to make
-   a new path possible.
-
-## Judge what each is worth
-
-Worth is a rough judgment, not a number. The more uncertain the future, the
-more a choice is worth; when things are predictable, it is worth almost
-nothing. Use five checks: is it real, how freely it lets you walk away, what it
-costs to keep, time, and environment.
-
-4. **Count only real choices.** A choice is real when you have checked it, it
-   does not vanish in the same event that makes you need it, and in at least
-   one outcome you can picture you would act on it; a choice you would never
-   use is worth nothing. Before relying on a choice, ask what you could live
-   with if it failed: how long you could manage, what you would lose, and who
-   would help.
-   Only the person can judge that. Until they answer, mark the check open.
-5. **Check how freely it lets you walk away.** The better your real
-   alternative, the easier it is to refuse an offer or leave where you are.
-   It also lets you hear no with less fear, because a no does not leave you
-   with nothing. This measures your position; it is not by itself a reason
-   to leave.
-6. **Count what it costs to keep this choice open.** Include money, time,
-   attention, relationships, and what you give up to keep it. Keep a choice
-   open only while what it gives you is more than it costs to keep.
-7. **Count time.** A choice can expire or cost more later. Wait only when
-   waiting brings information.
-8. **Check how many chances the environment offers.** The place, team,
-   field, or circle you are in sets how many chances arise and how large they
-   are. You can choose your odds, not the outcome. Skip this check when the
-   decision is too small for it to matter.
-
-## Workflow
-
-Steps 1-3 find the choices: those already open, those you had not seen, and
-those you can build. Steps 4-8 check each one. Then report. Match the depth to
-the size of the decision: for a small one, a line per choice is enough. If
-more than one person is affected, name who decides and whose alternatives count.
-
-If someone is in crisis, stop and respond to that first. Offer the steps
-afterward, and keep them to the one or two that matter.
-
-## Checklist
-
-Did you include doing nothing? Did you search for and build choices? Did
-each choice get the checks that apply?
-
-## Anti-patterns
-
-Presenting one path as inevitable; judging a path as a fixed plan instead of
-counting the choices it carries, such as stopping midway or scaling up;
-counting an unverified choice; hiding cost; treating better odds as a promised
-outcome; choosing for the person; a long analysis of a small decision.
-
-## Output
-
-List the choices found, each one's worth on the checks that apply, and the
-facts that would change it. If asked what to do, say plainly that the choice is
-theirs, then name the facts that would tip it, which path each fact favors,
-and the next cheap check.
+3. **Find the choices you have not seen, including those left after the
+   decision.** For each path, ask what you could still do after taking it:
+   wait, stop partway, expand if it goes well, switch, combine, or sell off
+   what is left. Ask also what you would do if this path disappeared. Treat
+   what others in your situation chose as an idea to check, not a fact about
+   your case.
+4. **Build a choice that is missing.** When a useful path does not exist yet,
+   make it real with a limited first commitment, sized to the loss you could
+   bear.
+5. **Count only real choices.** This check comes before the others: a choice
+   that fails it is left out. A choice is real when it has been checked, is
+   available, does not vanish in the same event that makes you need it, and
+   is one you would act on in at least one outcome you can picture, with a
+   downside you could bear. Others can point out facts and costs; only the
+   person deciding can say what they could bear. Mark what is still unknown
+   as open instead of assuming it.
+6. **Judge how freely it lets you walk away.** Ask whether each real choice
+   could replace the current path, and how much all of them together make it
+   easier to refuse, leave, recover, or hear no without fear. This measures
+   your position; it is not by itself a reason to leave.
+7. **Count what keeping it open costs.** Include money, time, attention,
+   relationships, what you give up, and what you lose by not committing to a
+   direction, since commitment also builds value over time. Lay out this
+   trade-off; do not decide it for the person.
+8. **Count time.** A choice can expire, cost more later, or close off once
+   another path is taken. Waiting can also bring information, save resources,
+   or let conditions improve. Weigh both.
+9. **Judge how many chances the setting offers.** When a choice changes the
+   place, team, field, or circle someone is in, ask how it changes how often
+   good chances arise and how large they are. You choose your odds, not the
+   outcome.

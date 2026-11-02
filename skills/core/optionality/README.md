@@ -13,9 +13,9 @@ chooses for you (`/optionality`).
   chances, not the outcome.
 - Hakan Erdogmus, course notes for CMU 18-657 (Decision Analysis and
   Engineering Economics for Software Engineers): the value of flexibility
-  under uncertainty, a choice counting only if you would act on it, the
-  questions to stop, expand, switch, wait, or sell off what is left, and
-  judging a path by the choices it carries rather than as a fixed plan.
+  under uncertainty, a choice counting only if you would act on it, and
+  judging a path by the choices it leaves after the decision: to wait, stop,
+  expand, switch, or sell off what is left.
 - The other ideas are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
