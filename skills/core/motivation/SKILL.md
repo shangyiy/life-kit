@@ -52,10 +52,11 @@ still do it without the outside reward or pressure.
    feedback usually do not reduce it. Keep this in mind when someone plans a
    material reward for another person.
 8. **Curiosity, goals, and feedback support a motive but do not replace it.**
-   Curiosity, a wish to close a gap in what one knows, can spark interest.
-   Clear, demanding goals that match their ability and that they accept help a
-   person keep going, and so does feedback. None of these gives a lasting
-   reason by itself; the person still needs one they hold.
+   Curiosity, a wish to close a gap in what one knows, can spark interest, but
+   the spark can fade once the gap closes, so check whether the interest stays.
+   Clear, demanding goals that match their ability and that they accept, with
+   feedback on progress toward them, help a person keep going. None of these
+   gives a lasting reason by itself; the person still needs one they hold.
 
 ## Boundaries
 

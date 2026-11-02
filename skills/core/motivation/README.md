@@ -27,7 +27,7 @@ curiosity.
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
   Psychologist* 57(9), 2002: clear, demanding goals matched to ability and
-  accepted by the person, and feedback.
+  accepted by the person, and feedback on progress toward them.
 - George Loewenstein, “The Psychology of Curiosity: A Review and
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
