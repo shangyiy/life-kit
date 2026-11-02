@@ -52,7 +52,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Career & communication
 - [**review-resume**](./skills/hiring/review-resume/SKILL.md): Honest review of how your resume fits a job description.
-- [**resume-deep-dive**](./skills/hiring/resume-deep-dive/SKILL.md): Mock interview on your resume claims, one question at a time, plus why you want a target company or role if you name one.
+- [**resume-deep-dive**](./skills/hiring/resume-deep-dive/SKILL.md): Mock interview on your resume claims, one question at a time; optionally, why you want a target company or role.
 - [**find-the-argument**](./skills/presentation/find-the-argument/SKILL.md): Find the one argument in notes or voice notes and rebuild the reasoning around it.
 - [**make-presentation-slide**](./skills/presentation/make-presentation-slide/SKILL.md): Build a deck that teaches one argument with claim titles.
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
