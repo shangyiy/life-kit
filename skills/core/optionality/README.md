@@ -7,7 +7,8 @@ pushed into a path just because it looks like the only one (`/optionality`).
 
 - Leon (guest), "Influence Without Authority ｜ 人生元能力", 课代表立正
   (YouTube), 2021-07-27, https://youtu.be/CTcMvIZFQcw: the freedom to walk
-  away from a deal or offer.
+  away from a deal or offer, and hearing no without fear when you have a real
+  alternative.
 - An anonymous contributor's unpublished short essay: an environment sets the
   chances, not the outcome.
 - The other ideas are the author's own.
