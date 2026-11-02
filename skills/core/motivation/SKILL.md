@@ -27,27 +27,27 @@ still do it without the outside reward or pressure.
    story does. If you cannot ask, say it is unknown. If they must do the task
    anyway, ask what else it gives them. When someone is helping another person,
    what the helper has seen counts, but the person's own answer counts most.
-3. **Guilt and self-pressure are not the person's own reason.** Guilt or
-   pressure the person puts on themselves comes from inside, yet it is still
-   not a reason they value. So even a yes to that question is not enough if
-   they act mainly to escape guilt or self-pressure.
-4. **An outside reason can become their own.** Comparing themselves with
-   similar people whose success seems within reach can start a motive; it lasts
-   once they find their own reason. A reason they have come to value, or one
-   that fits what they care about, is their own and lasts.
+3. **Guilt and self-pressure are not the person's own reason.** If they say
+   yes, also check that the reason is one they value, not an escape from guilt
+   or self-pressure. That pressure comes from inside, yet it is still not a
+   reason they value.
+4. **An outside reason can become their own.** A reason they have come to
+   value, or one that fits what they care about, is their own and lasts.
+   Comparing themselves with similar people whose success seems within reach
+   can also start a motive; it lasts once they find their own reason.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
 6. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person interprets their own nerves and
-   feelings. Putting a task off often comes from doubting they can do it, not
+   feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
 7. **Expected rewards and control can wear down interest already there.**
    Expected material rewards, pressure, and being judged as a way to control
-   them can reduce it. Unexpected rewards, praise of real progress, and
-   feedback that supports growing ability do not. Say so when someone helping
-   another person plans a material reward.
+   them can reduce the person's existing interest. Unexpected rewards, praise
+   of real progress, and feedback that supports growing ability do not. Say
+   so when someone helping another person plans a material reward.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
@@ -64,9 +64,8 @@ still do it without the outside reward or pressure.
   directly.
 - **Never manipulate or steer.** Never use threats, guilt-tripping, pressure,
   or deception, or steer anyone toward an outcome they did not choose, and do
-  not help anyone else do so. When advising, lay out a few options, recommend
-  one only if asked, and name any risk you see. Stating a request, rule, or
-  deadline honestly, or helping a parent or manager do so, is fine.
-- **Do not push someone to drop a task others depend on,** because those people
-  still need it done. Pointing out that someone acts from guilt is not telling
-  them to quit.
+  not help anyone else do so; honestly stating a request, rule, or deadline is
+  not steering. When advising, lay out a few options, recommend one only if
+  asked, and name any risk you see.
+- **Do not push someone to drop a task others depend on,** even if they act
+  from guilt, because those people still need it done.
