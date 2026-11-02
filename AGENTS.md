@@ -7,12 +7,14 @@ not its fit to the skill.
 Skills follow the two layers in `README.md`. Agents in `agents/` only combine skills: each names the skills it applies and in what order. A rule an agent needs goes in a skill, never in the agent. Repo and harness detail lives here
 or in `skill-evals`, never in a skill.
 
-Every new or changed skill folder has a `README.md`. List credits only for
-literature (books, papers, published articles), as author, title, venue, year,
-ending with: "This skill is an independent restatement. It is not affiliated
-with or endorsed by any of these authors." Omit the Credit section when there
-is none. A core `SKILL.md` holds principles and definitions only: no
-examples, no source notes.
+Every new or changed skill folder has a `README.md` that credits the sources
+the skill really draws on. Allowed sources are books, papers, published
+articles, talks and videos. Give literature as author, title, venue, year.
+Give talks and videos as speaker, title, channel or venue, date, URL. End with:
+"This skill is an independent restatement. It is not affiliated with or
+endorsed by any of these authors or speakers." Omit the Credit section when
+there is nothing to credit. A core `SKILL.md` holds principles and definitions
+only: no examples, no source notes.
 
 ## Shipping
 
