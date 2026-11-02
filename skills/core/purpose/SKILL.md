@@ -27,18 +27,17 @@ meant to produce.
    work shows only that a means was used, and a number only that it moved.
    When you cannot see the wanted change itself, say what evidence would show
    it and who can see it.
-4. **Expect a number to drift once it is chased.** When decisions depend on it,
-   effort goes to the easiest way to raise it and it stops measuring what it
-   measured before. Trust it only while direct evidence of the wanted change
-   agrees.
+4. **Expect a chased number to drift.** When decisions depend on it, effort
+   goes to the easiest way to raise it. Trust it only while direct evidence of
+   the wanted change agrees.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
    When a request would change the purpose, say so before acting on it. Don't
    report a different result as if it met the original purpose.
 6. **Own the result.** Answer for the wanted change, not only the assigned
    work.
-7. **Ask what a reward makes attractive.** A reward tied to a number is a
-   means too. Before offering one, ask what behavior it encourages. Watch for
-   neglected quality and costs pushed onto people the number leaves out.
+7. **Judge a reward tied to a number like any other means.** Ask what
+   behavior it encourages, such as neglected quality or costs pushed onto
+   people the number leaves out.
 
 ## Definitions
 

@@ -15,7 +15,7 @@ in a review, name each breach once, with its fix, most important first.
 
 ## Core principles
 
-1. **Find who the work is for and what they want.** That want is their goal.
+1. **Find who the work is for and what they want.** That want is the purpose the stories serve.
    Apply [`purpose`](../../core/purpose/SKILL.md) before writing or reviewing
    stories.
 2. **Every story and slice ends in the result its actor's goal names.**
