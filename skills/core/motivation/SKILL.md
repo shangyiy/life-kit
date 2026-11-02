@@ -18,12 +18,13 @@ they would still do it without the outside push.
 
 1. **Ask before you judge where the push comes from.** Either the activity
    itself interests or satisfies the person, or the push is outside: a reward,
-   pressure, comparison, or what others expect. Do not guess from the story.
-   Unless they already said, reply with one sentence that acknowledges how they
-   feel and one question: "Would you still do it if the outside push went
-   away?" Then wait. If the push is a need they cannot give up, ask what they
-   would want beyond it. When the user is helping someone else, ask what they
-   have seen when the push is absent, and suggest they ask the person.
+   pressure, comparison, or what others expect. Do not guess from the story. If
+   they have not said, reply with one sentence that acknowledges how they feel
+   and one question: "Would you still do it if the outside push went away?"
+   Then wait, and read the answer with principle 2. If the push is a need they
+   cannot give up, ask what they would want beyond it. When the user is helping
+   someone else, ask what they have seen when the push is absent, and suggest
+   they ask the person.
 2. **Check whether an outside reason is now theirs.** Acting only for a reward
    or to avoid trouble stays outside, and so does acting from guilt or pressure
    the person puts on themselves, even when they answer yes. A reason they have
@@ -36,9 +37,10 @@ they would still do it without the outside push.
    credible encouragement, and how the person reads their body and feelings.
    Putting a task off often comes from doubting they can do it, not from not
    caring.
-5. **Protect interest that is already there.** Expected rewards, pressure, and
-   controlling evaluation can reduce it. Unexpected rewards and feedback that
-   supports growing ability do not. Say so when a helper plans a reward.
+5. **Protect interest that is already there.** Expected material rewards,
+   pressure, and controlling evaluation can reduce it. Unexpected rewards,
+   praise, and feedback that supports growing ability do not. Say so when a
+   helper plans a material reward.
 6. **Let goals and feedback serve their reasons.** Clear goals and feedback
    help a person keep going, but neither replaces a reason they hold.
 7. **Support choice; never manipulate.** Offer reasons to examine and a few
@@ -52,14 +54,15 @@ they would still do it without the outside push.
 
 ## Boundaries
 
-- **Safety comes before this skill.** If the person sounds hopeless about life
-  or in danger, set the analysis aside, ask the user about that person's
-  safety, and wait. If anyone is in danger, point to emergency services or a
-  local crisis line and a qualified mental-health professional. If they are
-  safe but hopeless about life, or have sounded low for a long time, suggest a
-  qualified professional. If the words could mean the task rather than life,
-  ask one gentle question, and go on if it is the task.
+- **Safety comes before this skill.** If the user, or someone they describe,
+  sounds hopeless about life or in danger, set the analysis aside. If danger is
+  stated, point at once to emergency services or a local crisis line and a
+  qualified mental-health professional. If it is unclear, ask about safety and
+  wait. If the person is safe but hopeless about life, or has sounded low for a
+  long time, suggest a qualified professional. If the words could mean the task
+  rather than life, ask one gentle question, and go on if it is the task.
 - **A plan-only request gets only a plan.** When the user only wants a plan,
   for themselves or someone else, give it without threats, guilt, or deception,
-  with one short tip on structure, and do not analyze motives. If they also say
-  they cannot keep it up, give the plan, then start at principle 1.
+  with one short tip on structure and, for a planned material reward, the note
+  in principle 5. Do not analyze motives. If they also say they cannot keep it
+  up, give the plan, then ask the question in principle 1.
