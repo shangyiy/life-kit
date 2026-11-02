@@ -2,6 +2,10 @@
 
 ## Credit
 
+- Step 1's habit of asking why until the answer is wanted for itself
+  resembles laddering, and draws on it by analogy: Thomas J. Reynolds and
+  Jonathan Gutman, "Laddering Theory, Method, Analysis, and Interpretation,"
+  *Journal of Advertising Research* 28(1), 1988, pp. 11-31.
 - Preferring a learning goal when the person lacks the skill for complex
   work draws on Edwin A. Locke and Gary P. Latham, "Building a Practically
   Useful Theory of Goal Setting and Task Motivation: A 35-Year Odyssey,"
