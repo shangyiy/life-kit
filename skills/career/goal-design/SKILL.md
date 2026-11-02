@@ -28,9 +28,9 @@ goal; in a review, name each breach once, with its fix.
    First agree how either person will know when to stop probing. Ask why the
    person wants a goal, then follow each answer with a question that makes the
    motive concrete. Push back on labels, abstractions, and restatements. Continue
-   until they state a reason they own under `motivation`, or name it as borrowed
-   from parents, peers, status, guilt, or a promotion
-   ladder. Stop at the agreed condition.
+   until they name the motive as intrinsic or extrinsic under `motivation` and
+   say whether an extrinsic reason is endorsed or still driven by parents,
+   peers, status, guilt, or a promotion ladder. Stop at the agreed condition.
 2. **Interview from the motive outward.** Ask one question at a time and derive
    the next from the answer; use no fixed list. Find recurring pulls and
    conflicts, constraints or duties, the change wanted, and sustained effort.
@@ -41,15 +41,16 @@ goal; in a review, name each breach once, with its fix.
    yet, apply `experimentation` principle 1.
 4. **Separate source and reason.** Record both for each candidate. Comparison
    and role models can supply options, but the reason for adopting one must be
-   tested under `motivation`; a borrowed source does not establish an owned
-   why.
+   tested under `motivation`; an extrinsic source does not show that the reason
+   is internalized or endorsed.
 5. **Generate, then shape.** Form contrasting candidates under
    `experimentation` principle 4. When the person lacks the skill for complex
    work and no duty fixes a performance target, prefer a learning goal. Set
    any stretch under `optionality` principle 8.
 6. **Let the person choose.** Test each candidate under `optionality`
-   principles 1 and 8 and `motivation` principle 1, then lay out the survivors;
-   the person picks. State the chosen goal, its reason, and its first bounded
+   principles 1 and 8 and `motivation`'s intrinsic-versus-extrinsic and
+   internalization checks, then lay out the survivors; the person picks. State
+   the chosen goal, its reason, and its first bounded
    action. If none survives, return to the motive, then run a bounded probe.
 7. **Set review, stop, and renewal points.** Apply `experimentation` principle 3.
    For a finite goal, decide renewal and what follows; a later low alone does not prove it worthless.
