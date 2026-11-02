@@ -24,13 +24,13 @@ manipulation.
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
   Psychologist* 57(9), 2002: clear goals and feedback.
 - The author's own ideas, not taken from the sources above: the opening
-  question and how to read its answer, that putting a task off often comes
-  from doubting one's ability, how self-set deadlines serve a person's own
-  reasons, when a task may be dropped, the safety first step and the gentle
-  question when words are unclear, the first reply to someone helping another
-  person, plan-only requests, saying what fits only when asked, the
-  non-manipulation rule, and the Workflow, Checklist, Anti-patterns, and
-  Output sections.
+  question and how to read its answer, that putting a task off often comes from
+  doubting one's ability, how self-set deadlines serve a person's own reasons,
+  when a task may be dropped, the safety first step and the gentle question
+  when words are unclear, the first reply to someone helping another person,
+  the long-term low mood route, plan-only requests, saying what fits only when
+  asked, the non-manipulation rule, and the Workflow, Checklist, Anti-patterns,
+  and Output sections.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.

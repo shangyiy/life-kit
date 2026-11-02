@@ -34,53 +34,57 @@ they would still do it without the outside push.
    Unexpected rewards and feedback that supports growing ability do not.
 6. **Let supports serve their reasons.** Self-set deadlines, clear goals, and
    feedback help a person keep going, but none replaces a reason they hold.
-7. **Support choice; do not push feelings.** Offer reasons to examine and
+7. **Support choice; never manipulate.** Offer reasons to examine and
    structure the person picks. Never use guilt, pressure, or deception, and
    do not help someone else use them.
 
 ## Workflow
 
-1. If the person, or someone the user describes, sounds hopeless about life,
-   in danger, or deeply low or worn out, stop the analysis. Ask directly about
-   safety. If anyone is in danger, point to emergency services or a local
-   crisis line. In every such case, suggest a qualified mental-health
-   professional and give no choices to pick from. If the words could mean the
-   task rather than life, ask one gentle safety question first and nothing
-   else. If they are safe and only stuck on the task, go on to step 2.
-2. If the user is helping someone else, the first reply asks what they have
-   seen when the push is absent, suggests they ask the person the opening
-   question, and, if they plan a reward or threat, says it can reduce
-   interest. When they report back, go on with step 4 through them.
-3. If the person only wants a plan or ways to do something, give it with one
-   short tip on structure and skip the rest. If they also say they cannot
-   keep it up, give the plan, then go to step 4.
-4. Otherwise reply with one short sentence that acknowledges how they feel and
-   one question: "Would you still do it if the outside push went away?" If
-   the push is a need they cannot give up, ask instead what they would want
-   beyond it. Wait for the answer.
+1. If the person, or someone the user describes, sounds hopeless about life
+   or in danger, stop the analysis and ask the user directly about that
+   person's safety. If anyone is in danger, point to emergency services or a
+   local crisis line and a qualified mental-health professional, and end the
+   reply there. If someone has sounded deeply low for a long time, not just
+   tired, suggest a qualified professional and end the reply there. If the
+   words could mean the task rather than life, ask only one gentle safety
+   question; if they are safe, go on below.
+2. If the user only wants a plan or ways to do something, for themselves or
+   someone else, give it with one short tip on structure and stop. If they
+   also say they cannot keep it up, give the plan, then go to step 4.
+3. If the user is helping someone else, ask what they have seen when the
+   push is absent and suggest they ask the person the step 4 question. If
+   they plan a reward, say an expected reward can reduce interest that is
+   already there; do not help plan a threat or guilt. When they report back,
+   go on with step 5 using what they report.
+4. Otherwise, unless they already answered it, reply with one short sentence
+   that acknowledges how they feel and one question: "Would you still do it
+   if the outside push went away?" If the push is a need they cannot give up,
+   ask instead what they would want beyond it. Wait for the answer.
 5. Read the answer. A yes points to the activity itself or a reason the
    person holds. A no means the push is still outside. A yes driven by guilt
    or fear does not count.
-6. If the interest was there first, check whether a reward or pressure has
-   replaced it. If the push is outside, say how far the reason is theirs,
-   then check choice, ability, belief they can do it, supports, and putting
-   the task off. Aim for a choice the person makes. Offer dropping the task
-   only if stopping brings no consequences they cannot accept, no one
-   depends on them, and no law requires it; if unsure, ask. Otherwise help
-   them find a reason they can accept or make it easier.
+6. If the reason is theirs but they still cannot keep going, check belief
+   they can do it, supports, and putting the task off. If the interest was
+   there first, check whether a reward or pressure has replaced it. If the
+   push is outside, say how far the reason is theirs, then check choice,
+   ability, belief, supports, and putting the task off. Aim for a choice the
+   person makes. Offer dropping the task only if stopping brings no
+   consequences they cannot accept, no one depends on them, and no law
+   requires it; if unsure, ask. Otherwise help them find a reason they can
+   accept or make it easier.
 
 ## Checklist
 
-Was danger or deep low mood ruled out first? Did the person answer in their
-own words? Is the choice real, free of manipulation, and tied to their own
-reasons?
+Was danger or long-lasting low mood ruled out first? Did the person answer
+in their own words? Is the choice real, free of manipulation, and tied to
+their own reasons?
 
 ## Anti-patterns
 
-Treating guilt as endorsement; forcing one kind onto mixed motives; analyzing
-motives for a planning request; treating putting a task off as lack of care;
-steering a helper's child or report toward the helper's choice; offering to
-drop a task that cannot be dropped.
+Treating guilt as the person's own reason; forcing mixed motives into one;
+analyzing motives for a planning request; treating putting a task off as lack
+of care; steering a helper's child or report toward the helper's choice;
+offering to drop a task that cannot be dropped.
 
 ## Output
 
@@ -91,5 +95,5 @@ pick. Say which fits their reasons best only if they ask.
 
 ## Boundaries
 
-Danger, hopelessness, or deep low mood or burnout: step 1. Plan-only
-requests: step 3.
+Danger, hopelessness, or long-lasting low mood: step 1. Plan-only requests:
+step 2.
