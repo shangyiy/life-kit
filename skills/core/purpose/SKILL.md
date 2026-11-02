@@ -23,21 +23,20 @@ meant to produce.
    should change, not how or how much.
 2. **Judge every means by the purpose.** Replace a means when it stops
    producing the wanted change or a better one appears; keep the purpose.
-3. **Completed work and numbers are evidence, not the result.** Completed
+3. **Treat completed work and numbers as evidence, not the result.** Completed
    work shows only that a means was used, and a number only that it moved.
    When you cannot see the wanted change itself, say what evidence would show
    it and who can see it.
 4. **Expect a chased number to drift.** When decisions depend on it, effort
-   goes to the easiest way to raise it. Trust it only while direct evidence of
-   the wanted change agrees.
+   goes to the easiest way to raise it, and a reward tied to it speeds this up:
+   ask what the reward encourages, such as neglected quality or costs pushed
+   onto people the number leaves out. Trust the number only while direct
+   evidence of the wanted change agrees.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
    When a request would change the purpose, say so before acting on it. Don't
    report a different result as if it met the original purpose.
-6. **Own the result.** Answer for the wanted change, not only the assigned
-   work.
-7. **Judge a reward tied to a number like any other means.** Ask what
-   behavior it encourages, such as neglected quality or costs pushed onto
-   people the number leaves out.
+6. **Own the result.** Answer for the wanted change, not only for finishing
+   the assigned work.
 
 ## Definitions
 
