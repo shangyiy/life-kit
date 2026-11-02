@@ -24,10 +24,11 @@ supporting motivation without manipulation (`/motivation`).
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
   Psychologist* 57(9), 2002: clear goals and feedback.
-- The core check and its reading, the limits of curiosity, routines, self-set
-  deadlines, structure as support, avoidance, the option to drop the task,
-  clinical boundary, non-manipulation rule, and application sections are the
-  author's own.
+- The opening question and how to read its answer, the limits of curiosity,
+  routines, self-set deadlines, structure as support, avoidance, the option to
+  drop the task, the safety first step and care boundary, the notes on helping
+  someone else and on plan-only requests, the non-manipulation rule, and the
+  Workflow, Checklist, Anti-patterns and Output sections are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
