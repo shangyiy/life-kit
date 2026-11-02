@@ -1,46 +1,56 @@
 ---
 name: optionality
 description: >
-  Before relying on a way out, check it is real, survives the event that makes
-  it needed, and stays open long enough to use. Use on /optionality.
+  Judge a decision by which paths remain usable, what freedom they provide,
+  what they cost to preserve, and when they close. Use on /optionality.
 metadata:
-  short-description: "Check that a way out is real"
+  short-description: "Choose with future choices in view"
 ---
 
 # /optionality
 
-Before relying on a way out, check it's real.
+After this decision, what choices will I still have?
+
+An option counts only when it is real; like a financial option, it lets you
+walk away, costs something to keep, and expires.
 
 ## Principles
 
-1. **Check that the way out is real.** Name who holds it and the terms for
-   using it. If clear proof is missing, do not count it.
-2. **Test it against the bad event.** A way out does not count if the same
-   event that creates the need can also remove it or stop its holder from
-   acting.
-3. **Wait only while waiting helps.** Waiting uses time and can close other
-   paths. Wait only for information that can change the choice while that
-   choice stays open; otherwise act. For choices about capital, use `investing`.
-4. **Make a miss survivable.** Aim high only when you can absorb failure and
-   still meet your duties. For affordable-loss limits on tests, use
-   `experimentation`.
+1. **Prove the option exists.** Identify who can make it happen, the conditions
+   for using it, and the evidence. Until then, leave it out. If the trouble
+   that makes you need it can also take it away, it is no backup.
+2. **Pay for freedom only while it helps.** An option lets you choose later
+   without making you act. That freedom strengthens your hand and makes refusal
+   possible, but keeping the path open uses resources and it will not last.
+3. **Pick the field, not the result.** A setting changes how many worthwhile
+   chances may appear and how large they may be; luck still decides which one
+   pays off.
+4. **Close options when focus wins.** Keeping paths open helps while you are
+   unsure; commitment brings focus and compounding. Choose a direction when
+   those gains beat flexibility, and stretch only if you can live with a miss.
+
+For capital choices, use `investing`.
+For affordable-loss limits on tests, use `experimentation`.
+
+`perspective` keeps you from clinging to one answer; `optionality` keeps one
+answer from becoming your only usable path.
 
 ## Workflow
 
-Name the way out and its holder. Check the terms and proof, test the bad event,
-mark the last useful decision point, then decide whether a miss is survivable.
+List the paths that will remain. Test each one, weigh its freedom against its
+cost and closing point, then choose whether to preserve it or commit.
 
 ## Checklist
 
-Holder; terms; proof; shared failure; cost of waiting; last useful point;
-survivable miss.
+Evidence; shared failure; freedom to refuse; upkeep; closing point; value of
+focus; survivable miss.
 
 ## Anti-patterns
 
-A promise treated as a choice; a backup that shares the same failure; waiting
-after the choice closes; a target whose miss cannot be absorbed.
+Counting a hope as a path; relying on a backup that breaks when needed; paying
+to preserve stale choices; avoiding commitment; risking a miss you cannot bear.
 
 ## Output
 
-State the way out, why it is real, when it could fail, when waiting must stop,
-and the decision.
+State the paths left, the evidence for each, the freedom and cost each brings,
+when each closes, and whether to preserve it or commit.
