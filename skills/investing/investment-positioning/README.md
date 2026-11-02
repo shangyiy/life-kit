@@ -7,12 +7,12 @@ wait without placing orders or collecting account details
 
 ## Credit
 
-- 謝孟恭, *Gooaye 股癌* podcast, 2020–2026 ([Apple Podcasts](https://podcasts.apple.com/us/podcast/id1500839292)):
-  - Act on what is visible rather than predictions; trimming or cutting leverage as the retail hedge: EP56 (2020-06-26).
-  - Exit on the same grounds as entry, judged against the original thesis: EP189 (2021-11-03), EP600 (2025-10-11).
-  - Sizing exposure to temperament: EP270 (2022-08-13).
-  - Leverage, financing, and deleveraging as forced-exit causes: EP621 (2025-12-24), EP635 (2026-02-11), EP684 (2026-08-01).
-- The author's own synthesis: the unknown-to-action map, the final checklist, the suitability boundary, and both output formats.
+- 謝孟恭, "EP189 | 吃筍是為了可以一直吃筍", *Gooaye 股癌*, 2021-11-03, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/0a5f08e0-dd62-450a-a475-f4b1fde43e7f): judge an exit by whether the original case still holds.
+- 謝孟恭, "EP270 | 🦏", *Gooaye 股癌*, 2022-08-13, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/b61a059f-10e4-4a0a-8fbc-42d815bc1e96): size exposure to how you react to loss.
+- 謝孟恭, "EP621 | 🎄", *Gooaye 股癌*, 2025-12-24, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/799ffa1f-1dcc-425a-95ce-c707ac5267cb): leverage and financing as causes of a forced sale.
+- 謝孟恭, "EP684 | 🔦", *Gooaye 股癌*, 2026-08-01, [episode](https://player.soundon.fm/p/954689a5-3096-43a4-a80b-7810b219cef3/episodes/40e92e32-94d9-44b5-a683-8bc2d8fcc8c2): market-wide forced selling and vanished liquidity.
+- From the core [investing](../../core/investing/README.md) credits (Charles T. Munger): what the price assumes and not following the crowd, comparing with the next-best use, costs, and asking how an adviser is paid.
+- The author's own: the scope check and Stop format, the unknowns-to-actions list, the anti-patterns, keeping room to act later, the Short format, and the fraud steps.
 
 This skill is an independent restatement. It is not affiliated with or
-endorsed by the speaker.
+endorsed by any of these authors or speakers.
