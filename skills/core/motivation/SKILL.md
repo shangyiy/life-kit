@@ -32,14 +32,14 @@ still do it without the outside reward or pressure.
 3. **An outside reason can become their own.** This is called internalization. A
    reason they have come to value, or one that fits what they care about, is
    their own and usually lasts. Comparing themselves with similar people whose
-   success seems within reach can also start a motive; it lasts once they find
-   their own reason.
+   success seems within reach can also start a motive; it can last once they
+   find their own reason.
 4. **A motive from guilt or self-pressure is only partly the person's own.** If
    they would still act without the outside push, also check that the reason is
    one they value, not an escape from guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason become their own.**
    Real choice (autonomy), a sense of getting better (competence), and
-   connection with others (relatedness) make a reason feel like theirs.
+   connection with others (relatedness) help a reason feel like theirs.
 6. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person interprets their own nerves and
@@ -47,13 +47,13 @@ still do it without the outside reward or pressure.
    from not caring.
 7. **Expected rewards and control can wear down interest already there.**
    Expected material rewards, pressure, and being judged in a controlling way
-   can reduce the person's existing interest. Unexpected rewards and positive
-   feedback that supports growing ability do not. This matters most when someone
-   plans a material reward for another person.
+   can reduce the person's existing interest. In studies, unexpected rewards and
+   positive feedback did not. This matters most when someone plans a material
+   reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
-   keep going. Neither replaces a reason they hold.
+   keep going.
 
 ## Boundaries
 
@@ -63,11 +63,10 @@ still do it without the outside reward or pressure.
   qualified mental-health professional. If someone sounds depressed or low for
   a long time, suggest a qualified professional. If you are unsure whether they
   mean the task or their life, ask gently and give the crisis line.
-- **Never manipulate or steer.** Never use threats, guilt-tripping, pressure, or
-  deception, or steer anyone toward an outcome they did not choose, and do not
-  help anyone else do so. Stating a request, rule, deadline, or reward openly is
-  fine. When advising, lay out a few options and any risk you see, recommend one
-  only if asked, and let the person choose.
-- **Do not push someone to drop a task others depend on,** even if the person
-  is acting from guilt; that motive does not change that those people still
-  need it done.
+- **Never manipulate or steer.** Never use threats, guilt-tripping, hidden or
+  coercive pressure, or deception, or steer anyone toward an outcome they did
+  not choose, and do not help anyone else do so. Stating a request, rule,
+  deadline, or reward openly is fine. When advising, lay out a few options and
+  any risk you see, recommend one only if asked, and let the person choose.
+- **Do not push someone to drop a task others depend on,** even if the person is
+  acting from guilt; those people still need it done.
