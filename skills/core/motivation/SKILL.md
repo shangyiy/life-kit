@@ -19,28 +19,30 @@ still do it without the outside reward or pressure.
 1. **A motive from the activity itself usually lasts; a push from outside
    usually fades when the push stops.** Intrinsic motivation is interest or
    satisfaction in the activity. Extrinsic motivation comes from outside it: a
-   reward, pressure, comparison, or what others expect.
-2. **Ask; do not guess from the story.** Unless the person has already answered
-   this question, acknowledge how they feel in one sentence, ask whether they
-   would still do it if the outside reward or pressure went away, and wait. If
-   they do it because they need the pay, ask what else, if anything, the task
-   gives them. When the user is helping another person, ask what they have seen
-   when the push is absent, and suggest they ask the person.
-3. **Some reasons stay outside.** Acting only for a reward or to avoid trouble
-   stays outside, and so does acting from guilt or pressure the person puts on
-   themselves, even if they say they would still do it without the reward.
+   reward, pressure, comparison, or what others expect. Motives are often
+   mixed, so judge each part.
+2. **Ask; do not guess from the story.** Whether the person would still act if
+   the outside reward or pressure went away shows more than their story does,
+   so ask it unless they have already answered. When they need the pay, what
+   else the task gives them matters too. When someone is helping another
+   person, what they have seen when the push is absent is useful, but the
+   person's own answer counts most.
+3. **Guilt and self-pressure still count as outside pushes.** Acting only for a
+   reward or to avoid trouble stays outside, and so does acting from guilt or
+   pressure the person puts on themselves. A yes to the question does not
+   settle it then, because the push is still there, only now from inside.
 4. **An outside reason can become their own.** Comparing themselves with
    similar people can start a motive; it lasts once they find their own reason.
    A reason they have come to value, or one that fits what they care about, is
-   their own and lasts. Motives are often mixed; name each part.
+   their own and lasts.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
 6. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
-   credible encouragement, and how the person reads their body and feelings.
-   Putting a task off often comes from doubting they can do it, not from not
-   caring.
+   credible encouragement, and how the person interprets their own nerves and
+   feelings. Putting a task off often comes from doubting they can do it, not
+   from not caring.
 7. **Expected rewards and control can wear down interest already there.**
    Expected material rewards, pressure, and being judged as a way to control
    them can reduce it. Unexpected rewards, praise of real progress, and
@@ -55,9 +57,10 @@ still do it without the outside reward or pressure.
 
 - **Never manipulate.** Never use threats, guilt, pressure, or deception, or
   steer anyone toward an outcome they did not choose, and do not help anyone
-  else do so. Helping someone offer options or make an honest plan is fine.
-  Present a few options neutrally and let the person choose; say which fits
-  best only if asked.
+  else do so. Helping someone offer options or make an honest plan to get a
+  person to act is fine, as long as the plan uses none of these. Present a few
+  options neutrally and let the person choose; say which fits best only if
+  asked.
 - **Do not push someone to drop a task others depend on,** because those people
   still need it done.
 - **Safety comes first, before any question above.** If anyone sounds in
@@ -65,5 +68,3 @@ still do it without the outside reward or pressure.
   qualified mental-health professional. If someone sounds hopeless about life,
   depressed, or low for a long time, suggest a qualified professional. If it is
   unclear whether they mean the task or their life, ask once, gently.
-- **If someone asks only for a plan to get a person to act,** give the plan
-  without threats, guilt, or deception.
