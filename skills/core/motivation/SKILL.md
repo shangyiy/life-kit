@@ -9,14 +9,13 @@ metadata:
 
 # /motivation
 
-First ask whether the activity itself is satisfying or whether reward, pressure,
-comparison, or expectation is driving it.
+Ask whether the activity itself moves the person or an outside push does;
+outside motives can become reasons the person genuinely holds.
 
 Core check: Would you still do it if the outside push went away?
 
-A yes points to interest or a genuinely held reason; a no means the push is
-still outside. For someone else, observe whether they continue when the push is
-removed.
+A yes points to the activity itself or a reason genuinely held. A no means the
+push is still outside. For someone else, observe what happens when it is gone.
 
 ## Principles
 
@@ -25,15 +24,17 @@ removed.
    comparison, or others' expectations.
 2. **Check whether an extrinsic reason is internalized.** External means reward
    or demand; introjected means avoiding guilt or trying to feel worthy.
-   Identified means personally important; integrated means it fits the person's
-   values; all remain extrinsic.
-3. **Support autonomy, competence, and relatedness.** Motivation lasts better
-   with real choice, growing ability, and connection. Find the blocked need.
-4. **Build self-efficacy.** Belief grows through past success, relevant models,
-   credible encouragement, and how physical or emotional signals are read.
-5. **Protect existing interest from control.** Expected task rewards, pressure,
-   and controlling evaluation can reduce interest; unexpected rewards or
-   informational recognition are safer.
+   Identified means personally important; integrated means it fits the
+   person's values. All four are extrinsic; the last two can still feel owned.
+3. **Help the reason become the person's own.** Autonomy gives real choice,
+   competence brings growing ability, and relatedness brings connection. These
+   needs can help a person take in and endorse an outside reason.
+4. **Build self-efficacy.** Self-efficacy is the belief that you can do the
+   task. It grows through past success, relevant models, credible encouragement,
+   and how physical or emotional signals are read.
+5. **Protect existing interest from control.** Expected material rewards,
+   pressure, and controlling evaluation can reduce interest. Unexpected rewards
+   or informational recognition are safer.
 6. **Use curiosity to begin.** A visible gap between what someone knows and
    wants to know can start action, but it does not create a lasting purpose.
 7. **Use structure as support.** Routines, self-set deadlines, clear goals, and
@@ -45,20 +46,25 @@ removed.
 
 ## Workflow
 
-Name the motive and apply the outside-push check. For an extrinsic motive only,
-name its regulation type, then check needs, self-efficacy, and supports.
+If the motive is intrinsic, check whether rewards or pressure are crowding it
+out. If it is extrinsic, name how far the reason feels like the person's own,
+then check needs, self-efficacy, and supports. Check whether avoidance, such as
+fear of failure, is blocking action. Aim for a choice the person endorses,
+including a choice to drop the task.
 
 ## Checklist
 
-Intrinsic or extrinsic; outside push; extrinsic regulation; autonomy;
-competence;
-relatedness; self-efficacy; reward effects; curiosity; chosen structure.
+Intrinsic or extrinsic; outside push; how far an extrinsic reason is
+internalized;
+autonomy; competence; relatedness; self-efficacy; reward effects; avoidance;
+chosen structure; never manipulate.
 
 ## Anti-patterns
 
-Calling endorsed extrinsic reasons intrinsic; calling guilt endorsement; using
-controlling rewards over interest; mistaking compliance for motivation.
+Calling an endorsed extrinsic reason intrinsic; calling guilt endorsement;
+using control over existing interest; treating avoidance as lack of care;
+manipulating the person toward the helper's preferred choice.
 
 ## Output
 
-State the motive, core-check answer, main support or block, and next support.
+State the motive, core-check answer, and one next action the person chooses.
