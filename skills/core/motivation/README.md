@@ -37,7 +37,8 @@ curiosity.
   seem or what others say, saying you cannot tell yet when no one can be asked,
   and asking what else a needed task gives.
 - Also the author's own: that putting a task off can come from doubt, that
-  curiosity can spark interest, that curiosity, goals and feedback do not
+  curiosity can spark interest and the spark can fade once the gap closes,
+  that curiosity, goals and feedback do not
   replace a reason the person holds, and that the reward risk applies when
   someone plans a material reward for another person.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
