@@ -10,7 +10,8 @@ metadata:
 
 # /optionality
 
-Find the choices, judge what each is worth, and let the person choose.
+Find the real choices you have and judge what each is worth; it never
+chooses for you.
 
 People often accept a path because they think it is the only one. Seeing the
 real choices, and what each is worth, keeps that from happening.
@@ -38,8 +39,9 @@ costs to keep, time, and environment.
 4. **Count only real choices.** A choice is real when you have checked it, it
    does not vanish in the same event that makes you need it, and in at least
    one outcome you can picture you would act on it; a choice you would never
-   use is worth nothing. To test a path, ask what you could live with if it
-   failed: how long you could manage, what you would lose, and who would help.
+   use is worth nothing. Before relying on a choice, ask what you could live
+   with if it failed: how long you could manage, what you would lose, and who
+   would help.
    Only the person can judge that. Until they answer, mark the check open.
 5. **Check how freely it lets you walk away.** The better your real
    alternative, the easier it is to refuse an offer or leave where you are.
@@ -61,7 +63,7 @@ costs to keep, time, and environment.
 Steps 1-3 find the choices: those already open, those you had not seen, and
 those you can build. Steps 4-8 check each one. Then report. Match the depth to
 the size of the decision: for a small one, a line per choice is enough. If
-more than one person is affected, name who decides and whose fallbacks count.
+more than one person is affected, name who decides and whose alternatives count.
 
 If someone is in crisis, stop and respond to that first. Offer the steps
 afterward, and keep them to the one or two that matter.
