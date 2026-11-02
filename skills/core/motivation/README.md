@@ -29,9 +29,8 @@ curiosity.
 - The author's own ideas, not taken from the sources above: the opening
   question, asking what else a needed task gives, that comparison with similar
   people can start a motive, that putting a task off often comes from doubt,
-  the boundaries on safety, steering, honest plans and tasks others
-  depend on, how to help someone helping another person, and offering options
-  neutrally.
+  the boundaries on safety, steering, neutral advice and tasks others depend
+  on, and how to help someone helping another person.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
