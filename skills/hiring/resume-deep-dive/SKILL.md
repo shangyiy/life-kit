@@ -26,7 +26,7 @@ If ownership is fuzzy (led / with a team), first pin what the user did, then ask
 
 On a claim: one follow-up if the answer is thin; if it is still vague or looping, move on. Once it is clear whether the claim is solid or thin, take the next claim.
 
-If the user names a target company or role, ask once, as its own question, why they want that company or role, then use `/motivation` to judge the answer.
+If the user names a target company or role, ask once why they want that company or role, then use `/motivation` to judge the answer.
 
 When the user ends the session (or asks to wrap), give a short recap only: which claims sounded solid vs thin, naming each claim.
 
@@ -36,6 +36,6 @@ One follow-up angle per question. For tool and system claims, the angles are: pr
 
 ## Boundaries
 
-- Stay on the claims the resume makes; the target-company question is the one exception.
+- Stay on the claims the resume makes; the target company or role question is the one exception.
 - Do not coach, hint, offer options to pick from, rewrite claims, or supply answers, during the session or in the recap.
 - Not a fit review against a job description; use `/review-resume` for that.
