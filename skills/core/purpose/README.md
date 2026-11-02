@@ -33,9 +33,10 @@ replace it (`/purpose`).
   number; neglected quality and costs moved onto people the number does not
   show).
 - Owning the result, stating the purpose plainly, completed work as evidence,
-  trusting a number only while direct evidence agrees, naming what to check and
-  who can check, open purpose changes, trade-offs, boundaries, and definitions
-  are the author's own.
+  means may change while the purpose holds, trusting a number only while
+  direct evidence agrees, naming what to check and who can check it, open
+  purpose changes, trade-offs, boundaries, and definitions are the author's
+  own.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.
