@@ -17,16 +17,18 @@ still do it without the outside reward or pressure.
 
 ## Principles
 
-1. **A motive from the activity itself usually lasts; a push from outside
-   usually fades when the push stops.** Intrinsic motivation is interest or
+1. **A motive from the activity itself lasts longer than a push from outside,
+   which fades when the push stops.** Intrinsic motivation is interest or
    satisfaction in the activity. Extrinsic motivation comes from outside it: a
-   reward, pressure, comparison, or what others expect. Motives are often
-   mixed, so judge each part.
+   reward, pressure, comparison, or what others expect. Motives are often mixed,
+   so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if
    the outside reward or pressure went away; their answer shows more than their
-   story does. If you cannot ask, say it is unknown. If they must do the task
-   anyway, ask what else it gives them. When someone is helping another person,
-   what the helper has seen counts, but the person's own answer counts most.
+   story does.
+   - If you cannot ask, say it is unknown.
+   - If they must do the task anyway, ask what else it gives them.
+   - When someone is helping another person, what the helper has seen counts,
+     but the person's own answer counts most.
 3. **An outside reason can become their own (internalization).** A reason they
    have come to value, or one that fits what they care about, is their own and
    usually lasts. Comparing themselves with similar people whose success seems
@@ -34,8 +36,7 @@ still do it without the outside reward or pressure.
    reason.
 4. **Guilt and self-pressure are not the person's own reason.** If they would
    still act without the outside push, also check that the reason is one they
-   value, not an escape from guilt or self-pressure. That pressure comes from
-   inside, yet it is still not a reason they value.
+   value, not an escape from guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
@@ -45,8 +46,8 @@ still do it without the outside reward or pressure.
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
 7. **Expected rewards and control can wear down interest already there.**
-   Expected material rewards, pressure, and being judged as a way to control
-   them can reduce the person's existing interest. Unexpected rewards, praise
+   Expected material rewards, pressure, and being judged in a controlling
+   way can reduce the person's existing interest. Unexpected rewards, praise
    of real progress, and feedback that supports growing ability do not. Say
    so when someone helping another person plans a material reward.
 8. **Curiosity and structure support a motive but do not replace it.**
