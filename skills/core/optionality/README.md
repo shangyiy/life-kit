@@ -16,8 +16,10 @@ spends, or closes, with only the definitions they require (`/optionality`).
   ([video](https://youtu.be/9LKJ8JdLtfI)).
 - Leon, “如何摆脱无意义的工作？｜Multiple-Fire系列,” 课代表立正, May 23,
   2023 ([video](https://youtu.be/dlv97OHFnGY)).
-- Ke Xi, “Startup比大厂的人生巅峰还香？｜怎么选Startup来跳？,” 课代表立正,
-  November 2, 2021 ([video](https://youtu.be/lQC3gy09TI8)).
+- Sim B. Sitkin, Kelly E. See, C. Chet Miller, Michael W. Lawless, and Andrew
+  M. Carton, “The Paradox of Stretch Goals: Organizations in Pursuit of the
+  Seemingly Impossible,” *Academy of Management Review*, 36(3), 2011, 544–566
+  ([article](https://doi.org/10.5465/amr.2008.0038)).
 
 Source-to-principle map:
 
@@ -27,14 +29,13 @@ Source-to-principle map:
   uncertainty before an irreversible commitment.
 - Leon's 2021 talk informs principle 1's walk-away capacity. His 2023 talk
   informs principle 5's treatment of choices that lose value with time.
-- Ke Xi's interview informs the fallback framing used in principle 4.
+- Sitkin et al. inform principle 7: stretch goals suit organizations with
+  recent success and slack resources.
 
-The detailed holder, written-or-verifiable-evidence, stated-terms,
-binding-duty, risk-window, same-event-failure, and whole-exposure rules in
-principles 2–4 are author-created synthesis rather than claims attributed to
-those sources. Principle 5's maintenance, exercise, and surrendered-opportunity
-costs are also author-created. Principles 7 and 8—opportunity density and the
-balance between flexibility and commitment—have no external source.
+The holder, evidence, terms, duties, risk-window, same-event-failure,
+exposure, and reliability rules in principles 1–4 are the author's own. So
+are principle 5's costs and principle 7's independent paths, commitment, and
+personal bound.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.

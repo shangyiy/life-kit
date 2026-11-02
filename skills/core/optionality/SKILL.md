@@ -12,61 +12,51 @@ metadata:
 
 The domain of keeping, creating, using, and closing feasible choices under
 uncertainty. Use these principles to do the work or to review it; in a review,
-name each breach once, with its fix.
-
-Boundary: `perspective` distinguishes a person's position from their interest;
-`optionality` tests whether feasible alternatives prevent dependence on one
-course.
+name each breach once, with its fix. Scale the effort to what is at stake and
+how hard the decision is to reverse. How to distinguish a person's position
+from their interest is the work of `perspective`.
 
 ## Principles
 
-1. **Count only choices that are feasible for this decision-maker.** Name what
-   each present choice preserves, creates, weakens, or closes, and the
-   conditions under which a future choice can actually be taken. A nominal
-   possibility does not reduce dependence. Compare the next-best feasible use
-   of the same time and resources, and state the threshold for walking away.
-2. **Establish who holds each claimed way out and on what terms.** Identify
-   whether the decision-maker controls it or depends on another holder. Record
-   whether the commitment is written, retain written or otherwise verifiable
-   evidence, and state its terms, including conditions, limits, and the means
-   of use. Evidence of a statement does not by itself create authority,
-   enforceability, or a binding duty; check those when the decision depends on
-   them.
-3. **Test a way out across the whole risk window.** Establish when protection
-   begins, when it ends, and whether it remains usable whenever the exposure
-   can arise. Test same-event failure: if the event that creates the need can
-   also remove the way out or its holder's ability to perform, do not treat
-   that way out as independent protection against that event.
-4. **Match protection to the whole exposure.** Count a way out only for the
-   amount, people, obligations, and consequences it actually covers. Treat
-   each uncovered part as having no way out. When the claimed way out is not
-   real, decide about the whole exposure as if no way out exists.
-5. **Include every material cost of keeping, using, and delaying an option.**
-   Include maintenance and exercise costs, opportunities surrendered on use,
-   and value lost while waiting. Locate the last useful decision point and
-   account for changing terms, access, and value; flexibility can decay before
-   its formal expiry.
-6. **Wait when the information gained can change the choice enough to justify
-   delay.** Waiting can be valuable when uncertainty may resolve and the choice
-   remains usable, especially before a hard-to-reverse commitment. It can be
-   costly when learning is slight, delay closes paths, or earlier action would
-   create more value. Judge the information expected, reversibility, downside,
-   and cost of delay together.
-7. **Judge opportunity density, not the number of labels.** Environments create
-   useful optionality when reachable people, information, resources, and
-   adjacent paths can produce distinct feasible choices. Several names for the
-   same fragile path are one dependence, not several alternatives.
-8. **Preserve options to support worthwhile commitment, not to avoid it.**
-   Flexibility matters when learning, asymmetric downside, or dependence makes
-   another path valuable. Commitment can matter more when focus, trust,
-   coordination, compounding, or timing creates value. Compare those gains
-   with the credible choices spent or gained.
+1. **Count only feasible choices.** Name what each choice preserves, creates,
+   weakens, or closes for this decision-maker. State the conditions for taking
+   it, the next-best feasible use of the same resources, and the walk-away
+   threshold. A threshold never excuses breaking a binding duty.
+2. **Establish who holds each claimed way out and on what terms.** State who
+   controls it and who must perform. Retain written or otherwise verifiable
+   evidence. State its conditions, limits, means of use, and other terms.
+   Evidence of a statement does not create authority, enforceability, or a
+   binding duty. Treat a way out not shown to be real as absent.
+3. **Test the whole risk window.** Establish when protection begins and ends.
+   It must remain usable whenever the exposure can arise. If the same event
+   can create the need and remove the way out, or prevent its holder from
+   performing, do not count it as independent protection against that event.
+4. **Match protection to the whole exposure.** Test every amount, person,
+   obligation, and consequence at stake. Count partly reliable protection only
+   to the extent its reliability is supported. Treat every uncovered or
+   unsupported part as if no way out exists.
+5. **Include every material option cost.** Count the cost of keeping and using
+   a choice, the opportunities surrendered on use, and value lost while
+   waiting. Find the last useful decision point. Terms, access, and value can
+   decay before formal expiry.
+6. **Wait only for useful learning.** Wait when expected information can
+   materially change a choice that will remain feasible. Commit sooner when
+   learning is slight or the decision is easy to reverse.
+7. **Preserve distinct paths, then commit when commitment is worth more.**
+   Count paths sharing a holder, resource, or failure event as one. Keep
+   reachable, independent paths when learning, asymmetric downside, or
+   dependence makes them valuable. Otherwise commit for focus, trust,
+   coordination, compounding, or timing. Hold an ambitious or stretch target as
+   direction, not commitment, and only when all downside, including missing it,
+   is survivable. Organizations can replace people or teams after failure.
+   Individuals have no replacement, so personal stretches must stay within
+   survivable loss. Otherwise they breed burnout, risky bets, discouragement,
+   or gaming.
 
 ## Definitions
 
 - **Option:** a future choice the decision-maker can feasibly take under
-  identifiable conditions. Optionality is the set and quality of such choices,
-  not mere variety.
+  identifiable conditions.
 - **Way out:** an option claimed to reduce or end an exposure.
-- **Risk window and exposure:** the period during which the adverse outcome can
+- **Risk window and exposure:** the period during which an adverse outcome can
   arise, and everything at stake during that period.
