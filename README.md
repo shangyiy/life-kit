@@ -59,9 +59,11 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ### Learning
 - [**inspiring-idea**](./skills/learning/inspiring-idea/SKILL.md): Given an idea and your context, say whether it can inspire your work, why, and how to apply it.
 
-### Life
+### Investing
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
-- [**investment-positioning**](./skills/life/investment-positioning/SKILL.md): Review whether to change an investment position or wait.
+- [**investment-positioning**](./skills/investing/investment-positioning/SKILL.md): Review whether to change an investment position or wait.
+
+### Life
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 
 ## License
