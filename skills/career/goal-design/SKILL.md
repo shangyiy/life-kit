@@ -19,34 +19,35 @@ person choose, and set when to review or end it.
 
 ## Designing a goal
 
-1. **Interview from the motive outward.** Ask one question at a time, each
-   derived from the last answer. Use `perspective` to see the situation from the
-   person's side, and say back what you heard until they confirm it. Ask why
-   they want the goal, then why each answer matters. Push back on labels,
-   abstractions, and restatements. Continue until the answer stops changing or
-   reaches something wanted for itself. Also find what keeps drawing them and
-   what conflicts with it, their skills, duties, and constraints, and the change
-   wanted. The person may stop at any time; keep what was learned.
+1. **Interview from the motive outward.** Ask one question at a time, built on
+   the last answer. Use `perspective` to see the situation from the person's
+   side, and say back what you heard until they confirm it. Ask why they want
+   the goal, then why each answer matters. Push back when an answer is a label,
+   an abstraction, or the last answer reworded. Continue until the answer stops
+   changing or reaches something wanted for itself. Also find what keeps drawing
+   them and what conflicts with it, their skills, duties, and constraints, and
+   the change wanted. They may stop at any time, keeping what was learned.
 2. **Check the goal is clear enough.** Use `purpose` to state, in one sentence,
    the change the person wants. Go on when that change, the motive, and the
    constraints are clear enough to tell candidates apart; if not, go back to
    step 1. If the person wants to move fast, state what remains assumed.
    Sustained effort is evidence for a motive, not a requirement; with none, mark
    the motive untested.
-3. **Generate candidates** that differ in the change, the path, or the effort.
+3. **Generate candidates** from what people like them did and what they are
+   curious about, differing in the change, the path, or the effort; include at
+   least one with no fixed end.
 4. **Give each a source and a reason.** A source is where an idea came from; it
    does not replace the reason the person would adopt it. Use `motivation` to
    name the reason as intrinsic or extrinsic and check that the person endorses
    it. Keep a candidate only once the person gives a reason of their own; until
-   then, ask, or let them drop it. Settle each before step 6; the others can go
-   on to step 5.
-5. **Make each a learning goal or a performance goal.** Propose the type with
-   the reason; the person confirms or changes it. If the person lacks the skill,
-   propose a learning goal, then the target if a duty fixes one; if they have
-   the skill, a performance goal (the default) with a specific, hard target, not
-   "do your best". Also propose a size; if the goal reaches past what the person
-   can do now, keep its downside one they could bear, as `optionality` guides.
-   The person agrees or changes it.
+   then, ask, or let them drop it. Candidates with the person's reason go on to
+   step 5; settle the rest before step 6.
+5. **Make each a learning goal or a performance goal.** Propose the type and a
+   size with the reason; the person confirms or changes them. If the person
+   lacks the skill, propose a learning goal, plus any target a duty already
+   sets; otherwise a performance goal with a specific, hard target, not "do your
+   best". If the goal reaches past what the person can do now, keep its downside
+   one they could bear, as `optionality` guides.
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
@@ -55,8 +56,8 @@ person choose, and set when to review or end it.
 7. **Let the person choose** among the kept candidates; with one, they adopt it
    or return to step 3. If asked to choose, lay out trade-offs and hand it back.
 8. **Set the commitment.** Propose the Output below; the person agrees or
-   changes it. Under `experimentation`, review points test the goal's
-   assumptions.
+   changes it. Following `experimentation`, make each review point check one of
+   the goal's assumptions.
 
 ## Reviewing an existing goal
 
@@ -80,8 +81,8 @@ point alone does not prove a goal worthless.
 - The chosen goal, the person's reason, and key constraints and assumptions.
 - The first small action and the evidence that would show progress.
 - The review point and the stop point.
-- For a finite goal, when and on what evidence renewal will be decided; start
-  looking for the next goal before this one ends.
+- For a finite goal, when and on what evidence the person will decide on a
+  next goal; start looking for it before this one ends.
 
 ## Definitions
 
@@ -90,8 +91,7 @@ point alone does not prove a goal worthless.
 - **Review point:** a time or event to check that the goal still holds.
 - **Stop point:** when the person ends the goal: a result, a date, or for a goal
   with no end, evidence that it no longer serves the motive.
-- **Finite goal:** a goal that ends when its result is reached or its date
-  passes. **Renewal:** choosing whether to set a next goal then.
+- **Finite goal:** one that ends when its result is reached or its date passes.
 
 ## Boundaries
 
