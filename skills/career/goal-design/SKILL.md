@@ -41,13 +41,11 @@ person choose, and set when to review or end it.
    each before step 6 (the others can go on to step 5). A candidate is kept when
    it has the person's reason.
 5. **Make each a learning goal or a performance goal.** Propose the type with
-   the reason; the person confirms or changes it. Lacks the skill and no duty
-   fixes a target: propose a learning goal. Has the skill and a duty fixes a
-   target: a performance goal. Lacks the skill but a duty fixes a target: a
-   learning goal first, then the target. Has the skill and no duty: a
-   performance goal, the default. Also propose a size; if the goal reaches past
-   what the person can do now, keep its downside one they could bear, as
-   `optionality` guides. The person agrees or changes it.
+   the reason; the person confirms or changes it. If the person lacks the skill,
+   propose a learning goal, followed by the target if a duty fixes one; if they
+   have the skill, a performance goal, the default. Also propose a size; if the
+   goal reaches past what the person can do now, keep its downside one they
+   could bear, as `optionality` guides. The person agrees or changes it.
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
@@ -63,17 +61,19 @@ person choose, and set when to review or end it.
 
 Recheck the gate (step 2), the reason (step 4), the assumptions recorded when
 the goal was set (ask for them if not set here), and any change in constraints
-or options. Decide with the person; add the decision and change to the Output:
+or options. If the motive is unclear or untested, return to step 1 first. Decide
+with the person; add the decision and change to the Output:
 
 - **Continue:** the reason holds and the evidence supports it.
 - **Reshape:** the motive holds but the goal or its reason no longer fits; redo
   from step 2, keeping earlier candidates the person still has a reason for.
 - **Pause:** a constraint blocks it for now; set a date, then recheck the gate.
-- **Stop:** the motive is gone, or a better option replaces the goal.
+- **Stop:** the motive is gone, a better option replaces the goal, or the stop
+  point is reached; for a finite goal, decide renewal then.
 
-For Reshape and Pause, name which of the gate, the reason, or the recorded
-assumptions no longer holds, and the fix; for Stop, name what ended it. A later
-low point alone does not prove a goal worthless.
+For Reshape and Pause, name which of the wanted change, the constraints, the
+reason, or the recorded assumptions no longer holds, and the fix; for Stop, name
+what ended it. A later low point alone does not prove a goal worthless.
 
 ## Output
 
