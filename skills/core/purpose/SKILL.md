@@ -28,8 +28,8 @@ meant to produce.
    When you cannot see the wanted change itself, say what evidence would show
    it and who can see it.
 4. **Expect a chased number to drift.** When decisions depend on it, effort
-   goes to the easiest way to raise it, and a reward tied to it speeds this up:
-   ask what the reward encourages, such as neglected quality or costs pushed
+   goes to the easiest way to raise it, and a reward tied to it speeds this up.
+   Ask what the reward encourages, such as neglected quality or costs pushed
    onto people the number leaves out. Trust the number only while direct
    evidence of the wanted change agrees.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
