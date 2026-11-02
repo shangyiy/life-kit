@@ -37,8 +37,10 @@ Principles for understanding what moves a person to begin and sustain action
   eds., *Handbook of Positive Psychology*, Oxford University Press, 2002, for
   clear proximal goals, prompt feedback, and challenge matched to skill.
 - The source-versus-end distinction, the borrowed-or-comparative category, the
-  claim that structure amplifies but does not create motivation, the
-  boundaries, and the remaining definitions are the author's own synthesis.
+  claim that structure amplifies but does not replace motivation, principle
+  2's warning against inferring motivation from stated importance, principle
+  4's weighting of sources by quality, and the remaining definitions are the
+  author's own synthesis.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.

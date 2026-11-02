@@ -9,20 +9,17 @@ metadata:
 
 # /motivation
 
-The domain of what moves a person to begin and sustain action, not of why the
-result matters (`outcome-orientation`) or of the choices, costs, and downside
-around acting (`optionality`). Use these principles to do the work or to review
+The domain of what moves a person to begin and sustain action, not of
+whether its result is worth pursuing. Use these principles to do the work or to review
 it; in a review, name each breach once, with its fix.
 
 ## Principles
 
 1. **Distinguish a motive from a worthwhile end.** Interest, reward, pressure,
    comparison, and belonging can each move action without proving that its
-   result deserves pursuit. Intrinsic motives arise from interest or enjoyment
-   in the activity itself. A person can instead own an instrumental reason
-   without making it intrinsic. Borrowed and comparative motives come from
-   other people's aims or standing. They can ignite action, but they need an
-   owned why to support durable commitment.
+   result deserves pursuit. A person can own an instrumental reason without
+   making it intrinsic. Borrowed and comparative motives can ignite action,
+   but they need an owned why to support durable commitment.
 2. **Look for autonomy, competence, and relatedness.** Motivation is supported
    when a person experiences choice and ownership, growing effectiveness, and
    meaningful connection. Diagnose which need the activity satisfies or
@@ -41,7 +38,7 @@ it; in a review, name each breach once, with its fix.
    notices a gap between what is known and what they want to know. Make the gap
    visible enough to invite action without pretending that curiosity
    establishes a lasting purpose.
-6. **Use structure to amplify motivation, not to invent it.** Clear near goals,
+6. **Use structure to amplify motivation, not to replace it.** Clear near goals,
    prompt feedback, and challenge near the edge of skill can turn a motive into
    sustained engagement by supporting competence and progress. Structure can
    produce effort or compliance without durable motivation; check whether the
