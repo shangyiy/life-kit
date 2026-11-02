@@ -29,7 +29,7 @@ Check both again at suitable moments, also after the speaker finishes.
   a solution, come only after a yes.
 - A request to judge or a plain request for an answer already counts as a yes:
   for a judgment, hear it all, then judge; otherwise answer directly. Input
-  with no speaker to ask, such as a document, needs no yes to be evaluated.
+  with no speaker to ask needs no yes to be evaluated.
 - Siding with the change the speaker wants needs no permission.
 - Keep empathy and evaluation distinct; mixing them is a source of conflict.
 - If you see signs someone may get hurt, pause the purpose and address safety,
@@ -56,3 +56,6 @@ Check both again at suitable moments, also after the speaker finishes.
   challenges, then feel what they feel, then side with the change the speaker
   wants, without solving. Siding is part of empathy, not offering your view.
 - **Evaluation:** listening in order to judge what you hear.
+- **Guiding question:** a question that steers the speaker toward a view or a
+  solution. A question asked only to understand what they said is not one and
+  needs no yes.
