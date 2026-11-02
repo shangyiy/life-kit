@@ -1,10 +1,12 @@
 ---
 name: white-box
 description: >
-  Structural (white-box) testing after black-box tests exist: close coverage
-  gaps (statement, branch, condition, MC/DC, cyclomatic basis paths, loops,
-  data flow) or review a coverage claim. Use for coverage gap analysis,
-  structural test design or review, or /white-box.
+  Find what existing tests miss in the implementation's structure and close
+  the gaps, after black-box tests exist. Use for coverage gaps (statement,
+  branch, condition, MC/DC, basis paths, loops, data flow), to review a
+  coverage claim, or on /white-box. Not for choosing inputs from the
+  specification (black-box) or for judging whether tests catch faults
+  (mutation-testing).
 metadata:
   short-description: "Structural coverage and adequacy"
 parent-skill: testing
