@@ -1,10 +1,11 @@
 ---
 name: structure-view
 description: >
-  Design or recover the static structure of a module: relations between its
-  parts, where each behavior belongs, and which patterns are really there.
-  Use to draw, read out or review a type or package structure, or on
-  /structure-view.
+  Design or recover the static structure of a module: its parts, how they
+  relate, where each behavior belongs, and which design patterns are really
+  there. Use to draw, read out or review a type or package structure, or on
+  /structure-view. For how parts cooperate in a scenario use behavior-view;
+  for whether the design is good use design-principles.
 metadata:
   short-description: "Static structure: design and recover"
 parent-skill: design-principles

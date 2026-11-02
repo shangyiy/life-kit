@@ -2,9 +2,11 @@
 name: mutation-testing
 description: >
   Judge how well a test suite catches faults by injecting small, realistic
-  faults (mutants, modeled defects) and measuring how many it detects. Use to
-  design or run a mutation analysis or fault seeding, review a mutation score,
-  surviving or equivalent mutants, or on /mutation-testing.
+  faults (mutants, modeled defects) and counting how many it detects. Use
+  when tests pass but may not catch bugs, to run or review a mutation
+  analysis or fault seeding, a mutation score, surviving or equivalent
+  mutants, or on /mutation-testing. Not for closing coverage gaps
+  (white-box) or writing assertions (test-oracle).
 metadata:
   short-description: "Mutation-based suite adequacy"
 parent-skill: testing
