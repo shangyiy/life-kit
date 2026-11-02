@@ -1,10 +1,12 @@
 ---
 name: clean-arch-domain
 description: >
-  Decide whether a business rule belongs in the domain (entities) or in a use
-  case (interactor) under Clean Architecture. Use when designing or reviewing
-  where logic lives, splitting requirements (use cases or user stories) into
-  code, or when the user runs /clean-arch-domain.
+  Decide whether a business rule belongs in the domain (entities) or in a
+  use case (interactor) under Clean Architecture. Use when designing or
+  reviewing where logic lives, splitting requirements (use cases or user
+  stories) into code, or when the user runs /clean-arch-domain. For general
+  design quality use design-principles; for writing the use cases or stories
+  use user-stories.
 metadata:
   short-description: "Domain vs use case split"
 ---
