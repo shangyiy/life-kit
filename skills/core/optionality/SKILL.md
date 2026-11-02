@@ -26,8 +26,7 @@ real choices, and what each is worth, keeps that from happening.
    expand if it goes well, switch to something else, wait, or sell off what is
    left.
 3. **Build a choice with a small first investment.** Spend only enough to make
-   a new path possible. To commit in stages that each buy information, see
-   `/experimentation`.
+   a new path possible.
 
 ## Judge what each is worth
 
@@ -48,7 +47,8 @@ costs to keep, time, and environment.
    with nothing. This measures your position; it does not say you should
    leave, and it is not about collecting leverage.
 6. **Count what it costs to keep this choice open.** Include money, time,
-   attention, relationships, and what you give up to keep it.
+   attention, relationships, and what you give up to keep it. Keep a choice
+   open only while what it gives you is more than it costs to keep.
 7. **Count time.** A choice can expire or cost more later. Wait only when
    waiting brings information.
 8. **Check how many chances the environment offers.** The place, team, or
@@ -84,12 +84,3 @@ List the choices found, each one's worth on the five checks, and the facts
 that would change it. If asked what to do, say plainly that the choice is
 theirs, then name the facts that would tip it, which path each fact favors,
 and the next cheap check.
-
-## Boundaries
-
-Keep a choice open only while what it gives you is more than it costs to keep.
-Whether to commit is always the person's call.
-
-`perspective` looks at a situation from the other person's side to win their
-support; `optionality` looks at the choices you have. Goals belong to
-`goal-design`; motives belong to `motivation`.
