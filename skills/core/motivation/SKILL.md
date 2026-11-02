@@ -49,7 +49,7 @@ still do it without the outside reward or pressure.
    there.** Material rewards they expect for doing, finishing, or doing well at
    the task can reduce the person's existing interest. So can pressure, and so
    can grading that feels controlling. Unexpected rewards and positive
-   feedback usually do not reduce it. This matters most when someone plans a
+   feedback usually do not reduce it. Keep this in mind when someone plans a
    material reward for another person.
 8. **Curiosity, goals, and feedback support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can spark interest.

@@ -9,14 +9,15 @@ curiosity.
 
 - Richard M. Ryan and Edward L. Deci, “Self-Determination Theory and the
   Facilitation of Intrinsic Motivation, Social Development, and Well-Being,”
-  *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation,
-  internalization, guilt and self-pressure as a partly internalized motive,
-  autonomy, competence, relatedness, pressure and controlling evaluation, and
-  how offering real choice helps a reason become one's own.
+  *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation and
+  how long each lasts, internalization and how a reason one values lasts,
+  guilt and self-pressure as a partly internalized motive, how autonomy,
+  competence and relatedness support internalization, and pressure and
+  controlling evaluation.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
-  Change,” *Psychological Review* 84(2), 1977: past performance, seeing others
-  succeed, persuasion, and physical or emotional state and how it is read as
-  sources of self-efficacy.
+  Change,” *Psychological Review* 84(2), 1977: past performance, seeing
+  similar others succeed, persuasion, and physical or emotional state and how
+  it is read as sources of self-efficacy.
 - Edward L. Deci, Richard Koestner, and Richard M. Ryan,
   “A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic
   Rewards on Intrinsic Motivation,” *Psychological Bulletin* 125(6), 1999:
@@ -31,13 +32,14 @@ curiosity.
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question, asking why as well, judging each part of a mixed motive, that what
-  the person says is better evidence than what you infer from how they seem or
-  what others say, saying you cannot tell yet when no one can be asked, asking
-  what else a needed task gives, that putting a task off can come from doubt,
-  that curiosity can spark interest, that curiosity, goals and feedback do not
-  replace a reason the person holds, and that a planned material reward is when
-  the risk to interest matters most.
+  question and asking why as well, judging each part of a mixed motive, that
+  what the person says is better evidence than what you infer from how they
+  seem or what others say, saying you cannot tell yet when no one can be asked,
+  and asking what else a needed task gives.
+- Also the author's own: that putting a task off can come from doubt, that
+  curiosity can spark interest, that curiosity, goals and feedback do not
+  replace a reason the person holds, and that the reward risk applies when
+  someone plans a material reward for another person.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
   tasks others depend on, and how to help someone helping another person.
 
