@@ -2,7 +2,10 @@
 name: outcome-orientation
 description: >
   Get clear on why work exists: the goal behind it, for whom, and what it
-  should change. Use to plan, carry out, or review work.
+  should change. Use to plan, carry out, or review work, or on
+  /outcome-orientation.
+metadata:
+  short-description: "Keep work answerable to why it exists"
 ---
 
 # /outcome-orientation
@@ -16,8 +19,7 @@ the work or to review it; in a review, name each breach once, with its fix.
 
 1. **Start with why.** Name the goal behind the work, who it serves, why it
    matters, and the useful change that would count as success. This result is
-   the end. Keep it distinct from every means used to pursue, observe, or
-   reward it.
+   the end. Scale this to the stakes.
 2. **Because the why sets the end, judge work by its effects.** Effort, speed,
    and completion show activity, not value. Examine what changed for those
    affected, whether it serves the result, and what material side effects it
