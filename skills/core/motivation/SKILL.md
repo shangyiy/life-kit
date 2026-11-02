@@ -27,15 +27,15 @@ still do it without the outside reward or pressure.
    story does. If you cannot ask, say it is unknown. If they must do the task
    anyway, ask what else it gives them. When someone is helping another person,
    what the helper has seen counts, but the person's own answer counts most.
-3. **Guilt and self-pressure are not the person's own reason.** If they say
-   yes, also check that the reason is one they value, not an escape from guilt
-   or self-pressure. That pressure comes from inside, yet it is still not a
-   reason they value.
-4. **An outside reason can become their own (internalization).** A reason
-   they have come to value, or one that fits what they care about, is their
-   own and lasts. Comparing themselves with similar people whose success seems
+3. **An outside reason can become their own (internalization).** A reason they
+   have come to value, or one that fits what they care about, is their own and
+   usually lasts. Comparing themselves with similar people whose success seems
    within reach can also start a motive; it lasts once they find their own
    reason.
+4. **Guilt and self-pressure are not the person's own reason.** If they would
+   still act without the outside push, also check that the reason is one they
+   value, not an escape from guilt or self-pressure. That pressure comes from
+   inside, yet it is still not a reason they value.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
@@ -56,7 +56,7 @@ still do it without the outside reward or pressure.
 
 ## Boundaries
 
-- **Safety overrides every principle above.** If anyone sounds in danger,
+- **Safety overrides everything else here.** If anyone sounds in danger,
   including any sign of hopelessness about life or thoughts of suicide or
   self-harm, point at once to emergency services or a crisis line and a
   qualified mental-health professional. If someone sounds depressed or low for
