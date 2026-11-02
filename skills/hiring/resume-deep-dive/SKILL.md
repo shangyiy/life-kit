@@ -42,6 +42,6 @@ When the user ends the session (or asks to wrap), give a short recap only: which
 
 ## Boundaries
 
-- Stay on the claims the resume makes; the target company or role question is the one exception.
+- Stay on the claims the resume makes, apart from the one target company or role question.
 - Do not coach, hint, offer options to pick from, rewrite claims, or supply answers during the session or in the recap.
 - Not a fit review against a job description; use `/review-resume` for that.
