@@ -20,20 +20,17 @@ manipulation.
   Rewards on Intrinsic Motivation,” *Psychological Bulletin* 125(6), 1999:
   how expected material rewards can reduce existing interest, while unexpected
   rewards and positive feedback did not.
-- George Loewenstein, “The Psychology of Curiosity: A Review and
-  Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
-  response to a perceived information gap.
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
   Psychologist* 57(9), 2002: clear goals and feedback.
 - The author's own ideas, not taken from the sources above: the opening
-  question and how to read its answer, how curiosity, routines, self-set
-  deadlines, and feedback serve a person's own reasons, the option to drop the
-  task and the rule for tasks that cannot be dropped, the safety first step and
-  the gentle question when words are unclear, the first reply to someone
-  helping another person, plan-only requests, saying what seems to fit when
-  asked, the non-manipulation rule, and the Workflow, Checklist, Anti-patterns,
-  and Output sections.
+  question and how to read its answer, that putting a task off often comes
+  from doubting one's ability, how self-set deadlines serve a person's own
+  reasons, when a task may be dropped, the safety first step and the gentle
+  question when words are unclear, the first reply to someone helping another
+  person, plan-only requests, saying what fits only when asked, the
+  non-manipulation rule, and the Workflow, Checklist, Anti-patterns, and
+  Output sections.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
