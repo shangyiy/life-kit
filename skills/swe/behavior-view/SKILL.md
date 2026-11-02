@@ -1,9 +1,11 @@
 ---
 name: behavior-view
 description: >
-  Design or recover behavior: sequence views of how parts cooperate, and a use
-  case's courses read out of code. Use to draw, trace or review an interaction
-  or the paths through code from an entry point, or on /behavior-view.
+  Design or recover behavior: sequence views of how parts cooperate in a
+  scenario, and a use case's courses read out of code. Use to draw, trace or
+  review an interaction, a call flow, or the paths through code from an
+  entry point, or on /behavior-view. For the static relations between parts
+  use structure-view; for writing the use cases themselves use user-stories.
 metadata:
   short-description: "Sequences and paths: design and recover"
 parent-skill: design-principles
