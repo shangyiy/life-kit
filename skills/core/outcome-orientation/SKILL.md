@@ -1,50 +1,48 @@
 ---
 name: outcome-orientation
 description: >
-  Judge work by the real result, not completed activity or a proxy that stands
-  in for it. Use to plan, execute, or review work after a goal is adopted, or
-  on /outcome-orientation.
-metadata:
-  short-description: "Keep work answerable to the intended result"
+  Get clear on why work exists: the goal behind it, for whom, and what it
+  should change. Use to plan, carry out, or review work.
 ---
 
 # /outcome-orientation
 
-The domain of outcome orientation: keeping work answerable to the useful
-change it is meant to produce for those it serves. Binding duties and
-constraints bound every principle below; only a party authorized to change
-them can. Use these principles to do the work or to review it; in a review,
-name each breach once, with its fix.
+The domain of outcome orientation: keeping work answerable to why it exists,
+for whom, and what it should change. Binding duties and constraints still
+apply; only an authorized party can change them. Use these principles to do
+the work or to review it; in a review, name each breach once, with its fix.
 
 ## Principles
 
-1. **Name the intended result and why it matters.** State the useful change,
-   and for whom, that would count as success. Keep it distinct from the
-   activity, deliverable, method, or measure used to pursue or observe it.
-2. **Judge work by its effects.** Effort, speed, and completion show activity,
-   not value. Examine what changed for those affected, whether it serves the
-   result, and what material side effects it had. Where direct observation is
-   impracticable, use the strongest available evidence and state its limits.
-3. **Hold the result; revise the method; change the result only openly.**
-   Change a method whose link to the result has failed rather than quietly
-   changing the result. When new evidence, constraints, or unacceptable
-   effects undermine the result itself, revise or drop it in the open: record
-   what changed and who decided, and do not present an easier substitute as
-   the original result attained.
-4. **Make trade-offs explicit.** When scope, speed, quality, cost, and risk
-   cannot all improve together, state their order and the consequence of the
-   choice.
-5. **Treat measures and incentives as evidence and levers, not the result.** A
-   measure shows progress only while its link to the result holds, and
-   pressure to improve it, especially through rewards or sanctions, weakens
-   that link. Rewarding an activity or measure can produce it while displacing
-   the result. Inspect the underlying result, use more than one kind of
-   evidence where the stakes warrant it, and check what conduct an incentive
-   makes attractive, including gaming, neglected quality, and costs shifted
-   onto those the target does not represent.
+1. **Start with why.** Name the goal behind the work, who it serves, why it
+   matters, and the useful change that would count as success. This result is
+   the end. Keep it distinct from every means used to pursue, observe, or
+   reward it.
+2. **Because the why sets the end, judge work by its effects.** Effort, speed,
+   and completion show activity, not value. Examine what changed for those
+   affected, whether it serves the result, and what material side effects it
+   had. When direct observation is not practical, use the strongest available
+   evidence and state its limits.
+3. **Because methods serve the result, hold the result while changing the
+   method.** Change a method when its link to the result fails. Change or drop
+   the result only openly when evidence, constraints, or unacceptable effects
+   undermine it. State what changed and who decided. Never present an easier
+   substitute as the original result attained.
+4. **Because choices shape the result, make trade-offs explicit.** When scope,
+   speed, quality, cost, and risk cannot all improve together, state their
+   order and the consequence of the choice.
+5. **Because means serve the result, never turn a means into the end.**
+   Treating a metric, deliverable, activity, reward, rating, or promotion as
+   the end is the inversion failure. It distorts action. Measures are evidence
+   and incentives are levers, not the result. A measure is useful only while
+   its link to the result holds; pressure, rewards, and sanctions can weaken
+   that link. Inspect the result, use more than one kind of evidence when the
+   stakes warrant it, and check what conduct an incentive makes attractive,
+   including gaming, neglected quality, and costs shifted to people the
+   measure does not represent.
 
 ## Definitions
 
 - **Result:** the useful change the work is intended to produce.
-- **Method:** an activity, plan, or deliverable used to pursue a result.
+- **Means:** anything used to pursue, observe, or reward a result.
 - **Measure:** an observation or proxy used as evidence about a result.

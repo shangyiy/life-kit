@@ -25,7 +25,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ### Thinking
 - [**perspective**](./skills/core/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
 - [**listening**](./skills/core/listening/SKILL.md): Know why you listen, then listen, ask, and tell little.
-- [**outcome-orientation**](./skills/core/outcome-orientation/SKILL.md): Judge work by the real result, not completed activity or a proxy that stands in for it.
+- [**outcome-orientation**](./skills/core/outcome-orientation/SKILL.md): Get clear on why work exists, then keep every method, measure, and incentive answerable to it.
 - [**grouping**](./skills/core/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
 - [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 - [**info-foraging**](./skills/core/info-foraging/SKILL.md): Get the most value for the attention spent looking: how to follow scent, which items to take, when to leave a source.
