@@ -25,8 +25,8 @@ person choose, and set when to review or end it.
    they want the goal, then why each answer matters. Push back on labels,
    abstractions, and restatements. Continue until the answer stops changing or
    reaches something wanted for itself. Also find what keeps drawing them and
-   what conflicts with it, their duties and constraints, and the change wanted.
-   The person may stop at any time; keep what was learned.
+   what conflicts with it, their skills, duties, and constraints, and the change
+   wanted. The person may stop at any time; keep what was learned.
 2. **Pass the gate.** Use `purpose` to state, in one sentence, the change the
    person wants. Go on when that change, the motive, and the constraints are
    clear enough to tell candidates apart; if not, return to step 1. If the
@@ -50,14 +50,14 @@ person choose, and set when to review or end it.
    `optionality` guides. The person agrees or changes it.
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
-   name the unknown blocking the choice. List the ways forward and what each
-   would settle (ask again about the motive, add a candidate, or run a small
-   test under `experimentation`); the person picks one; resume at that step.
-7. **Let the person choose.** Lay out the kept candidates; the person picks. If
-   they ask you to choose, lay out the trade-offs and hand it back.
+   name what blocks the choice; the person picks a way forward: ask again about
+   the motive (step 1), add a candidate (step 3), or run a small test under
+   `experimentation` and take its result to step 4.
+7. **Let the person choose.** Lay out the kept candidates; the person picks
+   (with one, adopts it or returns to step 3). If asked to choose, give the
+   trade-offs and hand it back.
 8. **Set the commitment.** Propose the Output below; the person agrees or
-   changes it. Under `experimentation`, a review point checks an assumption the
-   goal rests on and a stop point is the result that ends it.
+   changes it. Under `experimentation`, review points test its assumptions.
 
 ## Reviewing an existing goal
 
@@ -66,10 +66,10 @@ the goal was set (ask for them if not set here), and any change in constraints
 or options. Decide with the person; add the decision and change to the Output:
 
 - **Continue:** the reason holds and the evidence supports it.
-- **Reshape:** the motive holds but the goal no longer fits; redo from step 2,
-  keeping earlier candidates the person still has a reason for.
+- **Reshape:** the motive holds but the goal or its reason no longer fits; redo
+  from step 2, keeping earlier candidates the person still has a reason for.
 - **Pause:** a constraint blocks it for now; set a date, then recheck the gate.
-- **Stop:** the reason is gone, or a better option replaces the goal.
+- **Stop:** the motive is gone, or a better option replaces the goal.
 
 For Reshape and Pause, name which of the gate, the reason, or the recorded
 assumptions no longer holds, and the fix; for Stop, name what ended it. A later
