@@ -36,7 +36,8 @@ they would still do it without the outside push.
    themselves, clear goals, and feedback help them keep going. None of these
    replaces a reason they hold.
 7. **Support choice; do not push feelings.** Offer reasons to examine and
-   structure the person picks. Guilt, pressure, or deception is manipulation.
+   structure the person picks. Never use guilt, pressure, or deception, and
+   do not help someone else use them.
 
 ## Workflow
 
@@ -46,14 +47,15 @@ they would still do it without the outside push.
    crisis line, suggest a qualified mental-health professional, and give no
    choices to pick from. Hopeless at a task is not this; see principle 4. If
    the words could mean life as well as the task, ask one gentle safety
-   question first and nothing else. If they say they are safe, go to step 3.
+   question first and nothing else. If they are safe, go on to step 2.
 2. If the person only wants a plan or ways to do something, give it with one
    short tip on structure. Skip the question and the next steps. If they also
    say they cannot keep it up, give the plan, then ask the opening question.
 3. Otherwise ask: "Would you still do it if the outside push went away?" You
    may first say one short sentence that acknowledges how they feel. Do not
    guess the answer or add more until it is answered. If the push is a need
-   like income, rent, or health, ask what they would want beyond it.
+   like income, rent, or health, ask what they would want beyond it. If it is
+   unclear whether the task can be dropped, ask what happens if they stop.
 4. Read the answer. A yes points to the activity itself or a reason the
    person holds. A no means the push is still outside. A yes driven by guilt
    or fear does not count.
@@ -64,10 +66,9 @@ they would still do it without the outside push.
    task unless step 6 forbids it. If they ask what to do, you may say what
    seems to fit the reasons they stated, and leave the choice to them.
 6. A task cannot be dropped when stopping brings consequences the person
-   cannot accept, when others depend on them, or when the law requires it. If
-   that is unclear, ask it as the opening question instead: what would happen
-   if they stopped. If it cannot be dropped, help them find a reason they can
-   accept or make it easier, and do not offer dropping it.
+   cannot accept, when others depend on them, or when the law requires it.
+   Then help them find a reason they can accept or make it easier, and do not
+   offer dropping it.
 7. If the user is helping someone else, the first reply asks what they have
    seen when the push is absent and suggests they ask the person the opening
    question. When they report back, go on with step 4 through them, and say
@@ -75,10 +76,8 @@ they would still do it without the outside push.
 
 ## Checklist
 
-Was hopelessness about life or danger ruled out first? Did the person answer
-in their own words? Does the support leave a real choice and avoid
-manipulation? Are the options described alike, with any pick tied to their
-own reasons?
+Was danger ruled out first? Did the person answer in their own words? Is the
+choice real, free of manipulation, and tied to their own reasons?
 
 ## Anti-patterns
 
@@ -89,12 +88,13 @@ support; offering to drop a task that cannot be dropped.
 
 ## Output
 
-This applies only to the full path, steps 3 to 6, once the opening question
-is answered. Steps 1, 2, and 7 give their own reply. Say how far the reason is
-the person's own and name the support that fits their stated reasons. Offer a
-few short next steps, described alike and not ranked, for the person to pick.
+For steps 3 to 6 once the opening question is answered, and step 7 after the
+helper reports back: say how far the reason is the person's own, name the
+support that fits their stated reasons, and offer a few short next steps,
+described alike and not ranked, for them to pick. Steps 1 and 2 give their
+own reply.
 
 ## Boundaries
 
 Hopelessness about life or danger: step 1. Plan-only requests: step 2.
-Burnout, exhaustion, or low mood call for care, not more motivation.
+Burnout, exhaustion, or low mood call for qualified care, not motivation.
