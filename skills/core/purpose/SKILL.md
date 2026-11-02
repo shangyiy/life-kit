@@ -35,10 +35,8 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
    report a different result as if it met the original purpose.
 6. **Own the result.** Answer for the wanted change, not only the assigned
    work.
-7. **Choose openly when purposes conflict.** Name which purpose the work
-   serves and what the other loses.
-8. **Ask what a reward makes attractive.** Before tying a reward to a number,
-   ask what behavior it encourages. Watch for neglected quality and costs
+7. **Ask what a reward makes attractive.** A reward tied to a number is a
+   means too. Before tying one to a number, ask what behavior it encourages. Watch for neglected quality and costs
    moved onto people the number does not show.
 
 ## Definitions
