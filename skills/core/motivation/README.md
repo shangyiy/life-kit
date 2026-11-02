@@ -2,8 +2,8 @@
 
 Judge whether a motive can keep a person acting by asking whether they would
 still do it without the outside reward or pressure (`/motivation`). It draws on
-work on intrinsic and extrinsic motivation, self-efficacy, curiosity, and
-support without manipulation.
+work on intrinsic and extrinsic motivation, self-efficacy, goals, and
+curiosity.
 
 ## Credit
 

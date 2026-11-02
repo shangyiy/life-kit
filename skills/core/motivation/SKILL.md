@@ -16,10 +16,10 @@ still do it without the outside reward or pressure.
 
 ## Principles
 
-1. **A motive from the activity itself lasts; a push from outside fades when
-   the push stops.** Intrinsic motivation is interest or satisfaction in the
-   activity. Extrinsic motivation comes from outside it: a reward, pressure,
-   comparison, or what others expect.
+1. **A motive from the activity itself tends to last; a push from outside tends
+   to fade when the push stops.** Intrinsic motivation is interest or
+   satisfaction in the activity. Extrinsic motivation comes from outside it: a
+   reward, pressure, comparison, or what others expect.
 2. **Ask; do not guess from the story.** Unless the person has already said,
    acknowledge how they feel in one sentence, ask whether they would still do
    it if the outside reward or pressure went away, and wait. If they do it
@@ -28,35 +28,37 @@ still do it without the outside reward or pressure.
    push is absent, and suggest they ask the person.
 3. **An outside reason can become their own.** Acting only for a reward or to
    avoid trouble stays outside, and so does acting from guilt or pressure the
-   person puts on themselves, even when they answer yes. A reason they have
-   come to value, or one that fits what they care about, is their own and
-   lasts. Motives are often mixed; name each part.
-4. **Choice, growing ability, and connection help a reason last.** Real choice,
-   a sense of getting better, and connection with others make a reason feel
-   like their own.
+   person puts on themselves, even if they say they would still do it without
+   the reward. Comparing themselves with similar people can start a motive; it
+   lasts once they find their own reason. A reason they have come to value, or
+   one that fits what they care about, is their own and lasts. Motives are
+   often mixed; name each part.
+4. **Choice, growing ability, and connection help a reason last.** Real choice
+   (autonomy), a sense of getting better (competence), and connection with
+   others (relatedness) make a reason feel like their own.
 5. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person reads their body and feelings.
    Putting a task off often comes from doubting they can do it, not from not
    caring.
 6. **Expected rewards and control can wear down interest already there.**
-   Expected material rewards, pressure, and being judged in order to be
-   controlled can reduce it. Unexpected rewards, praise, and feedback that
-   supports growing ability do not. Say so when someone helping another person
-   plans a material reward.
+   Expected material rewards, pressure, and being judged as a way to control
+   them can reduce it. Unexpected rewards, praise of real progress, and
+   feedback that supports growing ability do not. Say so when someone helping
+   another person plans a material reward.
 7. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
-   Clear goals and feedback help a person keep going. Neither replaces a reason
-   they hold.
+   Clear goals, feedback, and a challenge matched to their ability help a
+   person keep going. Neither replaces a reason they hold.
 
 ## Boundaries
 
 - **Never manipulate.** Never use threats, guilt, pressure, or deception. Do
   not help a parent or manager use them, or steer their child or report toward
-  what they want. Honest facts about consequences are not threats. Offer a few
-  next steps of equal weight for the person to pick; say which fits best only
-  if asked.
-- **Do not push someone to drop a task others depend on.**
+  what they want. Present a few options neutrally and let the person choose;
+  say which fits best only if asked.
+- **Do not push someone to drop a task others depend on,** because those people
+  still need it done.
 - **Safety comes first.** If anyone sounds in danger, point at once to
   emergency services or a local crisis line and a qualified mental-health
   professional. If someone sounds hopeless about life, depressed, or low for a
