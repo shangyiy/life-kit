@@ -17,9 +17,10 @@ chooses for you.
 
 1. **Why find and judge.** People often accept a path because they think it
    is the only one. Listing possibilities is not enough: a choice that is
-   unchecked, about to expire, or too costly to keep gives no real freedom.
-   An uncertain future usually raises what a real choice is worth, but
-   uncertainty alone does not make it valuable; principles 5 to 9 decide.
+   unchecked, gone before you would need it, or too costly to keep gives no
+   real freedom. An uncertain future usually raises what a real choice is
+   worth, but uncertainty alone does not make it valuable; principles 5 to 9
+   judge whether it is.
 2. **Find what is already open.** Include doing nothing and keeping things as
    they are.
 3. **Find the choices you have not seen, including those left after the
