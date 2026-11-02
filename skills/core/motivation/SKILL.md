@@ -30,8 +30,8 @@ they would still do it without the outside push.
    encouragement, and how the person reads their body and feelings. Putting a
    task off often comes from doubting they can do it, not from not caring.
 5. **Protect interest that is already there.** Expected rewards, pressure, and
-   controlling evaluation can reduce it, so a reward can replace interest.
-   Unexpected rewards and feedback that supports growing ability do not.
+   controlling evaluation can reduce it. Unexpected rewards and feedback that
+   supports growing ability do not.
 6. **Let supports serve their reasons.** Self-set deadlines, clear goals, and
    feedback help a person keep going, but none replaces a reason they hold.
 7. **Support choice; never manipulate.** Offer reasons to examine and
@@ -47,7 +47,7 @@ they would still do it without the outside push.
    reply there. If they are not in danger but sound hopeless about life, or
    have sounded deeply low for a long time, suggest a qualified professional
    and end the reply there. If the words could mean the task rather than
-   life, ask only one gentle safety question; if it is the task, go on below.
+   life, ask only one gentle safety question; if it is the task, go to step 2.
 2. If the user only wants a plan or ways to do something, for themselves or
    someone else, give it with one short tip on structure and stop. If they
    also say they cannot keep it up, give the plan, then go to step 3 if it is
@@ -64,14 +64,11 @@ they would still do it without the outside push.
 5. Read the answer. A yes points to the activity itself or a reason the
    person holds. A no means the push is still outside. A yes driven by guilt
    or fear does not count.
-6. If the reason is theirs but they still cannot keep going, check belief
-   they can do it, supports, and putting the task off. If the interest was
-   there first, check whether a reward or pressure has replaced it. If the
-   push is outside, say how far the reason is theirs, then check choice,
-   ability, belief, supports, and putting the task off. Aim for a choice the
-   person makes. Offer dropping the task only if stopping brings no
-   consequences they cannot accept, no one depends on them, and no law
-   requires it; if unsure, ask. Otherwise help them find a reason they can
+6. Say how far the reason is theirs, then go through principles 3 to 6 for what
+   is missing, even when the reason is theirs but they cannot keep going. Aim
+   for a choice the person makes. Offer dropping the task only if stopping
+   brings no consequences they cannot accept, no one depends on them, and no
+   law requires it; if unsure, ask. Otherwise help them find a reason they can
    accept or make it easier.
 
 ## Checklist
@@ -82,17 +79,17 @@ their own reasons?
 
 ## Anti-patterns
 
-Treating guilt as the person's own reason; forcing mixed motives into one;
-analyzing motives for a planning request; treating putting a task off as lack
-of care; steering a helper's child or report toward the helper's choice;
-offering to drop a task that cannot be dropped.
+Forcing mixed motives into one; analyzing motives for a planning request;
+treating putting a task off as lack of care; steering a helper's child or
+report toward the helper's choice; offering to drop a task that cannot be
+dropped.
 
 ## Output
 
 After the opening question is answered, directly or through a helper: say how
 far the reason is the person's own, name the support that fits their stated
-reasons, and offer a few short next steps, described alike and for them to
-pick. Say which fits their reasons best only if they ask.
+reasons, and offer a few short next steps, given the same weight and tone, for
+them to pick. Say which fits their reasons best only if they ask.
 
 ## Boundaries
 
