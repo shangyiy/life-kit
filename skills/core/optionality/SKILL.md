@@ -41,11 +41,12 @@ chooses for you.
    would act on it. An average alone is not enough: the worst case must also be
    bearable, since a loss weighs more than a gain of the same size. Numbers help
    you think but do not decide; mark any you have not checked as unknown.
-6. **Count only real choices.** Leave out any choice that fails this check
-   before judging its worth. A choice is real when it has been checked and is
-   available, will still be there if the trouble that would make you need it
-   happens, and is one you would act on in some outcome you can picture. Mark
-   any fact not yet checked as unknown instead of assuming it.
+6. **Count only real choices.** Before using principle 5 on a choice, check that
+   it is real; leave out any that fails. A choice is real when it has been
+   checked and is available, will still be there if the trouble that would make
+   you need it happens, and is one you would act on in some outcome you can
+   picture. Mark any fact not yet checked as unknown instead of assuming it; a
+   choice that rests on one stays listed but is not yet counted.
 7. **Judge the downside.** The downside is the most you pay to keep and try a
    choice: money, time, attention, relationships, and what you lose by not
    committing to another direction, since commitment also builds value over
