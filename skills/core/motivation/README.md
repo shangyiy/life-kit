@@ -10,8 +10,9 @@ curiosity.
 - Richard M. Ryan and Edward L. Deci, “Self-Determination Theory and the
   Facilitation of Intrinsic Motivation, Social Development, and Well-Being,”
   *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation,
-  internalization, autonomy, competence, relatedness, pressure and
-  controlling evaluation, and support through reasons and choice.
+  internalization, guilt and self-pressure as a partly internalized motive,
+  autonomy, competence, relatedness, pressure and controlling evaluation, and
+  support through reasons and choice.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
   Change,” *Psychological Review* 84(2), 1977: past performance, models,
   persuasion, and physical or emotional state as sources of self-efficacy.
