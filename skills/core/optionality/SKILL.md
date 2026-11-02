@@ -40,12 +40,12 @@ costs to keep, time, and environment.
    one outcome you can picture you would act on it; a choice you would never
    use is worth nothing. To test a path, ask what you could live with if it
    failed: how long you could manage, what you would lose, and who would help.
-   The person judges that, not the assistant.
+   Only the person can judge that. Until they answer, mark the check open.
 5. **Check how freely it lets you walk away.** The better your real
    alternative, the easier it is to refuse an offer or leave where you are.
    It also lets you hear no with less fear, because a no does not leave you
-   with nothing. This measures your position; it is not a reason to leave or
-   a way to gain leverage.
+   with nothing. This measures your position; it is not by itself a reason
+   to leave.
 6. **Count what it costs to keep this choice open.** Include money, time,
    attention, relationships, and what you give up to keep it. Keep a choice
    open only while what it gives you is more than it costs to keep.
