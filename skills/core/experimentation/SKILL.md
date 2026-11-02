@@ -39,9 +39,9 @@ name each breach once, with its fix.
    rule to the result.
 4. **Use the least commitment that can produce useful evidence.** Isolate the
    uncertainty where possible. When more than one path is open, generate
-   contrasting alternatives and give each a cheap probe before committing. Prefer a test that can
-   be stopped, undone, or redirected. Increase commitment only when useful
-   learning requires it.
+   contrasting alternatives and give each a cheap probe before committing.
+   Prefer a test that can be stopped, undone, or redirected. Increase
+   commitment only when useful learning requires it.
 5. **Bound exposure by affordable downside, not hoped-for upside.** Set limits
    on losses of resources, time, trust, safety, attention, and alternatives.
    Affordable loss is necessary, not sufficient. A test must cost less than the
