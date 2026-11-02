@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.30.0",
+  "version": "0.31.0",
   "description": "Portable agent skills pack: review-resume, resume-deep-dive, side-quest-recommend, swe unit-testing.",
   "author": {
     "name": "shangyiy",
@@ -16,11 +16,12 @@
     "agent-skills"
   ],
   "skills": [
+    "./skills/career/goal-design",
     "./skills/core/design-principles",
-    "./skills/core/goal-design",
     "./skills/core/grouping",
     "./skills/core/info-foraging",
     "./skills/core/investing",
+    "./skills/core/listening",
     "./skills/core/misfits",
     "./skills/core/perspective",
     "./skills/core/testing",
