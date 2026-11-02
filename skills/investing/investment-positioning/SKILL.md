@@ -16,44 +16,42 @@ could force a sale; act only if the case holds. A written case keeps price
 swings and fear from making the decision. Apply
 [investing](../../core/investing/SKILL.md) throughout.
 
-## Check scope first
-
-Out of scope (see "Stay inside your circle of competence" in investing): any
-position size or allocation in numbers, tax or legal advice, retirement-income
-planning, debt restructuring, or products with hidden workings or costs.
-Qualitative calls, such as reducing part of a holding, are fine.
-
-Use the Stop output when the whole request is out of scope, when fraud is
-suspected (guaranteed returns, pressure to send money), when money has already
-been sent, or when the person may be coerced or unable to understand that
-losses are possible. When a request mixes in-scope and out-of-scope parts,
-answer the in-scope part normally and refer each out-of-scope part in one line.
-Priority: Stop over Short over Full. Use Short when the person is panicking or
-rushed.
-
-Never place orders, move money, or request account access. Ask only yes, no,
-or don't-know questions, plus the country when a referral needs it; never ask
-for amounts, balances, account details, or identifiers.
-
 ## Workflow
 
-1. **Name the decision.** State the change and why it must be decided now.
+1. **Check scope.** Out of scope (see "Stay inside your circle of competence"
+   in investing): any position size or allocation in numbers, tax or legal
+   advice, retirement-income planning, debt restructuring, or products with
+   hidden workings or costs. Qualitative calls without numbers are fine. Use
+   Stop when the whole request is out of scope, fraud is suspected
+   (guaranteed returns, pressure to send money), money has already been sent,
+   or the person may be coerced or unable to understand that losses are
+   possible. For a mixed request, answer the in-scope part and refer each
+   out-of-scope part in one line. Use Short when the person is panicking or
+   rushed; otherwise use Full. Stop wins over Short, and Short over Full.
+2. **Name the decision.** State the change and why it must be decided now.
    Ask: Is this meant to be held past the next review?
-2. **State the case.** Say what must be true, what the current price already
+3. **State the case.** Say what must be true, what the current price already
    assumes, and what would prove the case wrong. Others agreeing is often
    already in the price, so it is not a reason to buy (see "Think
    independently of the crowd" in investing).
-3. **Compare.** Weigh acting against doing nothing and the next-best use of the
+4. **Compare.** Weigh acting against doing nothing and the next-best use of the
    money, including costs and taxes, without giving tax advice (see "Allocate
    by opportunity cost" and "Cut costs, frictions, and taxes"). Value keeping
    room to act later.
-4. **Check for a forced sale.** A forced sale is selling at someone else's
+5. **Check for a forced sale.** A forced sale is selling at someone else's
    time or price (see "Avoid big mistakes first"). Run the checklist below.
-5. **Record.** Choose buy, add, hold, trim, exit, or wait. Give the strongest
+6. **Record.** Choose buy, add, hold, trim, exit, or wait. Give the strongest
    reason, the strongest objection, what would prove the choice wrong, and
    the observable event that triggers the next review.
 
+Never place orders, move money, or request account access. Questions about
+the person's situation are closed (yes, no, or don't know), plus the country
+when a referral needs it; never ask for amounts, balances, account details,
+or identifiers.
+
 ## Checklist
+
+Forced-sale risks:
 
 - Is borrowed money involved, and could a lender demand more cash or force a
   sale (a margin call)?
@@ -63,15 +61,13 @@ for amounts, balances, account details, or identifiers.
   terms push a sale?
 - Would fear of a further fall make the person sell?
 
-## Unknowns
-
-Never treat missing information as safety; use these conservative defaults:
+Defaults when something is unknown (missing information is never safety):
 
 - Case, or what would prove it wrong, unknown: add nothing until both are
   written down.
 - Price assumptions or value unknown: claim no advantage; gather evidence first.
-- A checklist item unknown or answered don't-know: treat that risk as present;
-  add nothing, not even new buys, and while the case holds, no full exit unless
+- A forced-sale risk unknown or answered don't-know: treat it as present; add
+  nothing, not even new buys, and while the case holds, no full exit unless
   the person confirms the risk. Repaying investment loans is fine.
 - Missing or conflicting evidence: mark it unknown, say what would resolve
   it, and prefer waiting to invented precision.
@@ -96,5 +92,5 @@ Never treat missing information as safety; use these conservative defaults:
   unknown`, `What could force a sale` (one line each, borrowing first), `Safest
   next action`, `Review trigger`, and `Referrals` (one line each, if any).
 - **Full**: the decision, the case and what the price assumes, the
-  comparison, the checklist results, unknowns with their defaults, the
-  record from step 5, and one-line referrals for any out-of-scope parts.
+  comparison, the checklist results, unknown defaults applied, the record
+  from step 6, and one-line referrals for any out-of-scope parts.
