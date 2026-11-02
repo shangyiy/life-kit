@@ -8,12 +8,12 @@ Skills follow the two layers in `README.md`. Agents in `agents/` only combine sk
 or in `skill-evals`, never in a skill.
 
 Every new or changed skill folder has a `README.md` that credits the sources
-the skill really draws on. Allowed sources are books, papers, published
-articles, talks and videos. Give literature as author, title, venue, year.
-Give talks and videos as speaker, title, channel or venue, date, URL. End with:
-"This skill is an independent restatement. It is not affiliated with or
-endorsed by any of these authors or speakers." Omit the Credit section when
-there is nothing to credit. A core `SKILL.md` holds principles and definitions
+the skill draws on: books, papers, published articles, talks and videos. Give
+literature as author, title, venue, year, and talks and videos as speaker,
+title, channel or venue, date, URL. End with: "This skill is an independent
+restatement. It is not affiliated with or endorsed by any of these authors."
+Write "authors or speakers" when a talk or video is credited. Omit the Credit
+section when there is nothing to credit. A core `SKILL.md` holds principles and definitions
 only: no examples, no source notes.
 
 ## Shipping
@@ -29,8 +29,8 @@ only: no examples, no source notes.
    `skill-evals/eval-sets/<skill>/`. No eval material (cases, rubrics, expected
    answers) goes in the life-kit PR or in a skill folder.
 5. **Checks:** for a skill, run the closed-book eval (see the `skill-evals`
-   README) and an independent agent review against this file. Every claim must
-   trace to the skill's source. For a new or changed skill or agent, also do a
+   README) and an independent agent review against this file. Every claim credited
+   to a source must trace to it. For a new or changed skill or agent, also do a
    dry run: run the head version on real inputs (such as past cases with known
    right outputs) and judge the output's quality. A structural or wording
    review does not replace it. On every PR, run a review that every line is
