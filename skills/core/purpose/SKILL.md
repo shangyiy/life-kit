@@ -1,64 +1,57 @@
 ---
 name: purpose
 description: >
-  Keep work aimed at its purpose: means, outputs, and metrics are evidence that
-  serve it, never a substitute for it. Use on /purpose.
+  Aim the work at its purpose; means and numbers serve the purpose and must
+  not replace it. Use on /purpose.
 metadata:
-  short-description: "Keep means and metrics serving the purpose"
+  short-description: "Aim work at its purpose; means and numbers serve it"
 ---
 
 # /purpose
 
-Keep work aimed at its purpose: means, outputs, and metrics are evidence that
-serve it, never a substitute for it.
+Aim the work at its purpose; means and numbers serve the purpose and must not
+replace it.
+
+Work drifts toward what is easy to finish or easy to count. Name the purpose
+first, then test every method, piece of completed work, and number against it.
+Match the depth to the stakes: for a small matter, state the purpose and check
+one piece of direct evidence.
 
 ## Principles
 
-1. **State the purpose plainly.** Name the change the work is meant to produce.
-   Keep methods, completed work, and numbers out of that sentence.
+1. **State the purpose plainly.** Name the change the work is meant to produce
+   in one sentence, with no method, completed work, or number in it.
 2. **Judge every means by the purpose.** Keep a method only while it helps
-   produce the wanted change. Own the result, not only the assigned work.
-   Replace the method when that link breaks.
-3. **Treat outputs as evidence.** Completed work shows that a means was used,
-   not that the purpose was achieved. Check what changed because of it.
-4. **Treat metrics as evidence.** A number can help show whether work is moving
-   the purpose, but it cannot stand in for the purpose. Use it with judgment
-   and direct evidence of the wanted change.
-5. **Expect a chased metric to drift.** Once rewards or decisions depend on a
-   number, effort moves toward the cheapest way to raise it. The number may
-   improve while the purpose does not, so keep checking their link.
-6. **Change methods while holding the purpose.** Adjust the plan when evidence
-   shows a better path. Do not protect a method after it stops serving the end.
-7. **Change the purpose openly.** State the old purpose, the new purpose, and
-   why it changed. Do not present a substitute as the original purpose met.
-8. **Make trade-offs between purposes clear.** When purposes conflict, say
+   produce the wanted change; replace it when that link breaks. Own the
+   result, not only the assigned work. When the result is not yours to
+   change, say whom to tell.
+3. **Treat completed work as evidence.** It shows that a means was used, not
+   that the purpose was met. Look at what changed because of it.
+4. **Treat a number as evidence, and expect it to drift.** A number can show
+   whether the work moves toward the purpose. Once rewards or decisions depend
+   on it, effort goes to the cheapest way to raise it and it stops measuring
+   what it did. Trust it only while direct evidence of the wanted change
+   agrees. When you cannot see that evidence, name what to check and who can.
+5. **Change methods and hold the purpose.** Adjust the plan when evidence shows
+   a better path. Do not protect a method after it stops serving the purpose.
+6. **Change the purpose openly.** State the old purpose, the new one, and why.
+   Say so first when a request already implies a change. Do not present a
+   substitute as the original purpose met.
+7. **Make trade-offs between purposes clear.** When purposes conflict, say
    which comes first and what that choice gives up.
-9. **Check what incentives encourage.** Ask what conduct a reward makes
-   attractive. Watch for gaming, neglected quality, and costs moved to people
-   the metric does not show.
+8. **Check what a reward encourages.** Ask what conduct it makes attractive.
+   Watch for gaming, neglected quality, and costs moved onto people the number
+   does not show.
+
+## Definitions
+
+- **Purpose:** the change the work is meant to produce.
+- **Means:** a method used to produce that change.
+- **Number:** a measure, target, or count that reports on the work.
 
 ## Boundaries
 
-`motivation` asks why a person acts; `purpose` states what the work serves.
-`experimentation` tests uncertain ways to serve a stated purpose.
-
-## Workflow
-
-State the purpose without a means, output, or metric. List each one, test its
-link to the purpose, and inspect direct effects. Then check metric drift,
-incentives, trade-offs, and any proposed change to the purpose.
-
-## Checklist
-
-Is the purpose a wanted change? Does each means, output, and metric still point
-to it? Did you inspect the change itself, not only the reported number?
-
-## Anti-patterns
-
-Treating a method as fixed; treating completion as success; chasing a number;
-quietly replacing the purpose; hiding a trade-off; rewarding the wrong conduct.
-
-## Output
-
-State the purpose, means, outputs, metrics, direct evidence, trade-offs,
-incentive risks, and any open change to the purpose.
+`goal-design` finds the purpose; this skill keeps work aimed at it. `motivation`
+asks why a person acts: for that question, use it, or answer plainly, and state
+the purpose in one line only. `experimentation` tests uncertain ways to serve a
+stated purpose.
