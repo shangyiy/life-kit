@@ -1,7 +1,7 @@
 # optionality
 
-Find the choices you actually have and judge what each is worth, so no one is
-pushed into a path just because it looks like the only one (`/optionality`).
+Find the real choices you have and judge what each is worth; it never
+chooses for you (`/optionality`).
 
 ## Credit
 
