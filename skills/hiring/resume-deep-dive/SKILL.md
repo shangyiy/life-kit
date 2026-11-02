@@ -14,7 +14,7 @@ Walk the resume bullet by bullet and probe the reasoning and design decisions be
 
 If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid (explained with reasons) and which are thin (vague or memorized).
 
-Ask **exactly one question** at a time. Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up.
+Ask **exactly one question** at a time. Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words.
 
 Pick the question type that fits **this** claim (one per turn):
 
@@ -32,7 +32,7 @@ When the user ends the session (or asks to wrap), give a short recap only: which
 
 ## Follow-up angles for tool and system claims
 
-The angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; whether the claimed speed or memory use holds up in practice.
+The angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability (whether data stays correct and survives failures); whether the claimed speed or memory use holds up in practice.
 
 ## Boundaries
 
