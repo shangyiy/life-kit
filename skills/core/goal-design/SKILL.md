@@ -1,54 +1,58 @@
 ---
 name: goal-design
 description: >
-  Choose deliberately what is worth pursuing, why it matters, and when to
-  reconsider it. Use to adopt, renegotiate, defer, reject, or review a goal,
-  or on /goal-design.
+  Choose deliberately which goals to adopt, why they matter, what they may
+  cost, and when to reconsider them. Use to adopt, renegotiate, defer, reject,
+  or review a goal, or on /goal-design.
 metadata:
   short-description: "Choose what is worth pursuing"
 ---
 
 # /goal-design
 
-**Core principle:** Do not inherit a goal by default. Choose what to pursue,
-why it deserves your limited effort, and what would make that choice change.
+The domain of goal design: choosing which ends to adopt, why they deserve
+limited effort, and what may change that choice. Use these principles to do
+the work or to review it; in a review, name each breach once, with its fix.
 
-Boundary: `goal-design` chooses whether and why to adopt a goal;
-`outcome-orientation` governs how to judge the result after adoption.
+## Principles
 
-## Workflow
-
-1. **Name the candidate goal and its source.** Separate an external request or
-   expectation from an aspiration you would choose without that pressure.
-2. **State why it matters to you.** Trace the goal to an end you value, not
-   only approval, habit, status, or a demanded means.
-3. **Set the decision bounds.** Say what success and failure would mean, what
-   must remain true, and how much time, attention, or risk it may consume.
-4. **Compare the real alternatives.** Include competing goals, doing less,
-   doing it later, and not doing it. Name what each choice displaces.
-5. **Choose explicitly:** accept, renegotiate, defer, or reject. If accepting,
-   state the version of the goal you are actually adopting.
-6. **Set review triggers.** Reconsider when assumptions, costs, priorities, or
-   circumstances materially change; do not confuse revision with defeat.
-
-## Checklist
-
-- The goal's source and the chooser's own reason are both visible.
-- Success, failure, limits, and competing goals are concrete enough to decide.
-- Opportunity cost is compared, not merely acknowledged.
-- An assigned goal has been accepted, renegotiated, deferred, or rejected.
-- Review triggers protect against both drift and stubborn persistence.
-
-## Anti-patterns
-
-- Treating an expectation as consent.
-- Choosing a visible means without naming the end it serves.
-- Defining success so vaguely that no outcome could disconfirm it.
-- Adding a goal without removing, delaying, or shrinking anything else.
-- Keeping a goal only because effort has already been spent.
-
-## Output
-
-Return a compact goal decision: candidate and source; reason; success and
-failure; limits and displaced alternatives; decision; adopted wording if any;
-and review triggers.
+1. **A goal is adopted, not merely assigned or inherited.** An external
+   demand, expectation, incentive, or tradition may bind a person or carry
+   serious consequences without becoming that person's goal. It becomes
+   their goal only when they adopt it. For a joint goal, distinguish the
+   shared undertaking from the commitments each participant adopts.
+2. **Keep the source of a goal distinct from the reason for adopting it.**
+   Trace the goal to an end the chooser values, rather than treating approval,
+   status, habit, reward, or pressure as sufficient by itself. A demanded
+   action may be only one possible means to that end.
+3. **Identify which of accept, renegotiate, defer, and reject are available.**
+   Duties, authority, relationships, safety, and law may constrain the choice;
+   the four responses are not equally legitimate or costless in every case.
+   The likely consequences of deferring or rejecting belong in the comparison
+   rather than being hidden by automatic compliance.
+4. **Bound the commitment by the change sought and the costs it may impose.**
+   A result-directed goal needs a recognizable result, conditions that count
+   as nonattainment or unacceptable harm, and limits on what it may consume or
+   damage. An exploratory goal instead needs a bounded probe, the uncertainty
+   it is meant to reduce, and a stop point; an ordinary result-or-failure
+   frame does not fit it.
+5. **Compare goals by their remaining opportunity cost, not in isolation.**
+   Count time, attention, money, risk, and delayed alternatives. Where goals
+   reinforce one another, net their shared benefit against those costs rather
+   than pretending that every use of effort competes completely. Prefer the
+   version whose value still justifies what it displaces.
+6. **Review an existing goal as a present choice.** Ask, “Would I adopt it
+   today, knowing what I know now?” Effort already spent, as such, is not a
+   reason to continue; completed work may lower the remaining cost and
+   therefore belongs in the forward comparison. Count what remains to spend
+   and gain.
+7. **Distinguish ordinary difficulty from materially changed facts.**
+   Friction, delay, or discomfort within the commitment's expected bounds is
+   not by itself a reason to reopen it. Reconsider when its purpose,
+   assumptions, expected gains, remaining costs, constraints, or competing
+   priorities change enough to alter the choice.
+8. **State a non-rejectable demand as a constraint, not a chosen goal.** When
+   an obligation or fact cannot realistically be refused, choice moves to the
+   means, limits, sequencing, and other goals that remain adjustable. Do not
+   manufacture a freedom to reject, or mistake constrained choice for no
+   choice at all.
