@@ -14,8 +14,8 @@ Aim the work at its purpose; means and numbers serve the purpose and must not
 replace it.
 
 Work drifts toward what is easy to finish or easy to count, and the reason it
-exists gets lost. Holding the purpose keeps effort on the change the purpose
-names.
+exists gets lost. Holding the purpose keeps effort on the change the work is
+meant to produce.
 
 ## Principles
 
@@ -24,13 +24,13 @@ names.
 2. **Judge every means by the purpose.** Replace a means when it stops
    producing the wanted change or a better one appears; keep the purpose.
 3. **Completed work and numbers are evidence, not the result.** Completed
-   work shows that a means was used, and a number shows that it moved, not
-   that the purpose was met.
+   work shows only that a means was used, and a number only that it moved.
+   When you cannot see the wanted change itself, say what evidence would show
+   it and who can see it.
 4. **Expect a number to drift once it is chased.** When decisions depend on it,
    effort goes to the easiest way to raise it and it stops measuring what it
    measured before. Trust it only while direct evidence of the wanted change
-   agrees. When you cannot see that evidence, say what evidence would show
-   the change and who can see it.
+   agrees.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
    When a request would change the purpose, say so before acting on it. Don't
    report a different result as if it met the original purpose.
