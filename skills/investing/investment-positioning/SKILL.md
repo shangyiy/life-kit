@@ -43,9 +43,10 @@ for amounts, balances, account details, or identifiers.
    assumes, and what would prove the case wrong. Others agreeing is often
    already in the price, so it is not a reason to buy (see "Think
    independently of the crowd" in investing).
-3. **Compare.** Weigh acting against doing nothing and the next-best use of
-   the money, including costs (see "Allocate by opportunity cost" and "Cut
-   costs, frictions, and taxes"). Value keeping room to act later.
+3. **Compare.** Weigh acting against doing nothing and the next-best use of the
+   money, including costs and taxes, without giving tax advice (see "Allocate
+   by opportunity cost" and "Cut costs, frictions, and taxes"). Value keeping
+   room to act later.
 4. **Check for a forced sale.** A forced sale is selling at someone else's
    time or price (see "Avoid big mistakes first"). Run the checklist below.
 5. **Record.** Choose buy, add, hold, trim, exit, or wait. Give the strongest
@@ -69,10 +70,9 @@ Never treat missing information as safety; use these conservative defaults:
 - Case, or what would prove it wrong, unknown: add nothing until both are
   written down.
 - Price assumptions or value unknown: claim no advantage; gather evidence first.
-- Any checklist item unknown or answered don't-know: treat that forced-sale
-  risk as present and add nothing. "Add nothing" includes new buys.
-- Full exit: only when the person confirms a forced-sale risk (don't-know
-  does not count); reducing borrowed money first is always fine.
+- A checklist item unknown or answered don't-know: treat that risk as present;
+  add nothing, not even new buys, and while the case holds, no full exit unless
+  the person confirms the risk. Repaying investment loans is fine.
 - Missing or conflicting evidence: mark it unknown, say what would resolve
   it, and prefer waiting to invented precision.
 
@@ -91,9 +91,9 @@ Never treat missing information as safety; use these conservative defaults:
   advisers'"). For suspected fraud: send no money; check the provider with the
   financial regulator; beware anyone offering to get lost money back. If
   coerced, point to someone they trust.
-- **Short**: `Pause` (no irreversible step yet; paying down borrowed money
-  during a margin call is the safe exception), `What is known`, `What is
-  unknown`, `Forced-sale checklist` (one line each, borrowing first), `Safest
+- **Short**: `What to hold off on` (irreversible steps; during a margin call,
+  paying down borrowed money now is the safe step), `What is known`, `What is
+  unknown`, `What could force a sale` (one line each, borrowing first), `Safest
   next action`, `Review trigger`, and `Referrals` (one line each, if any).
 - **Full**: the decision, the case and what the price assumes, the
   comparison, the checklist results, unknowns with their defaults, the
