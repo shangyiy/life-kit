@@ -40,8 +40,8 @@ only: no examples, no source notes.
 6. **Leak audit:** no private data, rubric or expected-answer wording in the
    diff. For a `skill-evals` PR, check private data only (eval wording is its
    content). No AI, programming-language, framework, tool or vendor terms (LLM,
-   agent, git, ponytail, CI…) in a core skill's files, except names and titles
-   in README credits (case-insensitive, whole-word).
+   agent, git, ponytail, CI…) in a core skill's files, except names, titles,
+   channels and URLs in README credits (case-insensitive, whole-word).
 7. **PR body:** shorter than the diff: Motivation (the problem in one or two
    sentences), Summary, Test evidence (each check, such as the eval, reviews
    and leak audit, with its method, result and head sha, or "could not run"
