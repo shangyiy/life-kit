@@ -17,6 +17,7 @@
   ],
   "skills": [
     "./skills/core/design-principles",
+    "./skills/core/experimentation",
     "./skills/core/grouping",
     "./skills/core/info-foraging",
     "./skills/core/investing",
