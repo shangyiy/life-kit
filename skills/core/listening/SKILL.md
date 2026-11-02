@@ -20,7 +20,7 @@ The Gate decides what to listen to and how to respond. Before listening,
 decide whether the input is worth your attention. Filter out noise and junk:
 input that does not bear on appreciating, comprehending, empathizing, or
 evaluating. If it is worth hearing, name which of those four is your purpose.
-Check both again at suitable moments, also after the speaker finishes.
+Check worth and purpose again at suitable moments, also after the speaker finishes.
 
 - What the speaker needs decides where listening stops. If they only need to be
   heard, carry listening through to the end.
@@ -40,7 +40,7 @@ Check both again at suitable moments, also after the speaker finishes.
 1. **Listen first.** Unless the Gate says otherwise, hear the whole account
    before you add anything of your own, whatever the purpose. Where the purpose
    calls for it, restate it in your own words. For empathy, work through the
-   levels in its definition, in order. Skip the listening, and they feel you
+   steps in its definition, in order. Skip the listening, and they feel you
    are not on their side.
 2. **Ask next.** Once the Gate allows guiding, ask questions from the
    speaker's position.
