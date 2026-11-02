@@ -14,7 +14,8 @@ Aim the work at its purpose; means and numbers serve the purpose and must not
 replace it.
 
 Work drifts toward what is easy to finish or easy to count, and the reason it
-exists gets lost. Holding the purpose keeps effort on the change that matters.
+exists gets lost. Holding the purpose keeps effort on the change the purpose
+names.
 
 ## Principles
 
@@ -23,12 +24,13 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
 2. **Judge every means by the purpose.** Replace a means when it stops
    producing the wanted change or a better one appears; keep the purpose.
 3. **Completed work and numbers are evidence, not the result.** Completed
-   work shows that a means was used, not that the purpose was met.
+   work shows that a means was used, and a number shows that it moved, not
+   that the purpose was met.
 4. **Expect a number to drift once it is chased.** When decisions depend on it,
    effort goes to the easiest way to raise it and it stops measuring what it
    measured before. Trust it only while direct evidence of the wanted change
-   agrees. When you cannot see that evidence, name what to check and who can
-   check it.
+   agrees. When you cannot see that evidence, say what evidence would show
+   the change and who can see it.
 5. **Change the purpose openly.** State the old purpose, the new one, and why.
    When a request would change the purpose, say so before acting on it. Don't
    report a different result as if it met the original purpose.
@@ -36,7 +38,7 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
    work.
 7. **Ask what a reward makes attractive.** A reward tied to a number is a
    means too. Before offering one, ask what behavior it encourages. Watch for
-   neglected quality and costs moved onto people the number does not show.
+   neglected quality and costs pushed onto people the number leaves out.
 
 ## Definitions
 
@@ -47,5 +49,5 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
 ## Boundaries
 
 `goal-design` finds the purpose; this skill keeps work aimed at it. Why a person
-acts belongs to `motivation`. `experimentation` tests uncertain ways to serve
-a stated purpose.
+acts, and how rewards affect their drive, belongs to `motivation`.
+`experimentation` tests uncertain ways to serve a stated purpose.
