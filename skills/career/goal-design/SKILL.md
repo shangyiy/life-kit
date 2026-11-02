@@ -25,9 +25,10 @@ ended.
    see the situation from the person's side, and say back what you heard
    until they confirm it. Ask why they want the goal, then why each answer
    matters. Push back on labels, abstractions, and restatements. Continue
-   until the answer stops changing or reaches something wanted for itself;
-   the person being interviewed may stop at any time. Also find recurring
-   pulls and conflicts, duties and constraints, and the change wanted.
+   until the answer stops changing or reaches something wanted for itself.
+   Also find recurring pulls and conflicts, duties and constraints, and the
+   change wanted. The person may stop the interview at any time; keep what
+   was learned, and stop there.
 2. **Pass the gate.** Use `purpose` to state, in one sentence, the change the
    person wants. Go on when that change, the motive, and the constraints are
    clear enough to tell candidates apart. If speed is required, state what
@@ -38,20 +39,24 @@ ended.
 4. **Give each a source and a reason.** A source is where an idea came from;
    it does not replace the reason the person would adopt it. Use `motivation`
    to name the reason as intrinsic or extrinsic and check that the person
-   endorses it. Drop a candidate that has a source but no reason of the
-   person's own.
+   endorses it. Show a candidate that has a source but no reason of the
+   person's own as lacking one, and set it aside unless they give one.
 5. **Make each a learning goal or a performance goal.** When the person lacks
    the skill for complex work and no duty fixes a performance target, prefer a
-   learning goal. Size any stretch so its downside stays one
-   the person could bear, as `optionality` guides.
+   learning goal. If only one condition holds, choose the type that better
+   fits the motive and the constraints. Size any goal that reaches past what
+   the person can do now so its downside stays one they could bear, as
+   `optionality` guides.
 6. **Compare.** Set the candidates against the motive, the wanted change, and
    the constraints, and note what each keeps open or closes. If no candidate
    is left, name the unknown that blocks the choice and probe it: ask again
    about the motive, add a candidate, or run a small test under
    `experimentation`.
-7. **Let the person choose.** Lay out the survivors; the person picks.
-8. **Set the commitment.** Give the output below, with each review and stop
-   point set under `experimentation`.
+7. **Let the person choose.** Lay out the remaining candidates; the person
+   picks.
+8. **Set the commitment.** Give the output below. Under `experimentation`,
+   set each review point to check an assumption the goal rests on, and each
+   stop point as the result that ends it.
 
 ## Reviewing an existing goal
 
@@ -66,8 +71,9 @@ Then decide with the person:
 - **Pause:** a constraint blocks it for now; set when to look again.
 - **Stop:** the reason is gone or a better option exists.
 
-Name which of the gate, the reason, or the recorded assumptions no longer
-holds, with its fix. A later low alone does not prove a goal worthless.
+For Reshape, Pause, or Stop, name which of the gate, the reason, or the
+recorded assumptions no longer holds, with its fix. A later low point alone
+does not prove a goal worthless.
 
 ## Output
 
@@ -75,8 +81,8 @@ holds, with its fix. A later low alone does not prove a goal worthless.
 - Key constraints and assumptions.
 - The first small action and the evidence that would show progress.
 - The review point and the stop condition.
-- For a finite goal, the renewal decision. In a review, also the decision
-  above and what changed.
+- For a finite goal, when and on what evidence renewal will be decided. In a
+  review, also the decision above and what changed.
 
 ## Definitions
 
@@ -88,7 +94,7 @@ holds, with its fix. A later low alone does not prove a goal worthless.
 
 ## Boundaries
 
-- The person chooses; do not choose for them.
 - Do not push someone to drop a duty others depend on.
 - Not for editing a résumé or choosing among concrete offers already in hand.
-- For a small choice, use only the steps that matter.
+- For a small choice, use only the steps that matter; the Output then holds
+  only the items that apply.

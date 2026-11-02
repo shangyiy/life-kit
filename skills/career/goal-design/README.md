@@ -11,8 +11,8 @@
   Frans Mäyrä, ed., *Computer Games and Digital Cultures Conference
   Proceedings*, Tampere University Press, 2002, pp. 323-329; the career use is
   the author's own.
-- The caution that a later low does not prove a goal worthless draws
-  cautiously on Karen Howells and Mathijs Lucassen, "'Post-Olympic
+- The caution that a later low does not prove a goal worthless draws by
+  analogy on Karen Howells and Mathijs Lucassen, "'Post-Olympic
   Blues'--The Diminution of Celebrity in Olympic Athletes," *Psychology of
   Sport and Exercise* 37, 2018, pp. 67-78. That qualitative study concerned
   four Olympians, so it supports a possibility, not a universal claim.
