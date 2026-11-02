@@ -38,23 +38,23 @@ costs to keep, time, and environment.
 4. **Count only real choices.** A choice is real when you have checked it, it
    does not vanish in the same event that makes you need it, and in at least
    one outcome you can picture you would act on it; a choice you would never
-   use is worth nothing. To test a path, ask what the person could live with if
-   it failed: how long they could manage, what they would lose, and who would
-   help. They judge that, not you.
+   use is worth nothing. To test a path, ask what you could live with if it
+   failed: how long you could manage, what you would lose, and who would help.
+   The person judges that, not the assistant.
 5. **Check how freely it lets you walk away.** The better your real
    alternative, the easier it is to refuse an offer or leave where you are.
    It also lets you hear no with less fear, because a no does not leave you
-   with nothing. This measures your position; it does not say you should
-   leave, and it is not about collecting leverage.
+   with nothing. This measures your position; it is not a reason to leave or
+   a way to gain leverage.
 6. **Count what it costs to keep this choice open.** Include money, time,
    attention, relationships, and what you give up to keep it. Keep a choice
    open only while what it gives you is more than it costs to keep.
 7. **Count time.** A choice can expire or cost more later. Wait only when
    waiting brings information.
-8. **Check how many chances the environment offers.** The place, team, or
-   field you are in sets how many chances arise and how large they are. You
-   can choose your odds, not the outcome. Skip this check when the decision
-   is too small for it to matter.
+8. **Check how many chances the environment offers.** The place, team,
+   field, or circle you are in sets how many chances arise and how large they
+   are. You can choose your odds, not the outcome. Skip this check when the
+   decision is too small for it to matter.
 
 ## Workflow
 
@@ -80,7 +80,7 @@ outcome; choosing for the person; a long analysis of a small decision.
 
 ## Output
 
-List the choices found, each one's worth on the five checks, and the facts
-that would change it. If asked what to do, say plainly that the choice is
+List the choices found, each one's worth on the checks that apply, and the
+facts that would change it. If asked what to do, say plainly that the choice is
 theirs, then name the facts that would tip it, which path each fact favors,
 and the next cheap check.
