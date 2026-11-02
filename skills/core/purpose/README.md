@@ -9,7 +9,7 @@ replace it (`/purpose`).
   什么才是真正的财富和真正的自由？（中文字幕）｜
   Multiple-Fire系列,” guest on 課代表立正, 2021-08-06,
   https://youtu.be/9LKJ8JdLtfI: money, promotion, ratings, bonuses, and
-  management processes are tools that serve the goal, and a metric is not the
+  management processes are means that serve the goal, and a metric is not the
   goal (state the purpose plainly; judge every means by the purpose).
 - Charles A. E. Goodhart, “Problems of Monetary Management: The U.K.
   Experience,” presented in 1975 and published in *Papers in Monetary
@@ -22,7 +22,7 @@ replace it (`/purpose`).
   distorts the indicator (a number drifts once it is chased).
 - Steven Kerr, “On the Folly of Rewarding A, While Hoping for B,”
   *Academy of Management Journal* 18(4), 1975: rewarding conduct different
-  from the conduct wanted (check what a reward encourages).
+  from the conduct wanted (ask what conduct a reward makes attractive).
 - Jerry Z. Muller, *The Tyranny of Metrics*, Princeton University Press, 2018:
   metrics support judgment rather than replace it (treat a number as
   evidence).
