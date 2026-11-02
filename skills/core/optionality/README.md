@@ -1,8 +1,7 @@
 # optionality
 
-Judge a decision by the credible choices it preserves, creates, spends, or
-closes (`/optionality`). This core absorbs the general lessons of the earlier
-`way-outs` use-case draft.
+Principles for judging the credible choices a decision preserves, creates,
+spends, or closes, with only the definitions they require (`/optionality`).
 
 ## Credit
 
@@ -20,13 +19,22 @@ closes (`/optionality`). This core absorbs the general lessons of the earlier
 - Ke Xi, “Startup比大厂的人生巅峰还香？｜怎么选Startup来跳？,” 课代表立正,
   November 2, 2021 ([video](https://youtu.be/lQC3gy09TI8)).
 
-*Getting to Yes* informs credible alternatives and walking away; *Investment
-under Uncertainty* informs the value of waiting under uncertainty. Leon's
-talks inform walk-away capacity and time-sensitive options; Ke Xi's interview
-informs the fallback lens. The holder, evidence, terms, duration, correlated
-failure, coverage, and use-cost checks are this skill's own synthesis.
-Opportunity density and the rule for balancing flexibility against commitment
-are also this skill's own synthesis.
+Source-to-principle map:
+
+- Fisher, Ury, and Patton inform principle 1: credible alternatives and the
+  capacity to walk away.
+- Dixit and Pindyck inform principles 5 and 6: the value of waiting under
+  uncertainty before an irreversible commitment.
+- Leon's 2021 talk informs principle 1's walk-away capacity. His 2023 talk
+  informs principle 5's treatment of choices that lose value with time.
+- Ke Xi's interview informs the fallback framing used in principle 4.
+
+The detailed holder, written-or-verifiable-evidence, stated-terms,
+binding-duty, risk-window, same-event-failure, and whole-exposure rules in
+principles 2–4 are author-created synthesis rather than claims attributed to
+those sources. Principle 5's maintenance, exercise, and surrendered-opportunity
+costs are also author-created. Principles 7 and 8—opportunity density and the
+balance between flexibility and commitment—have no external source.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.
