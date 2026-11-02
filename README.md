@@ -61,6 +61,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
+- [**investment-positioning**](./skills/life/investment-positioning/SKILL.md): Review whether to change an investment position or wait.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 
 ## License
