@@ -16,9 +16,7 @@
   Blues'--The Diminution of Celebrity in Olympic Athletes," *Psychology of
   Sport and Exercise* 37, 2018, pp. 67-78. That qualitative study concerned
   four Olympians, so it supports a possibility, not a universal claim.
-- Everything else is the author's own: the interview and gate (steps 1-2),
-  the source-and-reason rule (step 4), the shaping rule of step 5 apart from
-  the learning-goal clause, and the review flow.
+- Everything else is the author's own.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
