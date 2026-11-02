@@ -31,10 +31,11 @@ still do it without the outside reward or pressure.
    yes, also check that the reason is one they value, not an escape from guilt
    or self-pressure. That pressure comes from inside, yet it is still not a
    reason they value.
-4. **An outside reason can become their own.** A reason they have come to
-   value, or one that fits what they care about, is their own and lasts.
-   Comparing themselves with similar people whose success seems within reach
-   can also start a motive; it lasts once they find their own reason.
+4. **An outside reason can become their own (internalization).** A reason
+   they have come to value, or one that fits what they care about, is their
+   own and lasts. Comparing themselves with similar people whose success seems
+   within reach can also start a motive; it lasts once they find their own
+   reason.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.

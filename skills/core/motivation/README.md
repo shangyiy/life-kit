@@ -22,15 +22,18 @@ curiosity.
   rewards and positive feedback did not.
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
-  Psychologist* 57(9), 2002: clear goals and feedback.
+  Psychologist* 57(9), 2002: clear, demanding goals matched to ability, and
+  feedback.
 - George Loewenstein, “The Psychology of Curiosity: A Review and
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question, asking what else a needed task gives, that comparison with similar
-  people can start a motive, that putting a task off often comes from doubt,
-  the boundaries on safety, steering, neutral advice and tasks others depend
-  on, and how to help someone helping another person.
+  question, that the person's answer shows more than their story, asking what
+  else a needed task gives, that comparison with similar people can start a
+  motive, that putting a task off can come from doubt, that curiosity can start
+  interest, that curiosity and structure do not replace a reason the person
+  holds, the boundaries on safety, steering, neutral advice and tasks others
+  depend on, and how to help someone helping another person.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
