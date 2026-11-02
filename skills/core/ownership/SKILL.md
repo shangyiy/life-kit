@@ -10,48 +10,82 @@ metadata:
 
 # /ownership
 
-**Core principle:** Ownership means remaining answerable for an adopted
-outcome until it is accepted as delivered, knowingly transferred, or stopped
-by an authorized decision. Doing an assigned part is not enough when the
-result is still at risk.
+The domain of ownership: keeping attention on an adopted outcome through
+delivery, accountability, communication, and closure. Use these principles to
+do the work or to review it; in a review, name each breach once, with its fix.
 
 Boundary: `ownership` carries work through delivery and closure;
 `verify-before-ship` defines the evidence and approval needed before handoff.
 
-## Workflow
+## Principles
 
-1. **State the outcome and your accountability.** Clarify what you own, what
-   others own, and which conditions would require renegotiation.
-2. **Map the path to completion.** Surface dependencies, decisions, gaps, and
-   handoffs that can prevent the outcome even when your task is done.
-3. **Act beyond the task boundary.** Resolve what you can; route what you
-   cannot to a named owner with the context and decision needed.
-4. **Communicate as part of delivery.** Make commitments, progress, risks,
-   changes, and requests visible soon enough for others to act.
-5. **Make contributions legible.** Record who decided, produced, enabled, and
-   reviewed what. Share credit broadly without hiding individual ownership.
-6. **Close the loop.** Confirm the result, notify affected people, settle open
-   items, and obtain an explicit acceptance, transfer, or stop decision.
+1. **Own the outcome, not only the assignment.** Completing an assigned part
+   does not by itself discharge accountability for an adopted outcome. Keep
+   judging whether the combined work can reach the result and respond when it
+   cannot.
 
-## Checklist
+2. **Make the accountable scope explicit.** State the outcome, acceptance
+   terms, decision rights, dependencies, and conditions for renegotiation.
+   Ownership operates within applicable law, policy, agreements, authority,
+   resources, and professional or fiduciary duties; it does not create a
+   license to override them.
 
-- The outcome and each person's accountability are unambiguous.
-- Dependencies and risks have an owner, next action, and communication path.
-- Material changes and blockers are raised before they become surprises.
-- Contributions and impact are visible without claiming others' work.
-- The work ends with accepted delivery, an acknowledged transfer, or an
-  authorized decision to stop.
+3. **Attend to the whole path.** Track material decisions, dependencies,
+   interfaces, risks, and handoffs that can affect the outcome, including
+   those outside the assigned task. Resolve what falls within your authority
+   and bring the rest to an appropriate accountable party.
 
-## Anti-patterns
+4. **Keep accountability identifiable.** Shared work may have many
+   contributors, but material obligations should have a known accountable
+   party under the governing arrangement. Clarify ambiguity without assuming
+   that ownership requires one person to perform every contribution.
 
-- Declaring success because the assigned task is complete.
-- Quietly absorbing every gap instead of clarifying accountability.
-- Treating status, escalation, or handoff as someone else's concern.
-- Sharing credit so vaguely that decisions and contributions disappear.
-- Leaving the recipient to discover whether the work is finished.
+5. **Treat communication as part of delivery.** Make commitments, decisions,
+   progress, changes, risks, and requests visible early enough for affected
+   parties to act. Calibrate the detail, channel, and timing to the stakes,
+   audience, and binding communication requirements.
 
-## Output
+6. **Escalate without abandoning the outcome.** When authority, expertise,
+   capacity, or competing duties prevent responsible action, seek the needed
+   decision or support with the relevant context, consequence, and urgency.
+   Escalation preserves ownership when it moves the issue toward an
+   accountable decision rather than merely relocating notice.
 
-Return the outcome; accountability map; dependencies and risks; commitments
-and communications; contribution record; current result; and the evidence of
-acceptance, transfer, or stop that closes the loop.
+7. **Renegotiate changed commitments openly.** Material changes to scope,
+   timing, quality, risk, or capacity require timely alignment with parties
+   entitled to decide them. A revised commitment becomes operative through
+   the consent or process required by the governing arrangement, not through
+   unilateral declaration.
+
+8. **Make work and credit legible.** Preserve enough of the decision and
+   contribution record to support coordination, accountability, and fair
+   recognition. Credit those who decided, produced, enabled, and reviewed the
+   work without obscuring who accepted each obligation or claiming another's
+   contribution.
+
+9. **Transfer responsibility knowingly.** A handoff transfers accountability
+   only to the extent that the applicable arrangement permits it and the
+   receiving party acknowledges the scope, state, context, authority, and
+   unresolved risk. Until then, remain responsible for securing a valid
+   disposition within your authority.
+
+10. **Close the loop explicitly.** Closure normally requires confirmed
+    delivery under the agreed acceptance terms, an acknowledged transfer, or
+    an authorized decision to stop. Record the resulting state, notify
+    affected parties as required, and leave unresolved obligations visible;
+    binding duties may require further retention, monitoring, remediation, or
+    notice after operational closure.
+
+## Definitions
+
+**Adopted outcome:** A result that a person or group has accepted as a
+commitment within a defined scope. A binding obligation can create
+accountability without making its result an adopted outcome.
+
+**Accountability:** The obligation to keep an outcome or component attended,
+make its state legible, and obtain decisions needed for its valid disposition;
+it need not imply performing all contributing work.
+
+**Closure:** The explicit disposition of an adopted outcome under its
+applicable acceptance, transfer, or stop authority, including any continuing
+duties that survive that disposition.
