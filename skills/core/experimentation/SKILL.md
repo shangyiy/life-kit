@@ -10,46 +10,64 @@ metadata:
 
 # /experimentation
 
-**Core principle:** When an important uncertainty cannot be resolved by
-reasoning or existing evidence, take the smallest bounded action that can
-produce decision-changing evidence.
+The domain of learning through bounded action when reasoning and existing
+evidence cannot settle an uncertainty that matters to a decision. Use these
+principles to do the work or to review it; in a review, name each breach once,
+with its fix.
 
-Boundary: `experimentation` acts to resolve a stated uncertainty;
-`misfits` infers recurring patterns from an existing record of work.
+Boundary: `experimentation` acts to resolve a stated uncertainty; `misfits`
+infers recurring patterns from an existing record of work.
 
-## Workflow
+## Principles
 
-1. **Name the decision and the uncertainty.** State what choice the learning
-   will inform and what is currently assumed rather than known.
-2. **Set the evidence rule first.** Say which observation would support,
-   weaken, or leave the assumption unresolved, and what action follows each.
-3. **Choose a reversible test.** Prefer an action that isolates the important
-   uncertainty and can be stopped or undone without locking in the answer.
-4. **Bound the downside.** Limit exposure to what can be afforded in money,
-   time, trust, safety, and lost alternatives. Protect people who bear risk.
-5. **Run and observe.** Preserve the conditions needed to interpret the
-   result; record surprises and harms as evidence rather than smoothing them.
-6. **Update and decide.** Distinguish what was learned from what remains
-   unknown, then stop, revise, repeat, scale, or abandon accordingly.
+1. **Experiment only when action can change a decision.** Use reasoning,
+   existing evidence, or direct inquiry when they can settle the question.
+   Act when an important uncertainty remains, reality can answer it, and the
+   answer could change what is done. Activity without such a decision and
+   uncertainty is not an experiment.
+2. **Separate assumptions from evidence.** Confidence, plausibility, agreement,
+   and preference do not become observations by being stated strongly.
+   Distinguish what is known from what must be true, and make the assumption
+   precise enough that evidence can support, weaken, or leave it unresolved.
+3. **Fix the evidence rule before seeing the result.** Specify in advance
+   which observations bear on the assumption and how each possible result
+   changes the decision. Include an inconclusive outcome. New evidence may
+   justify revising the rule, but disclose the revision rather than judging
+   the result by a rule chosen to fit it.
+4. **Use the least commitment that can produce useful evidence.** Isolate the
+   uncertainty as far as the setting permits, and prefer a test that can be
+   stopped, undone, or redirected. Increase scope or commitment only when the
+   expected learning requires it and the evidence justifies it.
+5. **Bound exposure by affordable downside, not hoped-for upside.** Set limits
+   on losses such as resources, time, trust, safety, attention, and foregone
+   alternatives. A downside is affordable only within limits set by those
+   entitled to authorize it and without defeating the purpose or obligations
+   of the work.
+6. **Respect duties and the people who bear the risk.** Learning does not
+   override binding law, safety requirements, consent, rights, promises,
+   professional duties, or authorized constraints. Identify who receives the
+   benefit and who bears the exposure; obtain required authority or consent,
+   and do not shift material risk to others merely because it is affordable
+   to the experimenter.
+7. **Failure teaches only when it is bounded and interpretable.** A useful
+   result depends on a stated assumption, controlled-enough conditions, a
+   credible observation, and a known evidence rule. Preserve the conditions
+   needed to interpret the result. Preventable harm, an uncontrolled event,
+   or a failed commitment is not made informative merely by calling it an
+   experiment.
+8. **Let the evidence alter belief and action.** Record surprises, adverse
+   effects, and uncertainty rather than smoothing them away. Draw no stronger
+   conclusion than the observations support. Update the assumption and the
+   decision, including stopping, revising, repeating, expanding, or abandoning
+   the action; repetition is justified only when it can add information.
 
-## Checklist
+## Definitions
 
-- The experiment serves a named decision and tests a stated assumption.
-- Evidence rules and next actions were set before observing the result.
-- The action is as reversible and narrow as useful learning allows.
-- The downside, stop condition, and affected parties are explicit.
-- The conclusion matches the evidence, including an inconclusive result.
-
-## Anti-patterns
-
-- Acting without a learning question and calling the result an experiment.
-- Seeking only observations that would confirm the preferred answer.
-- Running a full commitment when a smaller reversible test could decide.
-- Treating preventable harm as the price of learning.
-- Calling failure informative without changing any belief or next action.
-
-## Output
-
-Return the decision; assumption; current evidence; test and evidence rule;
-downside bound and stop condition; observations; conclusion; remaining
-uncertainty; and the next action the result justifies.
+- **Experiment:** a bounded action chosen to produce evidence about a stated
+  uncertainty for a decision. It need not be formal or controlled enough to
+  establish causation, but its limits determine what may be concluded.
+- **Evidence rule:** a rule fixed before observation that connects possible
+  results to support, weakening, or continued uncertainty and to the decision
+  each result warrants.
+- **Downside bound:** the maximum permitted exposure and the condition that
+  stops or changes the action before that exposure is exceeded.
