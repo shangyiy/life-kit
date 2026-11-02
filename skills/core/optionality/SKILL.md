@@ -12,6 +12,9 @@ metadata:
 
 Find your choices, judge what each is worth, and make the choice yourself.
 
+People often accept a path because they think it is the only one. Seeing the
+real choices, and what each is worth, keeps that from happening.
+
 ## Find the choices
 
 1. **List what is already open.** Include doing nothing and keeping things as
@@ -24,44 +27,46 @@ Find your choices, judge what each is worth, and make the choice yourself.
 
 ## Judge what each is worth
 
-4. **Treat an unreal choice as worth zero.** Verify that you can use it. If it
-   fails in the same event that makes you need it, do not count it.
-5. **Measure the freedom to refuse.** Ask how much the choice lets you leave a
-   deal or offer.
-6. **Count the full cost of keeping it.** Include its upkeep and what you give
-   up.
-7. **Count time and environment.** A choice can expire or cost more later. Wait
-   only when waiting brings information. An environment sets how many and how
-   large the chances are, not the outcome.
+4. **Count only real choices.** A choice you have not checked is worth zero.
+   If it fails in the same event that makes you need it, do not count it.
+5. **Ask how much room it gives you to walk away.** A real alternative lets you
+   turn down a deal or offer.
+6. **Count what it costs to keep this choice open.** Include upkeep and what
+   you give up to keep it.
+7. **Count time.** A choice can expire or cost more later. Wait only when
+   waiting brings information.
+8. **Count the environment.** The place, team, or field you are in sets how many
+   chances arise and how large they are. You can choose your odds, not the
+   outcome.
 
 ## Boundaries
 
-`perspective` is about seeing the other side and not fixating on one solution;
-`optionality` is about not being left with only one usable path.
+`perspective` looks at a situation from the other person's side to win their
+support; `optionality` looks at the choices you have.
 
 Keeping choices open can help, while commitment can create focus. Compare their
 value instead of treating either as always better.
 
-The user chooses. Goals belong to `goal-design`; motives belong to `motivation`.
+You choose. Goals belong to `goal-design`; motives belong to `motivation`.
 For capital choices, use `investing`.
 
 ## Workflow
 
-Find existing, unseen, and buildable choices. Judge each on reality, freedom to
-refuse, cost, time, and environment. State what could change the answer.
+Find existing, unseen, and buildable choices. Judge each on the five checks:
+real, room to walk away, cost, time, environment. State what could change the
+answer.
 
 ## Checklist
 
 Did you include doing nothing? Did you search for and build choices? Is each
-real? Did you count freedom, cost, time, and environment?
+real? Did you apply all five checks?
 
 ## Anti-patterns
 
 Presenting one path as inevitable; counting an unverified choice; hiding cost;
-treating better odds as a promised outcome; choosing for the user.
+treating better odds as a promised outcome; choosing for the person.
 
 ## Output
 
-State the choices found—existing, unseen, and buildable—each one's worth on the
-four checks, and the facts that would change it. Give no recommendation unless
-the user asks.
+List the choices found (existing, unseen, buildable), each one's worth on the
+five checks, and the facts that would change it. Do not pick one.
