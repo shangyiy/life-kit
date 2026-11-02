@@ -41,10 +41,10 @@ person choose, and set when to review or end it.
    each before step 6 (the others can go on to step 5). A candidate is kept when
    it has the person's reason.
 5. **Make each a learning goal or a performance goal.** Propose the type with
-   the reason; the person confirms or changes it. Lacks the skill for complex
-   work and no duty fixes a target: propose a learning goal. Has the skill and a
-   duty fixes a target: a performance goal. Lacks the skill but a duty fixes a
-   target: a learning goal first, then the target. Has the skill and no duty: a
+   the reason; the person confirms or changes it. Lacks the skill and no duty
+   fixes a target: propose a learning goal. Has the skill and a duty fixes a
+   target: a performance goal. Lacks the skill but a duty fixes a target: a
+   learning goal first, then the target. Has the skill and no duty: a
    performance goal, the default. Also propose a size; if the goal reaches past
    what the person can do now, keep its downside one they could bear, as
    `optionality` guides. The person agrees or changes it.
@@ -52,7 +52,7 @@ person choose, and set when to review or end it.
    and the constraints; note what each keeps open or closes. If none was kept,
    name the unknown blocking the choice. List the ways forward and what each
    would settle (ask again about the motive, add a candidate, or run a small
-   test under `experimentation`); the person picks one.
+   test under `experimentation`); the person picks one; resume at that step.
 7. **Let the person choose.** Lay out the kept candidates; the person picks. If
    they ask you to choose, lay out the trade-offs and hand it back.
 8. **Set the commitment.** Propose the Output below; the person agrees or
@@ -69,11 +69,11 @@ or options. Decide with the person; add the decision and change to the Output:
 - **Reshape:** the motive holds but the goal no longer fits; redo from step 2,
   keeping earlier candidates the person still has a reason for.
 - **Pause:** a constraint blocks it for now; set a date, then recheck the gate.
-- **Stop:** the reason is gone or the person finds a better option.
+- **Stop:** the reason is gone, or a better option replaces the goal.
 
 For Reshape and Pause, name which of the gate, the reason, or the recorded
-assumptions no longer holds, and the fix; for Stop, only which no longer
-holds. A later low point alone does not prove a goal worthless.
+assumptions no longer holds, and the fix; for Stop, name what ended it. A later
+low point alone does not prove a goal worthless.
 
 ## Output
 
@@ -86,7 +86,7 @@ holds. A later low point alone does not prove a goal worthless.
 
 - **Learning goal:** a goal to gain a skill or knowledge. **Performance goal:**
   a goal to reach a set result.
-- **Gate:** the step 2 check made before candidates are formed.
+- **Gate:** the step 2 check, made first and again at each review.
 - **Review point:** a time or event to check that the goal still holds.
 - **Stop point:** when the person ends the goal: a result, a date, or for a goal
   with no end, evidence that it no longer serves the motive.
