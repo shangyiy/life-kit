@@ -9,8 +9,8 @@ metadata:
 
 # /motivation
 
-The domain of what moves a person to begin and sustain action, not of
-whether its result is worth pursuing. Use these principles to do the work or to review
+The domain of what moves a person to begin and sustain action, not of whether
+its result is worth pursuing. Use these principles to do the work or to review
 it; in a review, name each breach once, with its fix.
 
 ## Principles
@@ -38,12 +38,12 @@ it; in a review, name each breach once, with its fix.
    notices a gap between what is known and what they want to know. Make the gap
    visible enough to invite action without pretending that curiosity
    establishes a lasting purpose.
-6. **Use structure to amplify motivation, not to replace it.** Clear near goals,
-   prompt feedback, and challenge near the edge of skill can turn a motive into
-   sustained engagement by supporting competence and progress. Structure can
-   produce effort or compliance without durable motivation; check whether the
-   underlying motive and need satisfaction remain when the structure is
-   removed.
+6. **Use structure to amplify motivation, not to replace it.** Clear near
+   goals, prompt feedback, and challenge near the edge of skill can turn a
+   motive into sustained engagement by supporting competence and progress.
+   Structure can produce effort or compliance without durable motivation; check
+   whether the underlying motive and need satisfaction remain when the
+   structure is removed.
 
 ## Definitions
 
