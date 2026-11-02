@@ -1,9 +1,12 @@
 ---
 name: testing
 description: >
-  What makes a good test, whatever is under test, from choosing inputs and
-  oracles to judging how adequate a suite is. Use to design, write, plan, or
-  review any kind of test or test plan, including flaky tests, or on /testing.
+  What makes a good test, whatever is under test: the principles behind
+  choosing inputs and oracles, judging a suite's adequacy, and planning a
+  test effort. Use for general or overall questions about tests and test
+  plans, flaky tests, or when no single technique fits, or on /testing. For
+  a specific technique use its own skill: unit-tests, black-box, white-box,
+  test-oracle or mutation-testing. For evaluations of agents use agent-evals.
 metadata:
   short-description: "What makes a good test"
 ---
