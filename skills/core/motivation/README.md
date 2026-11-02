@@ -31,13 +31,12 @@ curiosity.
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question, judging each part of a mixed motive, that the person's answer is
-  better evidence than their story, saying you cannot tell yet when you cannot
-  ask, asking what else a needed task gives, that comparison with similar people
-  is an outside push that can start a motive, that putting a task off can come
-  from doubt, that curiosity can spark interest, that curiosity and structure do
-  not replace a reason the person holds, and that a planned material reward is
-  when the risk to interest matters most.
+  question, asking why as well, judging each part of a mixed motive, that the
+  person's answer is better evidence than their account, saying you cannot tell
+  yet when you cannot ask, asking what else a needed task gives, that putting a
+  task off can come from doubt, that curiosity can spark interest, that
+  curiosity, goals and feedback do not replace a reason the person holds, and
+  that a planned material reward is when the risk to interest matters most.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
   tasks others depend on, and how to help someone helping another person.
 

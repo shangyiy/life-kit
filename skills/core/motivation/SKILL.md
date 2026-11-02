@@ -20,14 +20,12 @@ still do it without the outside reward or pressure.
 1. **Interest in the activity itself tends to last; a push from outside fades
    when it stops, unless the person comes to value it.** Intrinsic motivation is
    interest or satisfaction in the activity. Extrinsic motivation comes from
-   outside it: a reward, pressure, comparison, or what others expect. Motives
-   are often mixed, so judge each part. Comparing themselves with similar people
-   whose success seems within reach can start a motive; the motive can last once
-   they find their own reason.
+   outside it: a reward, pressure, or what others expect. Motives are often
+   mixed, so judge each part.
 2. **Ask; do not guess from their account.** Ask whether they would still act
    if the outside reward or pressure went away, and why. Their direct answer is
    better evidence than what you infer from their account; the why shows
-   whether the reason is one they value (see 4).
+   whether the reason is one they value (see 3 and 4).
    - If you cannot ask, say you cannot tell yet whether the motive will last.
    - If they must do the task anyway, ask what else it gives them.
    - When someone is helping another person, what that helper has seen counts,
@@ -55,8 +53,8 @@ still do it without the outside reward or pressure.
 8. **Curiosity, goals, and feedback support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can spark interest.
    Clear, demanding goals matched to their ability, once the person accepts
-   them, and feedback help a person keep going. Neither gives a lasting reason
-   by itself; the person still needs one they hold.
+   them, and feedback help a person keep going. None of these gives a lasting
+   reason by itself; the person still needs one they hold.
 
 ## Boundaries
 
