@@ -21,8 +21,8 @@ chooses for you.
    real freedom. An uncertain future usually raises what a real choice is
    worth, but uncertainty alone does not make it valuable; principles 5 to 9
    judge whether it is.
-2. **Find what is already open.** Include doing nothing and keeping things as
-   they are.
+2. **Find what is already open.** Include doing nothing, keeping things as
+   they are, and walking away.
 3. **Find the choices you have not seen, including those left after the
    decision.** For each path, ask what you could still do after taking it: wait,
    stop partway, expand if it goes well, switch, combine it with another path,
