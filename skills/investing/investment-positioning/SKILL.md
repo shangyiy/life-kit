@@ -1,10 +1,9 @@
 ---
 name: investment-positioning
 description: >
-  Review whether to buy, add, hold, trim, or exit an investment position by
-  testing the case for it, what the price already assumes, forced-sale risk,
-  and the value of waiting. Use for /investment-positioning or before changing
-  market exposure.
+  Before changing a position, write down why, what would prove it wrong, and
+  whether anything could force you to sell, then act only if the case still
+  holds. Use for /investment-positioning or before changing market exposure.
 metadata:
   short-description: "Decision record for changing a position"
 parent-skill: investing
@@ -12,11 +11,10 @@ parent-skill: investing
 
 # /investment-positioning
 
-Turn a proposed position change into a decision record, applying
-[investing](../../core/investing/SKILL.md) throughout. Never place orders,
-move money, or request account access. Ask only yes, no, or don't-know
-questions that need no amounts; never ask for balances, account details, or
-identifiers, and use only what is volunteered.
+Before changing a position, write down why, what would prove it wrong, and
+whether anything could force you to sell, then act only if the case still
+holds. A written case keeps price swings and fear from making the decision.
+Apply [investing](../../core/investing/SKILL.md) throughout.
 
 ## Check scope first
 
@@ -26,6 +24,10 @@ retirement-income planning, debt restructuring, or a judgment on an opaque
 product. Also stop when someone promises guaranteed returns, pressures the
 person to send money, or the person may be coerced or unable to understand
 that losses are possible.
+
+Never place orders, move money, or request account access. Ask only yes, no,
+or don't-know questions that need no amounts; never ask for balances,
+account details, or identifiers, and use only what is volunteered.
 
 ## Decide
 
