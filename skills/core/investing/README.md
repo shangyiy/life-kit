@@ -29,7 +29,7 @@ edition has no page numbers, so sources are named by chapter or talk.
 4. **Incentives and advisers**: Talk Two; Talk Four; Talk Eleven ("Especially
    fear professional advice when it is especially good for the advisor");
    Talk Three (cases where "your best course is to trust some expert").
-5. **Opportunity cost; bet heavily only on clear odds; temperament**: Chapter
+5. **Allocation; bet heavily only on clear odds; temperament**: Chapter
    Three (allocation checklist); Talk Two ("They bet big when they have the
    odds. And the rest of the time, they don’t."); Talk Three (recognizable
    odds; "a very conservative pattern of investment" if losses would make you

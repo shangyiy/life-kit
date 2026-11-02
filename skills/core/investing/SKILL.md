@@ -32,10 +32,11 @@ review, name each breach once, with its fix.
    advice that is especially good for the adviser: learn the basics of the
    adviser's trade, and double-check, disbelieve, or replace much of what you
    are told. Sometimes the best course is still to trust an expert.
-5. **Allocate by opportunity cost, and bet heavily only when the odds are
-   clearly in your favor.** Measure each use of capital against the next best
-   use. Good ideas are rare, and odds help only where you can recognize them;
-   the rest of the time, do not bet big. Fit concentration to temperament: if
+5. **Allocate among real alternatives, and bet heavily only when the odds
+   are clearly in your favor.** Use
+   [`optionality`](../optionality/SKILL.md) to compare choices, timing, and any
+   claimed way out. Good ideas are rare, and odds help only where you can
+   recognize them; the rest of the time, do not bet big. Fit concentration to temperament: if
    losses will make you miserable, a very conservative pattern may be wise.
 6. **Judge the business, then the price.** Over the long term it is hard for a
    stock to earn much more than the business beneath it earns. A great
