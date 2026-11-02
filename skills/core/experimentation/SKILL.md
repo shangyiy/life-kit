@@ -9,7 +9,8 @@ metadata:
 
 # /experimentation
 
-To make an uncertain thing clear, run a small experiment.
+When thinking cannot settle something, run a small, cheap, reversible test,
+learn from the result, and adjust.
 
 ## Principles
 
