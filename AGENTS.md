@@ -32,9 +32,9 @@ and definitions only: no examples, no source notes.
    README) and an independent agent review against this file. Every claim
    credited to a source must trace to it. For a new or changed skill or agent,
    also do a dry run: run the head version on real inputs (such as past cases
-   with known right outputs) and judge the output's quality. A structural or wording
-   review does not replace it. On every PR, run a review that every line is
-   needed (such as `/ponytail-review`) on the diff and the PR body. Apply the
+   with known right outputs) and judge the output's quality. A structural or
+   wording review does not replace it. On every PR, run a review that every line
+   is needed (such as `/ponytail-review`) on the diff and the PR body. Apply the
    right findings. In the PR body, explain any flagged text you keep. Before a
    PR is opened or updated, run every check that can run on its head sha.
 6. **Leak audit:** no private data, rubric or expected-answer wording in the
