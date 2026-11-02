@@ -80,7 +80,7 @@ point alone does not prove a goal worthless.
 
 - The chosen goal, the person's reason, and the constraints and assumptions.
 - The first small action and the evidence that would show progress.
-- The review point and the stop point.
+- The review points and the stop point.
 - For a finite goal, when and on what evidence the person will decide on a
   next goal; start looking for it before this one ends.
 
