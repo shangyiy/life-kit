@@ -41,7 +41,8 @@ the work or to review it; in a review, name each breach once, with its fix.
    the conclusion.** People listen better once they feel understood, so show
    you grasp their interests before asking them to grasp yours. The feeling
    of taking part is perhaps the most important factor in whether people
-   accept an outcome, so ask rather than tell where you can.
+   accept an outcome, so ask rather than tell where you can. How to listen is
+   the work of `listening`.
 7. **Be hard on the problem and soft on the person.** A person who feels
    attacked grows defensive and resists what you say, even when you are
    right. Once their ego is tied to a position, they have a stake in saving

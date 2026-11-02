@@ -19,8 +19,7 @@ Pick the lens that fits **this** claim (one lens per turn):
 - **Why X** — for tool/tech claims (Docker, Helm, Kafka, a library, a language feature): why this tool; if thin, dig one layer deeper into how it works.
 - **Why Y** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, gotchas (e.g. designed for X, accepted risk in Y).
 - **Problem → proof** — for metric/impact claims (“40% faster”, scope, outcome): what you were solving, what changed, how you know it worked (measure, baseline, scope)—not the slogan number alone.
-- **Drive** — only if I named a role I am aiming for. Learn what really drives me, how I make important decisions, and why this role now; derive your own question from that. Past choices on the page are evidence for whether the stated drive holds up, not topics: do not probe the timing of each past move or ask a list of general questions about values.
-- For **RAG / retrieval / LLM quality** claims, if thin dig into retrieval and eval honesty (not slogan accuracy numbers alone).
+- **Drive** — only if I named a role I am aiming for: ask what motivates me for this role, then follow `/motivation` to check where that drive comes from and whether it would hold without outside pushes.
 
 If ownership is fuzzy (led / with a team), first pin what **I** did, then dig into that only.
 

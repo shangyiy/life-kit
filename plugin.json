@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.29.5",
+  "version": "0.30.3",
   "description": "Portable agent skills pack: resume, unit-testing, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
@@ -10,6 +10,7 @@
     "./skills/core/grouping",
     "./skills/core/info-foraging",
     "./skills/core/investing",
+    "./skills/core/listening",
     "./skills/core/misfits",
     "./skills/core/perspective",
     "./skills/core/testing",
