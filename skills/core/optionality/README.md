@@ -25,17 +25,19 @@ Source-to-principle map:
 
 - Fisher, Ury, and Patton inform principle 1: credible alternatives and the
   capacity to walk away.
-- Dixit and Pindyck inform principles 5 and 6: the value of waiting under
-  uncertainty before an irreversible commitment.
+- Dixit and Pindyck inform principle 5's value lost while waiting and
+  principle 6: the value of waiting under uncertainty before an irreversible
+  commitment.
 - Leon's 2021 talk informs principle 1's walk-away capacity. His 2023 talk
   informs principle 5's treatment of choices that lose value with time.
-- Sitkin et al. inform principle 7: stretch goals suit organizations with
-  recent success and slack resources.
+- Sitkin et al. inform principle 7's link between slack and surviving a
+  stretch goal: stretch goals suit organizations with recent success and
+  slack resources.
 
 The holder, evidence, terms, duties, risk-window, same-event-failure,
 exposure, and reliability rules in principles 1–4 are the author's own. So
-are principle 5's costs and principle 7's independent paths, commitment, and
-personal bound.
+are principle 5's other costs and principle 7's independent paths,
+commitment, and personal bound.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.

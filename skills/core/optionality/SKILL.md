@@ -33,8 +33,8 @@ from their interest is the work of `perspective`.
    performing, do not count it as independent protection against that event.
 4. **Match protection to the whole exposure.** Test every amount, person,
    obligation, and consequence at stake. Count partly reliable protection only
-   to the extent its reliability is supported. Treat every uncovered or
-   unsupported part as if no way out exists.
+   to the extent its reliability is supported. Leave every uncovered or
+   unsupported part counted as exposed.
 5. **Include every material option cost.** Count the cost of keeping and using
    a choice, the opportunities surrendered on use, and value lost while
    waiting. Find the last useful decision point. Terms, access, and value can
@@ -43,15 +43,13 @@ from their interest is the work of `perspective`.
    materially change a choice that will remain feasible. Commit sooner when
    learning is slight or the decision is easy to reverse.
 7. **Preserve distinct paths, then commit when commitment is worth more.**
-   Count paths sharing a holder, resource, or failure event as one. Keep
-   reachable, independent paths when learning, asymmetric downside, or
-   dependence makes them valuable. Otherwise commit for focus, trust,
-   coordination, compounding, or timing. Hold an ambitious or stretch target as
-   direction, not commitment, and only when all downside, including missing it,
-   is survivable. Organizations can replace people or teams after failure.
-   Individuals have no replacement, so personal stretches must stay within
-   survivable loss. Otherwise they breed burnout, risky bets, discouragement,
-   or gaming.
+   Count paths sharing a holder or resource as one. Keep reachable, independent
+   paths when learning, asymmetric downside, or dependence makes them valuable.
+   Otherwise commit for focus, trust, coordination, compounding, or timing.
+   Hold a stretch target as direction, not commitment, and only when missing it
+   is survivable. Slack makes failure absorbable, and an organization can often
+   replace people or teams while a person usually cannot replace themselves, so
+   keep a personal stretch within loss you can survive.
 
 ## Definitions
 
