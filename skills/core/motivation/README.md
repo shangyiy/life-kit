@@ -12,7 +12,7 @@ curiosity.
   *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation,
   internalization, guilt and self-pressure as a partly internalized motive,
   autonomy, competence, relatedness, pressure and controlling evaluation, and
-  support through choice.
+  how offering real choice helps a reason become one's own.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
   Change,” *Psychological Review* 84(2), 1977: past performance, seeing others
   succeed, persuasion, and physical or emotional state and how it is read as
@@ -25,8 +25,8 @@ curiosity.
   did not.
 - Edwin A. Locke and Gary P. Latham, “Building a Practically Useful Theory of
   Goal Setting and Task Motivation: A 35-Year Odyssey,” *American
-  Psychologist* 57(9), 2002: clear, demanding goals matched to ability, and
-  feedback.
+  Psychologist* 57(9), 2002: clear, demanding goals matched to ability and
+  accepted by the person, and feedback.
 - George Loewenstein, “The Psychology of Curiosity: A Review and
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
