@@ -25,8 +25,8 @@ manipulation.
   Psychologist* 57(9), 2002: clear goals and feedback.
 - The author's own ideas, not taken from the sources above: the opening
   question and how to read its answer, that putting a task off often comes
-  from doubt, the safety and plan-only routing, the helper flow, when a task
-  may be dropped, and the Workflow and Output.
+  from doubt, the safety and plan-only boundaries, how to help a helper, and
+  when a task may be dropped.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.
