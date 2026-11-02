@@ -25,6 +25,8 @@ under Uncertainty* informs the value of waiting under uncertainty. Leon's
 talks inform walk-away capacity and time-sensitive options; Ke Xi's interview
 informs the fallback lens. The holder, evidence, terms, duration, correlated
 failure, coverage, and use-cost checks are this skill's own synthesis.
+Opportunity density and the rule for balancing flexibility against commitment
+are also this skill's own synthesis.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.
