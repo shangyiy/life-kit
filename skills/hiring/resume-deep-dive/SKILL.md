@@ -11,11 +11,11 @@ license: MIT
 
 A mock interview that checks, one question at a time, whether the user understands and can explain the claims on their resume.
 
-Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell what the user understands from what they only listed.
+Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell claims the user understands apart from claims they only listed.
 
-If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid and which are thin.
+If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid (explained with reasons) and which are thin (vague or memorized).
 
-Ask **exactly one question** at a time (no multi-part stacks). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe their understanding; do not coach, rewrite claims, or supply answers, during the session or in the recap.
+Ask **exactly one question** at a time (never several questions in one). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.”
 
 Pick the question type that fits **this** claim (one per turn):
 
@@ -33,6 +33,10 @@ When the user ends the session (or asks to wrap), give a short recap only: which
 
 ## Follow-up angles
 
-One follow-up angle per question. Stay on what the resume says.
+One follow-up angle per question. For tool and system claims, the angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; whether the claimed speed or memory use holds up in practice.
 
-For tool and system claims, the angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; claimed time and space cost versus real cache behavior.
+## Boundaries
+
+- Stay on what the resume says.
+- Do not coach, rewrite claims, or supply answers, during the session or in the recap.
+- Not a fit review against a job description; use `/review-resume` for that.
