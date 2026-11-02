@@ -23,14 +23,17 @@ replace it (`/purpose`).
   distorts the processes it monitors (decisions that rely on a number put
   pressure on it).
 - Steven Kerr, “On the Folly of Rewarding A, While Hoping for B,”
-  *Academy of Management Journal* 18(4), 1975: rewarding conduct different
-  from the conduct wanted (ask what a reward makes attractive).
+  *Academy of Management Journal* 18(4), 1975: people seek to do, or appear to
+  do, what is rewarded, even when the rewarder hopes for something else (ask
+  what a reward makes attractive; effort follows the reward).
 - Jerry Z. Muller, *The Tyranny of Metrics*, Princeton University Press, 2018:
   metrics support judgment rather than replace it, and rewards tied to metrics
-  invite gaming, pull effort from what is not measured, and cost other people
-  time (treat numbers as evidence; gaming, neglected quality, and costs moved
-  onto others).
-- Owning the result, completed work as evidence, method changes, open purpose
+  invite gaming by the easier route (easier cases, lowered standards), pull
+  effort from what is not measured, and cost other people time (treat numbers
+  as evidence; the easiest way to raise a number; gaming, neglected quality,
+  and costs moved onto others).
+- Owning the result, completed work as evidence, trusting a number only while
+  direct evidence agrees, naming what to check and who can, open purpose
   changes, trade-offs, boundaries, and definitions are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or
