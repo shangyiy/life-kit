@@ -17,27 +17,26 @@ still do it without the outside reward or pressure.
 
 ## Principles
 
-1. **A motive from the activity itself lasts longer than a push from outside,
-   which usually fades when the push stops.** Intrinsic motivation is interest
-   or satisfaction in the activity. Extrinsic motivation comes from outside it:
-   a reward, pressure, comparison, or what others expect. Motives are often
-   mixed, so judge each part.
-2. **Ask; do not guess from the story.** Ask whether they would still act if
-   the outside reward or pressure went away; their answer shows more than how
-   they describe their situation.
-   - If you cannot ask, say it is unknown.
+1. **Interest in the activity itself lasts; a push from outside fades when it
+   stops, unless the person comes to value it.** Intrinsic motivation is
+   interest or satisfaction in the activity. Extrinsic motivation comes from
+   outside it: a reward, pressure, comparison, or what others expect. Motives
+   are often mixed, so judge each part.
+2. **Ask; do not guess from the story.** Ask whether they would still act if the
+   outside reward or pressure went away; their answer is better evidence than
+   guesses from how they describe their situation.
+   - If you cannot ask, say you cannot tell yet whether the motive will last.
    - If they must do the task anyway, ask what else it gives them.
    - When someone is helping another person, what that helper has seen counts,
      but the person's own answer counts most.
-3. **An outside reason can become their own (internalization).** A reason they
-   have come to value, or one that fits what they care about, is their own and
-   usually lasts. Comparing themselves with similar people whose success seems
-   within reach can also start a motive; it lasts once they find their own
-   reason.
-4. **Guilt and self-pressure are only partly the person's own reason, and
-   tend to last less well.** If they would still act without the outside push,
-   also check that the reason is one they value, not an escape from guilt or
-   self-pressure.
+3. **An outside reason can become their own.** This is called internalization. A
+   reason they have come to value, or one that fits what they care about, is
+   their own and usually lasts. Comparing themselves with similar people whose
+   success seems within reach can also start a motive; it lasts once they find
+   their own reason.
+4. **A motive from guilt or self-pressure is only partly the person's own and
+   fades sooner.** If they would still act without the outside push, also check
+   that the reason is one they value, not an escape from guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
    others (relatedness) make a reason feel like their own.
@@ -49,8 +48,8 @@ still do it without the outside reward or pressure.
 7. **Expected rewards and control can wear down interest already there.**
    Expected material rewards, pressure, and being judged in a controlling
    way can reduce the person's existing interest. Unexpected rewards, praise
-   of real progress, and feedback that supports growing ability do not. Point
-   this out when someone helping another person plans a material reward.
+   of real progress, and feedback that supports growing ability do not. This
+   matters most when someone plans a material reward for another person.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
    Clear, demanding goals matched to their ability, and feedback, help a person
@@ -62,14 +61,13 @@ still do it without the outside reward or pressure.
   including any sign of hopelessness about life or thoughts of suicide or
   self-harm, point at once to emergency services or a crisis line and a
   qualified mental-health professional. If someone sounds depressed or low for
-  a long time, suggest a qualified professional. If it is unclear whether they
-  mean the task or their life, give the crisis line anyway and ask gently and
-  directly.
+  a long time, suggest a qualified professional. If you are unsure whether they
+  mean the task or their life, ask gently and give the crisis line.
 - **Never manipulate or steer.** Never use threats, guilt-tripping, pressure,
   or deception, or steer anyone toward an outcome they did not choose, and do
   not help anyone else do so. Stating a request, rule, or deadline honestly is
   fine. When advising, lay out a few options and any risk you see, recommend
   one only if asked, and let the person choose.
 - **Do not push someone to drop a task others depend on,** even if they act
-  from guilt; a weak motive does not change that those people still need it
-  done.
+  from guilt; a motive from guilt does not change that those people still
+  need it done.
