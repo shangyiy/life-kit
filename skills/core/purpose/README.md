@@ -18,10 +18,9 @@ replace it (`/purpose`).
   *European Review* 5(3), 1997: a measure used as a target stops measuring
   what it did (expect a number to drift once it is chased).
 - Donald T. Campbell, “Assessing the Impact of Planned Social Change,”
-  *Evaluation and Program Planning* 2(1), 1979: the more an indicator is used
-  for decisions, the more it is subject to corruption pressures and the more it
-  distorts the processes it monitors (a number drifts once decisions depend
-  on it).
+  *Evaluation and Program Planning* 2(1), 1979: an indicator that decisions rely
+  on comes under pressure to be gamed and ends up bending the activity it was
+  meant to track (a number drifts once decisions depend on it).
 - Steven Kerr, “On the Folly of Rewarding A, While Hoping for B,”
   *Academy of Management Journal* 18(4), 1975: people seek to do, or appear to
   do, what is rewarded, even when the rewarder hopes for something else (ask
