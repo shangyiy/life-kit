@@ -15,7 +15,7 @@ Walk the resume bullet by bullet and probe the reasoning and design decisions be
 
 If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid and which are thin.
 
-Ask **exactly one question** at a time (no multi-part stacks). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe their understanding—do not teach.
+Ask **exactly one question** at a time (no multi-part stacks). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe their understanding; do not coach, rewrite claims, or supply answers, during the session or in the recap.
 
 Pick the question type that fits **this** claim (one per turn):
 
@@ -36,8 +36,3 @@ When the user ends the session (or asks to wrap), give a short recap only: which
 One follow-up angle per question. Stay on what the resume says.
 
 For tool and system claims, the angles are: processes versus containers; networking; memory; concurrency and locking; garbage collection; consistency and durability; claimed time and space cost versus real cache behavior.
-
-## Boundaries
-
-- Not a fit review against a job description; hand that to `/review-resume`.
-- No coaching: do not rewrite claims or supply answers, during the session or in the recap.
