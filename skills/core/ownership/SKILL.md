@@ -11,8 +11,9 @@ metadata:
 # /ownership
 
 **Core principle:** Ownership means remaining answerable for an adopted
-outcome until it is delivered, transferred clearly, or explicitly stopped.
-Doing an assigned part is not enough when the result is still at risk.
+outcome until it is accepted as delivered, knowingly transferred, or stopped
+by an authorized decision. Doing an assigned part is not enough when the
+result is still at risk.
 
 Boundary: `ownership` carries work through delivery and closure;
 `verify-before-ship` defines the evidence and approval needed before handoff.
@@ -38,7 +39,8 @@ Boundary: `ownership` carries work through delivery and closure;
 - Dependencies and risks have an owner, next action, and communication path.
 - Material changes and blockers are raised before they become surprises.
 - Contributions and impact are visible without claiming others' work.
-- The work ends with confirmed delivery, transfer, or a decision to stop.
+- The work ends with accepted delivery, an acknowledged transfer, or an
+  authorized decision to stop.
 
 ## Anti-patterns
 
