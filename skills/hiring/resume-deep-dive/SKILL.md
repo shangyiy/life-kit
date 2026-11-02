@@ -5,7 +5,7 @@ description: >
   understands and can explain the claims on their resume. Use for
   /resume-deep-dive or practice interviews. Not a fit review—use
   /review-resume.
-argument-hint: "[paste resume; optional target company or role; optional focus]"
+argument-hint: "[paste resume; optional focus bullet or tech]"
 license: MIT
 ---
 
