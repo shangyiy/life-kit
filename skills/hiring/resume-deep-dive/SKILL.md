@@ -34,4 +34,3 @@ One dig direction per question. Stay claim-bound—do not invent topics off the 
 | Claim area | Dig into… |
 |------------|-----------|
 | **Tools & systems** | process vs container; networking; memory; concurrency/GIL; GC; consistency/durability; claimed big-O / space vs cache |
-| **RAG & eval** | metric definition & baseline; eval set / leakage; retrieval vs generation failure; index/source coverage; ranking or recall@k; retrieval vs prompt ablation |
