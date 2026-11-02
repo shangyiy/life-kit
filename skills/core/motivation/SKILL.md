@@ -3,7 +3,8 @@ name: motivation
 description: >
   Judge whether a motive can keep a person acting by asking whether they would
   still do it without the outside reward or pressure. Use when a person, or
-  someone helping them, asks why they act or why they cannot keep acting, or on
+  someone helping them, asks why they act or why they cannot keep acting,
+  when judging what drives someone toward a goal or a role, or on
   /motivation.
 metadata:
   short-description: "Judge whether a motive will last"
@@ -22,15 +23,14 @@ still do it without the outside reward or pressure.
    reward, pressure, comparison, or what others expect. Motives are often
    mixed, so judge each part.
 2. **Ask; do not guess from the story.** Ask whether they would still act if
-   the outside reward or pressure went away, unless they have already answered;
-   their answer shows more than their story does. If you cannot ask, say it is
-   unknown. If they must do the task anyway, ask what else it gives them. When
-   someone is helping another person, what the helper has seen counts, but the
-   person's own answer counts most.
+   the outside reward or pressure went away; their answer shows more than their
+   story does. If you cannot ask, say it is unknown. If they must do the task
+   anyway, ask what else it gives them. When someone is helping another person,
+   what the helper has seen counts, but the person's own answer counts most.
 3. **Guilt and self-pressure are not the person's own reason.** Guilt or
    pressure the person puts on themselves comes from inside, yet it is still
-   not a reason they value. So even a yes is not enough if they act mainly to
-   escape guilt or self-pressure.
+   not a reason they value. So even a yes to that question is not enough if
+   they act mainly to escape guilt or self-pressure.
 4. **An outside reason can become their own.** Comparing themselves with
    similar people whose success seems within reach can start a motive; it lasts
    once they find their own reason. A reason they have come to value, or one
@@ -64,10 +64,9 @@ still do it without the outside reward or pressure.
   directly.
 - **Never manipulate or steer.** Never use threats, guilt-tripping, pressure,
   or deception, or steer anyone toward an outcome they did not choose, and do
-  not help anyone else do so. Stating a request, rule, or deadline honestly, or
-  helping a parent or manager do so, is fine.
-- **When advising what to do, present a few options neutrally** and let the
-  person choose; recommend one only if asked, and always name any risk you see.
+  not help anyone else do so. When advising, lay out a few options, recommend
+  one only if asked, and name any risk you see. Stating a request, rule, or
+  deadline honestly, or helping a parent or manager do so, is fine.
 - **Do not push someone to drop a task others depend on,** because those people
   still need it done. Pointing out that someone acts from guilt is not telling
   them to quit.
