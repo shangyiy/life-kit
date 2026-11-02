@@ -29,11 +29,12 @@ swings and fear from making the decision. Apply
    out-of-scope part in one line. Use Short when the person is panicking or
    rushed; otherwise use Full. Stop wins over Short, and Short over Full.
 2. **Name the decision.** State the change and why it must be decided now.
-   Ask: Is this meant to be held past the next review?
-3. **State the case.** Say what must be true, what the current price already
-   assumes, and what would prove the case wrong. Others agreeing is often
-   already in the price, so it is not a reason to buy (see "Think
-   independently of the crowd" in investing).
+   For a buy or hold, ask: Is this meant to be held past the next review? For
+   a sale, ask: Is it chosen, or is something forcing it?
+3. **State the case.** The case is the reason for this change. Say what must be
+   true, what the current price already assumes, and what would prove the case
+   wrong. Others agreeing is often already in the price, so it is not a reason
+   to buy (see "Think independently of the crowd" in investing).
 4. **Compare.** Weigh acting against doing nothing and the next-best use of the
    money, including costs and taxes, without giving tax advice (see "Allocate
    by opportunity cost" and "Cut costs, frictions, and taxes"). Value keeping
@@ -68,7 +69,8 @@ Defaults when something is unknown (missing information is never safety):
 - Price assumptions or value unknown: claim no advantage; gather evidence first.
 - A forced-sale risk unknown or answered don't-know: treat it as present; add
   nothing, not even new buys, and while the case holds, no full exit unless
-  the person confirms the risk. Repaying investment loans is fine.
+  the person confirms the risk. Trimming part of a holding and repaying
+  investment loans are fine.
 - Missing or conflicting evidence: mark it unknown, say what would resolve
   it, and prefer waiting to invented precision.
 
@@ -81,16 +83,17 @@ Defaults when something is unknown (missing information is never safety):
 
 ## Output
 
-- **Stop**: if money was already sent, first say to contact the bank and police
-  at once. Then say why it is out of scope, which licensed professional to see,
-  and to ask how they are paid (see "Follow the incentives, including your
-  advisers'"). For suspected fraud: send no money; check the provider with the
-  financial regulator; beware anyone offering to get lost money back. If
-  coerced, point to someone they trust.
-- **Short**: `What to hold off on` (irreversible steps; during a margin call,
-  paying down borrowed money now is the safe step), `What is known`, `What is
-  unknown`, `What could force a sale` (one line each, borrowing first), `Safest
-  next action`, `Review trigger`, and `Referrals` (one line each, if any).
+- **Stop**: for fraud or money already sent: say to contact the bank at once to
+  try to recall the transfer, keep all evidence, report to the police and the
+  financial regulator, send no more money, and beware anyone offering to get
+  lost money back. If coerced, point to someone they trust. Otherwise, say why
+  it is out of scope, which licensed professional to see, and to ask how they
+  are paid (see "Follow the incentives, including your advisers'").
+- **Short**: `What to hold off on` (irreversible steps; in a margin call, check
+  the deadline and meet it with spare cash or a partial sale, never with new
+  borrowing), `What is known`, `What is unknown`, `What could force a sale`
+  (one line each, borrowing first), `Safest next action`, `Review trigger`, and
+  `Referrals` (one line each, if any).
 - **Full**: the decision, the case and what the price assumes, the
   comparison, the checklist results, unknown defaults applied, the record
   from step 6, and one-line referrals for any out-of-scope parts.
