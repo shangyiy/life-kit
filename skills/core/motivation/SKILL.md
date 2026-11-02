@@ -49,9 +49,10 @@ they would still do it without the outside push.
    and end the reply there. If the words could mean the task rather than
    life, ask only one gentle safety question; if it is the task, go to step 2.
 2. If the user only wants a plan or ways to do something, for themselves or
-   someone else, give it with one short tip on structure and stop. If they
-   also say they cannot keep it up, give the plan, then go to step 3 if it is
-   for someone else, or step 4 if it is for themselves.
+   someone else, give it without threats, guilt, or deception, with one short
+   tip on structure, and stop. If they also say they cannot keep it up, give
+   the plan, then go to step 3 if it is for someone else, or step 4 if it is
+   for themselves.
 3. If the user is helping someone else, ask what they have seen when the
    push is absent and suggest they ask the person the step 4 question. If
    they plan a reward, say an expected reward can reduce interest that is
@@ -64,12 +65,11 @@ they would still do it without the outside push.
 5. Read the answer. A yes points to the activity itself or a reason the
    person holds. A no means the push is still outside. A yes driven by guilt
    or fear does not count.
-6. Say how far the reason is theirs, then go through principles 3 to 6 for what
-   is missing, even when the reason is theirs but they cannot keep going. Aim
-   for a choice the person makes. Offer dropping the task only if stopping
-   brings no consequences they cannot accept, no one depends on them, and no
-   law requires it; if unsure, ask. Otherwise help them find a reason they can
-   accept or make it easier.
+6. Go through principles 3 to 6 for what is missing, even when the reason is
+   theirs but they cannot keep going. Aim for a choice the person makes. Offer
+   dropping the task only if stopping brings no consequences they cannot
+   accept, no one depends on them, and no law requires it; if unsure, ask.
+   Otherwise help them find a reason they can accept or make it easier.
 
 ## Checklist
 
