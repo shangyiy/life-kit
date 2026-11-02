@@ -13,15 +13,15 @@ This is a mock interview that checks, one question at a time, whether the user u
 
 Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell what the user understands from what they only listed.
 
-If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims they can explain and which they cannot.
+If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops.
 
 Ask **exactly one question** at a time (no multi-part stacks). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe their understanding—do not teach.
 
 Pick the question type that fits **this** claim (one per turn):
 
-- **Why this tool** — for tool/tech claims (Docker, Helm, Kafka, a library, a language feature): why this tool; if the answer is thin, ask one layer deeper into how it works.
-- **Why this design** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, known pitfalls (e.g. designed for X, accepted risk in Y).
-- **Problem → proof** — for metric/impact claims (“40% faster”, scope, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the slogan number alone.
+- **Why this tool** — for tool/tech claims (a library, a framework, an infrastructure tool, a language feature): why this tool; if the answer is thin, ask one layer deeper into how it works.
+- **Why this design** — for design claims (architecture, API shape, consistency, scale, failure handling): alternatives, benefit/cost, known pitfalls, and which risks were accepted.
+- **Impact** — for metric/impact claims (numbers, scope, outcome): what problem it solved, what changed, how the user knows it worked (measure, baseline, scope)—not the slogan number alone.
 
 If the user names a target company or role, ask once, as its own question, why they want that company or role, then use `/motivation` to judge the answer.
 
