@@ -23,8 +23,7 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
 2. **Judge every means by the purpose.** Replace a means when it stops
    producing the wanted change or a better one appears; keep the purpose.
 3. **Completed work and numbers are evidence, not the result.** Completed
-   work shows that a means was used, not that the purpose was met. A number
-   can show whether the work moves toward the purpose.
+   work shows that a means was used, not that the purpose was met.
 4. **Expect a number to drift once it is chased.** When decisions depend on it,
    effort goes to the easiest way to raise it and it stops measuring what it
    measured before. Trust it only while direct evidence of the wanted change
@@ -36,8 +35,8 @@ exists gets lost. Holding the purpose keeps effort on the change that matters.
 6. **Own the result.** Answer for the wanted change, not only the assigned
    work.
 7. **Ask what a reward makes attractive.** A reward tied to a number is a
-   means too. Before tying one to a number, ask what behavior it encourages. Watch for neglected quality and costs
-   moved onto people the number does not show.
+   means too. Before offering one, ask what behavior it encourages. Watch for
+   neglected quality and costs moved onto people the number does not show.
 
 ## Definitions
 
