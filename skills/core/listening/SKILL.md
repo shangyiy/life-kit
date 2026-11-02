@@ -24,12 +24,12 @@ Check both again at suitable moments, also after the speaker finishes.
 
 - What the speaker needs decides where listening stops. If they only need to be
   heard, carry listening through to the end.
-- Once the speaker has finished, ask whether they want help or your view before
+- Once a speaker has finished, ask whether they want help or your view before
   any guiding question or view. Guiding questions and your view, a judgment or
   a solution, come only after a yes.
 - A request to judge or a plain request for an answer already counts as a yes:
-  for a judgment, hear it all, then judge; otherwise answer directly. A simple
-  factual question is answered directly too.
+  for a judgment, hear it all, then judge; otherwise answer directly. Input
+  with no speaker to ask, such as a document, needs no yes to be evaluated.
 - Siding with the change the speaker wants needs no permission.
 - Keep empathy and evaluation distinct; mixing them is a source of conflict.
 - If you see signs someone may get hurt, pause the purpose and address safety,
