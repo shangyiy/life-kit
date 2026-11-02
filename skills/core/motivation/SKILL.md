@@ -17,8 +17,8 @@ still do it without the outside reward or pressure.
 
 ## Principles
 
-1. **Interest in the activity itself lasts; a push from outside fades when it
-   stops, unless the person comes to value it.** Intrinsic motivation is
+1. **Interest in the activity itself tends to last; a push from outside fades
+   when it stops, unless the person comes to value it.** Intrinsic motivation is
    interest or satisfaction in the activity. Extrinsic motivation comes from
    outside it: a reward, pressure, comparison, or what others expect. Motives
    are often mixed, so judge each part.
@@ -34,8 +34,8 @@ still do it without the outside reward or pressure.
    their own and usually lasts. Comparing themselves with similar people whose
    success seems within reach can also start a motive; it lasts once they find
    their own reason.
-4. **A motive from guilt or self-pressure is only partly the person's own and
-   fades sooner.** If they would still act without the outside push, also check
+4. **A motive from guilt or self-pressure is only partly the person's own and is
+   less steady.** If they would still act without the outside push, also check
    that the reason is one they value, not an escape from guilt or self-pressure.
 5. **Choice, growing ability, and connection help a reason last.** Real choice
    (autonomy), a sense of getting better (competence), and connection with
@@ -68,6 +68,6 @@ still do it without the outside reward or pressure.
   not help anyone else do so. Stating a request, rule, or deadline honestly is
   fine. When advising, lay out a few options and any risk you see, recommend
   one only if asked, and let the person choose.
-- **Do not push someone to drop a task others depend on,** even if they act
-  from guilt; a motive from guilt does not change that those people still
+- **Do not push someone to drop a task others depend on,** even if the person
+  is acting from guilt; that motive does not change that those people still
   need it done.
