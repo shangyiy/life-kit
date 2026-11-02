@@ -1,8 +1,8 @@
 ---
 name: white-box
 description: >
-  Find what existing tests miss in the structure of the code and close the
-  gaps, after black-box tests exist. Use for coverage gaps (statement,
+  Find what existing tests miss in the implementation's structure and close
+  the gaps, after black-box tests exist. Use for coverage gaps (statement,
   branch, condition, MC/DC, basis paths, loops, data flow), to review a
   coverage claim, or on /white-box. Not for choosing inputs from the
   specification (black-box) or for judging whether tests catch faults

@@ -6,7 +6,7 @@ description: >
   test effort. Use for general or overall questions about tests and test
   plans, flaky tests, or when no single technique fits, or on /testing. For
   a specific technique use its own skill: unit-tests, black-box, white-box,
-  test-oracle or mutation-testing.
+  test-oracle or mutation-testing. For evaluations of agents use agent-evals.
 metadata:
   short-description: "What makes a good test"
 ---

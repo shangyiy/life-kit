@@ -6,8 +6,8 @@ description: >
   pays. Use for general or overall design questions, to judge whether a
   design is good, or to design, split or review modules, interfaces or
   subtypes, or on /design-principles. To draw or recover one view use
-  structure-view or behavior-view; for where a business rule lives use
-  clean-arch-domain.
+  structure-view or behavior-view; to place a business rule between the
+  domain and a use case use clean-arch-domain.
 metadata:
   short-description: "Core design principles"
 ---

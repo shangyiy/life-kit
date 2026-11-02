@@ -1,13 +1,14 @@
 ---
 name: black-box
 description: >
-  Choose test inputs from the specification, without looking at the code:
+  Choose test inputs from the specification, without looking at the
+  implementation:
   which inputs to test and which combinations of them. Use for equivalence
   classes, boundary values, input space models, combination criteria (each
   choice, pairwise, t-wise, base choice), decision tables, random testing
   and fuzzing, or to review the inputs an existing suite covers, or on
   /black-box. Not for the pass or fail check itself (test-oracle) or for
-  coverage of the code's structure (white-box).
+  coverage of the implementation's structure (white-box).
 metadata:
   short-description: "Spec-based test inputs and their combinations"
 parent-skill: testing

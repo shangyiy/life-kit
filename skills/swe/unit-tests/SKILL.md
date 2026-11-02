@@ -1,9 +1,9 @@
 ---
 name: unit-tests
 description: >
-  Write or review unit tests, tests of the smallest piece of code that can
-  be tested on its own: test doubles (stubs, fakes, mocks), testability
-  seams, test-first changes. Use for unit tests, TDD, tests that are hard to
+  Write or review tests of the smallest piece of code that can be tested on
+  its own, including test doubles (stubs, fakes, mocks), testability seams,
+  and test-first changes. Use for unit tests, TDD, tests that are hard to
   write because of collaborators or hidden dependencies, or on /unit-tests.
   Not for choosing inputs (black-box), writing the pass or fail check
   (test-oracle) or closing coverage gaps (white-box).
