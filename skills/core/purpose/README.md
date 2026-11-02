@@ -20,7 +20,7 @@ replace it (`/purpose`).
 - Donald T. Campbell, “Assessing the Impact of Planned Social Change,”
   *Evaluation and Program Planning* 2(1), 1979: an indicator that decisions rely
   on comes under pressure to be gamed and ends up bending the activity it was
-  meant to track (a number drifts once decisions depend on it).
+  meant to track (the same drift, under decision pressure).
 - Steven Kerr, “On the Folly of Rewarding A, While Hoping for B,”
   *Academy of Management Journal* 18(4), 1975: people seek to do, or appear to
   do, what is rewarded, even when the rewarder hopes for something else (ask
@@ -28,13 +28,11 @@ replace it (`/purpose`).
 - Jerry Z. Muller, *The Tyranny of Metrics*, Princeton University Press, 2018:
   metrics support judgment rather than replace it, and rewards tied to metrics
   invite gaming, pull effort from what is not measured, and cost other people
-  time (treat numbers as evidence; effort goes to the easiest way to raise a
-  number; neglected quality and costs moved onto people the number does not
-  show).
-- Owning the result, stating the purpose plainly, completed work as evidence,
+  time (treat numbers as evidence; ask what a reward encourages).
+- Stating the purpose plainly, owning the result, completed work as evidence,
   means may change while the purpose holds, trusting a number only while
   direct evidence agrees, naming what to check and who can check it, open
-  purpose changes, boundaries, and definitions are the author's own.
+  purpose changes, and definitions are the author's own.
 
 This skill is an independent restatement. It is not affiliated with or
 endorsed by any of these authors or speakers.

@@ -24,8 +24,8 @@ meant to produce.
    how much.
 2. **Own the result.** Answer for the wanted change, not only for finishing
    the assigned work.
-3. **Judge every means by the purpose.** Replace a means when it stops
-   producing the wanted change or a better one appears; keep the purpose.
+3. **Judge every means by the purpose.** Replace a means, and say why, when it
+   stops producing the wanted change or a better one appears; keep the purpose.
 4. **Treat completed work and numbers as evidence, not the result.** Completed
    work shows only that a means was used, and a number only that it moved.
    When you cannot see the wanted change itself, say what evidence would show
