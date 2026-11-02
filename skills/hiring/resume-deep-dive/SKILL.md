@@ -13,7 +13,7 @@ This is a mock interview that checks, one question at a time, whether the user u
 
 Walk the resume bullet by bullet and probe the reasoning and design decisions behind each claim, to tell what the user understands from what they only listed.
 
-If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops.
+If the user named a focus (bullet, past company, tech), start there. Prefer recent roles when covering the rest. You do not need to question every line of a long resume; keep going until the user stops or it is clear which main claims are solid and which are thin.
 
 Ask **exactly one question** at a time (no multi-part stacks). Wait for the answer before the next. If the user gets stuck, ask them to restate the claim in their own words, then one follow-up—do not hint mechanisms, give options to pick from, or feed a “strong answer.” Probe their understanding—do not teach.
 
