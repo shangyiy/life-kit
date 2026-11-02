@@ -27,10 +27,11 @@ curiosity.
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question, asking what else a needed task gives, that putting a task off often
-  comes from doubt, the boundaries on safety, plan-only requests and tasks
-  others depend on, how to help someone helping another person, and offering
-  next steps of equal weight.
+  question, asking what else a needed task gives, that comparison with similar
+  people can start a motive, that putting a task off often comes from doubt,
+  the boundaries on safety, steering, plan-only requests and tasks others
+  depend on, how to help someone helping another person, and offering options
+  neutrally.
 
 This skill is an independent restatement. It is not affiliated with or endorsed
 by any of these authors.

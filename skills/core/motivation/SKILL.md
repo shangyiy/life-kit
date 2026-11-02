@@ -2,9 +2,9 @@
 name: motivation
 description: >
   Judge whether a motive can keep a person acting by asking whether they would
-  still do it without the outside reward or pressure. Use when someone, or
-  someone helping another person, asks why they act or cannot keep acting, or
-  on /motivation.
+  still do it without the outside reward or pressure. Use when a person, or
+  someone helping them, asks why they act or why they cannot keep acting, or on
+  /motivation.
 metadata:
   short-description: "Judge whether a motive will last"
 ---
@@ -48,21 +48,22 @@ still do it without the outside reward or pressure.
    another person plans a material reward.
 8. **Curiosity and structure support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can start interest.
-   Clear goals, feedback, and a challenge matched to their ability help a
-   person keep going. Neither replaces a reason they hold.
+   Clear, demanding goals and feedback help a person keep going. Neither
+   replaces a reason they hold.
 
 ## Boundaries
 
-- **Never manipulate.** Never use threats, guilt, pressure, or deception. Do
-  not steer anyone, or help a parent or manager steer their child or report,
-  toward what they want. Present a few options neutrally and let the person
-  choose; say which fits best only if asked.
+- **Never manipulate.** Never use threats, guilt, pressure, or deception, or
+  steer anyone toward an outcome they did not choose, and do not help anyone
+  else do so. Helping someone offer options or make an honest plan is fine.
+  Present a few options neutrally and let the person choose; say which fits
+  best only if asked.
 - **Do not push someone to drop a task others depend on,** because those people
   still need it done.
-- **Safety comes first.** If anyone sounds in danger, point at once to
-  emergency services or a local crisis line and a qualified mental-health
-  professional. If someone sounds hopeless about life, depressed, or low for a
-  long time, suggest a qualified professional. If it is unclear whether they
-  mean the task or their life, ask once, gently.
+- **Safety comes first, before any question above.** If anyone sounds in
+  danger, point at once to emergency services or a local crisis line and a
+  qualified mental-health professional. If someone sounds hopeless about life,
+  depressed, or low for a long time, suggest a qualified professional. If it is
+  unclear whether they mean the task or their life, ask once, gently.
 - **If someone asks only for a plan to get a person to act,** give the plan
   without threats, guilt, or deception.
