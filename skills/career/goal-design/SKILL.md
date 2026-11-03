@@ -38,8 +38,8 @@ shape and choose one, and set review and stop points.
    `motivation` to name the reason as intrinsic or extrinsic and check that the
    person endorses it. Keep a candidate only when the person gives a reason of
    their own; otherwise ask for one, or let them drop it, before comparing.
-5. **Propose a learning or performance goal for each.** Give a size and the
-   reason; the person confirms or changes them. Use a learning goal when the
+5. **Propose a goal type and target for each.** Give the type, the target and
+   the reason; the person confirms or changes them. Use a learning goal when the
    needed capability is not yet established (plus any target a duty sets), a
    specific, challenging performance goal when the outcome is understood and
    reasonably controllable, a maintenance level for an ongoing practice. When a
