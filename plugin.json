@@ -6,7 +6,6 @@
     "name": "shangyiy"
   },
   "skills": [
-    "./skills/career/goal-design",
     "./skills/core/design-principles",
     "./skills/core/experimentation",
     "./skills/core/grouping",
@@ -23,6 +22,7 @@
     "./skills/hiring/resume-deep-dive",
     "./skills/hiring/review-resume",
     "./skills/learning/inspiring-idea",
+    "./skills/life/next-goal",
     "./skills/life/side-quest-recommend",
     "./skills/presentation/find-the-argument",
     "./skills/presentation/make-presentation-slide",

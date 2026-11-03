@@ -32,7 +32,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 - [**info-foraging**](./skills/core/info-foraging/SKILL.md): Get the most value for the attention spent looking: how to follow scent, which items to take, when to leave a source.
 - [**idea-quality**](./skills/core/idea-quality/SKILL.md): What makes an idea good: it is the core of the solution to a problem that occurs over and over again in its context, it makes sense from first principles, it actually solves the problem, even if only in part, and it works alongside other ideas.
-- [**motivation**](./skills/core/motivation/SKILL.md): Judge whether a motive can keep a person acting by asking whether they would still do it without the outside reward or pressure.
+- [**motivation**](./skills/core/motivation/SKILL.md): Judge whether a motive can keep a person acting by asking whether they truly endorse the reason, not only where it comes from.
 
 ### Software design
 - [**design-principles**](./skills/core/design-principles/SKILL.md): What makes a design easy to change: hiding, coupling, dependency direction, contracts.
@@ -54,7 +54,6 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**agent-evals**](./skills/swe/agent-evals/SKILL.md): Design, run and review evals of AI agents.
 
 ### Career & communication
-- [**goal-design**](./skills/career/goal-design/SKILL.md): Design a career goal from the person's own motive.
 - [**review-resume**](./skills/hiring/review-resume/SKILL.md): Honest review of how your resume fits a job description.
 - [**resume-deep-dive**](./skills/hiring/resume-deep-dive/SKILL.md): Mock interview on your resume claims, one question at a time.
 - [**find-the-argument**](./skills/presentation/find-the-argument/SKILL.md): Find the one argument in notes or voice notes and rebuild the reasoning around it.
@@ -66,6 +65,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
+- [**next-goal**](./skills/life/next-goal/SKILL.md): Find the next goal worth pursuing and keep only strong candidates.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 
 ## License
