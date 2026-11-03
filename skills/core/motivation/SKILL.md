@@ -36,13 +36,15 @@ can still feel controlling.
    with others (relatedness) help an outside reason become the person's own and
    keep interest already there alive.
 
-**How to assess a motive.** Ask the person; do not guess. Ask what they value
-about the activity or its outcome, and whether they would still endorse the
-reason if the outside reward or pressure changed, and why. Tell apart what they
-want from what they feel obliged to want. Their own account is the main
-first-hand evidence, but people can misread or hold back their motives, so read
-it together with what they have done and their circumstances. Do not infer a
-motive from appearance, performance, or other people's expectations alone.
+## Assessing a motive
+
+Ask the person; do not guess. Ask what they value about the activity or its
+outcome, and whether they would still endorse the reason if the outside reward
+or pressure changed, and why. Tell apart what they want from what they feel
+obliged to want. Their own account is the main first-hand evidence, but people
+can misread or hold back their motives, so read it together with what they have
+done and their circumstances. Do not infer a motive from appearance,
+performance, or other people's expectations alone.
 
 - If neither they nor anyone who knows them can be asked, say you cannot tell
   yet whether the motive will last.
@@ -50,9 +52,10 @@ motive from appearance, performance, or other people's expectations alone.
 - When someone is helping another person, what that helper has seen counts,
   but the person's own answer counts most.
 
-**What helps or hinders acting on a motive.** These affect whether a motive
-turns into sustained action. None of them gives a lasting reason by itself; the
-person still needs one they hold.
+## What helps or hinders acting on a motive
+
+These affect whether a motive turns into sustained action. None of them gives a
+lasting reason by itself; the person still needs one they hold.
 
 - **Self-efficacy.** Wanting to act is not the same as believing you can act
   well. A person may value a goal but hold back because they doubt they can
@@ -71,7 +74,7 @@ person still needs one they hold.
   ability and that they accept, with feedback on progress toward them, help a
   person keep going.
 
-**Boundaries.**
+## Boundaries
 
 - **Safety overrides everything else here.** If anyone sounds in danger,
   including any sign of hopelessness about life or thoughts of suicide or
