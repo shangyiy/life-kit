@@ -30,11 +30,13 @@ decision with the person.
    state the change it was meant to bring and ask whether it still brings it,
    judged by what has happened, not by effort spent. When others rely on it,
    such as a shared process or plan, whether the person likes it does not
-   settle whether it still serves its purpose.
+   settle whether it still serves its purpose. If the purpose itself has
+   changed, say so openly.
 4. **Lay out the paths.** Continue, change, pause or stop. With
    [`optionality`](../../core/optionality/SKILL.md), say what each costs and
-   what it keeps open or closes; what is already spent counts on no path. Ask
-   the person what loss they could bear.
+   what it keeps open or closes; what is already spent does not change what
+   any path costs from here. Ask the person what loss they could bear; when
+   others rely on it, also name who decides and who would carry the loss.
 5. **Test before deciding.** Name the assumptions that could change the
    answer. Where one can be checked cheaply, propose a small test or a trial
    change with [`experimentation`](../../core/experimentation/SKILL.md), such
@@ -45,6 +47,7 @@ decision with the person.
 - What is being reconsidered and what prompted it.
 - Whether the reason still holds, part by part.
 - Whether it still serves its purpose, with the evidence.
+- Whether the person still wants it, and whether it is still worth pursuing.
 - Each path, with what it costs and what it keeps open.
 - The open assumptions, each with a test.
 
@@ -55,4 +58,5 @@ instead.
 
 - The safety boundary in `motivation` applies throughout.
 - Not for finding a new goal when none is in place.
+- When others rely on it, the person may not be the one who decides; say so.
 - For a small question, use only the steps that apply.
