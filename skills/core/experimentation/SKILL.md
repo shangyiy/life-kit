@@ -29,8 +29,8 @@ learn from the result, and adjust.
 information is blocking action, make the feared outcome concrete: what could go
 wrong, how could you prevent it, and how could you recover? Then choose a
 bounded first step. Research is the right move when missing information is the
-real blocker; the test is whether more thinking can actually resolve the
-uncertainty.
+real blocker. A useful check is whether additional thinking can realistically
+resolve the uncertainty; if not, try a bounded experiment.
 
 **Boundaries.**
 - Do not test when existing knowledge can settle the question or there is no
