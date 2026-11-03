@@ -1,8 +1,7 @@
 ---
 name: goal-design
 description: >
-  Interview a person to uncover career motivation, generate candidate goals,
-  shape and choose one, and set review and stop points. Use when finding,
+  Design a career goal from the person's own motive. Use when finding,
   adopting, or reviewing a career goal, or on /goal-design.
 metadata:
   short-description: "Design a career goal from real motivation"
@@ -10,8 +9,9 @@ metadata:
 
 # /goal-design
 
-Interview a person to uncover career motivation, generate candidate goals,
-shape and choose one, and set review and stop points.
+Design a career goal from the person's own motive. A goal resting on a reason
+the person holds keeps them acting when outside pressure fades, so every step
+below starts from that motive, from finding it to deciding when to stop.
 
 ## Designing a goal
 
