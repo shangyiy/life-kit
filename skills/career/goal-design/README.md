@@ -6,15 +6,15 @@
   resembles laddering, and draws on it by analogy: Thomas J. Reynolds and
   Jonathan Gutman, "Laddering Theory, Method, Analysis, and Interpretation,"
   *Journal of Advertising Research* 28(1), 1988, pp. 11-31.
-- Preferring a learning goal when the needed capability is not yet established
+- Choosing between a learning goal and a specific, challenging performance goal
   draws on Edwin A. Locke and Gary P. Latham, "Building a Practically Useful
   Theory of Goal Setting and Task Motivation: A 35-Year Odyssey," *American
   Psychologist* 57(9), 2002, pp. 705-717.
-- The idea of a finite goal and its renewal draws by analogy on Jesper Juul,
-  "The Open and the Closed: Games of Emergence and Games of Progression," in
-  Frans Mäyrä, ed., *Computer Games and Digital Cultures Conference
-  Proceedings*, Tampere University Press, 2002, pp. 323-329; the career use is
-  the author's own.
+- Deciding on a next goal before one that ends at a result or date runs out
+  draws by analogy on Jesper Juul, "The Open and the Closed: Games of Emergence
+  and Games of Progression," in Frans Mäyrä, ed., *Computer Games and Digital
+  Cultures Conference Proceedings*, Tampere University Press, 2002, pp. 323-329;
+  the career use is the author's own.
 - The caution that a later low does not prove a goal worthless draws by
   analogy on Karen Howells and Mathijs Lucassen, "'Post-Olympic
   Blues'--The Diminution of Celebrity in Olympic Athletes," *Psychology of
