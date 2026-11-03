@@ -45,8 +45,9 @@ worth their choice.
    about the rest:
    - **Shape.** It is a direction, not a single task or opening, and it
      differs from the other candidates in path, effort or kind.
-   - **Fit.** With [`purpose`](../../core/purpose/SKILL.md), it would bring
-     the wanted change, and it fits the constraints.
+   - **Fit.** With [`purpose`](../../core/purpose/SKILL.md), it could
+     plausibly bring the wanted change, and it fits the constraints and the
+     conflicts found in step 1.
    - **Endorsement.** Ask the person, with `motivation`, whether they have a
      reason of their own for it and would still want it without the outside
      reward or pressure. An unsure answer is an unknown, not a drop.
@@ -62,13 +63,12 @@ worth their choice.
      [`experimentation`](../../core/experimentation/SKILL.md) instead of
      guessing.
 
-   Drop a candidate that fails a check. Mark it Test when it passes so far
-   but an unknown could change the verdict and a small test can settle it; an
-   unknown is not a reason to drop. Keep the rest. Do not rank the Keep and
-   Test candidates or pick the best. If none
-   survive, that is a valid result: say what blocked them, and go back to step
-   1 or step 3 only if the person wants to. Do not invent a goal to fill the
-   list.
+   Drop a candidate that fails a check; an unknown is not a reason to drop.
+   Mark it Test when an unknown could change the verdict and a small test can
+   settle it. Keep the rest, naming any unknown no small test can settle. Do
+   not rank the Keep and Test candidates or pick the best. If none survive,
+   that is a valid result: say what blocked them, and go back to step 1 or
+   step 3 only if the person wants to. Do not invent a goal to fill the list.
 
 ## Output
 
@@ -80,7 +80,7 @@ For each Keep and Test candidate, in a short list:
 
 Also name the Drop candidates and why, in one line each. Hand the list back:
 the person chooses. Do not pick one even if asked; lay out the trade-offs
-between the kept candidates instead.
+between the Keep and Test candidates instead.
 
 ## Boundaries
 
