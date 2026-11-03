@@ -57,6 +57,7 @@ instead.
 ## Boundaries
 
 - The safety boundary in `motivation` applies throughout.
-- Not for finding a new goal when none is in place.
+- Not for finding a new goal when none is in place; use
+  [`next-goal`](../next-goal/SKILL.md) for that.
 - When others rely on it, the person may not be the one who decides; say so.
 - For a small question, use only the steps that apply.
