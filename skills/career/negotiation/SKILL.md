@@ -43,9 +43,9 @@ shared resources, career scope, personal arrangements and business terms.
    alternatives. Know what a concession costs you and what it gives them.
    Look for shared gain, but do not force it where none exists. Ask the
    reasons behind an objection. Give a true reason with each request. Where
-   future results are uncertain, use `/experimentation`
-   ([link](../../core/experimentation/SKILL.md)) for a limited pilot,
-   milestones or conditional terms.
+   future results are uncertain, use
+   [`/experimentation`](../../core/experimentation/SKILL.md) for a limited
+   pilot, milestones or conditional terms.
 6. **Commit or walk away.** Confirm the terms and the assumptions left. Name
    responsibilities, deliverables, dates and who decides. Set review points
    and what reopens the deal. If the terms miss your minimum, decline.
