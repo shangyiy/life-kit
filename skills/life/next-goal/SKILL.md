@@ -60,7 +60,10 @@ worth their choice.
      [`experimentation`](../../core/experimentation/SKILL.md) instead of
      guessing.
 
-   If none survive, say what blocked them and go back to step 1 or step 3.
+   Filter out weak candidates; do not rank the rest or pick the best. If none
+   survive, that is a valid result: say what blocked them, and go back to step
+   1 or step 3 only if the person wants to. Do not invent a goal to fill the
+   list.
 
 ## Output
 
