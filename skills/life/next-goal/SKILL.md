@@ -33,7 +33,7 @@ worth their choice.
    change, the motive and the constraints are clear enough to tell candidates
    apart; if not, go back to step 1. If the person wants to move fast, state
    what remains assumed.
-3. **Generate candidates.** Produce several directions that could bring the
+3. **Generate candidates.** Produce about five directions that could bring the
    wanted change, differing in path, effort or kind, not a list of specific
    tasks or openings. Draw on the person's motive, what they are curious about,
    and what people like them did. Examples from similar people widen the set;
@@ -41,13 +41,14 @@ worth their choice.
    same path. Include an ongoing practice when the motive points toward one
    rather than a finite result.
 4. **Evaluate and keep only the strong ones.** Check each candidate and drop
-   the ones that fail:
+   the ones that fail. Apply Shape and Fit yourself first; ask the person only
+   about the rest:
    - **Shape.** It is a direction, not a single task or opening, and it
      differs from the other candidates in path, effort or kind.
+   - **Fit.** It serves the wanted change and fits the constraints.
    - **Endorsement.** Ask the person, with `motivation`, whether they have a
      reason of their own for it and would still want it without the outside
-     reward or pressure.
-   - **Fit.** It serves the wanted change and fits the constraints.
+     reward or pressure. An unsure answer is an unknown, not a drop.
    - **Downside.** When it needs a material commitment, exposes the person to
      meaningful loss, or closes valuable alternatives, use
      [`optionality`](../../core/optionality/SKILL.md) to see what they could
