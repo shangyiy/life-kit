@@ -21,13 +21,16 @@ can still feel controlling.
 1. **A motive lasts better when the person owns the reason.** Interest in an
    activity can keep a person acting for its own sake; this is intrinsic
    motivation. A reason from outside the activity, such as a reward, pressure,
-   or what others expect, is extrinsic, and it can also become the person's own
-   when they come to value it; this is called internalization. In the other
-   direction, inner pressure such as guilt or self-criticism can stay
-   controlling even when no one else applies it. Where a reason comes from and
-   whether the person owns it are separate questions: judge whether the person
-   truly values the reason, not merely where it came from. Motives are often
-   mixed, so judge each part.
+   or what others expect, is extrinsic. It can become the person's own when they
+   come to value it or it fits what they care about; this is called
+   internalization. A reason that stays outside the person tends to fade when
+   the reward or pressure stops. In the other direction, a reason held to escape
+   guilt or self-criticism is only partly the person's own and can stay
+   controlling even when no one else applies it, so acting without outside
+   pressure does not show the reason is theirs. Where a reason comes from and
+   whether the person owns it (autonomous or controlled motivation) are separate
+   questions: judge whether the person truly values the reason, not merely where
+   it came from. Motives are often mixed, so judge each part.
 2. **Autonomy, competence, and relatedness support sustained motivation.** Real
    choice (autonomy), a sense of getting better (competence), and connection
    with others (relatedness) help an outside reason become the person's own and
@@ -65,8 +68,8 @@ person still needs one they hold.
   the interest may change once the gap closes. Do not assume a first spark is
   a lasting motive.
 - **Goals and feedback.** Clear, demanding goals that match the person's
-  ability and that they accept, with useful feedback on progress, give
-  direction and make progress visible, which helps sustained effort.
+  ability and that they accept, with feedback on progress toward them, help a
+  person keep going.
 
 **Boundaries.**
 

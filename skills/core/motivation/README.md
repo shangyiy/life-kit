@@ -12,11 +12,9 @@ curiosity.
   *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation and
   how long each lasts, autonomous and controlled motivation as a separate
   question from where a reason comes from, internalization and how a reason
-  one values lasts,
-  guilt and self-pressure as a partly internalized motive, how autonomy,
-  competence and relatedness support internalization and interest, and
-  pressure and
-  controlling evaluation.
+  one values lasts, guilt and self-pressure as a partly internalized motive,
+  how autonomy, competence and relatedness support internalization and
+  interest, and pressure and controlling evaluation.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
   Change,” *Psychological Review* 84(2), 1977: past performance, seeing
   similar others succeed, persuasion, and physical or emotional state and how
