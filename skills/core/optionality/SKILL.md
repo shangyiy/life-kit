@@ -1,17 +1,16 @@
 ---
 name: optionality
 description: >
-  Find the real choices you have and judge what each is worth; it never
-  chooses for you. Use when a decision seems to have only one way out, or on
-  /optionality.
+  Find the real choices you have and judge what each is worth. Use when
+  weighing a decision, path, or offer, especially one that seems to have only
+  one way out, or on /optionality.
 metadata:
   short-description: "See the real choices and what each is worth"
 ---
 
 # /optionality
 
-Find the real choices you have and judge what each is worth; it never
-chooses for you.
+Find the real choices you have and judge what each is worth.
 
 People often accept a path because they think it is the only one. Principles 1
 to 5 say what a choice is and what gives it worth; principles 6 to 11 say how to
@@ -48,8 +47,8 @@ find choices, which ones count, and how to weigh them.
    what waiting would teach; when it loses worth faster than you learn, use it
    or let it go before the window closes. Holding a choice is not by itself a
    reason to use it.
-6. **Find what is already open,** including doing nothing, keeping things as
-   they are, and walking away. Real choices elsewhere give you room to refuse,
+6. **Find what is already open,** including keeping things as they are (doing
+   nothing) and walking away. Real choices elsewhere give you room to refuse,
    leave, recover, hear no with less fear, and ask for better terms; that room
    is not by itself a reason to leave.
 7. **Find the choices you have not seen.** For each path, ask what you could

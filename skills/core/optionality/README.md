@@ -1,7 +1,7 @@
 # optionality
 
-Find the real choices you have and judge what each is worth; it never
-chooses for you (`/optionality`).
+Find the real choices you have and judge what each is worth
+(`/optionality`).
 
 ## Credit
 
