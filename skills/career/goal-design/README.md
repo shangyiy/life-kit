@@ -2,8 +2,8 @@
 
 ## Credit
 
-- Step 1's habit of asking why until the answer is wanted for itself
-  resembles laddering, and draws on it by analogy: Thomas J. Reynolds and
+- Step 1's habit of asking why each answer matters until the reason is
+  concrete resembles laddering, and draws on it by analogy: Thomas J. Reynolds and
   Jonathan Gutman, "Laddering Theory, Method, Analysis, and Interpretation,"
   *Journal of Advertising Research* 28(1), 1988, pp. 11-31.
 - Choosing between a learning goal and a specific, challenging performance goal

@@ -20,9 +20,12 @@ below starts from that motive, from finding it to deciding when to stop.
    situation from the person's side, and say back what you heard until they
    confirm it. Ask why they want the goal, then why each answer matters. Push
    back when an answer is a label, an abstraction, or the last answer reworded.
-   Go on until the answer holds steady or is wanted for itself. Also find what
-   draws them, what conflicts with it, their skills, duties and constraints, and
-   the change wanted. They may stop anytime and keep what was learned.
+   Go on until the reason is concrete enough to tell the goal apart from its
+   alternatives and the person confirms they truly endorse it. Take the reason
+   as the person holds it; do not steer it toward a kind of motive you prefer.
+   Also find what draws them, what conflicts with it, their skills, duties and
+   constraints, and the change wanted. They may stop anytime and keep what was
+   learned.
 2. **Check the wanted change is clear enough.** State that change in one
    sentence with [`purpose`](../../core/purpose/SKILL.md). Go on when that
    change, the motive, and the constraints are clear enough to tell candidates
@@ -32,7 +35,9 @@ below starts from that motive, from finding it to deciding when to stop.
 3. **Generate candidates** from the person's motive, what people like them did,
    and what they are curious about, differing in the change, path, or effort.
    Include an ongoing goal when the person's motivation points toward a
-   continuing practice rather than a finite outcome.
+   continuing practice rather than a finite outcome. Examples from similar
+   people widen the set of candidates; they are not recommendations or evidence
+   that the person should take the same path.
 4. **Find each candidate's source and ask for the person's reason.** A source is
    where an idea came from, not a reason to adopt it. Use
    [`motivation`](../../core/motivation/SKILL.md) to name the reason as
@@ -42,7 +47,8 @@ below starts from that motive, from finding it to deciding when to stop.
    the reason; the person confirms or changes them. Use a learning goal when the
    needed capability is not yet established, a specific, challenging performance
    goal when the outcome is understood and reasonably controllable, a
-   maintenance level for an ongoing practice. When a goal requires a material
+   maintenance level for an ongoing practice. A target need not be a number;
+   observable evidence of the result is enough. When a goal requires a material
    commitment, exposes the person to meaningful downside, or closes valuable
    alternatives, use [`optionality`](../../core/optionality/SKILL.md) to see
    what they could lose and what choices would remain. For a small, reversible
@@ -51,13 +57,16 @@ below starts from that motive, from finding it to deciding when to stop.
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
    the motive (step 1), add a candidate (step 3), or run a small test
-   ([`experimentation`](../../core/experimentation/SKILL.md)) and bring its
-   result to step 4.
+   ([`experimentation`](../../core/experimentation/SKILL.md)) and use its
+   result to revisit the step it bears on: the motive (step 1), the candidates
+   (step 3), or the target (step 5).
 7. **Let the person choose** among the kept candidates; with one, they adopt it
    or return to step 3. If asked to choose, lay out trade-offs and hand it back.
 8. **Set the commitment.** Propose the Output below; the person agrees or
-   changes it. Following `experimentation`, make each review point check one of
-   the goal's assumptions.
+   changes it. For an uncertain goal, use `experimentation` to test explicit
+   assumptions. For each review point, define what evidence would confirm or
+   challenge a key assumption, or show whether the goal still serves its
+   purpose.
 
 ## Reviewing an existing goal
 
@@ -67,8 +76,9 @@ or options. If the motive is unclear or untested, return to step 1 first. Decide
 with the person; add the decision and change to the Output:
 
 - **Continue:** the reason holds and the evidence supports it.
-- **Reshape:** the motive holds but the goal or its reason no longer fits; redo
-  from step 2, keeping earlier candidates the person still has a reason for.
+- **Reshape:** the underlying motive still holds, but the chosen goal, path,
+  target, or assumptions no longer fit; revisit from step 2, keeping earlier
+  candidates the person still endorses.
 - **Pause:** a constraint blocks it for now; set a date, then recheck step 2.
 - **Stop:** the motive is gone, a better option replaces the goal, or the stop
   point is reached.
