@@ -21,37 +21,36 @@ still do it without the outside reward or pressure.
    when it stops, unless the person comes to value it.** Intrinsic motivation is
    interest or satisfaction in the activity. Extrinsic motivation comes from
    outside it: a reward, pressure, or what others expect. Motives are often
-   mixed, so judge each part.
+   mixed, so judge each part. An outside reason can become their own; this is
+   called internalization. A reason they have come to value, or one that fits
+   what they care about, is their own and usually lasts.
 2. **Ask the person; do not guess.** Ask whether they would still act if the
    outside reward or pressure went away, and why. What they tell you is better
    evidence than what you infer from how they seem or what others say; the why
-   shows whether the reason is one they value (see 3 and 4).
+   shows whether the reason is one they value (see 1 and 3).
    - If neither they nor anyone who knows them can be asked, say you cannot
      tell yet whether the motive will last.
    - If they must do the task anyway, ask what else it gives them.
    - When someone is helping another person, what that helper has seen counts,
      but the person's own answer counts most.
-3. **An outside reason can become their own.** This is called internalization. A
-   reason they have come to value, or one that fits what they care about, is
-   their own and usually lasts.
-4. **A motive from guilt or self-pressure is only partly the person's own.**
+3. **A motive from guilt or self-pressure is only partly the person's own.**
    Even if they would act without the outside push, check that the reason is one
    they value, not a way to escape guilt or self-pressure.
-5. **Choice, growing ability, and connection help a reason become their own.**
+4. **Choice, growing ability, and connection help a reason become their own.**
    Real choice (autonomy), a sense of getting better (competence), and
    connection with others (relatedness) support this.
-6. **Belief that they can do it keeps a motive going.** This belief, called
+5. **Belief that they can do it keeps a motive going.** This belief, called
    self-efficacy, grows through past success, seeing similar people succeed,
    credible encouragement, and how the person interprets their own nerves and
    feelings. Putting a task off can come from doubting they can do it, not
    from not caring.
-7. **Expected material rewards and control can wear down interest already
+6. **Expected material rewards and control can wear down interest already
    there.** Material rewards they expect for doing, finishing, or doing well at
    the task can reduce the person's existing interest. So can pressure, and so
    can grading that feels controlling. Unexpected rewards and positive
    feedback usually do not reduce it. Keep this in mind when someone plans a
    material reward for another person.
-8. **Curiosity, goals, and feedback support a motive but do not replace it.**
+7. **Curiosity, goals, and feedback support a motive but do not replace it.**
    Curiosity, a wish to close a gap in what one knows, can spark interest, but
    the spark can fade once the gap closes, so check whether the interest stays.
    Clear, demanding goals that match their ability and that they accept, with
