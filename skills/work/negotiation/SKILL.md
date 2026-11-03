@@ -79,9 +79,3 @@ to your best alternative.
 - The options weighed and the terms agreed, in writing.
 - Responsibilities, deliverables, dates, decision rights and review points.
 - The decision: agree, or no deal, and the next message.
-
-## Boundaries
-
-- Not for being blocked when interests are already shared; there, use
-  [`/perspective`](../../core/perspective/SKILL.md) to build on each other's
-  ideas instead of bargaining.
