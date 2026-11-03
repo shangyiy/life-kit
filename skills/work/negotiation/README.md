@@ -1,6 +1,6 @@
 # negotiation
 
-A career use case for reaching an agreement that serves the important
+A use case for reaching an agreement that serves the important
 interests of the people involved, or seeing that none is better
 (`/negotiation`).
 

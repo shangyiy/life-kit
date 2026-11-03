@@ -7,7 +7,6 @@ description: >
   on /negotiation.
 metadata:
   short-description: "Reach a fair agreement, or see that none is better"
-parent-skill: perspective
 ---
 
 # /negotiation
@@ -27,18 +26,23 @@ shared resources, career scope, personal arrangements and business terms.
 1. **Define your interests.** Use [`/purpose`](../../core/purpose/SKILL.md)
    to state the outcome you want. Sort what you want into essential,
    important and tradeable. Set your minimum and the trade-offs you accept.
-   The first proposal is a way to the goal, not the goal.
+   The first proposal is a way to the goal, not the goal. Decide whether it
+   is worth negotiating at all: weigh what is at stake against the cost to
+   the relationship and the risk of asking.
 2. **Understand the other party.** Use
    [`/perspective`](../../core/perspective/SKILL.md) to learn what they want,
    what they answer for, their limits and incentives, and who can decide.
-   List what you still assume. Their opening position is not their last one.
+   Ask before you propose. List what you still assume. Their opening position
+   is not their last one.
 3. **Know the alternatives.** Use
    [`/optionality`](../../core/optionality/SKILL.md) to judge what happens
    with no deal, your best alternative and how strong it is, and theirs. A
    good alternative lets you hear "no" calmly. Never bluff about one you lack.
 4. **Create options.** Find several ways to meet both sets of interests. Trade
    across issues, using gaps in priority, risk, timing and resources. Test
-   options against fair outside standards. A proposal may be a package.
+   options against fair outside standards. A proposal may be a package, or a
+   different deal, such as smaller scope or a first step that lowers their
+   risk.
 5. **Evaluate and negotiate.** Compare each proposal with your interests and
    alternatives. Know what a concession costs you and what it gives them.
    Look for shared gain, but do not force it where none exists. Ask the
@@ -56,7 +60,7 @@ shared resources, career scope, personal arrangements and business terms.
 - Their interests, limits and who decides known; assumptions marked.
 - Both sides' alternatives judged honestly.
 - More than one option, including a package.
-- Terms written down and confirmed; decision time agreed; time taken to decide.
+- Terms written down and confirmed; a decision date agreed with time to judge.
 - Review points set; each commitment one you will keep.
 
 ## Anti-patterns
@@ -67,7 +71,8 @@ shared resources, career scope, personal arrangements and business terms.
 - Revealing your minimum without need, or lying to protect it.
 - Accepting or refusing on the spot, before you can judge the whole.
 - Promising what you will not honor, or breaking a final condition.
-- Treating a first "no" as the end, or a first "yes" as a good sign.
+- Treating a first "no" as the end.
+- Negotiating by reflex when the stakes do not justify the cost.
 - Going on with a deal below your minimum.
 
 ## Output
@@ -81,6 +86,5 @@ shared resources, career scope, personal arrangements and business terms.
 ## Boundaries
 
 - Never lie. Protecting information is not lying; deceiving is.
-- Not for being blocked when interests are shared: use yes-and to move
-  forward together. One situation can use perspective, then yes-and, then
-  negotiation.
+- Not for being blocked when interests are already shared; there, build on
+  each other's ideas instead of bargaining.
