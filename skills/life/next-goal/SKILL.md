@@ -12,9 +12,7 @@ metadata:
 # /next-goal
 
 Find the next goal from the person's own motive, then keep only the candidates
-worth their choice. A goal resting on a reason the person holds keeps them
-acting when outside pressure fades; earlier goals often came with outside
-measures, and the next ones often do not.
+worth their choice.
 
 ## Finding the next goal
 
@@ -25,11 +23,11 @@ measures, and the next ones often do not.
    an answer is a label, an abstraction, or the last answer reworded. Go on
    until the reason is concrete enough to guide which goals to consider and
    the person confirms they truly endorse it, using
-   [`motivation`](../../core/motivation/SKILL.md). Take the reason as the
-   person holds it; do not steer it toward a kind of motive you prefer. Also
-   find what draws them, what conflicts with it, their skills, duties and
-   constraints. Do not suggest goals yet. They may stop anytime and keep what
-   was learned.
+   [`motivation`](../../core/motivation/SKILL.md); a motive may be mixed, so
+   judge each part. Take the reason as the person holds it; do not steer it
+   toward a kind of motive you prefer. Also find what draws them, what
+   conflicts with it, their skills, duties and constraints. Do not suggest
+   goals yet. They may stop anytime and keep what was learned.
 2. **Frame the wanted change.** State the change the person wants in one
    sentence with [`purpose`](../../core/purpose/SKILL.md). Go on when that
    change, the motive and the constraints are clear enough to tell candidates
@@ -44,15 +42,19 @@ measures, and the next ones often do not.
    rather than a finite result.
 4. **Evaluate and keep only the strong ones.** Check each candidate and drop
    the ones that fail:
-   - **Endorsement.** The person has a reason of their own for it, not only
-     where the idea came from; check with `motivation`.
+   - **Shape.** It is a direction, not a single task or opening, and it
+     differs from the other candidates in path, effort or kind.
+   - **Endorsement.** Ask the person, with `motivation`, whether they have a
+     reason of their own for it and would still want it without the outside
+     reward or pressure.
    - **Fit.** It serves the wanted change and fits the constraints.
    - **Downside.** When it needs a material commitment, exposes the person to
      meaningful loss, or closes valuable alternatives, use
      [`optionality`](../../core/optionality/SKILL.md) to see what they could
-     lose and what choices would remain; drop it if the plausible downside is
-     not survivable. For a small, reversible candidate, check only time, money
-     and ability to stop.
+     lose and what choices would remain, then ask whether they could bear it;
+     drop it if they say they could not. That judgment stays with the person.
+     For a small, reversible candidate, check only time, money and ability to
+     stop.
    - **Unknowns.** Name the assumptions it rests on. Where one could change the
      verdict, propose a small test with
      [`experimentation`](../../core/experimentation/SKILL.md) instead of
@@ -66,10 +68,12 @@ For each kept candidate, in a short list:
 
 - The direction, the person's reason for it, and the wanted change it serves.
 - What it keeps open and what it closes.
-- The assumptions still unknown, with a small test where one would help.
+- The assumptions still unknown, with a small test where one would help; mark
+  a candidate kept only until that test as provisional.
 
 Also name the candidates dropped and why, in one line each. Hand the list back:
-the person chooses. If asked to choose, lay out the trade-offs and hand it back.
+the person chooses. Do not pick one even if asked; lay out the trade-offs
+between the kept candidates instead.
 
 ## Boundaries
 
