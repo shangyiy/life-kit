@@ -1,6 +1,6 @@
 {
   "name": "life-kit",
-  "version": "0.35.0",
+  "version": "0.36.0",
   "description": "Portable agent skills pack: resume, unit-testing, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
@@ -36,6 +36,7 @@
     "./skills/swe/unit-tests",
     "./skills/swe/user-stories",
     "./skills/swe/white-box",
+    "./skills/work/negotiation",
     "./skills/writing/readable"
   ]
 }
