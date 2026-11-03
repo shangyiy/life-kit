@@ -57,7 +57,7 @@ still do it without the outside reward or pressure.
    feedback on progress toward them, help a person keep going. None of these
    gives a lasting reason by itself; the person still needs one they hold.
 
-## Boundaries
+**Boundaries.**
 
 - **Safety overrides everything else here.** If anyone sounds in danger,
   including any sign of hopelessness about life or thoughts of suicide or
