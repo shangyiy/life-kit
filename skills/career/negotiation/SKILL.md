@@ -46,14 +46,14 @@ shared resources, career scope, personal arrangements and business terms.
    future results are uncertain, use
    [`/experimentation`](../../core/experimentation/SKILL.md) for a limited
    pilot, milestones or conditional terms.
-6. **Commit or walk away.** Confirm the terms and the assumptions left. Name
-   responsibilities, deliverables, dates and who decides. Set review points
-   and what reopens the deal. If the terms miss your minimum, decline.
+6. **Commit or walk away.** Confirm the terms in writing, with the assumptions
+   left. Name responsibilities, deliverables, dates and who decides. Set review
+   points and what reopens the deal. If the terms miss your minimum, decline.
 
 ## Checklist
 
 - Interests ranked; minimum set; goal told apart from first proposal.
-- Their interests, limits and decider known; assumptions marked.
+- Their interests, limits and who decides known; assumptions marked.
 - Both sides' alternatives judged honestly.
 - More than one option, including a package.
 - Terms written down and confirmed; decision time agreed; time taken to decide.
@@ -73,7 +73,7 @@ shared resources, career scope, personal arrangements and business terms.
 ## Output
 
 - Your interests, minimum and best alternative.
-- Their interests, limits, decider and unchecked assumptions.
+- Their interests, limits, who decides, and unchecked assumptions.
 - The options weighed and the terms agreed, in writing.
 - Responsibilities, deliverables, dates, decision rights and review points.
 - The decision: agree, or no deal, and the next message.
