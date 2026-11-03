@@ -76,7 +76,7 @@ For each Keep and Test candidate, in a short list:
 
 - The direction, its mark, and the person's reason for it.
 - What it keeps open and what it closes.
-- For Test, the unknown and the small test that would settle it.
+- Any unknown named, and for Test the small test that would settle it.
 
 Also name the Drop candidates and why, in one line each. Hand the list back:
 the person chooses. Do not pick one even if asked; lay out the trade-offs
