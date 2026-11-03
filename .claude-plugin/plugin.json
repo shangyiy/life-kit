@@ -47,6 +47,7 @@
     "./skills/swe/unit-tests",
     "./skills/swe/user-stories",
     "./skills/swe/white-box",
+    "./skills/work/negotiation",
     "./skills/writing/readable"
   ]
 }
