@@ -16,42 +16,43 @@ below starts from that motive, from finding it to deciding when to stop.
 ## Designing a goal
 
 1. **Interview to find the motive.** Ask one question at a time, built on the
-   last answer. Use `perspective` to see the situation from the person's side,
-   and say back what you heard until they confirm it. Ask why they want the
-   goal, then why each answer matters. Push back when an answer is a label, an
-   abstraction, or the last answer reworded. Continue until the answer stops
-   changing or reaches something wanted for itself. Also find what keeps drawing
-   them and what conflicts with it, their skills, duties, and constraints, and
-   the change wanted. They may stop at any time, keeping what was learned.
-2. **Check the wanted change is clear enough.** Use `purpose` to state, in one
-   sentence, the change the person wants. Go on when that change, the motive,
-   and the constraints are clear enough to tell candidates apart; if not, go
-   back to step 1. If the person wants to move fast, state what remains assumed.
-   Sustained effort is evidence for a motive, not a requirement; with none, mark
-   the motive untested.
+   last answer. Use [`perspective`](../../core/perspective/SKILL.md) to see the
+   situation from the person's side, and say back what you heard until they
+   confirm it. Ask why they want the goal, then why each answer matters. Push
+   back when an answer is a label, an abstraction, or the last answer reworded.
+   Go on until the answer holds steady or is wanted for itself. Also find what
+   draws them, what conflicts with it, their skills, duties and constraints, and
+   the change wanted. They may stop anytime and keep what was learned.
+2. **Check the wanted change is clear enough.** State that change in one
+   sentence with [`purpose`](../../core/purpose/SKILL.md). Go on when that
+   change, the motive, and the constraints are clear enough to tell candidates
+   apart; if not, go back to step 1. If the person wants to move fast, state
+   what remains assumed. Sustained effort is evidence for a motive, not a
+   requirement; with none, mark the motive untested.
 3. **Generate candidates** from the person's motive, what people like them did,
    and what they are curious about, differing in the change, path, or effort.
    Include an ongoing goal when the person's motivation points toward a
    continuing practice rather than a finite outcome.
 4. **Find each candidate's source and ask for the person's reason.** A source is
-   where an idea came from, not the person's reason to adopt it. Use
-   `motivation` to name the reason as intrinsic or extrinsic and check that the
-   person endorses it. Keep a candidate only when the person gives a reason of
-   their own; otherwise ask for one, or let them drop it, before comparing.
+   where an idea came from, not a reason to adopt it. Use
+   [`motivation`](../../core/motivation/SKILL.md) to name the reason as
+   intrinsic or extrinsic and check that the person endorses it. Keep a
+   candidate only once the person gives a reason of their own for it.
 5. **Propose a goal type and target for each.** Give the type, the target and
    the reason; the person confirms or changes them. Use a learning goal when the
-   needed capability is not yet established (plus any target a duty sets), a
-   specific, challenging performance goal when the outcome is understood and
-   reasonably controllable, a maintenance level for an ongoing practice. When a
-   goal requires a material commitment, exposes the person to meaningful
-   downside, or closes valuable alternatives, use `optionality` to see what they
-   could lose and what choices would remain. For small, reversible goals, a
-   lightweight check of time, money, and ability to stop is enough.
+   needed capability is not yet established, a specific, challenging performance
+   goal when the outcome is understood and reasonably controllable, a
+   maintenance level for an ongoing practice. When a goal requires a material
+   commitment, exposes the person to meaningful downside, or closes valuable
+   alternatives, use [`optionality`](../../core/optionality/SKILL.md) to see
+   what they could lose and what choices would remain. For a small, reversible
+   goal, check only time, money, and ability to stop.
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
-   the motive (step 1), add a candidate (step 3), or run a small test under
-   `experimentation` and take its result to step 4.
+   the motive (step 1), add a candidate (step 3), or run a small test
+   ([`experimentation`](../../core/experimentation/SKILL.md)) and bring its
+   result to step 4.
 7. **Let the person choose** among the kept candidates; with one, they adopt it
    or return to step 3. If asked to choose, lay out trade-offs and hand it back.
 8. **Set the commitment.** Propose the Output below; the person agrees or
@@ -94,7 +95,6 @@ not worth it.
 
 ## Boundaries
 
-- The safety boundary in `motivation` applies throughout. Do not push someone
-  to drop a duty others depend on.
+- The safety boundary in `motivation` applies throughout.
 - Not for editing a résumé or choosing among concrete offers already in hand.
 - For a small choice, use only the steps and Output items that apply.
