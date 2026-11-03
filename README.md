@@ -25,12 +25,14 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ### Thinking
 - [**perspective**](./skills/core/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
 - [**listening**](./skills/core/listening/SKILL.md): Know why you listen, then listen, ask, and tell little.
+- [**optionality**](./skills/core/optionality/SKILL.md): Find the choices you really have and judge what each is worth.
 - [**purpose**](./skills/core/purpose/SKILL.md): Aim the work at its purpose; means and numbers serve the purpose and must not replace it.
+- [**experimentation**](./skills/core/experimentation/SKILL.md): When thinking cannot settle something, run a small, cheap, reversible test, learn from the result, and adjust.
 - [**grouping**](./skills/core/grouping/SKILL.md): Put observations into kinds, name them, and check that the groups hold.
 - [**misfits**](./skills/core/misfits/SKILL.md): Find misfits in a record of work and keep the patterns that live.
 - [**info-foraging**](./skills/core/info-foraging/SKILL.md): Get the most value for the attention spent looking: how to follow scent, which items to take, when to leave a source.
 - [**idea-quality**](./skills/core/idea-quality/SKILL.md): What makes an idea good: it is the core of the solution to a problem that occurs over and over again in its context, it makes sense from first principles, it actually solves the problem, even if only in part, and it works alongside other ideas.
-- [**motivation**](./skills/core/motivation/SKILL.md): Judge whether a motive can keep a person acting by asking whether they would still do it without the outside reward or pressure.
+- [**motivation**](./skills/core/motivation/SKILL.md): Judge whether a motive can keep a person acting by asking whether they truly endorse the reason, not only where it comes from.
 
 ### Software design
 - [**design-principles**](./skills/core/design-principles/SKILL.md): What makes a design easy to change: hiding, coupling, dependency direction, contracts.
@@ -54,7 +56,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 ### Career & communication
 - [**review-resume**](./skills/hiring/review-resume/SKILL.md): Honest review of how your resume fits a job description.
 - [**resume-deep-dive**](./skills/hiring/resume-deep-dive/SKILL.md): Mock interview on your resume claims, one question at a time.
-- [**negotiation**](./skills/career/negotiation/SKILL.md): Reach an agreement that serves the important interests of the people involved, or see when no agreement is better.
+- [**negotiation**](./skills/work/negotiation/SKILL.md): Reach an agreement that serves the important interests of the people involved, or see when no agreement is better.
 - [**find-the-argument**](./skills/presentation/find-the-argument/SKILL.md): Find the one argument in notes or voice notes and rebuild the reasoning around it.
 - [**make-presentation-slide**](./skills/presentation/make-presentation-slide/SKILL.md): Build a deck that teaches one argument with claim titles.
 - [**readable**](./skills/writing/readable/SKILL.md): Default plain-English style for text people read.
@@ -64,6 +66,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Life
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
+- [**next-goal**](./skills/life/next-goal/SKILL.md): Find the next goal worth pursuing and keep only strong candidates.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
 
 ## License

@@ -1,19 +1,20 @@
 {
   "name": "life-kit",
-  "version": "0.33.0",
+  "version": "0.36.0",
   "description": "Portable agent skills pack: resume, unit-testing, presentation argument pipeline, default readable prose.",
   "author": {
     "name": "shangyiy"
   },
   "skills": [
-    "./skills/career/negotiation",
     "./skills/core/design-principles",
+    "./skills/core/experimentation",
     "./skills/core/grouping",
     "./skills/core/info-foraging",
     "./skills/core/investing",
     "./skills/core/listening",
     "./skills/core/misfits",
     "./skills/core/motivation",
+    "./skills/core/optionality",
     "./skills/core/perspective",
     "./skills/core/purpose",
     "./skills/core/testing",
@@ -21,6 +22,7 @@
     "./skills/hiring/resume-deep-dive",
     "./skills/hiring/review-resume",
     "./skills/learning/inspiring-idea",
+    "./skills/life/next-goal",
     "./skills/life/side-quest-recommend",
     "./skills/presentation/find-the-argument",
     "./skills/presentation/make-presentation-slide",
@@ -34,6 +36,7 @@
     "./skills/swe/unit-tests",
     "./skills/swe/user-stories",
     "./skills/swe/white-box",
+    "./skills/work/negotiation",
     "./skills/writing/readable"
   ]
 }
