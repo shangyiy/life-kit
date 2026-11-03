@@ -36,8 +36,8 @@ Take moving abroad for work versus staying in your home country.
   relationships, and a stalled career back home. Keeping both paths open costs
   money, time, and attention, and it is not free.
 - **Whether you can come back.** If you can return, the downside is bounded and
-  moving is closer to a choice. If a contract or sunk cost traps you, it is a
-  bet.
+  moving is closer to a choice. If a contract or other future obligation traps
+  you, it is a bet.
 - **Time windows.** An offer, a job opening, or a stage of life can close.
 
 The point: do not pick one path now. Build a way to keep both open. Take small
