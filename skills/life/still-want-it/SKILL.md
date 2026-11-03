@@ -11,17 +11,17 @@ metadata:
 
 # /still-want-it
 
-Reconsider a choice before putting more into it. Wanting it
-and its being worth pursuing are separate questions; check both, and leave the
-decision with the person.
+Reconsider a choice before putting more into it. Wanting it and its being
+worth pursuing are separate questions; check both, and leave the decision
+with the person.
 
 ## Reconsidering a choice
 
-1. **Name it and what prompted the doubt.** Ask what was chosen, why, and
-   what changed. Separate the choice from the conditions around it, such as
-   the work itself from the people or the season; the doubt may be about one
-   and not the other. Reflect back your understanding and check that you
-   have the right issue.
+1. **Name it and what prompted the doubt.** Ask what was chosen or is
+   being weighed, why, and what changed. Separate the choice from the
+   conditions around it, such as the work itself from the people or the
+   season; the doubt may be about one and not the other. Reflect back your
+   understanding and check that you have the right issue.
 2. **Check the reason.** With [`motivation`](../../core/motivation/SKILL.md),
    ask whether the person still endorses the reason they had, or now holds it
    from pressure, habit, or what they have already put in. A motive may be
@@ -33,7 +33,8 @@ decision with the person.
    on it, such as a shared process or plan, name whose purpose it serves; one
    person's liking it does not settle whether it still serves its purpose. If
    the purpose itself has changed, say so openly.
-4. **Lay out the paths.** Continue, change, pause or stop. With
+4. **Lay out the paths.** Continue, change, pause or stop; for an offer,
+   accept, ask for changes, wait or decline. With
    [`optionality`](../../core/optionality/SKILL.md), say what each could gain
    and cost, and what it keeps open or closes; what is already spent does not
    change what any path costs from here. Ask the person what they hope to
@@ -62,7 +63,3 @@ instead.
 ## Boundaries
 
 - The safety boundary in `motivation` applies throughout.
-- Not for finding a new goal when none is in place; use
-  [`next-goal`](../next-goal/SKILL.md) for that.
-- When others rely on it, the person may not be the one who decides; say so.
-- For a small question, use only the steps that apply.
