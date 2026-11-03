@@ -13,10 +13,6 @@ metadata:
 Interview a person to uncover career motivation, generate candidate goals,
 shape and choose one, and set review and stop points.
 
-A goal from a first guess or someone else's example may not be one the person
-wants for itself. So find the motive first, offer real alternatives, let the
-person choose, and set when to review or end it.
-
 ## Designing a goal
 
 1. **Interview to find the motive.** Ask one question at a time, built on the
@@ -33,20 +29,24 @@ person choose, and set when to review or end it.
    back to step 1. If the person wants to move fast, state what remains assumed.
    Sustained effort is evidence for a motive, not a requirement; with none, mark
    the motive untested.
-3. **Generate candidates** from what people like them did and what they are
-   curious about, differing in the change, the path, or the effort; include at
-   least one with no fixed end.
+3. **Generate candidates** from the person's motive, what people like them did,
+   and what they are curious about, differing in the change, path, or effort.
+   Include an ongoing goal when the person's motivation points toward a
+   continuing practice rather than a finite outcome.
 4. **Find each candidate's source and ask for the person's reason.** A source is
    where an idea came from, not the person's reason to adopt it. Use
    `motivation` to name the reason as intrinsic or extrinsic and check that the
    person endorses it. Keep a candidate only when the person gives a reason of
    their own; otherwise ask for one, or let them drop it, before comparing.
 5. **Propose a learning or performance goal for each.** Give a size and the
-   reason; the person confirms or changes them. If the person lacks the skill,
-   propose a learning goal, plus any target a duty already sets; otherwise a
-   performance goal with a specific, hard target, not "do your best"; for a goal
-   with no fixed end, a level to keep up. A goal past what they can do now needs
-   a downside they could bear (`optionality`).
+   reason; the person confirms or changes them. Use a learning goal when the
+   needed capability is not yet established (plus any target a duty sets), a
+   specific, challenging performance goal when the outcome is understood and
+   reasonably controllable, a maintenance level for an ongoing practice. When a
+   goal requires a material commitment, exposes the person to meaningful
+   downside, or closes valuable alternatives, use `optionality` to see what they
+   could lose and what choices would remain. For small, reversible goals, a
+   lightweight check of time, money, and ability to stop is enough.
 6. **Compare.** Set the kept candidates against the motive, the wanted change,
    and the constraints; note what each keeps open or closes. If none was kept,
    name what blocks the choice; the person picks a way forward: ask again about
@@ -81,20 +81,20 @@ not worth it.
 - The chosen goal, the person's reason, and the constraints and assumptions.
 - The first small action and the evidence that would show progress.
 - The review points and the stop point.
-- For a finite goal, when and on what evidence the person will decide on a
-  next goal; start looking for it before this one ends.
+- For a goal that ends at a result or date, when and on what evidence the
+  person will decide on a next goal; start looking for it before it ends.
 
 ## Definitions
 
-- **Learning goal:** a goal to gain a skill or knowledge. **Performance goal:**
-  a goal to reach or keep up a set result.
+- **Learning goal:** gain a skill or knowledge. **Performance goal:** reach a
+  set result. **Maintenance level:** the level an ongoing practice is kept at.
 - **Review point:** a time or event to check that the goal still holds.
-- **Stop point:** when the person ends the goal: a result, a date, or for a goal
-  with no end, evidence that it no longer serves the motive.
-- **Finite goal:** one that ends when its result is reached or its date passes.
+- **Stop point:** when the person ends the goal: a result, a date, or for an
+  ongoing goal, evidence that it no longer serves the motive.
 
 ## Boundaries
 
-- Do not push someone to drop a duty others depend on.
+- The safety boundary in `motivation` applies throughout. Do not push someone
+  to drop a duty others depend on.
 - Not for editing a résumé or choosing among concrete offers already in hand.
 - For a small choice, use only the steps and Output items that apply.
