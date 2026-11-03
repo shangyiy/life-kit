@@ -68,6 +68,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**investing**](./skills/core/investing/SKILL.md): Decide where to put capital, what to pay, and when to act or wait.
 - [**next-goal**](./skills/life/next-goal/SKILL.md): Find the next goal worth pursuing and keep only strong candidates.
 - [**side-quest-recommend**](./skills/life/side-quest-recommend/SKILL.md): Suggest a few real things to do near you.
+- [**still-want-it**](./skills/life/still-want-it/SKILL.md): Reconsider a choice before putting more into it.
 
 ## License
 
