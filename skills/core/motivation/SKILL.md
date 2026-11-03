@@ -1,8 +1,8 @@
 ---
 name: motivation
 description: >
-  Judge whether a motive can keep a person acting by asking whether they would
-  still do it without the outside reward or pressure. Use when a person, or
+  Judge whether a motive can keep a person acting by asking whether they truly
+  endorse the reason, not only where it comes from. Use when a person, or
   someone helping them, asks why they act or why they cannot keep acting,
   when judging what drives someone toward a goal or a role, or on
   /motivation.
@@ -12,50 +12,61 @@ metadata:
 
 # /motivation
 
-Judge whether a motive can keep a person acting by asking whether they would
-still do it without the outside reward or pressure.
+Motivation is not only about where a reason comes from, but whether the person
+truly endorses it. An outside reason can become their own; an inner pressure
+can still feel controlling.
 
 ## Principles
 
-1. **Interest in the activity itself tends to last; a push from outside fades
-   when it stops, unless the person comes to value it.** Intrinsic motivation is
-   interest or satisfaction in the activity. Extrinsic motivation comes from
-   outside it: a reward, pressure, or what others expect. Motives are often
-   mixed, so judge each part. An outside reason can become the person's own;
-   this is called internalization. A reason that fits what they care about is
-   then theirs and usually lasts.
-2. **Ask the person; do not guess.** Ask whether they would still act if the
-   outside reward or pressure went away, and why. What they tell you is better
-   evidence than what you infer from how they seem or what others say; the why
-   shows whether the reason is one they value (see 1 and 3).
-   - If neither they nor anyone who knows them can be asked, say you cannot
-     tell yet whether the motive will last.
-   - If they must do the task anyway, ask what else it gives them.
-   - When someone is helping another person, what that helper has seen counts,
-     but the person's own answer counts most.
-3. **A motive from guilt or self-pressure is only partly the person's own.**
-   Even if they would act without the outside push, check that the reason is one
-   they value, not a way to escape guilt or self-pressure.
-4. **Choice, growing ability, and connection help a reason become their own.**
-   Real choice (autonomy), a sense of getting better (competence), and
-   connection with others (relatedness) support this.
-5. **Belief that they can do it keeps a motive going.** This belief, called
-   self-efficacy, grows through past success, seeing similar people succeed,
-   credible encouragement, and how the person interprets their own nerves and
-   feelings. Putting a task off can come from doubting they can do it, not
-   from not caring.
-6. **Expected material rewards and control can wear down interest already
-   there.** Material rewards they expect for doing, finishing, or doing well at
-   the task can reduce the person's existing interest. So can pressure, and so
-   can grading that feels controlling. Unexpected rewards and positive
-   feedback usually do not reduce it. Keep this in mind when someone plans a
-   material reward for another person.
-7. **Curiosity, goals, and feedback support a motive but do not replace it.**
-   Curiosity, a wish to close a gap in what one knows, can spark interest, but
-   the spark can fade once the gap closes, so check whether the interest stays.
-   Clear, demanding goals that match their ability and that they accept, with
-   feedback on progress toward them, help a person keep going. None of these
-   gives a lasting reason by itself; the person still needs one they hold.
+1. **A motive lasts better when the person owns the reason.** Interest in an
+   activity can keep a person acting for its own sake; this is intrinsic
+   motivation. A reason from outside the activity, such as a reward, pressure,
+   or what others expect, is extrinsic, and it can also become the person's own
+   when they come to value it; this is called internalization. In the other
+   direction, inner pressure such as guilt or self-criticism can stay
+   controlling even when no one else applies it. Where a reason comes from and
+   whether the person owns it are separate questions: judge whether the person
+   truly values the reason, not merely where it came from. Motives are often
+   mixed, so judge each part.
+2. **Autonomy, competence, and relatedness support sustained motivation.** Real
+   choice (autonomy), a sense of getting better (competence), and connection
+   with others (relatedness) help an outside reason become the person's own and
+   keep interest already there alive.
+
+**How to assess a motive.** Ask the person; do not guess. Ask what they value
+about the activity or its outcome, and whether they would still endorse the
+reason if the outside reward or pressure changed, and why. Tell apart what they
+want from what they feel obliged to want. Their own account is the main
+first-hand evidence, but people can misread or hold back their motives, so read
+it together with what they have done and their circumstances. Do not infer a
+motive from appearance, performance, or other people's expectations alone.
+
+- If neither they nor anyone who knows them can be asked, say you cannot tell
+  yet whether the motive will last.
+- If they must do the task anyway, ask what else it gives them.
+- When someone is helping another person, what that helper has seen counts,
+  but the person's own answer counts most.
+
+**What helps or hinders acting on a motive.** These affect whether a motive
+turns into sustained action. None of them gives a lasting reason by itself; the
+person still needs one they hold.
+
+- **Self-efficacy.** Wanting to act is not the same as believing you can act
+  well. A person may value a goal but hold back because they doubt they can
+  reach it. Past success, seeing similar people succeed, credible
+  encouragement, and how they read their own nerves and feelings can build
+  this belief. Do not mistake low confidence for a lack of motivation.
+- **Expected material rewards and control.** Material rewards a person expects
+  for doing, finishing, or doing well at a task can reduce interest already
+  there. So can pressure, and so can grading that feels controlling.
+  Unexpected rewards and positive feedback usually do not reduce it. Keep this
+  in mind when someone plans a material reward for another person.
+- **Curiosity.** A wish to close a gap in what one knows can start action, but
+  the interest may change once the gap closes. Do not assume a first spark is
+  a lasting motive.
+- **Goals and feedback.** Clear, demanding goals that match the person's
+  ability and that they accept, with useful feedback on progress, give
+  direction and make progress visible, which helps sustained effort.
 
 **Boundaries.**
 

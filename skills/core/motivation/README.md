@@ -1,7 +1,7 @@
 # motivation
 
-Judge whether a motive can keep a person acting by asking whether they would
-still do it without the outside reward or pressure (`/motivation`). It draws on
+Judge whether a motive can keep a person acting by asking whether they truly
+endorse the reason, not only where it comes from (`/motivation`). It draws on
 research into intrinsic and extrinsic motivation, self-efficacy, goals, and
 curiosity.
 
@@ -10,9 +10,12 @@ curiosity.
 - Richard M. Ryan and Edward L. Deci, “Self-Determination Theory and the
   Facilitation of Intrinsic Motivation, Social Development, and Well-Being,”
   *American Psychologist* 55(1), 2000: intrinsic and extrinsic motivation and
-  how long each lasts, internalization and how a reason one values lasts,
+  how long each lasts, autonomous and controlled motivation as a separate
+  question from where a reason comes from, internalization and how a reason
+  one values lasts,
   guilt and self-pressure as a partly internalized motive, how autonomy,
-  competence and relatedness support internalization, and pressure and
+  competence and relatedness support internalization and interest, and
+  pressure and
   controlling evaluation.
 - Albert Bandura, “Self-Efficacy: Toward a Unifying Theory of Behavioral
   Change,” *Psychological Review* 84(2), 1977: past performance, seeing
@@ -32,15 +35,18 @@ curiosity.
   Reinterpretation,” *Psychological Bulletin* 116(1), 1994: curiosity as a
   wish to close a gap in what one knows.
 - The author's own ideas, not taken from the sources above: the opening
-  question and asking why as well, judging each part of a mixed motive, that
-  what the person says is better evidence than what you infer from how they
-  seem or what others say, saying you cannot tell yet when no one can be asked,
-  and asking what else a needed task gives.
-- Also the author's own: that putting a task off can come from doubt, that
-  curiosity can spark interest and the spark can fade once the gap closes,
-  that curiosity, goals and feedback do not
-  replace a reason the person holds, and that the reward risk applies when
-  someone plans a material reward for another person.
+  question of whether they would still endorse the reason if outside reward
+  or pressure changed, and why; judging each part of a mixed motive; telling
+  what someone wants from what they feel obliged to want; taking the person's
+  own account as the main evidence while reading it with what they have done
+  and their circumstances; saying you cannot tell yet when no one can be
+  asked; and asking what else a needed task gives.
+- Also the author's own: that low confidence is not a lack of motivation,
+  that curiosity can start action and the interest may change once the gap
+  closes, that self-efficacy, rewards, curiosity, goals and feedback affect
+  acting on a motive but do not replace a reason the person holds, and that
+  the reward risk applies when someone plans a material reward for another
+  person.
 - Also the author's own: the boundaries on safety, steering, neutral advice and
   tasks others depend on, and how to help someone helping another person.
 
