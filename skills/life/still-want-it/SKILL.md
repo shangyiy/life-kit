@@ -40,9 +40,10 @@ decision with the person.
    gain and what loss they could bear. When others rely on it, also name who
    decides and who would carry the risk.
 5. **Test important assumptions where useful.** Name the assumptions that
-   could change the answer. Where one can be checked cheaply, propose a small test or a trial
-   change with [`experimentation`](../../core/experimentation/SKILL.md), such
-   as changing the conditions before leaving the commitment.
+   could change the answer. Where one can be checked cheaply, propose a small
+   test or a trial change with
+   [`experimentation`](../../core/experimentation/SKILL.md), such as changing
+   the conditions before leaving the choice.
 
 ## Output
 
