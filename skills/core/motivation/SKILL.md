@@ -21,9 +21,9 @@ still do it without the outside reward or pressure.
    when it stops, unless the person comes to value it.** Intrinsic motivation is
    interest or satisfaction in the activity. Extrinsic motivation comes from
    outside it: a reward, pressure, or what others expect. Motives are often
-   mixed, so judge each part. An outside reason can become their own; this is
-   called internalization. A reason they have come to value, or one that fits
-   what they care about, is their own and usually lasts.
+   mixed, so judge each part. An outside reason can become the person's own;
+   this is called internalization. A reason that fits what they care about is
+   then theirs and usually lasts.
 2. **Ask the person; do not guess.** Ask whether they would still act if the
    outside reward or pressure went away, and why. What they tell you is better
    evidence than what you infer from how they seem or what others say; the why
