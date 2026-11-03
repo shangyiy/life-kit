@@ -40,12 +40,13 @@ worth their choice.
    they are not recommendations or evidence that the person should take the
    same path. Include an ongoing practice when the motive points toward one
    rather than a finite result.
-4. **Evaluate and keep only the strong ones.** Check each candidate and drop
-   the ones that fail. Apply Shape and Fit yourself first; ask the person only
+4. **Evaluate and keep only the strong ones.** Mark each candidate Keep,
+   Test or Drop. Apply Shape and Fit yourself first; ask the person only
    about the rest:
    - **Shape.** It is a direction, not a single task or opening, and it
      differs from the other candidates in path, effort or kind.
-   - **Fit.** It serves the wanted change and fits the constraints.
+   - **Fit.** With [`purpose`](../../core/purpose/SKILL.md), it would bring
+     the wanted change, and it fits the constraints.
    - **Endorsement.** Ask the person, with `motivation`, whether they have a
      reason of their own for it and would still want it without the outside
      reward or pressure. An unsure answer is an unknown, not a drop.
@@ -61,21 +62,23 @@ worth their choice.
      [`experimentation`](../../core/experimentation/SKILL.md) instead of
      guessing.
 
-   Filter out weak candidates; do not rank the rest or pick the best. If none
+   Drop a candidate that fails a check. Mark it Test when it passes so far
+   but an unknown could change the verdict and a small test can settle it; an
+   unknown is not a reason to drop. Keep the rest. Do not rank the Keep and
+   Test candidates or pick the best. If none
    survive, that is a valid result: say what blocked them, and go back to step
    1 or step 3 only if the person wants to. Do not invent a goal to fill the
    list.
 
 ## Output
 
-For each kept candidate, in a short list:
+For each Keep and Test candidate, in a short list:
 
-- The direction, the person's reason for it, and the wanted change it serves.
+- The direction, its mark, and the person's reason for it.
 - What it keeps open and what it closes.
-- The assumptions still unknown, with a small test where one would help; mark
-  a candidate kept only until that test as provisional.
+- For Test, the unknown and the small test that would settle it.
 
-Also name the candidates dropped and why, in one line each. Hand the list back:
+Also name the Drop candidates and why, in one line each. Hand the list back:
 the person chooses. Do not pick one even if asked; lay out the trade-offs
 between the kept candidates instead.
 
