@@ -20,8 +20,8 @@ below starts from that motive, from finding it to deciding when to stop.
    situation from the person's side, and say back what you heard until they
    confirm it. Ask why they want the goal, then why each answer matters. Push
    back when an answer is a label, an abstraction, or the last answer reworded.
-   Go on until the reason is concrete enough to tell the goal apart from its
-   alternatives and the person confirms they truly endorse it. Take the reason
+   Go on until the reason is concrete enough to guide which goals to consider
+   and the person confirms they truly endorse it. Take the reason
    as the person holds it; do not steer it toward a kind of motive you prefer.
    Also find what draws them, what conflicts with it, their skills, duties and
    constraints, and the change wanted. They may stop anytime and keep what was
