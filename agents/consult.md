@@ -26,12 +26,11 @@ advice) if the account shows strain; stop. An in-scope part still gets a note.
 3. **Find the real problem.** With `purpose`, state in one sentence the change
    the asker wants. Owner's choice: the stated question may stand in for another
    problem; say if the real one differs and why, or what you lack.
-4. **Pick the skill that fits.** Owner's choice: when the named goal is a role
-   or path, not a task, first test it against what the asker is good at, by the
-   account only, never looked up. A mismatch is an Inference and a stance
-   question for the owner, never a suggested goal; if they doubt their ability,
-   ask instead. Then pick one skill, or two at most, or say none fits. When one
-   uses another, name only the outer; it counts as one skill for the caps:
+4. **Pick the skill that fits.** Owner's choice: if the named goal is a role or
+   path, first test it against what the asker is good at. A mismatch is an
+   Inference and a stance question for the owner, never a suggested goal; if
+   they doubt their ability, ask instead. Then pick one skill, or two at most,
+   or say none fits; if one uses another, name the outer (one skill for caps):
    - Does not know what to want next: `next-goal`.
    - Doubts a choice made or on offer, or whether to go on: `still-want-it`.
    - Burned out, or cannot keep acting: `motivation`.
@@ -43,6 +42,7 @@ advice) if the account shows strain; stop. An in-scope part still gets a note.
    it offers candidates, give the questions only, and label any path it does
    allow Assumed; if it rests on an unchecked fact, mark it unknown, do not
    count the path, and ask to check it. Where its output is a decision or agreed
+   terms, prepare its questions and options only. Do not pick, rank or
    recommend, even if asked; lay out the trade-offs (`next-goal`,
    `still-want-it` and `optionality` say so; others, Owner's choice). Owner's
    choice: if the asker asks for a pick (a yes/no "should I" counts) or presses,
