@@ -1,38 +1,18 @@
 # consult
 
-Prepares one owner to meet one asker who is stuck on a career or life
-question. It listens to the asker's account with `listening`, sees the
-situation from the asker's side and anyone else's in it with `perspective`,
-states the change the asker wants with `purpose`, tests a named role or path
-against the asker's strengths, picks the skill that fits the problem, and
-applies it.
-The result is a prep note, written by `readable` and organized by
-`find-the-argument`, with these parts: a safety line first when the account
-shows risk, the core argument, what the asker said and what is inferred (the
-side of anyone whose yes is needed first, a strengths line, and what is left
-out), the skill picked, questions to ask (at most five, six for two skills),
-and the points that need the owner's own stance. It never picks a path for
-the asker. A question out of scope gets at most three lines naming the kind
-of help, not a note. The agent itself is [`agents/consult.md`](../../agents/consult.md).
+Helps one person who is stuck on a career or life question. It listens to the
+whole account with `listening`, guides the person with first principles to
+their blind spot and where they are really stuck, offers the life-kit skills
+that fit with a concrete example from their case, and closes with one next
+step. It never picks for them. The agent itself is
+[`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
 
-**It hears only the account it is given.** The agent cannot ask the asker
-anything. A thin or one-sided account gives a thin note, and every question
-it would ask goes to the owner instead.
+**It hears only the account it is given.** A thin or one-sided account leads
+to a thin answer.
 
-**The real problem is an inference.** The note labels it so. The owner finds
-out in the conversation whether it is right.
+**The blind spot is an inference.** The person finds out whether it is right.
 
-**It picks skills by its own reading of the account.** A misread problem type,
-or a type the account does not show, leads to the wrong skill or a missing
-one. The owner finds out in the conversation.
-
-**It does not replace the owner.** The asker came for the owner's view, so
-the note marks the points that need it and asks the owner to confirm what they
-know first-hand.
-
-**It cannot judge risk or give crisis help.** It only flags signs in the
-account, and stops at any sign that is not clearly about work, with a gentle
-question for the owner to ask. The owner supplies local crisis help and a
-qualified professional.
+**It cannot judge risk or give crisis help.** Someone in crisis needs local
+crisis help or a qualified professional, not this agent.
