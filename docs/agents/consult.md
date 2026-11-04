@@ -3,15 +3,16 @@
 Prepares one owner to meet one asker who is stuck on a career or life
 question. It listens to the asker's account with `listening`, sees the
 situation from the asker's side and anyone else's in it with `perspective`,
-states the change the asker wants with `purpose`, picks the skill that fits
-the problem, and applies it.
+states the change the asker wants with `purpose`, tests a named role or path
+against the asker's strengths, picks the skill that fits the problem, and
+applies it.
 The result is a prep note, written by `readable` and organized by
 `find-the-argument`, with these parts: a safety line first when the account
 shows risk, the core argument, what the asker said and what is inferred (the
-side of those who decide first, where others decide, and what the message
-leaves out), the skill picked, questions to ask, and the points that need the
-owner's own stance. It never picks a path for the asker. The agent itself is
-[`agents/consult.md`](../../agents/consult.md).
+side of anyone whose yes is needed first, a strengths line, and what is left
+out), the skill picked, questions to ask (at most five, six for two skills),
+and the points that need the owner's own stance. It never picks a path for
+the asker. The agent itself is [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
 
