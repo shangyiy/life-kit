@@ -1,15 +1,16 @@
 # consult
 
 Helps one person who is stuck on a career or life question. It listens fully
-with `listening`, then finds where they are really stuck from first
-principles (`idea-quality`): it tests the conclusion they state against what
-they have actually done, asks about any gap between the two, and offers
-where they might be stuck as a question for them to test. Then it offers the
-idea from the life-kit skill that fits, such as `perspective`, `motivation` or
+with `listening`, then finds where they are really stuck from first principles
+(`idea-quality`): it tests the conclusion they state against what they have
+actually done, asks about any gap between the two, and offers where they might
+be stuck as a question for them to test. Then it offers the idea from the
+life-kit skill that fits, such as `perspective`, `motivation` or
 `experimentation`, shown at work in their own experiences. For any other case
 it checks the life-kit skills for one that fits, or keeps building on what
-they say. It never gives a conclusion, a plan or steps, because people truly
-endorse and act on conclusions they reach themselves. The agent itself is
+they say. It never gives a conclusion, a plan or steps (plain facts they ask
+for are fine), because people truly endorse and act on conclusions they reach
+themselves. The agent itself is
 [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
