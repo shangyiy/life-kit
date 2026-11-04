@@ -19,12 +19,12 @@ it would ask goes to the owner instead.
 **The real problem is an inference.** The note labels it so. The owner finds
 out in the conversation whether it is right.
 
-**It picks one problem type.** A question that mixes several types gets the
-skill for the one the agent judges most central, and the note may miss the
-others.
+**It picks skills by its own reading of the account.** A misread problem type,
+or a type the account does not show, leads to the wrong skill or a missing
+one. The owner finds out in the conversation.
 
 **It does not replace the owner.** The owner's experience and view are what
 the asker came for, so the note marks those points and leaves them open.
 
-**It is not for crises.** If the account suggests the asker may get hurt, the
-note says so first and points to qualified help.
+**It cannot judge risk or give crisis help.** It only flags signs in the
+account and points to qualified help.
