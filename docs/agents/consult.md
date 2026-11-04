@@ -7,9 +7,10 @@ states the change the asker wants with `purpose`, picks the skill that fits
 the problem, and applies it.
 The result is a prep note, written by `readable` and organized by
 `find-the-argument`, with these parts: a safety line first when the account
-shows risk, the core argument, what the asker said and what is inferred, the
-skill picked, questions to ask, and the points that need the owner's own
-stance. It never picks a path for the asker. The agent itself is
+shows risk, the core argument, what the asker said and what is inferred (the
+side of those who decide first, where others decide, and what the message
+leaves out), the skill picked, questions to ask, and the points that need the
+owner's own stance. It never picks a path for the asker. The agent itself is
 [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
@@ -25,8 +26,9 @@ out in the conversation whether it is right.
 or a type the account does not show, leads to the wrong skill or a missing
 one. The owner finds out in the conversation.
 
-**It does not replace the owner.** The owner's experience and view are what
-the asker came for, so the note marks those points and leaves them open.
+**It does not replace the owner.** The asker came for the owner's view, so
+the note marks the points that need it and asks the owner to confirm what they
+know first-hand.
 
 **It cannot judge risk or give crisis help.** It only flags signs in the
 account, and stops at any sign that is not clearly about work, with a gentle
