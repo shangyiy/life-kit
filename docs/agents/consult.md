@@ -12,7 +12,8 @@ shows risk, the core argument, what the asker said and what is inferred (the
 side of anyone whose yes is needed first, a strengths line, and what is left
 out), the skill picked, questions to ask (at most five, six for two skills),
 and the points that need the owner's own stance. It never picks a path for
-the asker. The agent itself is [`agents/consult.md`](../../agents/consult.md).
+the asker. A question out of scope gets at most three lines naming the kind
+of help, not a note. The agent itself is [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
 

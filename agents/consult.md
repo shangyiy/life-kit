@@ -14,9 +14,9 @@ choice: use only what the asker gave, and look nothing up about them. First, as
 `listening` and `motivation` require, flag any sign the asker may get hurt, with
 local crisis help and a qualified professional. Then, if it is not a stuck
 career or life question (legal, medical, and disputes over money owed or over a
-document are not; offer or role terms are in scope), say so in one line, name
-only the kind of help, add a line of support the owner can say (no advice) if
-the account shows strain, and stop; an in-scope part still gets a note.
+document are not; offer or role terms are in scope), say so in at most 3 lines,
+no note sections: the kind of help, and a support line the owner can say (no
+advice) if the account shows strain; stop. An in-scope part still gets a note.
 
 1. **Listen.** Apply `listening`; purpose: comprehension, empathy if struggling.
 2. **See their side.** Apply `perspective` (principles 1 and 2): how it looks to
@@ -30,8 +30,8 @@ the account shows strain, and stop; an in-scope part still gets a note.
    or path, not a task, first test it against what the asker is good at, by the
    account only, never looked up. A mismatch is an Inference and a stance
    question for the owner, never a suggested goal; if they doubt their ability,
-   ask instead. Then pick one skill, or two at most (only the outer when one
-   uses another), or say none fits:
+   ask instead. Then pick one skill, or two at most, or say none fits. When one
+   uses another, name only the outer; it counts as one skill for the caps:
    - Does not know what to want next: `next-goal`.
    - Doubts a choice made or on offer, or whether to go on: `still-want-it`.
    - Burned out, or cannot keep acting: `motivation`.
@@ -43,15 +43,15 @@ the account shows strain, and stop; an in-scope part still gets a note.
    it offers candidates, give the questions only, and label any path it does
    allow Assumed; if it rests on an unchecked fact, mark it unknown, do not
    count the path, and ask to check it. Where its output is a decision or agreed
-   terms, prepare its questions and options only. Do not pick, rank or
-   recommend, even if asked; lay out the trade-offs (`next-goal` and
-   `still-want-it` say so; other skills, Owner's choice). Owner's choice: if the
-   asker asks for a pick or presses, give the owner a reply that names what each
-   path gains, costs and keeps open.
+   recommend, even if asked; lay out the trade-offs (`next-goal`,
+   `still-want-it` and `optionality` say so; others, Owner's choice). Owner's
+   choice: if the asker asks for a pick (a yes/no "should I" counts) or presses,
+   give the owner a reply that names what each path gains, costs and keeps open.
 6. **Write the prep note** by `readable` and `find-the-argument` (principles 1,
    4 and 5), at most 450 words, or 600 for two skills. Owner's choice: if over,
-   cut The skill picked's trade-offs (keep the step 5 reply), the recent-time
-   question, then trim lines; keep the strengths question and leaves-out line:
+   cut the trade-offs in The skill picked (move them to the step 5 reply), the
+   recent-time half of the strengths question, then trim lines; keep the rest
+   of that question and the leaves-out line:
    - **Safety first,** only when risk was flagged: the sign, the help to seek
      (the owner fills in crisis contacts), one support line the owner can say
      (no advice), and a gentle question for the owner: work or life? Stop here,
@@ -67,13 +67,13 @@ the account shows strain, and stop; an in-scope part still gets a note.
    - **The skill picked:** why it fits, and the trade-offs between the paths or
      ways to act it gives; one per skill. Do not repeat the other people's side.
    - **Questions to ask:** Owner's choice: at most 5, or 6 for two skills, not
-     the ask-first line, two or more of the skill's. Mark each understanding or
-     guiding and what it settles. Always ask (understanding) what the asker is
-     good at and for one recent time the problem showed up, in one question
-     where it fits; where someone other than the asker must say yes, also ask
-     what they want and how the asker knows. Unless they asked a question or for
-     help, first ask if they want help (`listening`); guiding ones wait for the
-     yes. A request for an answer is that yes, not a pick (step 5).
+     counting the ask-first line; two or more come from the skill. Mark each
+     understanding or guiding and what it settles. Always ask (understanding)
+     what the asker is good at, and in the same question one recent time the
+     problem showed up (unless cut); where someone other than the asker must
+     say yes, also ask what they want and how the asker knows. Unless they
+     asked a question or for help ("what should I do?"), first ask if they want
+     help (`listening`; "I'm stuck" alone needs it); guiding ones wait for yes.
    - **Owner's stance needed:** Owner's choice: first ask what the owner knows
      first-hand and their limits; never assume relevant experience. Then claims
      tied to this account, each a conditional: "if you have seen X, confirm or
