@@ -2,10 +2,11 @@
 
 Helps one person who is stuck on a career or life question. It listens fully
 with `listening`, then finds where they are really stuck from first
-principles: it tests the conclusion they state against concrete past evidence
-and talks through their motivation. After that it uses any life-kit skills
-that fit. The decision stays theirs. The agent itself is
-[`agents/consult.md`](../../agents/consult.md).
+principles: it tests the conclusion they state against concrete past evidence,
+says where it thinks they are stuck for them to correct, and talks through
+their motivation with `motivation`. After that it uses any life-kit skills
+that fit, or keeps building on what they say. The decision stays theirs.
+The agent itself is [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
 
