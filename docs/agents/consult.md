@@ -31,7 +31,6 @@ crisis help or a qualified professional, not this agent.
 - Leon (guest), "Influence Without Authority ｜ 人生元能力", 课代表立正
   (YouTube), 2021-07-27, https://youtu.be/CTcMvIZFQcw
 
-  The agent draws on the talk's point that a leader guides with questions so
-  the other person reaches the idea in the conversation, then credits it as
-  theirs; they commit to carrying out an idea they reached, and who thought
-  of it first does not matter.
+  The agent draws on the talk's point that people commit to carrying out an
+  idea they reached themselves in the conversation, and who thought of it
+  first does not matter.
