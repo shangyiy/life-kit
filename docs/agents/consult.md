@@ -2,7 +2,8 @@
 
 Helps one person who is stuck on a career or life question. It listens fully
 with `listening`, then finds where they are really stuck from first
-principles: it tests the conclusion they state against concrete past evidence,
+principles: it tests the conclusion they state against what they have
+actually done, since behavior is more reliable than self-report,
 says where it thinks they are stuck for them to correct, and talks through
 their motivation with `motivation`. After that it uses any life-kit skills
 that fit, or keeps building on what they say. The decision stays theirs.
