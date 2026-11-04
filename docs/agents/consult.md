@@ -3,11 +3,12 @@
 Helps one person who is stuck on a career or life question. It listens fully
 with `listening`, then finds where they are really stuck from first
 principles: it tests the conclusion they state against what they have
-actually done, since behavior is more reliable than self-report, and lets
-them correct the diagnosis. Then it offers the idea from the life-kit skill
-that fits, such as `perspective`, `motivation` or `experimentation`, and how to
-think with it. It never gives a conclusion, a plan or steps; the person works
-out the rest. The agent itself is
+actually done, since behavior is more reliable than self-report, and offers
+where they might be stuck as a question for them to test. Then it offers the
+idea from the life-kit skill that fits, such as `perspective`, `motivation` or
+`experimentation`, shown at work in their own experiences. It never gives a
+conclusion, a plan or steps, because people own and act on what they reach
+themselves. The agent itself is
 [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
