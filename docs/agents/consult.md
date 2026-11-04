@@ -2,12 +2,14 @@
 
 Prepares one owner to meet one asker who is stuck on a career or life
 question. It listens to the asker's account with `listening`, sees the
-situation from the asker's side with `perspective`, states the change the asker
-wants with `purpose`, picks the skill that fits the problem, and applies it.
+situation from the asker's side and anyone else's in it with `perspective`,
+states the change the asker wants with `purpose`, picks the skill that fits
+the problem, and applies it.
 The result is a prep note, written by `readable` and organized by
-`find-the-argument`: the core argument, what the asker said and what is
-inferred, the asker's side, questions to ask, and the points that need the
-owner's own stance. It never picks a path for the asker. The agent itself is
+`find-the-argument`, with these parts: a safety line first when the account
+shows risk, the core argument, what the asker said and what is inferred, the
+skill picked, questions to ask, and the points that need the owner's own
+stance. It never picks a path for the asker. The agent itself is
 [`agents/consult.md`](../../agents/consult.md).
 
 ## Limits
@@ -27,4 +29,4 @@ one. The owner finds out in the conversation.
 the asker came for, so the note marks those points and leaves them open.
 
 **It cannot judge risk or give crisis help.** It only flags signs in the
-account and points to qualified help.
+account, and the owner supplies local crisis help.
