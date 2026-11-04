@@ -29,5 +29,6 @@ one. The owner finds out in the conversation.
 the asker came for, so the note marks those points and leaves them open.
 
 **It cannot judge risk or give crisis help.** It only flags signs in the
-account and treats an unclear sign as concerning their life. The owner
-supplies local crisis help and a qualified professional.
+account, and stops at any sign that is not clearly about work, with a gentle
+question for the owner to ask. The owner supplies local crisis help and a
+qualified professional.
