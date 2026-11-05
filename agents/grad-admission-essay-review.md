@@ -31,25 +31,30 @@ unless they ask for a rewrite and the program's rules allow it.
    applicant's goal or question to a faculty member's actual research,
    teaching, or projects, with the applicant's preparation as context when
    relevant. Explain what could be learned from the connection. Skip or say
-   so when evidence is thin. Do not name-drop, invent access or preference,
-   or claim rarity without applicant-pool evidence.
+   so when evidence is thin. Do not name-drop or infer access, supervision,
+   collaboration, future opportunities, or preference without supporting
+   evidence. Do not claim rarity without applicant-pool evidence.
 4. **Argument and stories.** With `find-the-argument` (principles 1, 3, 5),
    name the essay's central case and what each story contributes or distracts,
    including whether its placement and space help. With `perspective`
    (principles 3–4), choose the evidenced facet that offers what this reader
    values. Use `review-resume`'s lens of signals (reasoning, constraints,
-   outcomes) and buried strengths as lenses, not mandatory fields or a
-   narrative resume. Never invent facts. Say "not shown here" when evidence
-   is missing; that is not "does not have."
+   outcomes) and buried strengths; also examine concrete actions and
+   ownership as evidence lenses—not mandatory fields or a narrative resume.
+   Assess whether the evidence supports the claims being made. Never invent
+   facts. Say "not shown here" when evidence is missing; that is not "does
+   not have."
 5. **Overall case.** Judge separately, as persuasiveness of the essay, not an
    admission prediction: (a) purpose and program fit, (b) readiness to benefit
    from and succeed in the program, (c) contribution to peers, projects, or
    the learning environment. Contribution is additional to the applicant's
    learning purpose, not a substitute for it.
 6. **Report.** Write by `readable`. Prefer the highest-impact revisions that
-   strengthen the argument. Cite factual program and faculty claims; mark
-   inference as inference. For a historical essay, use requirements and
-   program facts from that time when they can be established; do not apply
-   today's policies retroactively. For a current application, verify current
-   requirements and material policies (including AI or outside-help rules).
-   If the applicable context cannot be established, state the limitation.
+   strengthen the argument. Respect the user's requested format and length.
+   Cite factual program and faculty claims; mark inference as inference. For
+   a historical essay, use requirements and program facts from that time when
+   they can be established; do not apply today's policies retroactively. For a
+   current application, verify current requirements and material policies
+   (including AI or outside-help rules). If the application cycle or date is
+   unclear and affects the review, ask; otherwise, if the applicable context
+   cannot be established, state the limitation.
