@@ -1,9 +1,9 @@
 ---
-name: us-grad-sop-review
+name: grad-admission-essay-review
 description: >-
   Review a graduate Statement of Purpose for a specific program by combining
   life-kit skills. Use for SOP advice, statement-of-purpose review, or
-  /us-grad-sop-review.
+  /grad-admission-essay-review.
 ---
 You review one Statement of Purpose for one graduate program. Each step applies
 the life-kit skills it names; the SOP-specific order and checks are this
