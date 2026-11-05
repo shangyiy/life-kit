@@ -19,7 +19,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 - [**code-review**](./agents/code-review.md): Review a code change for design and tests by combining the software design and validation skills.
 - [**eval-design-review**](./agents/eval-design-review.md): Design or review an agent eval by combining the testing and eval skills; a design passes only after a review by someone else. Needs high-quality labeled cases as input ([limits](./docs/agents/eval-design-review.md#limits)).
 - [**trend-catch-up**](./agents/trend-catch-up.md): Catch a reader up on a fast-moving field by combining the search, idea and writing skills; reports at most three of the most valuable ideas. Only as good as the reader's context ([limits](./docs/agents/trend-catch-up.md#limits)).
-- [**us-grad-sop-review**](./agents/us-grad-sop-review.md): Review a graduate Statement of Purpose for a specific program by combining perspective, source-foraging, argument, evidence-screen and readable writing; centers applicant purpose ↔ program offering.
+- [**us-grad-sop-review**](./agents/us-grad-sop-review.md): Review a graduate Statement of Purpose for a specific program by combining the perspective, info-foraging, find-the-argument, review-resume and readable skills; centers the applicant's purpose and what the program offers.
 
 ## Skills
 
