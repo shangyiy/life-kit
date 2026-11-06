@@ -7,9 +7,11 @@ description: >-
   believe it.
 ---
 
-Review one graduate admissions essay for one target program. Required: essay and target university, department, and degree. Preferred: application cycle, prompt, and track/option. Research relevant program information from official sources; do not assume the user has supplied it.
+Review one graduate admissions essay for one target program, across any academic discipline or degree type. Required: essay and target institution and program. Preferred: application cycle, prompt, and track/option. Research relevant program information from official sources; do not assume the user has supplied it.
 
 Preserve the applicant's intent and actual experience. Never invent motivation, turning points, ownership, outcomes, or program opportunities. Review the essay, not admission probability; do not rewrite unless asked and allowed by program rules.
+
+Use the principles below as guidance, not a checklist or a prescribed essay formula. Adapt the depth and emphasis of the review to the essay, discipline, degree, and reader. Do not impose discipline-specific expectations on programs where they do not apply.
 
 ## 1. Understand the program and its reader
 
@@ -25,7 +27,7 @@ For each important signal, keep its source and confidence clear. Leave unsupport
 
 Use `perspective` and `readable`. Read the complete essay before diagnosing it. What does the applicant seem to be arguing? How quickly can you grasp it? What draws you in, what stays with you, and where must you reread or reconstruct a connection?
 
-Do not impose a timed reading budget or require a particular kind of opening. A scene, question, intellectual realization, professional experience, or direct statement can all work if it gives the reader a clear and meaningful way into the essay.
+Do not impose a timed reading budget or require a particular kind of opening. A scene, question, intellectual realization, professional experience, or direct statement can all work if it gives the reader a clear and meaningful way into the essay. Consider not only whether the reader can understand the essay, but whether they want to keep reading. Look for genuine curiosity, momentum, and a sense that each passage gives the reader a reason to continue. Do not manufacture hooks, suspense, drama, or emotional intensity where they do not serve the applicant's purpose.
 
 ## 3. Identify the applicant's case
 
@@ -35,13 +37,15 @@ Identify the thread that makes the selected experiences meaningful together. Con
 
 The essay should communicate a credible reason for this next step. Assess what the applicant actually explains; do not speculate about whether their private motivation is authentic.
 
+Consider what impression of the applicant remains after reading. Does the essay reveal a distinctive way of thinking, a meaningful motivation, a perspective, or qualities that make this person worth knowing? These may emerge through the applicant's choices, observations, reasoning, or experiences; they need not be explicitly declared. Do not equate distinctiveness with unusual experiences, dramatic personal stories, or self-promotional claims.
+
 ## 4. Assess evidence and program fit
 
 Use `needs-to-signals` to connect the program reader signals with the applicant's central case and assess whether the essay makes its evidence credible and visible.
 
-Check whether important claims are supported by relevant, credible, visible evidence. Look for the applicant's own actions, decisions, reasoning, constraints, methods, learning, and outcomes where relevant. Distinguish individual contribution from team results, demonstrated capability from aspiration, and missing evidence from qualities not addressed in this essay. Do not require metrics or every evidence element in every example.
+Check whether important claims are supported by relevant, credible, visible evidence. Look for the applicant's own actions, decisions, reasoning, constraints, methods, learning, and outcomes where relevant. Consider whether the reasoning and causal relationships are convincing within the relevant field. Distinguish individual contribution from team results, demonstrated capability from aspiration, and missing evidence from qualities not addressed in this essay. Do not require metrics or every evidence element in every example, or impose technical depth and forms of evidence that do not suit the discipline.
 
-Assess fit through **applicant's next step → specific program offering → how it helps**. Calibrate to the degree: do not impose a research agenda on a professional master's or accept a generic career goal where the degree expects a research direction. Faculty fit is optional; never imply guaranteed access, supervision, funding, or internship placement.
+Assess fit through the applicant's next step, the specific program, and how the program helps. Calibrate to the discipline, degree, and program purpose. Do not impose a research agenda on a professionally oriented degree, or accept a generic career goal where the program expects a defined academic or research direction. Consider the forms of preparation and development relevant to that applicant's next step without assuming they must demonstrate a particular kind of academic readiness. Faculty fit is optional; never imply guaranteed access, supervision, funding, or internship placement.
 
 ## 5. Improve the whole-essay argument
 
@@ -49,10 +53,14 @@ Use `find-the-argument` and `perspective`. Decide whether the order helps the re
 
 Remove repetition, résumé-like inventory, generic praise, and details that do not advance the central case, support a relevant signal, answer the prompt, or provide a needed transition. Keep complexity, limitations, uncertainty, failures, and personal details when they explain the applicant's judgment or development. Do not cut for brevity alone.
 
+Do not optimize the essay solely for completeness, efficiency, or conformity to an admissions formula. Preserve the applicant's authentic voice and the details that make the essay engaging and individual. A passage can earn its place by deepening the reader's understanding, creating meaningful interest, or revealing something important about the applicant, even when it does not directly establish a qualification.
+
 ## 6. Reread for clarity and cohesion
 
-Use `readable` on the full essay in its proposed order. Can the intended reader grasp the central idea, follow how each part advances it, and understand how concrete evidence supports the claims without doing the applicant's reasoning for them? Check paragraph focus, openings, transitions, terminology, cohesion, repetition, and whether the essay fulfills the expectations it establishes. Separate whole-essay flow from sentence-level clarity.
+Use `readable` on the full essay in its proposed order. Can the intended reader grasp the central idea, follow how each part advances it, and understand how concrete evidence supports the claims without doing the applicant's reasoning for them? Does the essay sustain interest and leave a clear, meaningful impression of the applicant? Check paragraph focus, openings, transitions, terminology, cohesion, repetition, and whether the essay fulfills the expectations it establishes. Separate whole-essay flow from sentence-level clarity.
 
 ## Output
 
 Lead with the most important reader-facing diagnosis: what case the essay currently makes and what most limits the reader's ability to understand or believe it. Include only the program signals and first-read observations needed to explain that diagnosis. Then give a short, prioritized set of revisions, each tied to affected passages and a concrete change. Include material facts or application requirements that need verification. Do not produce a section for every step or dimension; organize the review around the essay's highest-impact problems. Keep facts, supported inferences, and unknowns distinct.
+
+Prioritize changes that materially improve the reader's understanding, confidence, interest, or impression of the applicant. Do not turn every observation into a revision request. Recognize what is already working and preserve it; the goal is not to make every essay conform to an ideal template, but to help this applicant communicate their case in the most compelling and credible way.
