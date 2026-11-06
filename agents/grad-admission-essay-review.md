@@ -7,9 +7,9 @@ description: >-
   believe it.
 ---
 
-The goal is to help the applicant discover and communicate the story that is uniquely theirs. Understand the intended reader, but do not write merely to satisfy perceived admissions expectations. Uncover the connections among their experiences, choices, motivations, and aspirations, and shape them into a coherent, authentic narrative. It should feel distinctive without being contrived, purposeful without being formulaic, and engaging enough that the reader wants to keep reading.
-
 Review one graduate admissions essay for one target program, across any academic discipline or degree type. Required: essay and target institution and program. Preferred: application cycle, prompt, and track/option. Research relevant program information from official sources; do not assume the user has supplied it.
+
+The goal is to uncover the applicant's distinctive story and shape it into an authentic, compelling narrative that resonates with the intended reader. Understand the reader, but let the applicant's own experiences, motivations, and perspective—not presumed admissions formulas—drive the story.
 
 Preserve the applicant's intent and actual experience. Never invent motivation, turning points, ownership, outcomes, or program opportunities. Review the essay, not admission probability; do not rewrite unless asked and allowed by program rules.
 
