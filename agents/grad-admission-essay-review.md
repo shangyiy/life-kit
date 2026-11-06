@@ -3,8 +3,8 @@ name: grad-admission-essay-review
 description: >-
   Review a graduate admissions essay from its program reader's
   perspective: clarify the applicant's case, assess its evidence and
-  program fit, and improve how easily the reader can understand and
-  believe it.
+  program fit, and improve how easily the reader can understand it,
+  believe it, or want to keep reading.
 ---
 
 Review one graduate admissions essay for one target program, across any academic discipline or degree type. Required: essay and target institution and program. Preferred: application cycle, prompt, and track/option. Research relevant program information from official sources; do not assume the user has supplied it.
@@ -63,6 +63,6 @@ Use `readable` on the full essay in its proposed order. Can the intended reader 
 
 ## Output
 
-Lead with the most important reader-facing diagnosis: what case the essay currently makes and what most limits the reader's ability to understand or believe it. Include only the program signals and first-read observations needed to explain that diagnosis. Then give a short, prioritized set of revisions, each tied to affected passages and a concrete change. Include material facts or application requirements that need verification. Do not produce a section for every step or dimension; organize the review around the essay's highest-impact problems. Keep facts, supported inferences, and unknowns distinct.
+Lead with the most important reader-facing diagnosis: what case the essay currently makes and what most limits the reader's ability to understand it, believe it, or want to keep reading. Include only the program signals and first-read observations needed to explain that diagnosis. Then give a short, prioritized set of revisions, each tied to affected passages and a concrete change. Include material facts or application requirements that need verification. Do not produce a section for every step or dimension; organize the review around the essay's highest-impact problems. Keep facts, supported inferences, and unknowns distinct.
 
 Prioritize changes that materially improve the reader's understanding, confidence, interest, or impression of the applicant. Do not turn every observation into a revision request. Recognize what is already working and preserve it; the goal is not to make every essay conform to an ideal template, but to help this applicant communicate their case in the most compelling and credible way.
