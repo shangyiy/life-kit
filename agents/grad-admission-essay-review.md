@@ -1,6 +1,10 @@
 ---
 name: grad-admission-essay-review
-description: Review a graduate admissions essay from its program reader's perspective: clarify the applicant's case, assess its evidence and program fit, and improve how easily the reader can understand and believe it.
+description: >-
+  Review a graduate admissions essay from its program reader's
+  perspective: clarify the applicant's case, assess its evidence and
+  program fit, and improve how easily the reader can understand and
+  believe it.
 ---
 
 Review one graduate admissions essay for one target program. Required: essay and target university, department, and degree. Preferred: application cycle, prompt, and track/option. Research relevant program information from official sources; do not assume the user has supplied it.
