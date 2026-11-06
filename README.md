@@ -24,6 +24,7 @@ Each rule has one home, and tool or framework detail is worked out at run time f
 
 ### Thinking
 - [**perspective**](./skills/core/perspective/SKILL.md): Win someone's support by seeing the situation from their side.
+- [**needs-to-signals**](./skills/core/needs-to-signals/SKILL.md): Turn audience needs into observable signals.
 - [**listening**](./skills/core/listening/SKILL.md): Know why you listen, then listen, ask, and tell little.
 - [**optionality**](./skills/core/optionality/SKILL.md): Find the choices you really have and judge what each is worth.
 - [**purpose**](./skills/core/purpose/SKILL.md): Aim the work at its purpose; means and numbers serve the purpose and must not replace it.
