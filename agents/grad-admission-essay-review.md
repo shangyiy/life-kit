@@ -55,7 +55,7 @@ Use `find-the-argument` and `perspective`. Decide whether the order helps the re
 
 Remove repetition, résumé-like inventory, generic praise, and details that do not advance the central case, support a relevant signal, answer the prompt, or provide a needed transition. Keep complexity, limitations, uncertainty, failures, and personal details when they explain the applicant's judgment or development. Do not cut for brevity alone.
 
-Do not optimize the essay solely for completeness, efficiency, or conformity to an admissions formula. Preserve the applicant's authentic voice and the details that make the essay engaging and individual. A passage can earn its place by deepening the reader's understanding, creating meaningful interest, or revealing something important about the applicant, even when it does not directly establish a qualification.
+Preserve the applicant's authentic voice and the details that make the essay engaging and individual. Do not optimize the essay solely for completeness, efficiency, or conformity to an admissions formula. A passage can earn its place by deepening the reader's understanding, creating meaningful interest, or revealing something important about the applicant, even when it does not directly establish a qualification.
 
 ## 6. Reread for clarity and cohesion
 
