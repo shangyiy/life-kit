@@ -37,11 +37,9 @@ Run a brief reader-risk review. Look for content that could undermine the applic
 
 ## 3. Identify the applicant's case
 
-Use `find-the-argument` and `purpose`. Read the essay as the program reader would: an argument answering three linked questions, which may be answered anywhere in it: why admit this applicant, why graduate study now, and why this program. State the central case in one sentence that answers all three, based only on what the essay shows.
+Use `find-the-argument` and `purpose`. Read the essay as the program reader would: an argument answering three linked questions, which may be answered anywhere in it: why admit this applicant, why graduate study now, and why this program. State the central case in one sentence that answers all three, based only on what the essay shows; do not speculate about whether the applicant's private motivation is authentic.
 
-Identify the thread that makes the selected experiences meaningful together. Consider intellectual, professional, personal, or mixed narratives. The opening does not have to recur later; assess whether the essay develops its central idea coherently and whether its examples deepen, substantiate, or advance that idea. Check two things separately: whether the central idea keeps developing throughout the essay, and whether the reader can see how each experience leads to the next and, in the end, to the need for this degree. Do not force a callback, dramatic arc, or chronological structure.
-
-The essay should communicate a credible reason for this next step. Assess what the applicant actually explains; do not speculate about whether their private motivation is authentic.
+Identify the thread that makes the selected experiences meaningful together. Consider intellectual, professional, personal, or mixed narratives. The opening does not have to recur later; assess whether the essay develops its central idea coherently and whether its examples deepen, substantiate, or advance that idea. Do not force a callback, dramatic arc, or chronological structure.
 
 For the most important passages, compare what the essay seems meant to show with what a fair reader would take from the details on the page, and name any gap. Ground both the inferred intent and likely reader interpretation in specific details from the essay. Describe plausible readings, not actual or certain admissions-reader reactions. Infer this from the text; do not ask the applicant to label each passage.
 
@@ -61,7 +59,7 @@ Make the fit specific to this program: name the concrete gap the applicant's exp
 
 ## 5. Improve the whole-essay argument
 
-Use `find-the-argument` and `perspective`. Decide whether the order helps the reader understand why each experience matters when it appears, or forces them to assemble the case retrospectively. Reorder by the logic of the applicant's argument, not automatically by chronology. Flag missing links between experiences, but do not invent a turning point.
+Use `find-the-argument` and `perspective`. Decide whether the order helps the reader understand why each experience matters when it appears, or forces them to assemble the case retrospectively. Reorder by the logic of the applicant's argument, not automatically by chronology. Do not invent a turning point.
 
 Develop the few experiences that carry the case deeply enough to show the applicant's role, decisions, and reasoning. Compress, omit, or leave secondary details to the résumé or other application materials as appropriate. Do not turn the essay into an inventory of every relevant experience. Remove repetition, résumé-like inventory, generic praise, and details that do not advance the central case, support a relevant signal, answer the prompt, or provide a needed transition. Keep complexity, limitations, uncertainty, failures, and personal details when they explain the applicant's judgment or development. Do not cut for brevity alone.
 
@@ -71,7 +69,7 @@ Preserve the applicant's authentic voice and the details that make the essay eng
 
 Use `readable` on the full essay in its proposed order. Can the intended reader grasp the central idea, follow how each part advances it, and understand how concrete evidence supports the claims without doing the applicant's reasoning for them? Does the essay sustain interest and leave a clear, meaningful impression of the applicant? Check paragraph focus, openings, transitions, terminology, cohesion, repetition, and whether the essay fulfills the expectations it establishes. Separate whole-essay flow from sentence-level clarity.
 
-Check each paragraph against `readable`: its point should come first, and the rest should elaborate it with an example and say why it matters. Flag paragraphs whose point is late or unclear. When this recurs across the essay, report it as one structural problem, not as separate wording fixes.
+Within each paragraph, the point should come first, and the rest should elaborate it with an example and say why it matters. Flag paragraphs whose point is late or unclear. When this recurs across the essay, report it as one structural problem, not as separate wording fixes.
 
 ## Output
 
