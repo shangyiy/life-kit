@@ -31,11 +31,11 @@ Use `perspective` and `readable`. Read the complete essay before diagnosing it. 
 
 Do not impose a timed reading budget or require a particular kind of opening. A scene, question, intellectual realization, professional experience, or direct statement can all work if it gives the reader a clear and meaningful way into the essay. Consider not only whether the reader can understand the essay, but whether they want to keep reading. Look for genuine curiosity, momentum, and a sense that each passage gives the reader a reason to continue. Do not manufacture hooks, suspense, drama, or emotional intensity where they do not serve the applicant's purpose.
 
-Before going further, note what this first read gives the reader: whether they can say, in a sentence, what this applicant is about and why this program fits them; which paragraphs leave their point unclear; and where the reader had to supply a connection. These notes, not a case you reconstruct, are what the diagnosis reports.
+Before going further, note what this first read gives the reader: whether they can say, in a sentence, what this applicant is about and why this program fits them; whether the opening gives them a reason to keep reading; which paragraphs leave their point unclear; and where the reader had to supply a connection. These notes, not a case you reconstruct, are what the diagnosis reports.
 
 ## 3. Identify the applicant's case
 
-Use `find-the-argument` and `purpose`. Read the essay as the program reader would. That reader will look for what makes this applicant distinctive, and why this program fits them now; these may be answered anywhere in the essay. State the central case in one sentence, based only on what the essay shows; do not speculate about whether the applicant's private motivation is authentic.
+Use `find-the-argument` and `purpose`. Read the essay as the program reader would. That reader will look for what makes this applicant distinctive, and why this program fits them now; these may be answered anywhere in the essay. State the central case in one sentence only if a sentence in the essay supports it; otherwise say the essay does not yet make one. Do not speculate about whether the applicant's private motivation is authentic.
 
 Identify the thread that makes the selected experiences meaningful together. Consider intellectual, professional, personal, or mixed narratives. The opening does not have to recur later; assess whether the examples deepen, substantiate, or advance the central idea. Do not force a callback, dramatic arc, or chronological structure.
 
