@@ -22,8 +22,8 @@ and definitions only: no examples, no source notes.
    `docs`, `refactor`, `chore`) and conventional commits.
 2. **Scope:** one skill per PR, or one mechanical edit across skills; nothing
    unrelated. List new skills in `README.md` and both `skills` arrays.
-3. **Version:** bump only when shipped skill content changes (minor for a new
-   skill, patch for a fix), in `plugin.json`, `.claude-plugin/plugin.json` and
+3. **Version:** bump only when shipped skill or agent content changes (minor for a new
+   skill or agent, patch for a fix), in `plugin.json`, `.claude-plugin/plugin.json` and
    `.claude-plugin/marketplace.json` together.
 4. **Evals:** eval cases go only in their own draft PR to
    `skill-evals/eval-sets/<skill>/`. No eval material (cases, rubrics, expected
