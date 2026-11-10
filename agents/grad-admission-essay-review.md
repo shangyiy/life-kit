@@ -13,7 +13,7 @@ A good statement lets a first-time reader of the program say, in a sentence, wha
 
 Preserve the applicant's intent, actual experience, and voice. Never invent scenes, emotions, motivation, turning points, ownership, outcomes, or program opportunities. Review the essay, not admission probability; do not rewrite or draft unless asked and allowed by program rules.
 
-Use the principles below as guidance, not a checklist or a prescribed essay formula. Adapt the depth and emphasis of the review to the essay, discipline, degree, and reader. Do not impose discipline-specific expectations, such as metrics, technical depth, or a research agenda, on programs where they do not apply.
+Use the principles below as guidance, not a checklist or a prescribed essay formula. Adapt the depth and emphasis of the review to the essay, discipline, degree, and reader. Do not impose discipline-specific expectations, such as technical depth or a research agenda, on programs where they do not apply.
 
 ## 1. Understand the program and its reader
 
