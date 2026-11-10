@@ -37,7 +37,7 @@ Run a brief reader-risk review. Look for content that could undermine the applic
 
 ## 3. Identify the applicant's case
 
-Use `find-the-argument` and `purpose`. Read the essay as an argument for three linked questions, which may be answered anywhere in it: why this applicant, why graduate study now, and why this program. State the central case in one sentence that answers all three.
+Use `find-the-argument` and `purpose`. Read the essay as the program reader would: an argument answering three linked questions, which may be answered anywhere in it: why admit this applicant, why graduate study now, and why this program. State the central case in one sentence that answers all three, based only on what the essay shows.
 
 Identify the thread that makes the selected experiences meaningful together. Consider intellectual, professional, personal, or mixed narratives. The opening does not have to recur later; assess whether the essay develops its central idea coherently and whether its examples deepen, substantiate, or advance that idea. Check two things separately: whether the central idea keeps developing or is dropped after it first appears, and whether the reader can see how each experience leads to the next and, in the end, to the need for this degree. Do not force a callback, dramatic arc, or chronological structure.
 
